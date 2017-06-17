@@ -19,83 +19,59 @@ class GathererDetailsPage < CachedPage
     end
   end
 
-  def card_name
-    @card_name ||= card_info_rows["Card Name"].text.strip
-  end
-
-  def mana_cost
-    @mana_cost ||= card_info_rows["Mana Cost"].css("img").map{|i|
-      Addressable::URI.parse(i["src"]).query_values["name"]
-    }.join
-  end
-
-  def converted_mana_cost
-    @converted_mana_cost ||= begin
-      cmc = card_info_rows["Converted Mana Cost"].text.strip
-      raise "Bad cmc: #{cmc.inspect}" unless cmc =~ /\A\d+\z/
-      cmc.to_i
+  def card_info
+    unless @card_info
+      @card_info = {}
+      card_info_rows.each do |header, value|
+        case header
+        when "All Sets"
+          @card_info[:all_sets] = value.css("a").map{|a|
+            [a["href"][/multiverseid=\K\d+\z/].to_i, a.at("img")["title"]]
+          }
+        when "Artist"
+          @card_info[:artist] = value.at("a").text
+        when "Card Name"
+          @card_info[:card_name] = value.text.strip
+        when "Card Number"
+          @card_info[:card_number] = value.text.strip
+        when "Card Text"
+          @card_info[:card_text] = value.at(".cardtextbox").text
+        when "Converted Mana Cost"
+          @card_info[:converted_mana_cost] = Integer(value.text.strip, 10)
+        when "Expansion"
+          @card_info[:expansion] = value.at("a img")["title"]
+        when "Flavor Text"
+          @card_info[:flavor_text] = value.css(".flavortextbox").map(&:text).join("\n")
+        when "Loyalty"
+          @card_info[:loyalty] = value.text.strip
+        when "Mana Cost"
+          @card_info[:mana_cost] = value.css("img").map{|i|
+            Addressable::URI.parse(i["src"]).query_values["name"]
+          }.join
+        when "P/T"
+          @card_info[:power], @card_info[:toughness] = value.text.strip.split("/", 2).map(&:strip)
+        when "Rarity"
+          @card_info[:rarity] = value.at("span").text
+        when "Types"
+          @card_info[:types] = value.text.strip.gsub(/\s+/, " ")
+        when "Watermark"
+          @card_info[:watermark] = value.text.strip
+        else
+          warn "Unknown header #{header}"
+        end
+      end
     end
+    @card_info
   end
 
-  def artist
-    @artist ||= card_info_rows["Artist"].at("a").text
-  end
-
-  def rarity
-    @rarity ||= card_info_rows["Rarity"].at("span").text
-  end
-
-  def types
-    @types ||= card_info_rows["Types"].text.strip.gsub(/\s+/, " ")
+  %I[
+    all_sets artist card_name card_number card_text converted_mana_cost expansion
+    flavor_text loyalty mana_cost power toughness rarity types watermark
+  ].each do |m|
+    define_method(m) { card_info[m] }
   end
 
   def rulings
     @rulings ||= doc.at(".rulingsTable").css("tr").map{|row| row.css("td").map(&:text) }
-  end
-
-  def card_text
-    @card_text ||= card_info_rows["Card Text"].at(".cardtextbox").text
-  end
-
-  def expansion
-    @expansion ||= card_info_rows["Expansion"].at("a img")["title"]
-  end
-
-  def power
-    if card_info_rows["P/T"]
-      @power ||= card_info_rows["P/T"].text.strip.split("/")[0].strip
-    else
-      nil
-    end
-  end
-
-  def toughness
-    if card_info_rows["P/T"]
-      @toughness ||= card_info_rows["P/T"].text.strip.split("/")[1].strip
-    else
-      nil
-    end
-  end
-
-  def flavor_text
-    if card_info_rows["Flavor Text"]
-      @flavor_text ||= card_info_rows["Flavor Text"].css(".flavortextbox").map(&:text).join("\n")
-    else
-      nil
-    end
-  end
-
-  def all_sets
-    @all_sets ||= card_info_rows["All Sets"].css("a").map{|a|
-      [a["href"][/multiverseid=\K\d+\z/].to_i, a.at("img")["title"]]
-    }
-  end
-
-  def card_number
-    if card_info_rows["Card Number"]
-      @card_number ||= card_info_rows["Card Number"].text.strip
-    else
-      nil
-    end
   end
 end
