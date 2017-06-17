@@ -1,6 +1,6 @@
 describe GathererSetChecklistPage do
   describe "From the Vault: Exiled" do
-    let(:page) { described_class.new("From the Vault: Exiled", 0) }
+    let(:page) { described_class.new("From the Vault: Exiled") }
 
     it do
       expect(page.cards).to eq([
@@ -21,6 +21,8 @@ describe GathererSetChecklistPage do
         [194979, "15", "Trinisphere", "Tim Hildebrandt", "", "M", "From the Vault: Exiled"],
       ])
       expect(page.last_page).to eq(0)
+      expect(page.last_page?).to eq(true)
+      expect(page.next_page).to eq(nil)
     end
   end
 
@@ -35,6 +37,12 @@ describe GathererSetChecklistPage do
       expect(described_class.new(set_name, 0).last_page).to eq(2)
       expect(described_class.new(set_name, 1).last_page).to eq(2)
       expect(described_class.new(set_name, 2).last_page).to eq(2)
+      expect(described_class.new(set_name, 0).last_page?).to eq(false)
+      expect(described_class.new(set_name, 1).last_page?).to eq(false)
+      expect(described_class.new(set_name, 2).last_page?).to eq(true)
+      expect(described_class.new(set_name, 0).next_page).to eq(described_class.new(set_name, 1))
+      expect(described_class.new(set_name, 1).next_page).to eq(described_class.new(set_name, 2))
+      expect(described_class.new(set_name, 2).next_page).to eq(nil)
     end
   end
 end

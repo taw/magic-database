@@ -11,4 +11,16 @@ class CachedPage
       Nokogiri::HTML(cache_path.read)
     end
   end
+
+  def ==(other)
+    self.class == other.class and self.page_url == other.page_url
+  end
+
+  def inspect
+    "#{self.class}<#{page_url}>"
+  end
+
+  def to_s
+    inspect
+  end
 end

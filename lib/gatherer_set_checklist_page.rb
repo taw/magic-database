@@ -1,5 +1,5 @@
 class GathererSetChecklistPage < CachedPage
-  def initialize(set_name, page)
+  def initialize(set_name, page=0)
     @set_name = set_name
     @page = page
   end
@@ -22,5 +22,14 @@ class GathererSetChecklistPage < CachedPage
     @last_page ||= (doc.css(".pagingcontrols").last.css("a").map{|u|
       Addressable::URI.parse(u["href"]).query_values["page"].to_i
     }.max || 0)
+  end
+
+  def last_page?
+    @page == last_page
+  end
+
+  def next_page
+    return if last_page?
+    GathererSetChecklistPage.new(@set_name, @page+1)
   end
 end
