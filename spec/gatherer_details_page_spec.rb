@@ -1,6 +1,6 @@
-describe GathererPage do
+describe GathererDetailsPage do
   describe "Ankh of Mishra from Alpha" do
-    let(:page) { GathererPage.new(1) }
+    let(:page) { described_class.new(1) }
     it "fetches" do
       expect(page.doc).to be_instance_of(Nokogiri::HTML::Document)
     end
@@ -37,7 +37,7 @@ describe GathererPage do
   end
 
   describe "Giant Spider from Eighth Edition" do
-    let(:page) { GathererPage.new(45408) }
+    let(:page) { described_class.new(45408) }
 
     it do
       expect(page.card_name).to eq("Giant Spider")

@@ -1,4 +1,4 @@
-require_relative "../lib/gatherer_page"
+require_relative "../lib/magic_database"
 
 RSpec.configure do |config|
   config.define_derived_metadata do |meta|

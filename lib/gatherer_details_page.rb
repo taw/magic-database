@@ -1,9 +1,4 @@
-require "httparty"
-require "nokogiri"
-require "pathname"
-require "addressable/uri"
-
-class GathererPage
+class GathererDetailsPage < CachedPage
   def initialize(id)
     @id = id
   end
@@ -12,17 +7,8 @@ class GathererPage
     "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=#{@id}"
   end
 
-  def doc
-    @doc ||= begin
-      cache_path = Pathname("cache/gatherer-card-details-#{@id}")
-      cache_path.parent.mkpath
-      unless cache_path.exist?
-        response = HTTParty.get(page_url)
-        raise unless response.ok?
-        cache_path.write(response.body)
-      end
-      Nokogiri::HTML(cache_path.read)
-    end
+  def cache_key
+    "gatherer-card-details-#{@id}"
   end
 
   def card_info_rows
