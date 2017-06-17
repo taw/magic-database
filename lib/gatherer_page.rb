@@ -1,6 +1,7 @@
 require "httparty"
 require "nokogiri"
 require "pathname"
+require "addressable/uri"
 
 class GathererPage
   def initialize(id)
@@ -37,7 +38,9 @@ class GathererPage
   end
 
   def mana_cost
-    @mana_cost ||= card_info_rows["Mana Cost"].css("img").map{|i| i["alt"]}.join
+    @mana_cost ||= card_info_rows["Mana Cost"].css("img").map{|i|
+      Addressable::URI.parse(i["src"]).query_values["name"]
+    }.join
   end
 
   def converted_mana_cost
@@ -57,7 +60,7 @@ class GathererPage
   end
 
   def types
-    @types ||= card_info_rows["Types"].text.strip
+    @types ||= card_info_rows["Types"].text.strip.gsub(/\s+/, " ")
   end
 
   def rulings
@@ -72,9 +75,41 @@ class GathererPage
     @expansion ||= card_info_rows["Expansion"].at("a img")["title"]
   end
 
+  def power
+    if card_info_rows["P/T"]
+      @power ||= card_info_rows["P/T"].text.strip.split("/")[0].strip
+    else
+      nil
+    end
+  end
+
+  def toughness
+    if card_info_rows["P/T"]
+      @toughness ||= card_info_rows["P/T"].text.strip.split("/")[1].strip
+    else
+      nil
+    end
+  end
+
+  def flavor_text
+    if card_info_rows["Flavor Text"]
+      @flavor_text ||= card_info_rows["Flavor Text"].css(".flavortextbox").map(&:text).join("\n")
+    else
+      nil
+    end
+  end
+
   def all_sets
     @all_sets ||= card_info_rows["All Sets"].css("a").map{|a|
       [a["href"][/multiverseid=\K\d+\z/].to_i, a.at("img")["title"]]
     }
+  end
+
+  def card_number
+    if card_info_rows["Card Number"]
+      @card_number ||= card_info_rows["Card Number"].text.strip
+    else
+      nil
+    end
   end
 end
