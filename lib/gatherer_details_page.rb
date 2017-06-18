@@ -15,12 +15,13 @@ class GathererDetailsPage < CachedPage
             text = "{#{$1}/P}"
           elsif name =~ /\Ap\z/
             text = "{P}"
+          elsif name =~ /\Ae\z/
+            text = "{E}"
           elsif name =~ /\Atap\z/
             text = "{T}"
           elsif name =~ /\A([WUBRG])([WUBRG])\z/
             text = "{#{$1}/#{$2}}"
           else
-            binding.pry
             warn "No idea what kind of symbol is #{name}"
             next
           end
@@ -58,7 +59,7 @@ class GathererDetailsPage < CachedPage
             [a["href"][/multiverseid=\K\d+\z/].to_i, a.at("img")["title"]]
           }
         when "Artist"
-          @card_info[:artist] = value.at("a").text
+          @card_info[:artist] = value.text.strip
         when "Card Name"
           @card_info[:card_name] = value.text.strip
         when "Card Number"
