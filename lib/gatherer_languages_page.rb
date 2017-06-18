@@ -8,7 +8,7 @@ class GathererLanguagesPage < CachedPage
   end
 
   def cache_key
-    "gatherer-card-languages-#{@id}"
+    ["gatherer", "languages", @id / 1000, @id % 1000]
   end
 
   def languages

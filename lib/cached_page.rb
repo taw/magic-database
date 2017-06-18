@@ -1,14 +1,18 @@
 class CachedPage
   def doc
     @doc ||= begin
-      cache_path = Pathname("cache/#{cache_key}")
+      cache_path = Pathname("cache/#{cache_key.join("/")}.gz")
       cache_path.parent.mkpath
+
       unless cache_path.exist?
         response = HTTParty.get(page_url)
         raise unless response.ok?
-        cache_path.write(response.body)
+        data_compressed = Zlib::Deflate.deflate(response.body)
+        cache_path.write(data_compressed)
       end
-      Nokogiri::HTML(cache_path.read)
+
+      data_compressed = cache_path.read
+      Nokogiri::HTML(Zlib::Inflate.inflate(data_compressed))
     end
   end
 

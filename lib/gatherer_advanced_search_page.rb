@@ -4,7 +4,7 @@ class GathererAdvancedSearchPage < CachedPage
   end
 
   def cache_key
-    "gatherer-card-details-#{@id}"
+    ["gatherer", "advanced_search"]
   end
 
   def all_sets

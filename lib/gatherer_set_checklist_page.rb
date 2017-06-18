@@ -9,7 +9,7 @@ class GathererSetChecklistPage < CachedPage
   end
 
   def cache_key
-    "gatherer-set-checklist-#{@set_name.scan(/\w+/).join("-")}-#{@page}"
+    ["gatherer", "set-checklist", @set_name.scan(/\w+/).join("-"), @page]
   end
 
   def cards

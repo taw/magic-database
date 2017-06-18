@@ -2,6 +2,7 @@ require "httparty"
 require "nokogiri"
 require "pathname"
 require "addressable/uri"
+require "zlib"
 
 require_relative "cached_page"
 require_relative "gatherer_details_page"

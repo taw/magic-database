@@ -37,7 +37,7 @@ class GathererDetailsPage < CachedPage
   end
 
   def cache_key
-    "gatherer-card-details-#{@id}"
+    ["gatherer", "details", @id / 1000, @id % 1000]
   end
 
   def card_info_rows
