@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+# Sort JSON cards by ID and pretty-print for easy diffing
+
+require "json"
+
+data = JSON.parse(STDIN.read)
+data["cards"].sort_by!{|c|
+  [c["multiverseid"], c["name"]]
+}
+puts JSON.pretty_generate(data)

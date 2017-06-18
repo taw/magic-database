@@ -35,7 +35,7 @@ class GathererDetailsPage < CachedPage
         when "Card Number"
           @card_info[:card_number] = value.text.strip
         when "Card Text"
-          @card_info[:card_text] = value.at(".cardtextbox").text
+          @card_info[:card_text] = value.css(".cardtextbox").map(&:text).join("\n")
         when "Converted Mana Cost"
           @card_info[:converted_mana_cost] = Integer(value.text.strip, 10)
         when "Expansion"
@@ -46,7 +46,7 @@ class GathererDetailsPage < CachedPage
           @card_info[:loyalty] = value.text.strip
         when "Mana Cost"
           @card_info[:mana_cost] = value.css("img").map{|i|
-            Addressable::URI.parse(i["src"]).query_values["name"]
+            "{" + Addressable::URI.parse(i["src"]).query_values["name"] + "}"
           }.join
         when "P/T"
           @card_info[:power], @card_info[:toughness] = value.text.strip.split("/", 2).map(&:strip)

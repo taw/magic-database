@@ -1,0 +1,82 @@
+#!/usr/bin/env ruby
+
+require "set"
+require_relative "../lib/magic_database"
+require "json"
+
+def parse_types(typeline)
+  known_supertypes = ["Basic", "Legendary", "Ongoing", "Snow", "World"]
+
+  supertypes, types, subtypes = [], [], []
+
+  if typeline =~ /(.*) \u2014 (.*)/
+    subtypes = $2.split(" ")
+    typeline = $1
+  end
+  types = typeline.split(" ")
+
+  supertypes = types & known_supertypes
+  types -= known_supertypes
+
+  return supertypes, types, subtypes
+end
+
+ARGV.each do |set_name|
+  json = {}
+
+  json["name"] = set_name
+  # json["code"] = "?"
+  # json["gathererCode"] = "?"
+  # json["magicCardsInfoCode"] = "?"
+  # json["releaseDate"] = "?"
+  # json["border"] = "?"
+  # json["type"] = "?"
+  # json["booster"] = "?"
+  # json["mkm_name"] = "?"
+  # json["mkm_id"] = "?"
+  json["cards"] = []
+
+  cards_to_fetch = Set[]
+  checklist_page = GathererSetChecklistPage.new(set_name, 0)
+  while checklist_page
+    checklist_page.cards.each do |card_row|
+      cards_to_fetch << card_row[0]
+    end
+    checklist_page = checklist_page.next_page
+  end
+
+  cards_to_fetch.sort.each do |id|
+    details = GathererDetailsPage.new(id)
+    info = details.card_info
+    # languages = GathererLanguagesPage.new(id)
+
+    supertypes, types, subtypes = parse_types(info[:types])
+
+    card = {}
+    card["artist"] = info[:artist]
+    card["cmc"] = info[:converted_mana_cost]
+    # card["colorIdentity"] = "?"
+    # card["colors"] = "?"
+    card["flavor"] = info[:flavor_text]
+    # card["id"] = "?"
+    # card["imageName"] = "?"
+    card["layout"] = "normal"
+    card["manaCost"] = info[:mana_cost]
+    # card["mciNumber"] = "?"
+    card["multiverseid"] = id
+    card["name"] = info[:card_name]
+    card["power"] = info[:power]
+    card["rarity"] = info[:rarity]
+    # card["reserved"] = "?"
+    card["subtypes"] = subtypes unless subtypes.empty?
+    card["supertypes"] = supertypes unless supertypes.empty?
+    card["text"] = info[:card_text]
+    card["toughness"] = info[:toughness]
+    card["type"] = info[:types]
+    card["types"] = types unless types.empty?
+    card.reject!{|k,v| !v} # HTF ruby doesn't have Hash#compact! yet???
+    json["cards"] << card
+  end
+
+  puts JSON.pretty_generate(json)
+end

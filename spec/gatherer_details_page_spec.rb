@@ -7,7 +7,7 @@ describe GathererDetailsPage do
 
     it do
       expect(page.card_name).to eq("Ankh of Mishra")
-      expect(page.mana_cost).to eq("2")
+      expect(page.mana_cost).to eq("{2}")
       expect(page.converted_mana_cost).to eq(2)
       expect(page.types).to eq("Artifact")
       expect(page.card_text).to eq("Whenever a land enters the battlefield, Ankh of Mishra deals 2 damage to that land's controller.")
@@ -41,7 +41,7 @@ describe GathererDetailsPage do
 
     it do
       expect(page.card_name).to eq("Giant Spider")
-      expect(page.mana_cost).to eq("3G")
+      expect(page.mana_cost).to eq("{3}{G}")
       expect(page.converted_mana_cost).to eq(4)
       expect(page.types).to eq("Creature — Spider")
       expect(page.card_text).to eq("Reach (This creature can block creatures with flying.)")
