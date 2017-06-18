@@ -3,6 +3,35 @@ class GathererDetailsPage < CachedPage
     @id = id
   end
 
+  def doc
+    unless @doc
+      super
+      doc.css("img").each do |img|
+        if img["src"].start_with?("/Handlers/Image.ashx")
+          name = Addressable::URI.parse(img["src"]).query_values["name"]
+          if name =~ /\A(\d+|[WUBRGXYZC])\z/
+            text = "{#{name}}"
+          elsif name =~ /\A([WUBRG])P\z/
+            text = "{#{$1}/P}"
+          elsif name =~ /\Ap\z/
+            text = "{P}"
+          elsif name =~ /\Atap\z/
+            text = "{T}"
+          elsif name =~ /\A([WUBRG])([WUBRG])\z/
+            text = "{#{$1}/#{$2}}"
+          else
+            binding.pry
+            warn "No idea what kind of symbol is #{name}"
+            next
+          end
+          raise "Tag already has inner html" unless img.inner_html.empty?
+          img.inner_html = text
+        end
+      end
+    end
+    @doc
+  end
+
   def page_url
     "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=#{@id}"
   end
@@ -45,9 +74,7 @@ class GathererDetailsPage < CachedPage
         when "Loyalty"
           @card_info[:loyalty] = value.text.strip
         when "Mana Cost"
-          @card_info[:mana_cost] = value.css("img").map{|i|
-            "{" + Addressable::URI.parse(i["src"]).query_values["name"] + "}"
-          }.join
+          @card_info[:mana_cost] = value.css("img").map(&:text).join
         when "P/T"
           @card_info[:power], @card_info[:toughness] = value.text.strip.split("/", 2).map(&:strip)
         when "Rarity"
