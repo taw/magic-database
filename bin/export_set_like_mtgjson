@@ -1,8 +1,9 @@
 #!/usr/bin/env ruby
 
-require "set"
 require_relative "../lib/magic_database"
+require "set"
 require "json"
+require "pathname"
 
 def parse_types(typeline)
   known_supertypes = ["Basic", "Legendary", "Ongoing", "Snow", "World"]
@@ -20,6 +21,8 @@ def parse_types(typeline)
 
   return supertypes, types, subtypes
 end
+
+reserved_list = (Pathname(__dir__) + "../data/reserved_list.txt").readlines.map(&:chomp).to_set
 
 ARGV.each do |set_name|
   json = {}
@@ -67,7 +70,7 @@ ARGV.each do |set_name|
     card["name"] = info[:card_name]
     card["power"] = info[:power]
     card["rarity"] = info[:rarity]
-    # card["reserved"] = "?"
+    card["reserved"] = true if reserved_list.include?(info[:card_name])
     card["subtypes"] = subtypes unless subtypes.empty?
     card["supertypes"] = supertypes unless supertypes.empty?
     card["text"] = info[:card_text]
