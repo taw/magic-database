@@ -4,82 +4,137 @@ require_relative "../lib/magic_database"
 require "set"
 require "json"
 require "pathname"
+require "digest/sha1"
 
-def parse_types(typeline)
-  known_supertypes = ["Basic", "Legendary", "Ongoing", "Snow", "World"]
-
-  supertypes, types, subtypes = [], [], []
-
-  if typeline =~ /(.*) \u2014 (.*)/
-    subtypes = $2.split(" ")
-    typeline = $1
+class ExportSetLikeMtgjson
+  def initialize(set_name, save_path)
+    @set_name = set_name
+    @save_path = save_path
   end
-  types = typeline.split(" ")
 
-  supertypes = types & known_supertypes
-  types -= known_supertypes
+  def parse_types(typeline)
+    known_supertypes = ["Basic", "Legendary", "Ongoing", "Snow", "World"]
 
-  return supertypes, types, subtypes
-end
+    supertypes, types, subtypes = [], [], []
 
-reserved_list = (Pathname(__dir__) + "../data/reserved_list.txt").readlines.map(&:chomp).to_set
-
-ARGV.each do |set_name|
-  json = {}
-
-  json["name"] = set_name
-  # json["code"] = "?"
-  # json["gathererCode"] = "?"
-  # json["magicCardsInfoCode"] = "?"
-  # json["releaseDate"] = "?"
-  # json["border"] = "?"
-  # json["type"] = "?"
-  # json["booster"] = "?"
-  # json["mkm_name"] = "?"
-  # json["mkm_id"] = "?"
-  json["cards"] = []
-
-  cards_to_fetch = Set[]
-  checklist_page = GathererSetChecklistPage.new(set_name, 0)
-  while checklist_page
-    checklist_page.cards.each do |card_row|
-      cards_to_fetch << card_row[0]
+    if typeline =~ /(.*) \u2014 (.*)/
+      subtypes = $2.split(" ")
+      typeline = $1
     end
-    checklist_page = checklist_page.next_page
+    types = typeline.split(" ")
+
+    supertypes = types & known_supertypes
+    types -= known_supertypes
+
+    return supertypes, types, subtypes
   end
 
-  cards_to_fetch.sort.each do |id|
-    details = GathererDetailsPage.new(id)
-    info = details.card_info
-    # languages = GathererLanguagesPage.new(id)
-
-    supertypes, types, subtypes = parse_types(info[:types])
-
-    card = {}
-    card["artist"] = info[:artist]
-    card["cmc"] = info[:converted_mana_cost]
-    # card["colorIdentity"] = "?"
-    # card["colors"] = "?"
-    card["flavor"] = info[:flavor_text]
-    # card["id"] = "?"
-    # card["imageName"] = "?"
-    card["layout"] = "normal"
-    card["manaCost"] = info[:mana_cost]
-    # card["mciNumber"] = "?"
-    card["multiverseid"] = id
-    card["name"] = info[:card_name]
-    card["power"] = info[:power]
-    card["rarity"] = info[:rarity]
-    card["reserved"] = true if reserved_list.include?(info[:card_name])
-    card["subtypes"] = subtypes unless subtypes.empty?
-    card["supertypes"] = supertypes unless supertypes.empty?
-    card["text"] = info[:card_text]
-    card["toughness"] = info[:toughness]
-    card["type"] = info[:types]
-    card["types"] = types unless types.empty?
-    card.reject!{|k,v| !v} # HTF ruby doesn't have Hash#compact! yet???
-    json["cards"] << card
+  def card_colors(info)
+    result = []
+    result << "White" if info[:mana_cost] =~ /W/
+    result << "Blue" if info[:mana_cost] =~ /U/
+    result << "Black" if info[:mana_cost] =~ /B/
+    result << "Red" if info[:mana_cost] =~ /R/
+    result << "Green" if info[:mana_cost] =~ /G/
+    return nil if result.empty?
+    result
   end
 
-  puts JSON.pretty_generate(json)
+  def card_color_identity(info)
+    result = []
+    result << "W" if info[:mana_cost] =~ /W/ or info[:card_text] =~ /\{W\}/
+    result << "U" if info[:mana_cost] =~ /U/ or info[:card_text] =~ /\{U\}/
+    result << "B" if info[:mana_cost] =~ /B/ or info[:card_text] =~ /\{B\}/
+    result << "R" if info[:mana_cost] =~ /R/ or info[:card_text] =~ /\{R\}/
+    result << "G" if info[:mana_cost] =~ /G/ or info[:card_text] =~ /\{G\}/
+    return nil if result.empty?
+    result
+  end
+
+  def guess_mtgjson_imagename(info)
+    # Pertty much reverse engineering from a bunch of examples
+    # Just for diffing
+    info[:card_name].downcase.tr(":", "")
+  end
+
+  def guess_mtgjson_id(set_code, info)
+    Digest::SHA1.hexdigest(set_code + info[:card_name] + guess_mtgjson_imagename(info))
+  end
+
+  def reserved_list
+    @reserved_list ||= (Pathname(__dir__) + "../data/reserved_list.txt").readlines.map(&:chomp).to_set
+  end
+
+  def card_ids
+    unless @card_ids
+      @card_ids = []
+      checklist_page = GathererSetChecklistPage.new(@set_name, 0)
+      while checklist_page
+        checklist_page.cards.each do |card_row|
+          @card_ids << card_row[0]
+        end
+        checklist_page = checklist_page.next_page
+      end
+      @card_ids.sort!
+    end
+    @card_ids
+  end
+
+  def export
+    json = {}
+
+    json["name"] = @set_name
+    # json["code"] = "?"
+    # json["gathererCode"] = "?"
+    # json["magicCardsInfoCode"] = "?"
+    # json["releaseDate"] = "?"
+    # json["border"] = "?"
+    # json["type"] = "?"
+    # json["booster"] = "?"
+    # json["mkm_name"] = "?"
+    # json["mkm_id"] = "?"
+    json["cards"] = []
+
+    card_ids.each do |id|
+      details = GathererDetailsPage.new(id)
+      info = details.card_info
+      # languages = GathererLanguagesPage.new(id)
+
+      supertypes, types, subtypes = parse_types(info[:types])
+
+      card = {}
+      card["artist"] = info[:artist]
+      card["cmc"] = info[:converted_mana_cost]
+      card["colorIdentity"] = card_color_identity(info)
+      card["colors"] = card_colors(info)
+      card["flavor"] = info[:flavor_text]
+      card["id"] = guess_mtgjson_id("LEA", info)
+      card["imageName"] = guess_mtgjson_imagename(info)
+      card["layout"] = "normal"
+      card["manaCost"] = info[:mana_cost]
+      # card["mciNumber"] = "?"
+      card["multiverseid"] = id
+      card["name"] = info[:card_name]
+      card["power"] = info[:power]
+      card["rarity"] = info[:rarity]
+      card["reserved"] = true if reserved_list.include?(info[:card_name])
+      card["subtypes"] = subtypes unless subtypes.empty?
+      card["supertypes"] = supertypes unless supertypes.empty?
+      card["text"] = info[:card_text]
+      card["toughness"] = info[:toughness]
+      card["type"] = info[:types]
+      card["types"] = types unless types.empty?
+      card.reject!{|k,v| !v} # HTF ruby doesn't have Hash#compact! yet???
+      json["cards"] << card
+    end
+
+    Pathname(@save_path).write(JSON.pretty_generate(json)+"\n")
+  end
 end
+
+unless ARGV.size == 2
+  STDERR.puts "Usage: #{$0} \"set name\" save_file_path.json"
+  exit 1
+end
+
+ExportSetLikeMtgjson.new(*ARGV).export
