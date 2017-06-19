@@ -30,6 +30,7 @@ class ExportSetLikeMtgjson
   end
 
   def card_colors(info)
+    return nil if info[:card_text] =~ /\bDevoid\b/
     result = []
     result << "White" if info[:mana_cost] =~ /W/
     result << "Blue" if info[:mana_cost] =~ /U/
@@ -42,11 +43,14 @@ class ExportSetLikeMtgjson
 
   def card_color_identity(info)
     result = []
-    result << "W" if info[:mana_cost] =~ /W/ or info[:card_text] =~ /\{W\}/
-    result << "U" if info[:mana_cost] =~ /U/ or info[:card_text] =~ /\{U\}/
-    result << "B" if info[:mana_cost] =~ /B/ or info[:card_text] =~ /\{B\}/
-    result << "R" if info[:mana_cost] =~ /R/ or info[:card_text] =~ /\{R\}/
-    result << "G" if info[:mana_cost] =~ /G/ or info[:card_text] =~ /\{G\}/
+    cost = info[:mana_cost]
+    text = info[:card_text]
+    types = info[:types]
+    result << "W" if cost =~ /W/ or text =~ /\{W\}/ or types =~ /\bPlains\b/
+    result << "U" if cost =~ /U/ or text =~ /\{U\}/ or types =~ /\bIsland\b/
+    result << "B" if cost =~ /B/ or text =~ /\{B\}/ or types =~ /\bSwamp\b/
+    result << "R" if cost =~ /R/ or text =~ /\{R\}/ or types =~ /\bMountain\b/
+    result << "G" if cost =~ /G/ or text =~ /\{G\}/ or types =~ /\bForest\b/
     return nil if result.empty?
     result
   end
@@ -63,6 +67,14 @@ class ExportSetLikeMtgjson
 
   def guess_mci_number(info)
     nil
+  end
+
+  def guess_layout(info)
+    if info[:card_text] =~ /\ALevel up/
+      "leveler"
+    else
+      "normal"
+    end
   end
 
   def reserved_list
@@ -103,7 +115,7 @@ class ExportSetLikeMtgjson
       card["flavor"] = info[:flavor_text]
       card["id"] = guess_mtgjson_id("LEA", info)
       card["imageName"] = guess_mtgjson_imagename(info)
-      card["layout"] = "normal"
+      card["layout"] = guess_layout(info)
       card["loyalty"] = info[:loyalty]
       card["manaCost"] = info[:mana_cost]
       card["mciNumber"] = info[:card_number] || guess_mci_number(info)

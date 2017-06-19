@@ -96,7 +96,8 @@ class GathererDetailsPage < CachedPage
         when "Flavor Text"
           @card_info[:flavor_text] = value.css(".flavortextbox").map(&:text).join("\n")
         when "Loyalty"
-          @card_info[:loyalty] = value.text.strip
+          value = value.text.strip
+          @card_info[:loyalty] = (Integer(value) rescue value)
         when "Mana Cost"
           @card_info[:mana_cost] = value.css("img").map(&:text).join
         when "P/T"
