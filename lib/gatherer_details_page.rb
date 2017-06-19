@@ -9,18 +9,34 @@ class GathererDetailsPage < CachedPage
       doc.css("img").each do |img|
         if img["src"].start_with?("/Handlers/Image.ashx")
           name = Addressable::URI.parse(img["src"]).query_values["name"]
-          if name =~ /\A(\d+|[WUBRGXYZC])\z/
-            text = "{#{name}}"
-          elsif name =~ /\A([WUBRG])P\z/
-            text = "{#{$1}/P}"
-          elsif name =~ /\Ap\z/
-            text = "{P}"
-          elsif name =~ /\Ae\z/
-            text = "{E}"
-          elsif name =~ /\Atap\z/
-            text = "{T}"
-          elsif name =~ /\A([WUBRG])([WUBRG])\z/
-            text = "{#{$1}/#{$2}}"
+          text = case name
+          when "500"
+            # Unset irregularity
+            "{hw}"
+          when /\A(\d+|[WUBRGXYZC])\z/
+            "{#{name}}"
+          when /\A([WUBRG])P\z/
+            "{#{$1}/P}"
+          when /\A2([WUBRG])\z/
+            "{2/#{$1}}"
+          when /\A([WUBRG])([WUBRG])\z/
+            "{#{$1}/#{$2}}"
+          when "p"
+            "{P}"
+          when "e"
+            "{E}"
+          when "tap"
+            "{T}"
+          when "untap"
+            "{Q}"
+          when "snow"
+            "{S}"
+          when "HalfR"
+            # Unsets
+            "{hr}"
+          when "Infinity"
+            # Unsets
+            "{∞}"
           else
             warn "No idea what kind of symbol is #{name}"
             next
@@ -43,7 +59,9 @@ class GathererDetailsPage < CachedPage
 
   def card_info_rows
     @card_info_rows ||= begin
-      rows = doc.css(".row").map{|x| [x.css(".label").text.strip.sub(/:\z/, ""), x.css(".value") ] }
+      rows = doc.css(".row").map{|x|
+        [x.css(".label").text.strip.sub(/:\z/, ""), x.css(".value")]
+      }
       raise "Duplicated row" if rows.map(&:first).uniq.size != rows.size
       rows.to_h
     end
@@ -67,7 +85,12 @@ class GathererDetailsPage < CachedPage
         when "Card Text"
           @card_info[:card_text] = value.css(".cardtextbox").map(&:text).join("\n")
         when "Converted Mana Cost"
-          @card_info[:converted_mana_cost] = Integer(value.text.strip, 10)
+          @card_info[:converted_mana_cost] = begin
+            Integer(value.text.strip, 10)
+          rescue
+            # unsets
+            Float(value.text.strip)
+          end
         when "Expansion"
           @card_info[:expansion] = value.at("a img")["title"]
         when "Flavor Text"
@@ -77,7 +100,9 @@ class GathererDetailsPage < CachedPage
         when "Mana Cost"
           @card_info[:mana_cost] = value.css("img").map(&:text).join
         when "P/T"
-          @card_info[:power], @card_info[:toughness] = value.text.strip.split("/", 2).map(&:strip)
+          # Unset support
+          value = value.text.strip.gsub("{1/2}", ".5")
+          @card_info[:power], @card_info[:toughness] = value.split(" / ", 2).map(&:strip)
         when "Rarity"
           @card_info[:rarity] = value.at("span").text
         when "Types"

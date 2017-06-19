@@ -76,8 +76,54 @@ describe GathererDetailsPage do
       ])
     end
   end
+
+  describe "Unset - Little Girl" do
+    let(:page) { described_class.new(74257) }
+    it do
+      expect(page.mana_cost).to eq("{hw}")
+      expect(page.converted_mana_cost).to eq(0.5)
+      expect(page.power).to eq(".5")
+      expect(page.toughness).to eq(".5")
+    end
+  end
+
+  describe "Unset - Mons's Goblin Waiters" do
+    let(:page) { described_class.new(73957) }
+    it do
+      expect(page.card_text).to eq("Sacrifice a creature or land: Add {hr} to your mana pool.")
+    end
+  end
+
+  describe "Unsets - Mox Lotus" do
+    let(:page) { described_class.new(74323) }
+    it do
+      expect(page.card_text).to eq(
+        "{T}: Add {∞} to your mana pool.\n"+
+        "{100}: Add one mana of any color to your mana pool.\n"+
+        "You don't lose life due to mana burn."
+      )
+    end
+  end
+
+  describe "Birthing Pod" do
+    let(:page) { described_class.new(218006) }
+    it do
+      expect(page.mana_cost).to eq("{3}{G/P}")
+      expect(page.card_text).to eq(
+        "({G/P} can be paid with either {G} or 2 life.)\n"+
+        "{1}{G/P}, {T}, Sacrifice a creature: Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery."
+      )
+    end
+  end
+
+  describe "Reaper King" do
+    let(:page) { described_class.new(159408) }
+    it do
+      expect(page.mana_cost).to eq("{2/W}{2/U}{2/B}{2/R}{2/G}")
+      expect(page.card_text).to eq(
+        "({2/W} can be paid with any two mana or with {W}. This card's converted mana cost is 10.)\n"+
+        "Other Scarecrow creatures you control get +1/+1.\n"+
+        "Whenever another Scarecrow enters the battlefield under your control, destroy target permanent.")
+    end
+  end
 end
-
-__END__
-
-TODO: card vs reminder text
