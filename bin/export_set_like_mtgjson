@@ -79,10 +79,6 @@ class ExportSetLikeMtgjson
     end
   end
 
-  def reserved_list
-    @reserved_list ||= (Pathname(__dir__) + "../data/reserved_list.txt").readlines.map(&:chomp).to_set
-  end
-
   def card_ids
     @card_ids ||= Gatherer.card_ids_for_set(@set_name).map{|x| x[1]}.sort
   end
@@ -126,7 +122,7 @@ class ExportSetLikeMtgjson
       card["number"] = info[:card_number]
       card["power"] = info[:power]
       card["rarity"] = info[:rarity]
-      card["reserved"] = true if reserved_list.include?(info[:card_name])
+      card["reserved"] = true if ReservedList.include?(info[:card_name])
       card["subtypes"] = subtypes unless subtypes.empty?
       card["supertypes"] = supertypes unless supertypes.empty?
       card["text"] = info[:card_text]
