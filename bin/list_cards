@@ -3,15 +3,7 @@
 require_relative "../lib/magic_database"
 
 Gatherer.set_names.each do |set_name|
-  if set_name =~ /\u2014/
-    warn "Sets with non-ASCII in names don't work: #{set_name}"
-    next
-  end
   Gatherer.card_ids_for_set(set_name).each do |card_name, multiverse_id|
-    puts [
-      set_name,
-      card_name,
-      multiverse_id,
-    ].join("\t")
+    puts [set_name, card_name, multiverse_id].join("\t")
   end
 end
