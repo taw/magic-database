@@ -118,6 +118,19 @@ class GathererDetailsPage < CachedPage
     @card_info
   end
 
+  def variants
+    unless defined?(@variants)
+      @variants = doc.at(".variations").css("a").map{|a| a["href"][/multiverseid=\K\d+\z/].to_i }
+      @variants = nil if @variants == []
+    end
+    @variants
+  end
+
+  def current_variant
+    return unless variants
+    (variants.index(@id) or raise "Current id not on the list of variants") + 1
+  end
+
   %I[
     all_sets artist card_name card_number card_text converted_mana_cost expansion
     flavor_text loyalty mana_cost power toughness rarity types watermark

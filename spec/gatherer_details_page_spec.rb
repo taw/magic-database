@@ -124,6 +124,21 @@ describe GathererDetailsPage do
         "({2/W} can be paid with any two mana or with {W}. This card's converted mana cost is 10.)\n"+
         "Other Scarecrow creatures you control get +1/+1.\n"+
         "Whenever another Scarecrow enters the battlefield under your control, destroy target permanent.")
+      expect(page.variants).to eq(nil)
+      expect(page.current_variant).to eq(nil)
+    end
+  end
+
+  describe "Wastes (variant 2 of 4)" do
+    let(:page) { described_class.new(407694) }
+    it do
+      expect(page.variants).to eq([
+        407693,
+        407694,
+        407695,
+        407696,
+      ])
+      expect(page.current_variant).to eq(2)
     end
   end
 end
