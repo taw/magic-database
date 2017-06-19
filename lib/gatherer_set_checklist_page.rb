@@ -5,7 +5,14 @@ class GathererSetChecklistPage < CachedPage
   end
 
   def page_url
-    "http://gatherer.wizards.com/Pages/Search/Default.aspx?page=#{@page}&output=checklist&action=advanced&set=%5b%22#{@set_name}%22%5d"
+    Addressable::URI.parse("http://gatherer.wizards.com/Pages/Search/Default.aspx").tap{|u|
+      u.query_values = {
+        page: @page,
+        output: "checklist",
+        action: "advanced",
+        set: %Q[["#{@set_name}"]]
+      }
+    }
   end
 
   def cache_key
