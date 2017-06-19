@@ -7,7 +7,7 @@ class GathererAdvancedSearchPage < CachedPage
     ["gatherer", "advanced_search"]
   end
 
-  def all_sets
-    @all_sets ||= doc.css("#autoCompleteSourceBoxsetAddText0_InnerTextBoxcontainer a").map(&:text)
+  def set_names
+    @set_names ||= doc.css("#autoCompleteSourceBoxsetAddText0_InnerTextBoxcontainer a").map(&:text)
   end
 end

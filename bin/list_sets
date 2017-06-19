@@ -2,4 +2,4 @@
 
 require_relative "../lib/magic_database"
 
-puts GathererAdvancedSearchPage.new.all_sets
+puts Gatherer.set_names

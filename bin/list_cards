@@ -2,21 +2,17 @@
 
 require_relative "../lib/magic_database"
 
-GathererAdvancedSearchPage.new.all_sets.each do |set_name|
+Gatherer.set_names.each do |set_name|
   if set_name =~ /\u2014/
     warn "Sets with non-ASCII in names don't work: #{set_name}"
     next
   end
-  checklist_page = GathererSetChecklistPage.new(set_name, 0)
-  while checklist_page
-    checklist_page.cards.each do |card_row|
-      puts [
-        set_name,
-        card_row[1], # card number
-        card_row[0], # multiverse id
-        card_row[2], # card name
-      ].join("\t")
-    end
-    checklist_page = checklist_page.next_page
+  Gatherer.checklist_for_set(set_name).each do |card_row|
+    puts [
+      set_name,
+      card_row[1], # card number
+      card_row[0], # multiverse id
+      card_row[2], # card name
+    ].join("\t")
   end
 end

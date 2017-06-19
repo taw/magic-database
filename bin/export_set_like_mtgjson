@@ -66,18 +66,7 @@ class ExportSetLikeMtgjson
   end
 
   def card_ids
-    unless @card_ids
-      @card_ids = []
-      checklist_page = GathererSetChecklistPage.new(@set_name, 0)
-      while checklist_page
-        checklist_page.cards.each do |card_row|
-          @card_ids << card_row[0]
-        end
-        checklist_page = checklist_page.next_page
-      end
-      @card_ids.sort!
-    end
-    @card_ids
+    @card_ids ||= Gatherer.checklist_for_set(@set_name).map(&:first).sort
   end
 
   def export
