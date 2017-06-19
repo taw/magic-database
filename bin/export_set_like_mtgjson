@@ -61,6 +61,10 @@ class ExportSetLikeMtgjson
     Digest::SHA1.hexdigest(set_code + info[:card_name] + guess_mtgjson_imagename(info))
   end
 
+  def guess_mci_number(info)
+    nil
+  end
+
   def reserved_list
     @reserved_list ||= (Pathname(__dir__) + "../data/reserved_list.txt").readlines.map(&:chomp).to_set
   end
@@ -100,10 +104,12 @@ class ExportSetLikeMtgjson
       card["id"] = guess_mtgjson_id("LEA", info)
       card["imageName"] = guess_mtgjson_imagename(info)
       card["layout"] = "normal"
+      card["loyalty"] = info[:loyalty]
       card["manaCost"] = info[:mana_cost]
-      # card["mciNumber"] = "?"
+      card["mciNumber"] = info[:card_number] || guess_mci_number(info)
       card["multiverseid"] = id
       card["name"] = info[:card_name]
+      card["number"] = info[:card_number]
       card["power"] = info[:power]
       card["rarity"] = info[:rarity]
       card["reserved"] = true if reserved_list.include?(info[:card_name])
@@ -113,6 +119,7 @@ class ExportSetLikeMtgjson
       card["toughness"] = info[:toughness]
       card["type"] = info[:types]
       card["types"] = types unless types.empty?
+      card["watermark"] = info[:watermark]
       card.reject!{|k,v| !v} # HTF ruby doesn't have Hash#compact! yet???
       json["cards"] << card
     end
