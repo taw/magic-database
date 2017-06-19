@@ -1,4 +1,4 @@
-class Gatherer
+module Gatherer
   class << self
     def set_names
       GathererAdvancedSearchPage.new.set_names
