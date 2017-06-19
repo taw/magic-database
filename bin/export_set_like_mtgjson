@@ -55,14 +55,16 @@ class ExportSetLikeMtgjson
     result
   end
 
-  def guess_mtgjson_imagename(info)
+  def guess_mtgjson_imagename(details)
     # Pertty much reverse engineering from a bunch of examples
     # Just for diffing
-    info[:card_name].downcase.tr(":", "")
+    base_name = details.card_info[:card_name].downcase.tr(":", "")
+    "#{base_name}#{details.current_variation}"
   end
 
-  def guess_mtgjson_id(set_code, info)
-    Digest::SHA1.hexdigest(set_code + info[:card_name] + guess_mtgjson_imagename(info))
+  def guess_mtgjson_id(set_code, details)
+    info = details.card_info
+    Digest::SHA1.hexdigest(set_code + info[:card_name] + guess_mtgjson_imagename(details))
   end
 
   def guess_mci_number(info)
@@ -82,7 +84,7 @@ class ExportSetLikeMtgjson
   end
 
   def card_ids
-    @card_ids ||= Gatherer.checklist_for_set(@set_name).map{|x| x[1]}.sort
+    @card_ids ||= Gatherer.card_ids_for_set(@set_name).map{|x| x[1]}.sort
   end
 
   def export
@@ -113,8 +115,8 @@ class ExportSetLikeMtgjson
       card["colorIdentity"] = card_color_identity(info)
       card["colors"] = card_colors(info)
       card["flavor"] = info[:flavor_text]
-      card["id"] = guess_mtgjson_id("LEA", info)
-      card["imageName"] = guess_mtgjson_imagename(info)
+      card["id"] = guess_mtgjson_id("LEA", details)
+      card["imageName"] = guess_mtgjson_imagename(details)
       card["layout"] = guess_layout(info)
       card["loyalty"] = info[:loyalty]
       card["manaCost"] = info[:mana_cost]
@@ -131,6 +133,9 @@ class ExportSetLikeMtgjson
       card["toughness"] = info[:toughness]
       card["type"] = info[:types]
       card["types"] = types unless types.empty?
+      if details.variations
+        card["variations"] = details.variations - [id]
+      end
       card["watermark"] = info[:watermark]
       card.reject!{|k,v| !v} # HTF ruby doesn't have Hash#compact! yet???
       json["cards"] << card

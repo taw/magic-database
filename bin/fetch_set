@@ -4,8 +4,8 @@ require "set"
 require_relative "../lib/magic_database"
 
 ARGV.each do |set_name|
-  Gatherer.checklist_for_set(set_name).each do |card_name, first_multiverse_id, number_of_variants|
-    GathererDetailsPage.new(first_multiverse_id).doc # card_info
-    GathererLanguagesPage.new(first_multiverse_id).doc
+  Gatherer.card_ids_for_set(set_name).each do |card_name, id|
+    GathererDetailsPage.new(id).doc # card_info
+    GathererLanguagesPage.new(id).doc
   end
 end

@@ -118,17 +118,17 @@ class GathererDetailsPage < CachedPage
     @card_info
   end
 
-  def variants
-    unless defined?(@variants)
-      @variants = doc.at(".variations").css("a").map{|a| a["href"][/multiverseid=\K\d+\z/].to_i }
-      @variants = nil if @variants == []
+  def variations
+    unless defined?(@variations)
+      @variations = doc.at(".variations").css("a").map{|a| a["href"][/multiverseid=\K\d+\z/].to_i }
+      @variations = nil if @variations == []
     end
-    @variants
+    @variations
   end
 
-  def current_variant
-    return unless variants
-    (variants.index(@id) or raise "Current id not on the list of variants") + 1
+  def current_variation
+    return unless variations
+    (variations.index(@id) or raise "Current id not on the list of variations") + 1
   end
 
   %I[

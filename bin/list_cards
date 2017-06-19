@@ -7,12 +7,11 @@ Gatherer.set_names.each do |set_name|
     warn "Sets with non-ASCII in names don't work: #{set_name}"
     next
   end
-  Gatherer.checklist_for_set(set_name).each do |card_name, first_multiverse_id, number_of_variants|
+  Gatherer.card_ids_for_set(set_name).each do |card_name, multiverse_id|
     puts [
       set_name,
       card_name,
-      first_multiverse_id,
-      number_of_variants,
+      multiverse_id,
     ].join("\t")
   end
 end
