@@ -4,21 +4,21 @@ describe GathererSetChecklistPage do
 
     it do
       expect(page.cards).to eq([
-        [194966, "1", "Balance", "Randy Gallegos", "White", "M", "From the Vault: Exiled"],
-        [194969, "2", "Berserk", "Steve Prescott", "Green", "M", "From the Vault: Exiled"],
-        [194967, "3", "Channel", "Rebecca Guay", "Green", "M", "From the Vault: Exiled"],
-        [194971, "4", "Gifts Ungiven", "D. Alexander Gregory", "Blue", "M", "From the Vault: Exiled"],
-        [194973, "5", "Goblin Lackey", "Christopher Moeller", "Red", "M", "From the Vault: Exiled"],
-        [194974, "6", "Kird Ape", "Terese Nielsen", "Red", "M", "From the Vault: Exiled"],
-        [194975, "7", "Lotus Petal", "April Lee", "", "M", "From the Vault: Exiled"],
-        [194976, "8", "Mystical Tutor", "David O'Connor", "Blue", "M", "From the Vault: Exiled"],
-        [194977, "9", "Necropotence", "Dave Kendall", "Black", "M", "From the Vault: Exiled"],
-        [194972, "10", "Sensei's Divining Top", "Michael Sutfin", "", "M", "From the Vault: Exiled"],
-        [194970, "11", "Serendib Efreet", "Matt Stewart", "Blue", "M", "From the Vault: Exiled"],
-        [194978, "12", "Skullclamp", "Luca Zontini", "", "M", "From the Vault: Exiled"],
-        [194968, "13", "Strip Mine", "John Avon", "", "M", "From the Vault: Exiled"],
-        [194980, "14", "Tinker", "Chris Rahn", "Blue", "M", "From the Vault: Exiled"],
-        [194979, "15", "Trinisphere", "Tim Hildebrandt", "", "M", "From the Vault: Exiled"],
+        ["Balance", 194966, 1],
+        ["Berserk", 194969, 1],
+        ["Channel", 194967, 1],
+        ["Gifts Ungiven", 194971, 1],
+        ["Goblin Lackey", 194973, 1],
+        ["Kird Ape", 194974, 1],
+        ["Lotus Petal", 194975, 1],
+        ["Mystical Tutor", 194976, 1],
+        ["Necropotence", 194977, 1],
+        ["Sensei's Divining Top", 194972, 1],
+        ["Serendib Efreet", 194970, 1],
+        ["Skullclamp", 194978, 1],
+        ["Strip Mine", 194968, 1],
+        ["Tinker", 194980, 1],
+        ["Trinisphere", 194979, 1],
       ])
       expect(page.last_page).to eq(0)
       expect(page.last_page?).to eq(true)
@@ -28,21 +28,29 @@ describe GathererSetChecklistPage do
 
   describe "Limited Edition Alpha" do
     let(:set_name) { "Limited Edition Alpha" }
+    let(:page0) { described_class.new(set_name, 0) }
+    let(:page1) { described_class.new(set_name, 1) }
+    let(:page2) { described_class.new(set_name, 2) }
 
     it do
-      # Crazy pagination, but should add to 295
-      expect(described_class.new(set_name, 0).cards.size).to eq(101)
-      expect(described_class.new(set_name, 1).cards.size).to eq(103)
-      expect(described_class.new(set_name, 2).cards.size).to eq(91)
-      expect(described_class.new(set_name, 0).last_page).to eq(2)
-      expect(described_class.new(set_name, 1).last_page).to eq(2)
-      expect(described_class.new(set_name, 2).last_page).to eq(2)
-      expect(described_class.new(set_name, 0).last_page?).to eq(false)
-      expect(described_class.new(set_name, 1).last_page?).to eq(false)
-      expect(described_class.new(set_name, 2).last_page?).to eq(true)
-      expect(described_class.new(set_name, 0).next_page).to eq(described_class.new(set_name, 1))
-      expect(described_class.new(set_name, 1).next_page).to eq(described_class.new(set_name, 2))
-      expect(described_class.new(set_name, 2).next_page).to eq(nil)
+      # Pagination is up to 100 unique cards
+      # So multiple versions of same card (mostly basic lands)
+      # will get included on same page
+      expect(page0.cards.size).to eq(100)
+      expect(page0.cards.map(&:last).inject(&:+)).to eq(101)
+      expect(page1.cards.size).to eq(100)
+      expect(page1.cards.map(&:last).inject(&:+)).to eq(103)
+      expect(page2.cards.size).to eq(90)
+      expect(page2.cards.map(&:last).inject(&:+)).to eq(91)
+      expect(page0.last_page).to eq(2)
+      expect(page1.last_page).to eq(2)
+      expect(page2.last_page).to eq(2)
+      expect(page0.last_page?).to eq(false)
+      expect(page1.last_page?).to eq(false)
+      expect(page2.last_page?).to eq(true)
+      expect(page0.next_page).to eq(page1)
+      expect(page1.next_page).to eq(page2)
+      expect(page2.next_page).to eq(nil)
     end
   end
 end

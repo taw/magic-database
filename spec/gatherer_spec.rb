@@ -5,7 +5,8 @@ describe Gatherer do
 
   it ".checklist_for_set" do
     expect(Gatherer.checklist_for_set("New Phyrexia")).to include(
-      [230076, "78", "Act of Aggression", "Whit Brachna", "Red", "U", "New Phyrexia"]
+      ["Act of Aggression", 230076, 1],
+      ["Swamp", 227519, 2],
     )
   end
 end

@@ -20,9 +20,17 @@ class GathererSetChecklistPage < CachedPage
   end
 
   def cards
-    @cards ||= doc.css(".cardItem").map{|row|
-      [row.at("a")["href"][/multiverseid=\K\d+\z/].to_i, *row.css("td").map(&:text)]
-    }
+    unless @cards
+      @cards = {}
+      doc.css(".cardItem").each do |row|
+        id = row.at("a")["href"][/multiverseid=\K\d+\z/].to_i
+        name = row.css("td")[1].text
+        @cards[name] ||= [id, 0]
+        @cards[name][1] += 1
+      end
+      @cards = @cards.map{|name, (first_id, count)| [name, first_id, count]}.sort
+    end
+    @cards
   end
 
   def last_page

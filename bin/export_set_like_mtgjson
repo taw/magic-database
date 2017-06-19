@@ -82,7 +82,7 @@ class ExportSetLikeMtgjson
   end
 
   def card_ids
-    @card_ids ||= Gatherer.checklist_for_set(@set_name).map(&:first).sort
+    @card_ids ||= Gatherer.checklist_for_set(@set_name).map{|x| x[1]}.sort
   end
 
   def export
