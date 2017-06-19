@@ -79,11 +79,11 @@ class GathererDetailsPage < CachedPage
         when "Artist"
           @card_info[:artist] = value.text.strip
         when "Card Name"
-          @card_info[:card_name] = value.text.strip
+          @card_info[:name] = value.text.strip
         when "Card Number"
-          @card_info[:card_number] = value.text.strip
+          @card_info[:number] = value.text.strip
         when "Card Text"
-          @card_info[:card_text] = value.css(".cardtextbox").map(&:text).join("\n")
+          @card_info[:text] = value.css(".cardtextbox").map(&:text).join("\n")
         when "Converted Mana Cost"
           @card_info[:converted_mana_cost] = begin
             Integer(value.text.strip, 10)
@@ -107,7 +107,8 @@ class GathererDetailsPage < CachedPage
         when "Rarity"
           @card_info[:rarity] = value.at("span").text
         when "Types"
-          @card_info[:types] = value.text.strip.gsub(/\s+/, " ")
+          @card_info[:typeline] = value.text.strip.gsub(/\s+/, " ")
+          @card_info[:supertypes], @card_info[:types], @card_info[:subtypes] = parse_typeline(@card_info[:typeline])
         when "Watermark"
           @card_info[:watermark] = value.text.strip
         else
@@ -132,13 +133,27 @@ class GathererDetailsPage < CachedPage
   end
 
   %I[
-    all_sets artist card_name card_number card_text converted_mana_cost expansion
-    flavor_text loyalty mana_cost power toughness rarity types watermark
+    all_sets artist name number text converted_mana_cost expansion
+    flavor_text loyalty mana_cost power toughness rarity typeline watermark
+    subtypes types supertypes
   ].each do |m|
     define_method(m) { card_info[m] }
   end
 
   def rulings
     @rulings ||= doc.at(".rulingsTable").css("tr").map{|row| row.css("td").map(&:text) }
+  end
+
+  def parse_typeline(typeline)
+    known_supertypes = ["Basic", "Legendary", "Ongoing", "Snow", "World"]
+    supertypes, types, subtypes = [], [], []
+    if typeline =~ /(.*) \u2014 (.*)/
+      subtypes = $2.split(" ")
+      typeline = $1
+    end
+    types = typeline.split(" ")
+    supertypes = types & known_supertypes
+    types -= known_supertypes
+    return supertypes, types, subtypes
   end
 end

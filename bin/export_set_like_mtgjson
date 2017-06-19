@@ -1,9 +1,7 @@
 #!/usr/bin/env ruby
 
 require_relative "../lib/magic_database"
-require "set"
 require "json"
-require "pathname"
 require "digest/sha1"
 
 class ExportSetLikeMtgjson
@@ -12,67 +10,49 @@ class ExportSetLikeMtgjson
     @save_path = save_path
   end
 
-  def parse_types(typeline)
-    known_supertypes = ["Basic", "Legendary", "Ongoing", "Snow", "World"]
-
-    supertypes, types, subtypes = [], [], []
-
-    if typeline =~ /(.*) \u2014 (.*)/
-      subtypes = $2.split(" ")
-      typeline = $1
-    end
-    types = typeline.split(" ")
-
-    supertypes = types & known_supertypes
-    types -= known_supertypes
-
-    return supertypes, types, subtypes
-  end
-
-  def card_colors(info)
-    return nil if info[:card_text] =~ /\bDevoid\b/
+  def card_colors(card)
+    return nil if card.text =~ /\bDevoid\b/
     result = []
-    result << "White" if info[:mana_cost] =~ /W/
-    result << "Blue" if info[:mana_cost] =~ /U/
-    result << "Black" if info[:mana_cost] =~ /B/
-    result << "Red" if info[:mana_cost] =~ /R/
-    result << "Green" if info[:mana_cost] =~ /G/
+    result << "White" if card.mana_cost =~ /W/
+    result << "Blue" if card.mana_cost =~ /U/
+    result << "Black" if card.mana_cost =~ /B/
+    result << "Red" if card.mana_cost =~ /R/
+    result << "Green" if card.mana_cost =~ /G/
     return nil if result.empty?
     result
   end
 
-  def card_color_identity(info)
+  def card_color_identity(card)
     result = []
-    cost = info[:mana_cost]
-    text = info[:card_text]
-    types = info[:types]
-    result << "W" if cost =~ /W/ or text =~ /\{W\}/ or types =~ /\bPlains\b/
-    result << "U" if cost =~ /U/ or text =~ /\{U\}/ or types =~ /\bIsland\b/
-    result << "B" if cost =~ /B/ or text =~ /\{B\}/ or types =~ /\bSwamp\b/
-    result << "R" if cost =~ /R/ or text =~ /\{R\}/ or types =~ /\bMountain\b/
-    result << "G" if cost =~ /G/ or text =~ /\{G\}/ or types =~ /\bForest\b/
+    cost = card.mana_cost
+    text = card.text
+    subtypes = card.subtypes
+    result << "W" if cost =~ /W/ or text =~ /\{W\}/ or subtypes.include?("Plains")
+    result << "U" if cost =~ /U/ or text =~ /\{U\}/ or subtypes.include?("Island")
+    result << "B" if cost =~ /B/ or text =~ /\{B\}/ or subtypes.include?("Swamp")
+    result << "R" if cost =~ /R/ or text =~ /\{R\}/ or subtypes.include?("Mountain")
+    result << "G" if cost =~ /G/ or text =~ /\{G\}/ or subtypes.include?("Forest")
     return nil if result.empty?
     result
   end
 
-  def guess_mtgjson_imagename(details)
+  def guess_mtgjson_imagename(card)
     # Pertty much reverse engineering from a bunch of examples
     # Just for diffing
-    base_name = details.card_info[:card_name].downcase.tr(":", "")
-    "#{base_name}#{details.current_variation}"
+    base_name = card.name.downcase.tr(":", "")
+    "#{base_name}#{card.current_variation}"
   end
 
-  def guess_mtgjson_id(set_code, details)
-    info = details.card_info
-    Digest::SHA1.hexdigest(set_code + info[:card_name] + guess_mtgjson_imagename(details))
+  def guess_mtgjson_id(set_code, card)
+    Digest::SHA1.hexdigest(set_code + card.name + guess_mtgjson_imagename(card))
   end
 
-  def guess_mci_number(info)
+  def guess_mci_number(card)
     nil
   end
 
-  def guess_layout(info)
-    if info[:card_text] =~ /\ALevel up/
+  def guess_layout(card)
+    if card.text =~ /\ALevel up/
       "leveler"
     else
       "normal"
@@ -99,40 +79,37 @@ class ExportSetLikeMtgjson
     json["cards"] = []
 
     card_ids.each do |id|
-      details = GathererDetailsPage.new(id)
-      info = details.card_info
+      card_page = GathererDetailsPage.new(id)
       # languages = GathererLanguagesPage.new(id)
 
-      supertypes, types, subtypes = parse_types(info[:types])
-
       card = {}
-      card["artist"] = info[:artist]
-      card["cmc"] = info[:converted_mana_cost]
-      card["colorIdentity"] = card_color_identity(info)
-      card["colors"] = card_colors(info)
-      card["flavor"] = info[:flavor_text]
-      card["id"] = guess_mtgjson_id("LEA", details)
-      card["imageName"] = guess_mtgjson_imagename(details)
-      card["layout"] = guess_layout(info)
-      card["loyalty"] = info[:loyalty]
-      card["manaCost"] = info[:mana_cost]
-      card["mciNumber"] = info[:card_number] || guess_mci_number(info)
+      card["artist"] = card_page.artist
+      card["cmc"] = card_page.converted_mana_cost
+      card["colorIdentity"] = card_color_identity(card_page)
+      card["colors"] = card_colors(card_page)
+      card["flavor"] = card_page.flavor_text
+      card["id"] = guess_mtgjson_id("LEA", card_page)
+      card["imageName"] = guess_mtgjson_imagename(card_page)
+      card["layout"] = guess_layout(card_page)
+      card["loyalty"] = card_page.loyalty
+      card["manaCost"] = card_page.mana_cost
+      card["mciNumber"] = card_page.number || guess_mci_number(card_page)
       card["multiverseid"] = id
-      card["name"] = info[:card_name]
-      card["number"] = info[:card_number]
-      card["power"] = info[:power]
-      card["rarity"] = info[:rarity]
-      card["reserved"] = true if ReservedList.include?(info[:card_name])
-      card["subtypes"] = subtypes unless subtypes.empty?
-      card["supertypes"] = supertypes unless supertypes.empty?
-      card["text"] = info[:card_text]
-      card["toughness"] = info[:toughness]
-      card["type"] = info[:types]
-      card["types"] = types unless types.empty?
-      if details.variations
-        card["variations"] = details.variations - [id]
+      card["name"] = card_page.name
+      card["number"] = card_page.number
+      card["power"] = card_page.power
+      card["rarity"] = card_page.rarity
+      card["reserved"] = true if ReservedList.include?(card_page.name)
+      card["subtypes"] = card_page.subtypes unless card_page.subtypes.empty?
+      card["supertypes"] = card_page.supertypes unless card_page.supertypes.empty?
+      card["text"] = card_page.text
+      card["toughness"] = card_page.toughness
+      card["type"] = card_page.typeline
+      card["types"] = card_page.types
+      if card_page.variations
+        card["variations"] = card_page.variations - [id]
       end
-      card["watermark"] = info[:watermark]
+      card["watermark"] = card_page.watermark
       card.reject!{|k,v| !v} # HTF ruby doesn't have Hash#compact! yet???
       json["cards"] << card
     end
