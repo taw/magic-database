@@ -8,4 +8,14 @@ data = JSON.parse(STDIN.read)
 data["cards"].sort_by!{|c|
   [c["multiverseid"], c["name"]]
 }
+data["cards"] = data["cards"].map{|c|
+  # For now for easier diffing
+  c.delete "id"
+  c.delete "mciNumber"
+  # No idea why it's like that
+  if c["colorIdentity"]
+    c["colorIdentity"].sort_by!{|ci| "WUBRG".index(ci)}
+  end
+  c.sort.to_h
+}
 puts JSON.pretty_generate(data)

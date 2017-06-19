@@ -141,7 +141,7 @@ class GathererDetailsPage < CachedPage
   end
 
   def rulings
-    @rulings ||= doc.at(".rulingsTable").css("tr").map{|row| row.css("td").map(&:text) }
+    @rulings ||= doc.css(".rulingsTable tr").map{|row| row.css("td").map(&:text) }
   end
 
   def parse_typeline(typeline)

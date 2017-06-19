@@ -88,20 +88,25 @@ class ExportSetLikeMtgjson
       card["colorIdentity"] = card_color_identity(card_page)
       card["colors"] = card_colors(card_page)
       card["flavor"] = card_page.flavor_text
-      card["id"] = guess_mtgjson_id("LEA", card_page)
+      # card["id"] = guess_mtgjson_id("LEA", card_page)
       card["imageName"] = guess_mtgjson_imagename(card_page)
       card["layout"] = guess_layout(card_page)
       card["loyalty"] = card_page.loyalty
       card["manaCost"] = card_page.mana_cost
-      card["mciNumber"] = card_page.number || guess_mci_number(card_page)
+      # card["mciNumber"] = card_page.number || guess_mci_number(card_page)
       card["multiverseid"] = id
       card["name"] = card_page.name
       card["number"] = card_page.number
       card["power"] = card_page.power
       card["rarity"] = card_page.rarity
+      card["rulings"] =  card_page.rulings.map{|date,text|
+        # Retarded US format
+        m,d,y = date.split("/")
+        {date: "%04d-%02d-%02d" % [y,m,d], text: text}
+      }
       card["reserved"] = true if ReservedList.include?(card_page.name)
-      card["subtypes"] = card_page.subtypes unless card_page.subtypes.empty?
-      card["supertypes"] = card_page.supertypes unless card_page.supertypes.empty?
+      card["subtypes"] = card_page.subtypes
+      card["supertypes"] = card_page.supertypes
       card["text"] = card_page.text
       card["toughness"] = card_page.toughness
       card["type"] = card_page.typeline
@@ -110,7 +115,7 @@ class ExportSetLikeMtgjson
         card["variations"] = card_page.variations - [id]
       end
       card["watermark"] = card_page.watermark
-      card.reject!{|k,v| !v} # HTF ruby doesn't have Hash#compact! yet???
+      card.reject!{|k,v| !v or v == []}
       json["cards"] << card
     end
 
