@@ -80,7 +80,7 @@ class ExportSetLikeMtgjson
 
     card_ids.each do |id|
       card_page = GathererDetailsPage.new(id).primary_card_details_box
-      # languages = GathererLanguagesPage.new(id)
+      languages = GathererLanguagesPage.new(id).languages
 
       card = {}
       card["artist"] = card_page.artist
@@ -88,6 +88,13 @@ class ExportSetLikeMtgjson
       card["colorIdentity"] = card_color_identity(card_page)
       card["colors"] = card_colors(card_page)
       card["flavor"] = card_page.flavor_text
+      card["foreignNames"] = languages.map{|row|
+        {
+          "language" => row[2],
+          "name" => row[1],
+          "multiverseid" => row[0],
+        }
+      }.sort_by{|l| [l["language"], l["multiverseid"]] }
       # card["id"] = guess_mtgjson_id("LEA", card_page)
       card["imageName"] = guess_mtgjson_imagename(card_page)
       card["layout"] = guess_layout(card_page)

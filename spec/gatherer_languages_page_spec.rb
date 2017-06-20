@@ -4,11 +4,11 @@ describe GathererLanguagesPage do
 
     it do
       expect(page.languages).to eq([
-        ["Ragno Gigante", "Italian", "Italiano"],
-        ["Aranha Gigante", "Portuguese (Brazil)", "Português"],
-        ["Araignée géante", "French", "Français"],
-        ["Riesenspinne", "German", "Deutsch"],
-        ["Araña gigante", "Spanish", "Español"]
+        [165148, "Ragno Gigante", "Italian", "Italiano"],
+        [165862, "Aranha Gigante", "Portuguese (Brazil)", "Português"],
+        [163225, "Araignée géante", "French", "Français"],
+        [162868, "Riesenspinne", "German", "Deutsch"],
+        [165505, "Araña gigante", "Spanish", "Español"]
       ])
     end
   end

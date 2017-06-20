@@ -12,6 +12,8 @@ class GathererLanguagesPage < CachedPage
   end
 
   def languages
-    @languages ||= doc.css(".cardItem").map{|row| row.css("td").map{|e| e.text.strip}}
+    @languages ||= doc.css(".cardItem").map{|row|
+      [row.at("a")["href"][/multiverseid=\K\d+\z/].to_i, *row.css("td").map{|e| e.text.strip}]
+    }
   end
 end

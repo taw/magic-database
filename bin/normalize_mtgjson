@@ -16,6 +16,9 @@ data["cards"] = data["cards"].map{|c|
   if c["colorIdentity"]
     c["colorIdentity"].sort_by!{|ci| "WUBRG".index(ci)}
   end
+  if c["foreignNames"]
+    c["foreignNames"].sort_by!{|l| [l["language"], l["multiverseid"]] }
+  end
   c.sort.to_h
 }
 puts JSON.pretty_generate(data)
