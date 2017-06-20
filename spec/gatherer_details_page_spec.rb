@@ -130,6 +130,7 @@ describe GathererDetailsPage do
       expect(card.color_identity).to eq(["G"])
       expect(card.has_multiple_parts?).to eq(false)
       expect(card.names).to eq(nil)
+      expect(card.layout).to eq("normal")
     end
   end
 
@@ -173,6 +174,7 @@ describe GathererDetailsPage do
       expect(card.color_identity).to eq(["U"])
       expect(card.has_multiple_parts?).to eq(true)
       expect(card.names).to eq(["Delver of Secrets", "Insectile Aberration"])
+      expect(card.layout).to eq("double-faced")
     end
   end
 
@@ -184,6 +186,14 @@ describe GathererDetailsPage do
       expect(card.color_identity).to eq(["U"])
       expect(card.has_multiple_parts?).to eq(true)
       expect(card.names).to eq(["Delver of Secrets", "Insectile Aberration"])
+      expect(card.layout).to eq("double-faced")
+    end
+  end
+
+  describe "Kargan Dragonlord" do
+    let(:id) { 193482 }
+    it do
+      expect(card.layout).to eq("leveler")
     end
   end
 end

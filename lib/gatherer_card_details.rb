@@ -150,6 +150,18 @@ class GathererCardDetails
     @names ||= @page.card_details_boxes.map(&:name)
   end
 
+  def layout
+    @layout ||= begin
+      if has_multiple_parts?
+        "double-faced"
+      elsif text =~ /\ALevel up/
+        "leveler"
+      else
+        "normal"
+      end
+    end
+  end
+
   private def parse_typeline(typeline)
     known_supertypes = ["Basic", "Legendary", "Ongoing", "Snow", "World"]
     supertypes, types, subtypes = [], [], []

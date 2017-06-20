@@ -25,14 +25,6 @@ class ExportSetLikeMtgjson
     nil
   end
 
-  def guess_layout(card)
-    if card.text =~ /\ALevel up/
-      "leveler"
-    else
-      "normal"
-    end
-  end
-
   def card_ids
     @card_ids ||= Gatherer.card_ids_for_set(@set_name).map{|x| x[1]}.sort
   end
@@ -73,7 +65,7 @@ class ExportSetLikeMtgjson
       }.sort_by{|l| [l["language"], l["multiverseid"]] }
       # card["id"] = guess_mtgjson_id("LEA", card_page)
       card["imageName"] = guess_mtgjson_imagename(card_page)
-      card["layout"] = guess_layout(card_page)
+      card["layout"] = card_page.layout
       card["legalities"] = legalities.sort.map{|f,l|
         {
           "format" => f,
