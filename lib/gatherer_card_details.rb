@@ -92,7 +92,13 @@ class GathererCardDetails
   end
 
   def rulings
-    @rulings ||= @node.css(".rulingsTable tr").map{|row| row.css("td").map(&:text) }
+    @rulings ||= @node.css(".rulingsTable tr").map{|row|
+      # Date is in retarded US format
+      date, text = row.css("td").map(&:text)
+      m,d,y = date.split("/")
+      date = "%04d-%02d-%02d" % [y,m,d]
+      [date, text]
+    }
   end
 
   private def parse_typeline(typeline)

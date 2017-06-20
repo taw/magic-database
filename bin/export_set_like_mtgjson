@@ -114,10 +114,8 @@ class ExportSetLikeMtgjson
       card["power"] = card_page.power
       card["rarity"] = card_page.rarity
       card["rulings"] =  card_page.rulings.map{|date,text|
-        # Retarded US format
-        m,d,y = date.split("/")
         {
-          "date" => "%04d-%02d-%02d" % [y,m,d],
+          "date" => date,
           "text" => text.tr(%Q[’“”], %Q['""])
         }
       }

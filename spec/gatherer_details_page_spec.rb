@@ -17,8 +17,8 @@ describe GathererDetailsPage do
       expect(card.rarity).to eq("Rare")
       expect(card.artist).to eq("Amy Weber")
       expect(card.rulings).to eq([
-        ["10/4/2004",	"This triggers on any land entering the battlefield. This includes playing a land or putting a land onto the battlefield using a spell or ability."],
-        ["10/4/2004",	"It determines the land’s controller at the time the ability resolves. If the land leaves the battlefield before the ability resolves, the land’s last controller before it left is used."]
+        ["2004-10-04", "This triggers on any land entering the battlefield. This includes playing a land or putting a land onto the battlefield using a spell or ability."],
+        ["2004-10-04", "It determines the land’s controller at the time the ability resolves. If the land leaves the battlefield before the ability resolves, the land’s last controller before it left is used."]
       ])
       expect(card.expansion).to eq("Limited Edition Alpha (Rare)")
       expect(card.all_sets).to eq([
@@ -58,7 +58,7 @@ describe GathererDetailsPage do
       expect(card.artist).to eq("Randy Gallegos")
       expect(card.number).to eq("255")
       expect(card.rulings).to eq([
-        ["4/1/2008", "This card now uses the Reach keyword ability to enable the blocking of flying creatures. This works because a creature with flying can only be blocked by creatures with flying or reach."]
+        ["2008-04-01", "This card now uses the Reach keyword ability to enable the blocking of flying creatures. This works because a creature with flying can only be blocked by creatures with flying or reach."]
       ])
       expect(card.expansion).to eq("Eighth Edition (Common)")
       expect(card.all_sets).to eq([
