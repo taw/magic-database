@@ -116,7 +116,10 @@ class ExportSetLikeMtgjson
       card["rulings"] =  card_page.rulings.map{|date,text|
         # Retarded US format
         m,d,y = date.split("/")
-        {date: "%04d-%02d-%02d" % [y,m,d], text: text}
+        {
+          "date" => "%04d-%02d-%02d" % [y,m,d],
+          "text" => text.tr(%Q[’“”], %Q['""])
+        }
       }
       card["reserved"] = true if ReservedList.include?(card_page.name)
       card["subtypes"] = card_page.subtypes
