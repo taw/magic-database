@@ -85,6 +85,7 @@ class ExportSetLikeMtgjson
       # card["mciNumber"] = card_page.number || guess_mci_number(card_page)
       card["multiverseid"] = id
       card["name"] = card_page.name
+      card["names"] = card_page.names
       card["number"] = card_page.number
       card["originalText"] = printed_card_page.text
       card["originalType"] = printed_card_page.typeline.tr("-", "—")

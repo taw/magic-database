@@ -128,6 +128,8 @@ describe GathererDetailsPage do
       )
       expect(card.colors).to eq(["Green"])
       expect(card.color_identity).to eq(["G"])
+      expect(card.has_multiple_parts?).to eq(false)
+      expect(card.names).to eq(nil)
     end
   end
 
@@ -169,6 +171,8 @@ describe GathererDetailsPage do
       expect(card.name).to eq("Delver of Secrets")
       expect(card.colors).to eq(["Blue"])
       expect(card.color_identity).to eq(["U"])
+      expect(card.has_multiple_parts?).to eq(true)
+      expect(card.names).to eq(["Delver of Secrets", "Insectile Aberration"])
     end
   end
 
@@ -178,6 +182,8 @@ describe GathererDetailsPage do
       expect(card.name).to eq("Insectile Aberration")
       expect(card.colors).to eq(["Blue"])
       expect(card.color_identity).to eq(["U"])
+      expect(card.has_multiple_parts?).to eq(true)
+      expect(card.names).to eq(["Delver of Secrets", "Insectile Aberration"])
     end
   end
 end

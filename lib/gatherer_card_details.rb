@@ -1,6 +1,7 @@
 class GathererCardDetails
-  def initialize(node)
+  def initialize(node, page)
     @node = node
+    @page = page
   end
 
   private def card_info_rows
@@ -135,6 +136,18 @@ class GathererCardDetails
       @color_identity << "G" if mana_cost =~ /G/i or text =~ /\{G\}/ or subtypes.include?("Forest") or color_indicator =~ /\bGreen\b/
     end
     @color_identity
+  end
+
+  def has_multiple_parts?
+    unless defined?(@has_multiple_parts)
+      @has_multiple_parts = (@page.card_details_boxes.size > 1)
+    end
+    @has_multiple_parts
+  end
+
+  def names
+    return unless has_multiple_parts?
+    @names ||= @page.card_details_boxes.map(&:name)
   end
 
   private def parse_typeline(typeline)

@@ -61,7 +61,9 @@ class GathererDetailsPage < CachedPage
   end
 
   def card_details_boxes
-    @card_details_boxes ||= doc.css(".cardDetails").map{|node| GathererCardDetails.new(node) }
+    @card_details_boxes ||= doc.css(".cardDetails").map{|node|
+      GathererCardDetails.new(node, self)
+    }
   end
 
   def primary_card_details_box
