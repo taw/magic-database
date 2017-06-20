@@ -79,7 +79,7 @@ class ExportSetLikeMtgjson
     json["cards"] = []
 
     card_ids.each do |id|
-      card_page = GathererDetailsPage.new(id)
+      card_page = GathererDetailsPage.new(id).primary_card_details_box
       # languages = GathererLanguagesPage.new(id)
 
       card = {}

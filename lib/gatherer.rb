@@ -10,7 +10,7 @@ module Gatherer
         if count == 1
           result << [card_name, first_id]
         else
-          variation_ids = GathererDetailsPage.new(first_id).variations
+          variation_ids = GathererDetailsPage.new(first_id).primary_card_details_box.variations
           unless variation_ids
             warn "#{card_name} supposed to have variations, but not seeing any. Split card???"
             result << [card_name, first_id]

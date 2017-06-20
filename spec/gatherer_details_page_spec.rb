@@ -1,24 +1,27 @@
 describe GathererDetailsPage do
+  let(:page) { described_class.new(id) }
+  let(:card) { page.primary_card_details_box }
+
   describe "Ankh of Mishra from Alpha" do
-    let(:page) { described_class.new(1) }
+    let(:id) { 1 }
     it "fetches" do
       expect(page.doc).to be_instance_of(Nokogiri::HTML::Document)
     end
 
     it do
-      expect(page.name).to eq("Ankh of Mishra")
-      expect(page.mana_cost).to eq("{2}")
-      expect(page.converted_mana_cost).to eq(2)
-      expect(page.typeline).to eq("Artifact")
-      expect(page.text).to eq("Whenever a land enters the battlefield, Ankh of Mishra deals 2 damage to that land's controller.")
-      expect(page.rarity).to eq("Rare")
-      expect(page.artist).to eq("Amy Weber")
-      expect(page.rulings).to eq([
+      expect(card.name).to eq("Ankh of Mishra")
+      expect(card.mana_cost).to eq("{2}")
+      expect(card.converted_mana_cost).to eq(2)
+      expect(card.typeline).to eq("Artifact")
+      expect(card.text).to eq("Whenever a land enters the battlefield, Ankh of Mishra deals 2 damage to that land's controller.")
+      expect(card.rarity).to eq("Rare")
+      expect(card.artist).to eq("Amy Weber")
+      expect(card.rulings).to eq([
         ["10/4/2004",	"This triggers on any land entering the battlefield. This includes playing a land or putting a land onto the battlefield using a spell or ability."],
         ["10/4/2004",	"It determines the land’s controller at the time the ability resolves. If the land leaves the battlefield before the ability resolves, the land’s last controller before it left is used."]
       ])
-      expect(page.expansion).to eq("Limited Edition Alpha (Rare)")
-      expect(page.all_sets).to eq([
+      expect(card.expansion).to eq("Limited Edition Alpha (Rare)")
+      expect(card.all_sets).to eq([
         [1, "Limited Edition Alpha (Rare)"],
         [296, "Limited Edition Beta (Rare)"],
         [598, "Unlimited Edition (Rare)"],
@@ -29,36 +32,36 @@ describe GathererDetailsPage do
         [159251, "Masters Edition (Rare)"],
         [382844, "Vintage Masters (Rare)"],
       ])
-      expect(page.power).to eq(nil)
-      expect(page.toughness).to eq(nil)
-      expect(page.number).to eq(nil)
-      expect(page.flavor_text).to eq(nil)
-      expect(page.supertypes).to eq([])
-      expect(page.types).to eq(["Artifact"])
-      expect(page.subtypes).to eq([])
+      expect(card.power).to eq(nil)
+      expect(card.toughness).to eq(nil)
+      expect(card.number).to eq(nil)
+      expect(card.flavor_text).to eq(nil)
+      expect(card.supertypes).to eq([])
+      expect(card.types).to eq(["Artifact"])
+      expect(card.subtypes).to eq([])
     end
   end
 
   describe "Giant Spider from Eighth Edition" do
-    let(:page) { described_class.new(45408) }
+    let(:id) { 45408 }
 
     it do
-      expect(page.name).to eq("Giant Spider")
-      expect(page.mana_cost).to eq("{3}{G}")
-      expect(page.converted_mana_cost).to eq(4)
-      expect(page.typeline).to eq("Creature — Spider")
-      expect(page.text).to eq("Reach (This creature can block creatures with flying.)")
-      expect(page.flavor_text).to eq(%Q[Watching the spider's web\n—Llanowar expression meaning\n"focusing on the wrong thing"])
-      expect(page.rarity).to eq("Common")
-      expect(page.power).to eq("2")
-      expect(page.toughness).to eq("4")
-      expect(page.artist).to eq("Randy Gallegos")
-      expect(page.number).to eq("255")
-      expect(page.rulings).to eq([
+      expect(card.name).to eq("Giant Spider")
+      expect(card.mana_cost).to eq("{3}{G}")
+      expect(card.converted_mana_cost).to eq(4)
+      expect(card.typeline).to eq("Creature — Spider")
+      expect(card.text).to eq("Reach (This creature can block creatures with flying.)")
+      expect(card.flavor_text).to eq(%Q[Watching the spider's web\n—Llanowar expression meaning\n"focusing on the wrong thing"])
+      expect(card.rarity).to eq("Common")
+      expect(card.power).to eq("2")
+      expect(card.toughness).to eq("4")
+      expect(card.artist).to eq("Randy Gallegos")
+      expect(card.number).to eq("255")
+      expect(card.rulings).to eq([
         ["4/1/2008", "This card now uses the Reach keyword ability to enable the blocking of flying creatures. This works because a creature with flying can only be blocked by creatures with flying or reach."]
       ])
-      expect(page.expansion).to eq("Eighth Edition (Common)")
-      expect(page.all_sets).to eq([
+      expect(card.expansion).to eq("Eighth Edition (Common)")
+      expect(card.all_sets).to eq([
         [154, "Limited Edition Alpha (Common)"],
         [449, "Limited Edition Beta (Common)"],
         [751, "Unlimited Edition (Common)"],
@@ -77,33 +80,33 @@ describe GathererDetailsPage do
         [370781, "Magic 2014 Core Set (Common)"],
         [426868, "Amonkhet (Common)"],
       ])
-      expect(page.supertypes).to eq([])
-      expect(page.types).to eq(["Creature"])
-      expect(page.subtypes).to eq(["Spider"])
+      expect(card.supertypes).to eq([])
+      expect(card.types).to eq(["Creature"])
+      expect(card.subtypes).to eq(["Spider"])
     end
   end
 
   describe "Unset - Little Girl" do
-    let(:page) { described_class.new(74257) }
+    let(:id) { 74257 }
     it do
-      expect(page.mana_cost).to eq("{hw}")
-      expect(page.converted_mana_cost).to eq(0.5)
-      expect(page.power).to eq(".5")
-      expect(page.toughness).to eq(".5")
+      expect(card.mana_cost).to eq("{hw}")
+      expect(card.converted_mana_cost).to eq(0.5)
+      expect(card.power).to eq(".5")
+      expect(card.toughness).to eq(".5")
     end
   end
 
   describe "Unset - Mons's Goblin Waiters" do
-    let(:page) { described_class.new(73957) }
+    let(:id) { 73957 }
     it do
-      expect(page.text).to eq("Sacrifice a creature or land: Add {hr} to your mana pool.")
+      expect(card.text).to eq("Sacrifice a creature or land: Add {hr} to your mana pool.")
     end
   end
 
   describe "Unsets - Mox Lotus" do
-    let(:page) { described_class.new(74323) }
+    let(:id) { 74323 }
     it do
-      expect(page.text).to eq(
+      expect(card.text).to eq(
         "{T}: Add {∞} to your mana pool.\n"+
         "{100}: Add one mana of any color to your mana pool.\n"+
         "You don't lose life due to mana burn."
@@ -112,10 +115,10 @@ describe GathererDetailsPage do
   end
 
   describe "Birthing Pod" do
-    let(:page) { described_class.new(218006) }
+    let(:id) { 218006 }
     it do
-      expect(page.mana_cost).to eq("{3}{G/P}")
-      expect(page.text).to eq(
+      expect(card.mana_cost).to eq("{3}{G/P}")
+      expect(card.text).to eq(
         "({G/P} can be paid with either {G} or 2 life.)\n"+
         "{1}{G/P}, {T}, Sacrifice a creature: Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery."
       )
@@ -123,31 +126,45 @@ describe GathererDetailsPage do
   end
 
   describe "Reaper King" do
-    let(:page) { described_class.new(159408) }
+    let(:id) { 159408 }
     it do
-      expect(page.mana_cost).to eq("{2/W}{2/U}{2/B}{2/R}{2/G}")
-      expect(page.text).to eq(
+      expect(card.mana_cost).to eq("{2/W}{2/U}{2/B}{2/R}{2/G}")
+      expect(card.text).to eq(
         "({2/W} can be paid with any two mana or with {W}. This card's converted mana cost is 10.)\n"+
         "Other Scarecrow creatures you control get +1/+1.\n"+
         "Whenever another Scarecrow enters the battlefield under your control, destroy target permanent.")
-      expect(page.variations).to eq(nil)
-      expect(page.current_variation).to eq(nil)
+      expect(card.variations).to eq(nil)
+      expect(card.current_variation).to eq(nil)
     end
   end
 
   describe "Wastes (variation 2 of 4)" do
-    let(:page) { described_class.new(407694) }
+    let(:id) { 407694 }
     it do
-      expect(page.variations).to eq([
+      expect(card.variations).to eq([
         407693,
         407694,
         407695,
         407696,
       ])
-      expect(page.current_variation).to eq(2)
-      expect(page.supertypes).to eq(["Basic"])
-      expect(page.types).to eq(["Land"])
-      expect(page.subtypes).to eq([])
+      expect(card.current_variation).to eq(2)
+      expect(card.supertypes).to eq(["Basic"])
+      expect(card.types).to eq(["Land"])
+      expect(card.subtypes).to eq([])
+    end
+  end
+
+  describe "Delver of Secrets" do
+    let(:id) { 226749 }
+    it do
+      expect(card.name).to eq("Delver of Secrets")
+    end
+  end
+
+  describe "Insectile Aberration" do
+    let(:id) { 226755 }
+    it do
+      expect(card.name).to eq("Insectile Aberration")
     end
   end
 end
