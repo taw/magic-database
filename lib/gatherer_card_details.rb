@@ -21,7 +21,10 @@ class GathererCardDetails
         case header
         when "All Sets"
           @card_info[:all_sets] = value.css("a").map{|a|
-            [a["href"][/multiverseid=\K\d+\z/].to_i, a.at("img")["title"]]
+            id = a["href"][/multiverseid=\K\d+\z/].to_i
+            expansion_name_and_rarity = a.at("img")["title"]
+            raise unless expansion_name_and_rarity =~ /\A(.*?) \((.*)\)\z/
+            [id, $1, $2]
           }
         when "Artist"
           @card_info[:artist] = value.text.strip

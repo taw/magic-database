@@ -10,6 +10,17 @@ class ExportSetLikeMtgjson
     @save_path = save_path
   end
 
+  def set_names_to_codes
+    unless @set_names_to_codes
+      @set_names_to_codes = {}
+      (Pathname(__dir__) + "../data/set_codes.txt").readlines.map(&:chomp).each do |line|
+        set_code, set_name = line.split("\t")
+        @set_names_to_codes[set_name] = set_code
+      end
+    end
+    @set_names_to_codes
+  end
+
   def guess_mtgjson_imagename(card)
     # Pertty much reverse engineering from a bunch of examples
     # Just for diffing
@@ -82,6 +93,7 @@ class ExportSetLikeMtgjson
       card["originalText"] = printed_card_page.text
       card["originalType"] = printed_card_page.typeline.tr("-", "—")
       card["power"] = card_page.power
+      card["printings"] = card_page.all_sets&.map{|row| set_names_to_codes[row[1]] }&.compact
       card["rarity"] = card_page.rarity
       card["rulings"] =  card_page.rulings.map{|date,text|
         {

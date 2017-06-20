@@ -22,15 +22,15 @@ describe GathererDetailsPage do
       ])
       expect(card.expansion).to eq("Limited Edition Alpha (Rare)")
       expect(card.all_sets).to eq([
-        [1, "Limited Edition Alpha (Rare)"],
-        [296, "Limited Edition Beta (Rare)"],
-        [598, "Unlimited Edition (Rare)"],
-        [1094, "Revised Edition (Rare)"],
-        [2017, "Fourth Edition (Rare)"],
-        [3760, "Fifth Edition (Rare)"],
-        [14771, "Classic Sixth Edition (Rare)"],
-        [159251, "Masters Edition (Rare)"],
-        [382844, "Vintage Masters (Rare)"],
+        [1, "Limited Edition Alpha", "Rare"],
+        [296, "Limited Edition Beta", "Rare"],
+        [598, "Unlimited Edition", "Rare"],
+        [1094, "Revised Edition", "Rare"],
+        [2017, "Fourth Edition", "Rare"],
+        [3760, "Fifth Edition", "Rare"],
+        [14771, "Classic Sixth Edition", "Rare"],
+        [159251, "Masters Edition", "Rare"],
+        [382844, "Vintage Masters", "Rare"],
       ])
       expect(card.power).to eq(nil)
       expect(card.toughness).to eq(nil)
@@ -62,23 +62,23 @@ describe GathererDetailsPage do
       ])
       expect(card.expansion).to eq("Eighth Edition (Common)")
       expect(card.all_sets).to eq([
-        [154, "Limited Edition Alpha (Common)"],
-        [449, "Limited Edition Beta (Common)"],
-        [751, "Unlimited Edition (Common)"],
-        [1249, "Revised Edition (Common)"],
-        [2216, "Fourth Edition (Common)"],
-        [3983, "Fifth Edition (Common)"],
-        [14676, "Classic Sixth Edition (Common)"],
-        [11302, "Seventh Edition (Common)"],
-        [45408, "Eighth Edition (Common)"],
-        [83105, "Ninth Edition (Common)"],
-        [129570, "Tenth Edition (Common)"],
-        [4298, "Portal (Common)"],
-        [189895, "Magic 2010 (Common)"],
-        [205225, "Magic 2011 (Common)"],
-        [233232, "Magic 2012 (Common)"],
-        [370781, "Magic 2014 Core Set (Common)"],
-        [426868, "Amonkhet (Common)"],
+        [154, "Limited Edition Alpha", "Common"],
+        [449, "Limited Edition Beta", "Common"],
+        [751, "Unlimited Edition", "Common"],
+        [1249, "Revised Edition", "Common"],
+        [2216, "Fourth Edition", "Common"],
+        [3983, "Fifth Edition", "Common"],
+        [14676, "Classic Sixth Edition", "Common"],
+        [11302, "Seventh Edition", "Common"],
+        [45408, "Eighth Edition", "Common"],
+        [83105, "Ninth Edition", "Common"],
+        [129570, "Tenth Edition", "Common"],
+        [4298, "Portal", "Common"],
+        [189895, "Magic 2010", "Common"],
+        [205225, "Magic 2011", "Common"],
+        [233232, "Magic 2012", "Common"],
+        [370781, "Magic 2014 Core Set", "Common"],
+        [426868, "Amonkhet", "Common"],
       ])
       expect(card.supertypes).to eq([])
       expect(card.types).to eq(["Creature"])
