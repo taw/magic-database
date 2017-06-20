@@ -54,6 +54,7 @@ class ExportSetLikeMtgjson
 
     card_ids.each do |id|
       card_page = GathererDetailsPage.new(id).primary_card_details_box
+      printed_card_page = GathererPrintedDetailsPage.new(id).primary_card_details_box
       languages = GathererLanguagesPage.new(id).languages
       legalities = GathererPrintingsPage.new(id).legalities
 
@@ -85,6 +86,8 @@ class ExportSetLikeMtgjson
       card["multiverseid"] = id
       card["name"] = card_page.name
       card["number"] = card_page.number
+      card["originalText"] = printed_card_page.text
+      card["originalType"] = printed_card_page.typeline.tr("-", "—")
       card["power"] = card_page.power
       card["rarity"] = card_page.rarity
       card["rulings"] =  card_page.rulings.map{|date,text|

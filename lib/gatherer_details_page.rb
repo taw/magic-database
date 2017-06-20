@@ -34,6 +34,9 @@ class GathererDetailsPage < CachedPage
           when "HalfR"
             # Unsets
             "{hr}"
+          when "HalfW"
+            # Unsets
+            "{hw}"
           when "Infinity"
             # Unsets
             "{∞}"

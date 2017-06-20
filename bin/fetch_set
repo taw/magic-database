@@ -5,6 +5,7 @@ require_relative "../lib/magic_database"
 ARGV.each do |set_name|
   Gatherer.card_ids_for_set(set_name).each do |card_name, id|
     GathererDetailsPage.new(id).doc
+    GathererPrintedDetailsPage.new(id).doc
     GathererLanguagesPage.new(id).doc
     GathererPrintingsPage.new(id).doc
   end
