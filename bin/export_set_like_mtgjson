@@ -116,7 +116,7 @@ class ExportSetLikeMtgjson
       card["rulings"] =  card_page.rulings.map{|date,text|
         {
           "date" => date,
-          "text" => text.tr(%Q[’“”], %Q['""])
+          "text" => text.tr(%Q[’“”], %Q['""]).gsub("—", "--")
         }
       }
       card["reserved"] = true if ReservedList.include?(card_page.name)

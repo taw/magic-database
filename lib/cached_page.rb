@@ -12,7 +12,7 @@ class CachedPage
       end
 
       data_compressed = cache_path.read
-      Nokogiri::HTML(Zlib::Inflate.inflate(data_compressed))
+      Nokogiri::HTML(Zlib::Inflate.inflate(data_compressed).tr("\r", ""))
     end
   end
 
