@@ -10,20 +10,6 @@ class ExportSetLikeMtgjson
     @save_path = save_path
   end
 
-  def card_color_identity(card)
-    result = []
-    cost = card.mana_cost
-    text = card.text
-    subtypes = card.subtypes
-    result << "W" if cost =~ /W/ or text =~ /\{W\}/ or subtypes.include?("Plains")
-    result << "U" if cost =~ /U/ or text =~ /\{U\}/ or subtypes.include?("Island")
-    result << "B" if cost =~ /B/ or text =~ /\{B\}/ or subtypes.include?("Swamp")
-    result << "R" if cost =~ /R/ or text =~ /\{R\}/ or subtypes.include?("Mountain")
-    result << "G" if cost =~ /G/ or text =~ /\{G\}/ or subtypes.include?("Forest")
-    return nil if result.empty?
-    result
-  end
-
   def guess_mtgjson_imagename(card)
     # Pertty much reverse engineering from a bunch of examples
     # Just for diffing
@@ -74,7 +60,7 @@ class ExportSetLikeMtgjson
       card = {}
       card["artist"] = card_page.artist
       card["cmc"] = card_page.converted_mana_cost
-      card["colorIdentity"] = card_color_identity(card_page)
+      card["colorIdentity"] = card_page.color_identity
       card["colors"] = card_page.colors
       card["flavor"] = card_page.flavor_text
       card["foreignNames"] = languages.map{|row|

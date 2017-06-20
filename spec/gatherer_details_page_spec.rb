@@ -84,6 +84,7 @@ describe GathererDetailsPage do
       expect(card.types).to eq(["Creature"])
       expect(card.subtypes).to eq(["Spider"])
       expect(card.colors).to eq(["Green"])
+      expect(card.color_identity).to eq(["G"])
     end
   end
 
@@ -95,6 +96,7 @@ describe GathererDetailsPage do
       expect(card.power).to eq(".5")
       expect(card.toughness).to eq(".5")
       expect(card.colors).to eq(["White"])
+      expect(card.color_identity).to eq(["W"])
     end
   end
 
@@ -125,6 +127,7 @@ describe GathererDetailsPage do
         "{1}{G/P}, {T}, Sacrifice a creature: Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery."
       )
       expect(card.colors).to eq(["Green"])
+      expect(card.color_identity).to eq(["G"])
     end
   end
 
@@ -139,6 +142,7 @@ describe GathererDetailsPage do
       expect(card.variations).to eq(nil)
       expect(card.current_variation).to eq(nil)
       expect(card.colors).to eq(["White", "Blue", "Black", "Red", "Green"])
+      expect(card.color_identity).to eq(["W", "U", "B", "R", "G"])
     end
   end
 
@@ -164,6 +168,7 @@ describe GathererDetailsPage do
     it do
       expect(card.name).to eq("Delver of Secrets")
       expect(card.colors).to eq(["Blue"])
+      expect(card.color_identity).to eq(["U"])
     end
   end
 
@@ -172,6 +177,7 @@ describe GathererDetailsPage do
     it do
       expect(card.name).to eq("Insectile Aberration")
       expect(card.colors).to eq(["Blue"])
+      expect(card.color_identity).to eq(["U"])
     end
   end
 end
