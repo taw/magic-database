@@ -101,6 +101,29 @@ class GathererCardDetails
     }
   end
 
+  def colors
+    unless @colors
+      if color_indicator
+        @colors = []
+        @colors << "White" if color_indicator =~ /\bWhite\b/
+        @colors << "Blue"  if color_indicator =~ /\bBlue\b/
+        @colors << "Black" if color_indicator =~ /\bBlack\b/
+        @colors << "Red"   if color_indicator =~ /\bRed\b/
+        @colors << "Green" if color_indicator =~ /\bGreen\b/
+      elsif text =~ /\bDevoid\b/
+        @colors = []
+      else
+        @colors = []
+        @colors << "White" if mana_cost =~ /W/i
+        @colors << "Blue"  if mana_cost =~ /U/i
+        @colors << "Black" if mana_cost =~ /B/i
+        @colors << "Red"   if mana_cost =~ /R/i
+        @colors << "Green" if mana_cost =~ /G/i
+      end
+    end
+    @colors
+  end
+
   private def parse_typeline(typeline)
     known_supertypes = ["Basic", "Legendary", "Ongoing", "Snow", "World"]
     supertypes, types, subtypes = [], [], []

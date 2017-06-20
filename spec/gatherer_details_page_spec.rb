@@ -83,6 +83,7 @@ describe GathererDetailsPage do
       expect(card.supertypes).to eq([])
       expect(card.types).to eq(["Creature"])
       expect(card.subtypes).to eq(["Spider"])
+      expect(card.colors).to eq(["Green"])
     end
   end
 
@@ -93,6 +94,7 @@ describe GathererDetailsPage do
       expect(card.converted_mana_cost).to eq(0.5)
       expect(card.power).to eq(".5")
       expect(card.toughness).to eq(".5")
+      expect(card.colors).to eq(["White"])
     end
   end
 
@@ -122,6 +124,7 @@ describe GathererDetailsPage do
         "({G/P} can be paid with either {G} or 2 life.)\n"+
         "{1}{G/P}, {T}, Sacrifice a creature: Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery."
       )
+      expect(card.colors).to eq(["Green"])
     end
   end
 
@@ -135,6 +138,7 @@ describe GathererDetailsPage do
         "Whenever another Scarecrow enters the battlefield under your control, destroy target permanent.")
       expect(card.variations).to eq(nil)
       expect(card.current_variation).to eq(nil)
+      expect(card.colors).to eq(["White", "Blue", "Black", "Red", "Green"])
     end
   end
 
@@ -151,6 +155,7 @@ describe GathererDetailsPage do
       expect(card.supertypes).to eq(["Basic"])
       expect(card.types).to eq(["Land"])
       expect(card.subtypes).to eq([])
+      expect(card.colors).to eq([])
     end
   end
 
@@ -158,6 +163,7 @@ describe GathererDetailsPage do
     let(:id) { 226749 }
     it do
       expect(card.name).to eq("Delver of Secrets")
+      expect(card.colors).to eq(["Blue"])
     end
   end
 
@@ -165,6 +171,7 @@ describe GathererDetailsPage do
     let(:id) { 226755 }
     it do
       expect(card.name).to eq("Insectile Aberration")
+      expect(card.colors).to eq(["Blue"])
     end
   end
 end

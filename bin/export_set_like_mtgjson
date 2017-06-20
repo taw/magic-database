@@ -10,18 +10,6 @@ class ExportSetLikeMtgjson
     @save_path = save_path
   end
 
-  def card_colors(card)
-    return nil if card.text =~ /\bDevoid\b/
-    result = []
-    result << "White" if card.mana_cost =~ /W/
-    result << "Blue" if card.mana_cost =~ /U/
-    result << "Black" if card.mana_cost =~ /B/
-    result << "Red" if card.mana_cost =~ /R/
-    result << "Green" if card.mana_cost =~ /G/
-    return nil if result.empty?
-    result
-  end
-
   def card_color_identity(card)
     result = []
     cost = card.mana_cost
@@ -87,7 +75,7 @@ class ExportSetLikeMtgjson
       card["artist"] = card_page.artist
       card["cmc"] = card_page.converted_mana_cost
       card["colorIdentity"] = card_color_identity(card_page)
-      card["colors"] = card_colors(card_page)
+      card["colors"] = card_page.colors
       card["flavor"] = card_page.flavor_text
       card["foreignNames"] = languages.map{|row|
         {
