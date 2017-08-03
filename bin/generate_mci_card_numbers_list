@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+
+require "json"
+
+unless ARGV.size == 1
+  STDER.puts "Usage: #{$0} AllSets-x.json"
+  exit 1
+end
+
+data = JSON.parse(open(ARGV[0]).read)
+
+results = []
+
+data.each do |set_code, set_data|
+  set_data["cards"].each do |card|
+    name = card["name"]
+    id = card["multiverseid"]
+    number = card["number"]
+    mci_number = card["mciNumber"]
+
+    next if number and number == mci_number
+    p [name, id, number, mci_number]
+  end
+end
