@@ -7,12 +7,12 @@ class CachedPage
       unless cache_path.exist?
         response = HTTParty.get(page_url)
         raise unless response.ok?
-        data_compressed = Zlib::Deflate.deflate(response.body)
-        cache_path.write(data_compressed)
+        Zlib::GzipWriter.open(cache_path) do |gz|
+          gz.write response.body
+        end
       end
-
-      data_compressed = cache_path.read
-      Nokogiri::HTML(Zlib::Inflate.inflate(data_compressed).tr("\r", ""))
+      data = Zlib::GzipReader.open(cache_path, &:read)
+      Nokogiri::HTML(data.tr("\r", ""))
     end
   end
 
