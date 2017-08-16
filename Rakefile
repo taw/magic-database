@@ -8,6 +8,7 @@ SETS_TO_TEST = [
 
 desc "Get sample of mtgjson data"
 task "mtgjson" do
+  Pathname("output").mkpath
   SETS_TO_TEST.each do |set_code, set_name|
     sh "./bin/normalize_mtgjson  <~/d/mtgjson.com/json/#{set_code}-x.json >output/#{set_code}-mtgjson.json"
   end
@@ -15,6 +16,7 @@ end
 
 desc "Run export script"
 task "export:all" do
+  Pathname("output").mkpath
   SETS_TO_TEST.each do |set_code, set_name|
     sh %Q[./bin/export_set_like_mtgjson "#{set_name}" output/#{set_code}-out.json]
   end
@@ -25,6 +27,7 @@ task "export", :set_code do |t, args|
   set_code = args.set_code
   raise unless set_code
   set_name = SETS_TO_TEST.to_h[set_code]
+  Pathname("output").mkpath
   sh %Q[./bin/export_set_like_mtgjson "#{set_name}" output/#{set_code}-out.json]
 end
 
