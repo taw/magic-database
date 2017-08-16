@@ -1,0 +1,11 @@
+{
+  "name": "Wizards Play Network",
+  "code": "pWPN",
+  "magicCardsInfoCode": "grc",
+  "magicRaritiesCodes": [
+    "255-rarities-wpn-promos"
+  ],
+  "releaseDate": "2008-10-01",
+  "border": "black",
+  "type": "promo"
+}

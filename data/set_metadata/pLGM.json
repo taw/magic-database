@@ -1,0 +1,11 @@
+{
+  "name": "Legend Membership",
+  "code": "pLGM",
+  "magicCardsInfoCode": "dcilm",
+  "magicRaritiesCodes": [
+    "23-rarities-dci-legend-membership-promos"
+  ],
+  "releaseDate": "1995-01-01",
+  "border": "black",
+  "type": "promo"
+}

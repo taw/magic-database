@@ -1,0 +1,11 @@
+{
+  "name": "Arena League",
+  "code": "pARL",
+  "magicCardsInfoCode": "arena",
+  "magicRaritiesCodes": [
+    "7-rarities-arena-league-promos"
+  ],
+  "releaseDate": "1996-08-02",
+  "border": "black",
+  "type": "promo"
+}

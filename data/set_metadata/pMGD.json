@@ -1,0 +1,11 @@
+{
+  "name": "Magic Game Day",
+  "code": "pMGD",
+  "magicCardsInfoCode": "mgdc",
+  "magicRaritiesCodes": [
+    "119-rarities-magic-game-day-cards"
+  ],
+  "releaseDate": "2007-07-14",
+  "border": "black",
+  "type": "promo"
+}

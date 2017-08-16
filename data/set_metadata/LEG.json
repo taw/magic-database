@@ -1,0 +1,31 @@
+{
+  "name": "Legends",
+  "code": "LEG",
+  "gathererCode": "LE",
+  "magicCardsInfoCode": "lg",
+  "releaseDate": "1994-06-10",
+  "border": "black",
+  "type": "expansion",
+  "booster": [
+    "rare",
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common"
+  ],
+  "translations": {
+    "it": "Leggende"
+  },
+  "mkm_name": "Legends",
+  "mkm_id": 7
+}

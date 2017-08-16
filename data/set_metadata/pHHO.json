@@ -1,0 +1,14 @@
+{
+  "name": "Happy Holidays",
+  "code": "pHHO",
+  "oldCode": "HHO",
+  "magicCardsInfoCode": "hho",
+  "magicRaritiesCodes": [
+    "19-rarities-happy-holidays-gift-card"
+  ],
+  "releaseDate": "2006-12-31",
+  "border": "silver",
+  "type": "promo",
+  "mkm_name": "Happy Holidays Promos",
+  "mkm_id": 1247
+}

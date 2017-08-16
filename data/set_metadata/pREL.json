@@ -1,0 +1,11 @@
+{
+  "name": "Release Events",
+  "code": "pREL",
+  "magicCardsInfoCode": "rep",
+  "magicRaritiesCodes": [
+    "94-rarities-release-events-promos"
+  ],
+  "releaseDate": "2003-07-26",
+  "border": "black",
+  "type": "promo"
+}

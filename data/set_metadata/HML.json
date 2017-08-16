@@ -1,0 +1,34 @@
+{
+  "name": "Homelands",
+  "code": "HML",
+  "gathererCode": "HM",
+  "magicCardsInfoCode": "hl",
+  "releaseDate": "1995-10-14",
+  "border": "black",
+  "type": "expansion",
+  "booster": [
+    [
+      "rare",
+      "uncommon"
+    ],
+    [
+      "rare",
+      "uncommon"
+    ],
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common"
+  ],
+  "translations": {
+    "de": "Heimatländer",
+    "fr": "Terres Natales",
+    "it": "Origini",
+    "es": "Tierras Natales",
+    "pt": "Terras Natais"
+  },
+  "mkm_name": "Homelands",
+  "mkm_id": 14
+}

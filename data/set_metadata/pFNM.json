@@ -1,0 +1,13 @@
+{
+  "name": "Friday Night Magic",
+  "code": "pFNM",
+  "magicCardsInfoCode": "fnmp",
+  "magicRaritiesCodes": [
+    "72-rarities-friday-night-magic"
+  ],
+  "releaseDate": "2000-02-01",
+  "border": "black",
+  "type": "promo",
+  "mkm_name": "Friday Night Magic Promos",
+  "mkm_id": 72
+}

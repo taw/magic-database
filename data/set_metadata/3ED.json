@@ -1,0 +1,33 @@
+{
+  "name": "Revised Edition",
+  "code": "3ED",
+  "gathererCode": "3E",
+  "magicCardsInfoCode": "rv",
+  "releaseDate": "1994-04-01",
+  "border": "white",
+  "type": "core",
+  "booster": [
+    "rare",
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common"
+  ],
+  "translations": {
+    "de": "Unlimitierte Auflage",
+    "fr": "Tirage Non Limité",
+    "it": "Seconda Edizione"
+  },
+  "mkm_name": "Revised",
+  "mkm_id": 6
+}

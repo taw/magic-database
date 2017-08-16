@@ -1,0 +1,11 @@
+{
+  "name": "Super Series",
+  "code": "pSUS",
+  "magicCardsInfoCode": "sus",
+  "magicRaritiesCodes": [
+    "36-rarities-junior-super-series"
+  ],
+  "releaseDate": "1999-12-01",
+  "border": "black",
+  "type": "promo"
+}

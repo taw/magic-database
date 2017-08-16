@@ -1,0 +1,11 @@
+{
+  "name": "15th Anniversary",
+  "code": "p15A",
+  "magicCardsInfoCode": "15ann",
+  "magicRaritiesCodes": [
+    "178-rarities-mtg-15th-anniversary"
+  ],
+  "releaseDate": "2008-04-01",
+  "border": "black",
+  "type": "promo"
+}

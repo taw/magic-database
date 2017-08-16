@@ -1,0 +1,11 @@
+{
+  "name": "Champs and States",
+  "code": "pCMP",
+  "magicCardsInfoCode": "cp",
+  "magicRaritiesCodes": [
+    "54-rarities-champs-cards"
+  ],
+  "releaseDate": "2006-03-18",
+  "border": "black",
+  "type": "promo"
+}

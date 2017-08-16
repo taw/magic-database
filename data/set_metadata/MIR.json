@@ -1,0 +1,36 @@
+{
+  "name": "Mirage",
+  "code": "MIR",
+  "gathererCode": "MI",
+  "magicCardsInfoCode": "mr",
+  "releaseDate": "1996-10-08",
+  "border": "black",
+  "type": "expansion",
+  "block": "Mirage",
+  "booster": [
+    "rare",
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common"
+  ],
+  "translations": {
+    "de": "Trugbilder",
+    "fr": "Mirage",
+    "it": "Mirage",
+    "es": "Espejismo",
+    "pt": "Miragem"
+  },
+  "mkm_name": "Mirage",
+  "mkm_id": 16
+}

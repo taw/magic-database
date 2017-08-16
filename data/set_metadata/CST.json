@@ -1,0 +1,17 @@
+{
+  "name": "Coldsnap Theme Decks",
+  "code": "CST",
+  "magicCardsInfoCode": "cstd",
+  "magicRaritiesCodes": [
+    "230-rarities-coldsnap-preconstructed-reprint-cards"
+  ],
+  "releaseDate": "2006-07-21",
+  "border": "black",
+  "type": "box",
+  "translations": {
+    "de": "Kälteeinbruch-Themendecks",
+    "it": "Coldsnap Theme Decks"
+  },
+  "mkm_name": "Coldsnap Theme Decks",
+  "mkm_id": 82
+}

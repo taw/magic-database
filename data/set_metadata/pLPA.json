@@ -1,0 +1,11 @@
+{
+  "name": "Launch Parties",
+  "code": "pLPA",
+  "magicCardsInfoCode": "mlp",
+  "magicRaritiesCodes": [
+    "226-rarities-pre-launch-party-cards"
+  ],
+  "releaseDate": "2008-02-01",
+  "border": "black",
+  "type": "promo"
+}

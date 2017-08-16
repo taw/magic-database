@@ -1,0 +1,11 @@
+{
+  "name": "Gateway",
+  "code": "pGTW",
+  "magicCardsInfoCode": "grc",
+  "magicRaritiesCodes": [
+    "76-rarities-gateway-promos"
+  ],
+  "releaseDate": "2006-01-01",
+  "border": "black",
+  "type": "promo"
+}

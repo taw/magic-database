@@ -1,0 +1,11 @@
+{
+  "name": "Magic Player Rewards",
+  "code": "pMPR",
+  "magicCardsInfoCode": "mprp",
+  "magicRaritiesCodes": [
+    "29-rarities-magic-player-rewards"
+  ],
+  "releaseDate": "2001-05-01",
+  "border": "black",
+  "type": "promo"
+}

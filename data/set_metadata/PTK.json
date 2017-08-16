@@ -1,0 +1,27 @@
+{
+  "name": "Portal Three Kingdoms",
+  "code": "PTK",
+  "gathererCode": "PK",
+  "magicCardsInfoCode": "p3k",
+  "releaseDate": "1999-05-01",
+  "border": "white",
+  "type": "starter",
+  "booster": [
+    "rare",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "land",
+    "land"
+  ],
+  "translations": {
+    "jp": "Portal Three Kingdoms",
+    "cn": "Portal Three Kingdoms"
+  },
+  "mkm_name": "Portal Three Kingdoms",
+  "mkm_id": 30
+}
