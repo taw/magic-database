@@ -10,6 +10,10 @@ class ExportSetLikeMtgjson
     @save_path = save_path
   end
 
+  def set_code
+    @set_code ||= (set_names_to_codes[@set_name] or raise "No code for #{@set_name}")
+  end
+
   def set_names_to_codes
     unless @set_names_to_codes
       @set_names_to_codes = {}
@@ -40,19 +44,18 @@ class ExportSetLikeMtgjson
     @card_ids ||= Gatherer.card_ids_for_set(@set_name).map{|x| x[1]}.sort
   end
 
+  def metadata_path
+    Pathname("#{__dir__}/../data/set_metadata/#{set_code}.json")
+  end
+
   def export
-    json = {}
+    if metadata_path.exist?
+      json = JSON.parse(metadata_path.read)
+    else
+      json = {}
+    end
 
     json["name"] = @set_name
-    # json["code"] = "?"
-    # json["gathererCode"] = "?"
-    # json["magicCardsInfoCode"] = "?"
-    # json["releaseDate"] = "?"
-    # json["border"] = "?"
-    # json["type"] = "?"
-    # json["booster"] = "?"
-    # json["mkm_name"] = "?"
-    # json["mkm_id"] = "?"
     json["cards"] = []
 
     card_ids.each do |id|
@@ -116,6 +119,7 @@ class ExportSetLikeMtgjson
       json["cards"] << card
     end
 
+    Pathname(@save_path).parent.mkpath
     Pathname(@save_path).write(JSON.pretty_generate(json)+"\n")
   end
 end

@@ -10,10 +10,10 @@ end
 
 data = JSON.parse(open(ARGV[0]).read)
 
-metadata_save_path = Pathname("#{__dir__}/../data/set_metadata")
-metadata_save_path.mkpath
+metadata_path = Pathname("#{__dir__}/../data/set_metadata")
+metadata_path.mkpath
 
 data.each do |set_code, set_data|
   set_data.delete("cards")
-  (metadata_save_path + "#{set_code}.json").write(JSON.pretty_generate(set_data))
+  (metadata_path + "#{set_code}.json").write(JSON.pretty_generate(set_data))
 end
