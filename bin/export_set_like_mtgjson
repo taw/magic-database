@@ -107,7 +107,18 @@ class ExportSetLikeMtgjson
       card["reserved"] = true if ReservedList.include?(card_page.name)
       card["subtypes"] = card_page.subtypes
       card["supertypes"] = card_page.supertypes
-      card["text"] = card_page.text
+
+      # That's just really weird encoding of those giant basic land symbols
+      text = card_page.text
+      if text =~ /\A[WUBRG]\z/
+        if ["Plains", "Island", "Swamp", "Mountain", "Forest"].include?(card["name"])
+          text = nil
+        else
+          raise "Unknown card with giant basic land symbol: #{card["name"]}"
+        end
+      end
+
+      card["text"] = text
       card["toughness"] = card_page.toughness
       card["type"] = card_page.typeline
       card["types"] = card_page.types
