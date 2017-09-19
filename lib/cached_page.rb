@@ -6,6 +6,8 @@ class CachedPage
 
       unless cache_path.exist?
         response = HTTParty.get(page_url)
+        # FFS, 200 code but Server Error
+        raise if response.body.include?("Server Error - Gatherer")
         raise unless response.ok?
         Zlib::GzipWriter.open(cache_path) do |gz|
           gz.write response.body

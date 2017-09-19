@@ -211,3 +211,4 @@ pWCQ	World Magic Cup Qualifiers
 pWOR	Worlds
 pWOS	Wizards of the Coast Online Store
 pWPN	Wizards Play Network
+XLN	Ixalan
