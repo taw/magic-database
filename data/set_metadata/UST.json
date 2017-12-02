@@ -1,0 +1,25 @@
+{
+  "name": "Unstable",
+  "code": "UST",
+  "magicCardsInfoCode": "ust",
+  "releaseDate": "2017-12-08",
+  "border": "silver",
+  "type": "un",
+  "booster": [
+    "rare",
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "land"
+  ]
+}
