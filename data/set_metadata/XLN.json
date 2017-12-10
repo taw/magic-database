@@ -4,8 +4,8 @@
   "magicCardsInfoCode": "xln",
   "releaseDate": "2017-09-29",
   "border": "black",
-  "block": "Ixalan",
   "type": "expansion",
+  "block": "Ixalan",
   "booster": [
     [
       "rare",
@@ -26,5 +26,15 @@
     "common",
     "land",
     "marketing"
-  ]
+  ],
+  "translations": {
+    "de": "Ixalan",
+    "fr": "Ixalan",
+    "it": "Ixalan",
+    "es": "Ixalan",
+    "pt": "Ixalan",
+    "ru": "Ixalan"
+  },
+  "mkm_name": "Ixalan",
+  "mkm_id": 114
 }

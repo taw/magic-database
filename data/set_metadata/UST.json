@@ -1,7 +1,6 @@
 {
   "name": "Unstable",
   "code": "UST",
-  "magicCardsInfoCode": "ust",
   "releaseDate": "2017-12-08",
   "border": "silver",
   "type": "un",
@@ -20,6 +19,12 @@
     "common",
     "common",
     "common",
-    "land"
-  ]
+    [
+      "land",
+      "Steamflogger Boss"
+    ],
+    "token"
+  ],
+  "mkm_name": "Unstable",
+  "mkm_id": 1821
 }

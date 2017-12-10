@@ -4,5 +4,7 @@
   "magicCardsInfoCode": "dpa",
   "releaseDate": "2010-06-04",
   "border": "black",
-  "type": "box"
+  "type": "box",
+  "mkm_name": "Duels of the Planeswalkers Decks",
+  "mkm_id": 1193
 }

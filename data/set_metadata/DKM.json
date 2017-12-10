@@ -4,5 +4,7 @@
   "magicCardsInfoCode": "dm",
   "releaseDate": "2001-12-01",
   "border": "white",
-  "type": "box"
+  "type": "box",
+  "mkm_name": "Deckmasters",
+  "mkm_id": 67
 }

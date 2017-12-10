@@ -51,3 +51,8 @@ task "diff:all" do
     system "diff -u output/#{set_code}-out.json output/#{set_code}-mtgjson.json"
   end
 end
+
+desc "Fetch set metadata from mtgjson"
+task "metadata:fetch" do
+  sh "./bin/generate_set_metadata http://mtgjson.com/json/AllSets.json"
+end
