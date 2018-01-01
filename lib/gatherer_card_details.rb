@@ -62,7 +62,7 @@ class GathererCardDetails
         when "Rarity"
           @card_info[:rarity] = value.at("span").text
         when "Types"
-          @card_info[:typeline] = value.text.strip.gsub(/\s+/, " ")
+          @card_info[:typeline] = value.text.strip.gsub(/\s+/, " ").sub("(none)", "")
           @card_info[:supertypes], @card_info[:types], @card_info[:subtypes] = parse_typeline(@card_info[:typeline])
         when "Watermark"
           @card_info[:watermark] = value.text.strip
@@ -159,6 +159,8 @@ class GathererCardDetails
         "double-faced"
       elsif text =~ /\ALevel up/
         "leveler"
+      elsif name =~ / token card\z/
+        "token"
       else
         "normal"
       end
