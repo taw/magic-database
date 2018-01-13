@@ -1,0 +1,40 @@
+{
+  "name": "Rivals of Ixalan",
+  "code": "RIX",
+  "magicCardsInfoCode": "rix",
+  "releaseDate": "2018-01-19",
+  "border": "black",
+  "type": "expansion",
+  "block": "Ixalan",
+  "booster": [
+    [
+      "rare",
+      "mythic rare"
+    ],
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "land",
+    "marketing"
+  ],
+  "translations": {
+    "de": "Ixalan",
+    "fr": "Ixalan",
+    "it": "Ixalan",
+    "es": "Ixalan",
+    "pt": "Ixalan",
+    "ru": "Ixalan"
+  },
+  "mkm_name": "Rivals of Ixalan",
+  "mkm_id": 1829
+}

@@ -1,3 +1,4 @@
+RIX	Rivals of Ixalan
 UST	Unstable
 10E	Tenth Edition
 2ED	Unlimited Edition
