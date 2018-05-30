@@ -12,6 +12,10 @@ class GathererPrintingsPage < CachedPage
   end
 
   def legalities
-    doc.css(".cardList")[1].css(".cardItem").map{|row| row.css("td")[0,2].map{|e| e.text.strip}}
+    doc
+      .css(".cardList")[1]
+      .css(".cardItem")
+      .map{|row| row.css("td")[0,2].map{|e| e.text.strip}}
+      .select{|f,l| f != "This card is not playable in any formats."}
   end
 end

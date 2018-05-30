@@ -67,7 +67,7 @@ class GathererCardDetails
         when "Watermark"
           @card_info[:watermark] = value.text.strip
         else
-          warn "Unknown header #{header}"
+          warn "Unknown header #{header.inspect}"
         end
       end
     end

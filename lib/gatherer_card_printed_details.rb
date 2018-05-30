@@ -38,7 +38,7 @@ class GathererCardPrintedDetails
           @card_info[:typeline] = value.text.strip.gsub(/\s+/, " ")
         when "Watermark"
         else
-          warn "Unknown header #{header}"
+          warn "Unknown header #{header.inspect}"
         end
       end
     end
