@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/magic_database"
+require "json"
+
+unless ARGV.size == 1
+  STDERR.puts "Usage: #{$0} /path/to/index.json"
+  exit 1
+end
+
+index = JSON.parse(open(ARGV[0]).read)
+
+index_names = index["sets"].values.map{|s| s["name"] }
+gatherer_names = Gatherer.set_names
+
+puts (gatherer_names - index_names)
