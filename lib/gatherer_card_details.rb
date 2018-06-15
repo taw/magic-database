@@ -26,6 +26,13 @@ class GathererCardDetails
             raise unless expansion_name_and_rarity =~ /\A(.*?) \((.*)\)\z/
             [id, $1, $2]
           }
+        when "Other Sets"
+          @card_info[:other_sets] = value.css("a").map{|a|
+            id = a["href"][/multiverseid=\K\d+\z/].to_i
+            expansion_name_and_rarity = a.at("img")["title"]
+            raise unless expansion_name_and_rarity =~ /\A(.*?) \((.*)\)\z/
+            [id, $1, $2]
+          }
         when "Artist"
           @card_info[:artist] = value.text.strip
         when "Card Name"
@@ -66,6 +73,9 @@ class GathererCardDetails
           @card_info[:supertypes], @card_info[:types], @card_info[:subtypes] = parse_typeline(@card_info[:typeline])
         when "Watermark"
           @card_info[:watermark] = value.text.strip
+        when ""
+          next if value.text.strip == ""
+          warn "Empty header"
         else
           warn "Unknown header #{header.inspect}"
         end

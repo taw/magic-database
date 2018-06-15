@@ -32,11 +32,15 @@ class GathererCardPrintedDetails
         when "Flavor Text"
         when "Loyalty"
         when "Mana Cost"
+        when "Other Sets"
         when "P/T"
         when "Rarity"
         when "Types"
           @card_info[:typeline] = value.text.strip.gsub(/\s+/, " ")
         when "Watermark"
+        when ""
+          next if value.text.strip == ""
+          warn "Empty header"
         else
           warn "Unknown header #{header.inspect}"
         end
