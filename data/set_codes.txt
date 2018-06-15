@@ -215,3 +215,6 @@ pWOS	Wizards of the Coast Online Store
 pWPN	Wizards Play Network
 XLN	Ixalan
 BBD	Battlebond
+CM2 Commander Anthology 2018
+GS1 Global Series: Jiang Yanggu and Mu Yanling
+SS1 Signature Spellbook: Jace

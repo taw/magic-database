@@ -5,24 +5,34 @@ require "json"
 require "digest/sha1"
 
 class ExportSetLikeMtgjson
-  def initialize(set_name, save_path)
-    @set_name = set_name
-    @save_path = save_path
-  end
+  attr_reader :set_name, :set_code
 
-  def set_code
-    @set_code ||= (set_names_to_codes[@set_name] or raise "No code for #{@set_name}")
+  def initialize(set_name_or_code, save_path)
+    if set_names_to_codes[set_name_or_code]
+      @set_name = set_name_or_code
+      @set_code = set_names_to_codes[set_name_or_code]
+    elsif set_codes_to_names[set_name_or_code]
+      @set_code = set_name_or_code
+      @set_name = set_codes_to_names[set_name_or_code]
+    else
+      raise "#{set_name_or_code} is neither known set name or known set code"
+    end
+    @save_path = save_path
   end
 
   def set_names_to_codes
     unless @set_names_to_codes
       @set_names_to_codes = {}
       (Pathname(__dir__) + "../data/set_codes.txt").readlines.map(&:chomp).each do |line|
-        set_code, set_name = line.split("\t")
+        set_code, set_name = line.split(/\s+/, 2)
         @set_names_to_codes[set_name] = set_code
       end
     end
     @set_names_to_codes
+  end
+
+  def set_codes_to_names
+    @set_codes_to_names ||= set_names_to_codes.invert
   end
 
   def guess_mtgjson_imagename(card)
@@ -137,6 +147,7 @@ end
 
 unless ARGV.size == 2
   STDERR.puts "Usage: #{$0} \"set name\" save_file_path.json"
+  STDERR.puts "   or: #{$0} \"set code\" save_file_path.json"
   exit 1
 end
 
