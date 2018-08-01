@@ -31,6 +31,7 @@ C14	Commander 2014
 C15	Commander 2015
 C16	Commander 2016
 C17	Commander 2017
+C18	Commander 2018
 CED	Collector's Edition
 CEI	International Collector's Edition
 CHK	Champions of Kamigawa
