@@ -121,7 +121,18 @@ class ExportSetLikeMtgjson
       # That's just really weird encoding of those giant basic land symbols
       text = card_page.text
       if text =~ /\A[WUBRG]\z/
-        if ["Plains", "Island", "Swamp", "Mountain", "Forest"].include?(card["name"])
+        if [
+          "Forest",
+          "Island",
+          "Mountain",
+          "Plains",
+          "Snow-Covered Forest",
+          "Snow-Covered Island",
+          "Snow-Covered Mountain",
+          "Snow-Covered Plains",
+          "Snow-Covered Swamp",
+          "Swamp",
+        ].include?(card["name"])
           text = nil
         else
           raise "Unknown card with giant basic land symbol: #{card["name"]}"
