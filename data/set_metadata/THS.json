@@ -1,12 +1,7 @@
 {
-  "name": "Theros",
-  "code": "THS",
-  "magicCardsInfoCode": "ths",
-  "releaseDate": "2013-09-27",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 249,
   "block": "Theros",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,18 +22,296 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Theros",
-    "fr": "Theros",
-    "it": "Theros",
-    "es": "Theros",
-    "pt": "Theros",
-    "jp": "テーロス",
-    "cn": "Theros",
-    "ru": "Theros",
-    "tw": "Theros",
-    "ko": "Theros"
+  "code": "THS",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "THS",
+  "mcmId": 1457,
+  "mcmName": "Theros",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Theros",
-  "mkm_id": 1457
+  "mtgoCode": "THS",
+  "name": "Theros",
+  "releaseDate": "2013-09-27",
+  "tcgplayerGroupId": 1144,
+  "tokens": [
+    {
+      "artist": "Peter Mohrbacher",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "4",
+      "power": "2",
+      "reverseRelated": [
+        "Swan Song"
+      ],
+      "scryfallId": "ca72703f-d45b-4c80-98a8-55fad1fcf431",
+      "scryfallIllustrationId": "2001d017-8d78-45ed-be23-9454789b57b1",
+      "scryfallOracleId": "ee6f463c-5dd3-4a1d-8543-7f7cf7f27f48",
+      "text": "Flying",
+      "toughness": "2",
+      "type": "Token Creature — Bird",
+      "uuid": "31729ee0-9d03-5ab3-b1a8-3f1f6781c7c7"
+    },
+    {
+      "artist": "James Ryman",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Boar",
+      "number": "8",
+      "power": "2",
+      "reverseRelated": [
+        "Curse of the Swine"
+      ],
+      "scryfallId": "2f40613b-1bde-4939-86ad-6bd40f9db0d6",
+      "scryfallIllustrationId": "fe6f45d8-7afc-41e8-9f4a-b076cb952372",
+      "scryfallOracleId": "11734409-b03b-4905-af83-261f29a96bc2",
+      "toughness": "2",
+      "type": "Token Creature — Boar",
+      "uuid": "a0d3beca-0743-5f10-aca7-e5c07d0297b6"
+    },
+    {
+      "artist": "Johann Bodin",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Cleric",
+      "number": "1",
+      "power": "2",
+      "reverseRelated": [
+        "Heliod, God of the Sun"
+      ],
+      "scryfallId": "7e4c9173-e530-4237-a03b-9aeca60ab0e4",
+      "scryfallIllustrationId": "b03d00be-5ef2-45e2-9fe4-723fc37f177b",
+      "scryfallOracleId": "196f9444-65ac-4072-8b9e-233e8df98d08",
+      "toughness": "1",
+      "type": "Token Enchantment Creature — Cleric",
+      "uuid": "030f322f-2fa0-579b-8177-a513225474dc"
+    },
+    {
+      "artist": "Karl Kopinski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Master of Waves"
+      ],
+      "scryfallId": "f0e68ed9-d863-4822-b281-e184f3d62faa",
+      "scryfallIllustrationId": "e55c8da3-317d-4530-9a6c-1a6fedac7902",
+      "scryfallOracleId": "cb78f496-a5db-4d23-b63d-04584e8f3bb1",
+      "toughness": "0",
+      "type": "Token Creature — Elemental",
+      "uuid": "8e6a91a1-7948-544c-806e-09f96009723d"
+    },
+    {
+      "artist": "Eric Deschamps",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Elspeth, Sun's Champion Emblem",
+      "number": "11",
+      "reverseRelated": [
+        "Elspeth, Sun's Champion"
+      ],
+      "scryfallId": "177c37bd-c53d-43b2-88c4-0b80d17a5744",
+      "scryfallIllustrationId": "7b805026-79fb-416a-a223-2a7a48143a6a",
+      "scryfallOracleId": "2f12324a-e14e-4776-bc51-9fd42aaf3222",
+      "text": "Creatures you control get +2/+2 and have flying.",
+      "type": "Emblem — Elspeth",
+      "uuid": "79615f7c-efb2-58cf-8b91-62e7a3f09b3c"
+    },
+    {
+      "artist": "Yeong-Hao Han",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Golem",
+      "number": "10",
+      "power": "3",
+      "reverseRelated": [
+        "Hammer of Purphoros"
+      ],
+      "scryfallId": "dcee70ef-6285-4f09-8a71-8b7960e8fa99",
+      "scryfallIllustrationId": "781d88f8-9f95-40ea-8930-9dc8e83233a1",
+      "scryfallOracleId": "d1683ad9-cad0-4e22-8313-701276e7dbaf",
+      "toughness": "3",
+      "type": "Token Enchantment Artifact Creature — Golem",
+      "uuid": "ce5c3be5-0beb-5323-806b-178a974b1b17"
+    },
+    {
+      "artist": "Nils Hamm",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Harpy",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Abhorrent Overlord"
+      ],
+      "scryfallId": "26b24bbe-f5bc-44d3-b716-6612d39b07bc",
+      "scryfallIllustrationId": "af4703b9-acb6-4d34-95d7-c9d3029626fa",
+      "scryfallOracleId": "0c34db9e-bdd4-4d58-ad86-57b1132940bd",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Harpy",
+      "uuid": "fc1fa414-5e4c-5fe4-a499-445aef512af3"
+    },
+    {
+      "artist": "Johann Bodin",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "colors": [
+        "G",
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Satyr",
+      "number": "9",
+      "power": "2",
+      "reverseRelated": [
+        "Revel of the Fallen God",
+        "Xenagos, the Reveler"
+      ],
+      "scryfallId": "baa93038-2849-4c26-ab4f-1d50d276659f",
+      "scryfallIllustrationId": "620486fc-ec47-4c5b-92a5-750936549c5c",
+      "scryfallOracleId": "a78fd535-59ce-4980-82f1-76f1b6bb2e35",
+      "toughness": "2",
+      "type": "Token Creature — Satyr",
+      "uuid": "e9e2dd15-65f9-5867-9314-2a2b244c3188"
+    },
+    {
+      "artist": "Seb McKinnon",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Elspeth, Sun's Champion",
+        "Evangel of Heliod",
+        "Akroan Horse"
+      ],
+      "scryfallId": "31f320f4-baae-46cb-840e-421f010a0a20",
+      "scryfallIllustrationId": "01787c0d-1856-4969-b75c-a0130a483d19",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "d8e17fe0-260b-5214-bf09-880658c3a35b"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Elspeth, Sun's Champion",
+        "Evangel of Heliod",
+        "Akroan Horse"
+      ],
+      "scryfallId": "688c8e63-1462-4ad6-8872-216384160b58",
+      "scryfallIllustrationId": "1ba12de0-a18b-4b57-9c7b-73ae5ee5a8bd",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "30847827-b6a8-582a-8ea9-40e79c231d89"
+    },
+    {
+      "artist": "Johann Bodin",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+        "Akroan Crusader"
+      ],
+      "scryfallId": "509e44d4-72c1-4d68-b942-c3e8de6ed7a8",
+      "scryfallIllustrationId": "41f7acbd-032e-4d09-8b72-f9f48d8d4f2c",
+      "scryfallOracleId": "971191ac-dedb-4cba-842e-65339a25ce44",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "5c29f6dd-70da-5703-b02d-f49338851258"
+    }
+  ],
+  "totalSetSize": 249,
+  "translations": {
+    "Chinese Simplified": "塞洛斯",
+    "Chinese Traditional": "塞洛斯",
+    "French": "Theros",
+    "German": "Theros",
+    "Italian": "Theros",
+    "Japanese": "『テーロス』",
+    "Korean": "테로스",
+    "Portuguese (Brazil)": "Theros",
+    "Russian": "Терос",
+    "Spanish": "Theros"
+  },
+  "type": "expansion"
 }

@@ -1,12 +1,7 @@
 {
-  "name": "Eldritch Moon",
-  "code": "EMN",
-  "magicCardsInfoCode": "emn",
-  "releaseDate": "2016-07-22",
-  "border": "black",
-  "type": "expansion",
-  "block": "Shadows over Innistrad",
-  "booster": [
+  "baseSetSize": 205,
+  "block": "Shadows Over Innistrad",
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -36,5 +31,329 @@
       "checklist"
     ],
     "marketing"
-  ]
+  ],
+  "code": "EMN",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "EMN",
+  "mcmId": 1695,
+  "mcmName": "Eldritch Moon",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "EMN",
+  "name": "Eldritch Moon",
+  "releaseDate": "2016-07-22",
+  "tcgplayerGroupId": 1790,
+  "tokens": [
+    {
+      "artist": "Jason Felix",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Horror",
+      "number": "1",
+      "power": "3",
+      "reverseRelated": [
+        "Desperate Sentry",
+        "Extricator of Sin // Extricator of Flesh",
+        "Enlightened Maniac",
+        "Wharf Infiltrator",
+        "Hanweir, the Writhing Township",
+        "Otherworldly Outburst",
+        "Emrakul's Evangel",
+        "Foul Emissary",
+        "Shrill Howler // Howling Chorus"
+      ],
+      "scryfallId": "11d25bde-a303-4b06-a3e1-4ad642deae58",
+      "scryfallIllustrationId": "eaa7210f-76ec-4459-8265-1558ee7f70d6",
+      "scryfallOracleId": "294116b1-58c6-40bb-8997-0deda327c522",
+      "toughness": "2",
+      "type": "Token Creature — Eldrazi Horror",
+      "uuid": "964be968-36a5-5a21-8e17-b4aff89d1910"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldritch Moon Checklist",
+      "number": "CH1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "cd8586f9-97e2-438d-b74f-1e53c811f314",
+      "scryfallOracleId": "57679090-7ce2-45bc-b7b2-f0813c0dee4e",
+      "text": "(You can mark this card to represent a meld or double-faced card in your library or hand.)\n☐ Bruna, the Fading Light {5}{W}{W}\n☐ Extricator of Sin {2}{W}\n☐ Gisela, the Broken Blade {2}{W}{W}\n☐ Lone Rider {1}{W}\n☐ Curious Homunculus {1}{U}\n☐ Docent of Perfection {3}{U}{U}\n☐ Grizzled Angler {2}{U}\n☐ Graf Rats {1}{B}\n☐ Midnight Scavengers {4}{B}\n☐ Voldaren Pariah {3}{B}{B}\n☐ Conduit of Storms {2}{R}\n☐ Hanweir Garrison {2}{R}\n☐ Smoldering Werewolf {2}{R}{R}\n☐ Vildin-Pack Outcast {4}{R}\n☐ Kessig Prowler {G}\n☐ Shrill Howler {2}{G}\n☐ Tangleclaw Werewolf {2}{G}{G}\n☐ Ulvenwald Captive {1}{G}\n☐ Ulrich of the Krallenhorde {3}{R}{G}\n☐ Cryptolith Fragment {3}\n☐ Hanweir Battlements",
+      "type": "Card",
+      "uuid": "03dab02c-fffc-53aa-a14e-1bcaa2cc7aff"
+    },
+    {
+      "artist": "Kieran Yanner",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Human",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+        "Hanweir Garrison"
+      ],
+      "scryfallId": "dbd994fc-f3f0-4c81-86bd-14ca63ec229b",
+      "scryfallIllustrationId": "174d6df3-1da2-44a6-b5c2-ee844c28e7e9",
+      "scryfallOracleId": "44a4a06e-762a-41ab-a38f-56ed0f0bc21e",
+      "toughness": "1",
+      "type": "Token Creature — Human",
+      "uuid": "26afa3e3-b855-5aca-865e-434247505103"
+    },
+    {
+      "artist": "Nils Hamm",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Human Wizard",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Docent of Perfection // Final Iteration"
+      ],
+      "scryfallId": "e4439a8b-ef98-428d-a274-53c660b23afe",
+      "scryfallIllustrationId": "2700ce98-0714-4058-a4b1-c771a4221366",
+      "scryfallOracleId": "9a84c6f8-537c-430d-95b6-f19a86f74f45",
+      "toughness": "1",
+      "type": "Token Creature — Human Wizard",
+      "uuid": "8a4442e5-decd-51d2-8c37-1d4180410ce4"
+    },
+    {
+      "artist": "Anna Steinbauer",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Liliana, the Last Hope Emblem",
+      "number": "9",
+      "reverseRelated": [
+        "Liliana, the Last Hope"
+      ],
+      "scryfallId": "1512fe7b-5e01-424e-9747-8d4840a5d22a",
+      "scryfallIllustrationId": "a4a18b11-21c3-49a5-bb30-b474278f6a81",
+      "scryfallOracleId": "78d9bb73-904b-483e-9279-5f3f43b4bdf3",
+      "text": "At the beginning of your end step, create X 2/2 black Zombie creature tokens, where X is two plus the number of Zombies you control.",
+      "type": "Emblem — Liliana",
+      "uuid": "fd24b44d-045a-5d8c-9e70-c062b7d55ed9"
+    },
+    {
+      "artist": "Christine Choi",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Spider",
+      "number": "8",
+      "power": "1",
+      "reverseRelated": [
+        "Ishkanah, Grafwidow"
+      ],
+      "scryfallId": "ce90c48f-74fb-4e87-9e46-7f8c3d79cbb0",
+      "scryfallIllustrationId": "99bbecd3-64be-468d-aa4b-02f72272980a",
+      "scryfallOracleId": "bd386399-69f0-4653-96a1-fd05b8fd148c",
+      "text": "Reach",
+      "toughness": "2",
+      "type": "Token Creature — Spider",
+      "uuid": "f31660b0-0685-562d-84f7-c577685be5c0"
+    },
+    {
+      "artist": "Tianhua X",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Tamiyo, Field Researcher Emblem",
+      "number": "10",
+      "reverseRelated": [
+        "Tamiyo, Field Researcher"
+      ],
+      "scryfallId": "c2c6e29e-261a-4953-bdbe-cce8790eb5a8",
+      "scryfallIllustrationId": "cff627c6-fd31-4f08-86e7-edfece30ec1d",
+      "scryfallOracleId": "dedbcdea-661d-4299-bd3e-14899ff50c58",
+      "text": "You may cast nonland cards from your hand without paying their mana costs.",
+      "type": "Emblem — Tamiyo",
+      "uuid": "8e3f1046-6995-5383-ad56-5c6bc3367d74"
+    },
+    {
+      "artist": "Tomasz Jedruszek",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+        "Drunau Corpse Trawler",
+        "Rise from the Tides",
+        "Cryptbreaker",
+        "Dark Salvation",
+        "Graf Harvest",
+        "Liliana, the Last Hope",
+        "Noosegraf Mob",
+        "Oath of Liliana",
+        "Diregraf Colossus",
+        "From Under the Floorboards",
+        "Ghoulcaller's Accomplice",
+        "Gisa's Bidding",
+        "Shamble Back"
+      ],
+      "scryfallId": "15f1f43a-cbdb-4d1b-a254-dadcb2469784",
+      "scryfallIllustrationId": "fa297ad2-f95d-4887-8ffb-b30c9df54b54",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "b33e86b4-e5f2-5e32-bfe0-336bc6cfb3ef"
+    },
+    {
+      "artist": "Seb McKinnon",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "4",
+      "power": "2",
+      "reverseRelated": [
+        "Drunau Corpse Trawler",
+        "Rise from the Tides",
+        "Cryptbreaker",
+        "Dark Salvation",
+        "Graf Harvest",
+        "Liliana, the Last Hope",
+        "Noosegraf Mob",
+        "Oath of Liliana",
+        "Diregraf Colossus",
+        "From Under the Floorboards",
+        "Ghoulcaller's Accomplice",
+        "Gisa's Bidding",
+        "Shamble Back"
+      ],
+      "scryfallId": "06e7f8df-826e-4ba7-9c6c-8c8eb7a61de8",
+      "scryfallIllustrationId": "e7a53b73-99b7-459c-ac14-463c97c8e29f",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "6590c804-242d-574c-bfc0-93d1587036a7"
+    },
+    {
+      "artist": "Anna Steinbauer",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Drunau Corpse Trawler",
+        "Rise from the Tides",
+        "Cryptbreaker",
+        "Dark Salvation",
+        "Graf Harvest",
+        "Liliana, the Last Hope",
+        "Noosegraf Mob",
+        "Oath of Liliana",
+        "Diregraf Colossus",
+        "From Under the Floorboards",
+        "Ghoulcaller's Accomplice",
+        "Gisa's Bidding",
+        "Shamble Back"
+      ],
+      "scryfallId": "b8710a30-8314-49ef-b995-bd05454095be",
+      "scryfallIllustrationId": "2391d548-fc02-4021-a6c5-fa680b9f4fde",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "5b9495d9-98a3-53f4-93c8-f81a530506c7"
+    },
+    {
+      "artist": "Daarken",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "6",
+      "power": "*",
+      "reverseRelated": [
+        "Soul Separator"
+      ],
+      "scryfallId": "e44aa879-b63b-497c-9c1b-2333950161fa",
+      "scryfallIllustrationId": "0809e2cf-f02c-41db-aab1-748e4adfb875",
+      "scryfallOracleId": "ec6e76e8-e80e-4534-990a-03c3bbeda53a",
+      "toughness": "*",
+      "type": "Token Creature — Zombie",
+      "uuid": "335b9a7e-0918-575b-ba44-14b067cca779"
+    }
+  ],
+  "totalSetSize": 208,
+  "translations": {
+    "Chinese Simplified": "异月传奇",
+    "Chinese Traditional": "異月傳奇",
+    "French": "Confrontez les ténèbres",
+    "German": "Stell dich der Dunkelheit",
+    "Italian": "Affronta l’oscurità",
+    "Japanese": "『異界月』",
+    "Korean": "어둠과 맞서라",
+    "Portuguese (Brazil)": "Enfrente as Trevas",
+    "Russian": "Встретьтесь с тьмой",
+    "Spanish": "Luna de horrores"
+  },
+  "type": "expansion"
 }

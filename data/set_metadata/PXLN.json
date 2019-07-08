@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Ixalan",
+  "code": "PXLN",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "XLN",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Ixalan Promos",
+  "parentCode": "XLN",
+  "releaseDate": "2017-09-29",
+  "tokens": [
+
+  ],
+  "totalSetSize": 83,
+  "translations": {
+  },
+  "type": "promo"
+}

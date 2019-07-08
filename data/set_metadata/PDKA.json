@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Innistrad",
+  "code": "PDKA",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DKA",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Dark Ascension Promos",
+  "parentCode": "DKA",
+  "releaseDate": "2012-01-28",
+  "tokens": [
+
+  ],
+  "totalSetSize": 5,
+  "translations": {
+  },
+  "type": "promo"
+}

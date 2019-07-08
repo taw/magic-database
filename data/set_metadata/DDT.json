@@ -1,8 +1,106 @@
 {
-  "name": "Duel Decks: Merfolk vs. Goblins",
+  "baseSetSize": 0,
   "code": "DDT",
-  "magicCardsInfoCode": "ddt",
-  "releaseDate": "2017-11-10",
-  "type": "duel deck",
-  "border": "black"
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DDT",
+  "mcmId": 1818,
+  "mcmName": "Duel Decks: Merfolk vs. Goblins",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Duel Decks: Merfolk vs. Goblins",
+  "releaseDate": "2017-10-24",
+  "tcgplayerGroupId": 2076,
+  "tokens": [
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Master of Waves"
+      ],
+      "scryfallId": "ae196fbc-c9ee-4dba-9eb3-52209908b898",
+      "scryfallIllustrationId": "99b16b83-0411-4241-98ec-b82b027149a7",
+      "scryfallOracleId": "cb78f496-a5db-4d23-b63d-04584e8f3bb1",
+      "toughness": "0",
+      "type": "Token Creature — Elemental",
+      "uuid": "980ff750-9307-53cf-89b1-be1a528c2483"
+    },
+    {
+      "artist": "Karl Kopinski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Goblin Rabblemaster",
+        "Hordeling Outburst",
+        "Krenko, Mob Boss",
+        "Krenko's Command"
+      ],
+      "scryfallId": "159c6eb5-c6a8-4d11-8e09-0a5a3f04cd0e",
+      "scryfallIllustrationId": "033b1753-2e94-45b6-a841-2be33bbfbc2d",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "44dd2ecb-649d-5a2d-9540-e492f2907772"
+    },
+    {
+      "artist": "Brian Snõddy",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Wall",
+      "number": "2",
+      "power": "5",
+      "reverseRelated": [
+        "Tidal Wave"
+      ],
+      "scryfallId": "353aaec9-79fb-4b83-b4f4-8c7dc2a6b1c1",
+      "scryfallIllustrationId": "67eb651b-d2e4-4d39-a9fb-b04ed9a627b1",
+      "scryfallOracleId": "b1def57c-ba62-415c-87dd-c4085a0a62e7",
+      "text": "Defender",
+      "toughness": "5",
+      "type": "Token Creature — Wall",
+      "uuid": "dfde85b4-5d4d-528c-a95a-f3fe8cabc307"
+    }
+  ],
+  "totalSetSize": 63,
+  "translations": {
+    "Chinese Simplified": "Duel Decks: Merfolk vs. Goblins",
+    "Chinese Traditional": "Duel Decks: Merfolk vs. Goblins",
+    "French": "Duel Decks: Merfolk vs. Goblins",
+    "German": "Duel Decks: Merfolk vs. Goblins",
+    "Italian": "Duel Decks: Merfolk vs. Goblins",
+    "Japanese": "『デュエルデッキ：マーフォーク vs ゴブリン』",
+    "Korean": "Duel Decks: Merfolk vs. Goblins",
+    "Portuguese (Brazil)": "Duel Decks: Merfolk vs. Goblins",
+    "Russian": "Duel Decks: Merfolk vs. Goblins",
+    "Spanish": "Duel Decks: Merfolk vs. Goblins"
+  },
+  "type": "duel_deck"
 }

@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "code": "OHOP",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "HOP",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "OHOP",
+  "name": "Planechase Planes",
+  "parentCode": "HOP",
+  "releaseDate": "2009-09-04",
+  "tokens": [
+
+  ],
+  "totalSetSize": 40,
+  "translations": {
+  },
+  "type": "planechase"
+}

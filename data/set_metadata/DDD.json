@@ -1,10 +1,103 @@
 {
-  "name": "Duel Decks: Garruk vs. Liliana",
+  "baseSetSize": 0,
   "code": "DDD",
-  "magicCardsInfoCode": "gvl",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DDD",
+  "mcmId": 115,
+  "mcmName": "Duel Decks: Garruk vs. Liliana",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "DDD",
+  "name": "Duel Decks: Garruk vs. Liliana",
   "releaseDate": "2009-10-30",
-  "border": "black",
-  "type": "duel deck",
-  "mkm_name": "Duel Decks: Garruk vs. Liliana",
-  "mkm_id": 115
+  "tcgplayerGroupId": 34,
+  "tokens": [
+    {
+      "artist": "John Donahue",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "1",
+      "power": "3",
+      "reverseRelated": [
+        "Garruk Wildspeaker"
+      ],
+      "scryfallId": "d98c546e-2933-4833-b47b-084db56fb5d6",
+      "scryfallIllustrationId": "b241883c-fe4f-42c9-be2c-2ed51bcc174b",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "9bcde15a-068b-5901-a747-1aeb6c277d4d"
+    },
+    {
+      "artist": "Steve Prescott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "2",
+      "power": "4",
+      "reverseRelated": [
+        "Beast Attack"
+      ],
+      "scryfallId": "6fd6877b-b4f1-4953-b9a4-c97d0ae7d673",
+      "scryfallIllustrationId": "b37e5fc3-c689-4bfe-90ba-098f7ec55b5b",
+      "scryfallOracleId": "695b14a0-920a-47bd-bd4a-7989862cdd0a",
+      "toughness": "4",
+      "type": "Token Creature — Beast",
+      "uuid": "a2d4a115-899b-58af-ba17-2468f600d1c4"
+    },
+    {
+      "artist": "Arnie Swekel",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elephant",
+      "number": "3",
+      "power": "3",
+      "reverseRelated": [
+        "Elephant Guide"
+      ],
+      "scryfallId": "e357b329-b624-4c9a-bacf-d4744745860a",
+      "scryfallIllustrationId": "f343faf3-3fc1-4016-9bde-6b2cd73bae9f",
+      "scryfallOracleId": "079c46cc-feb0-4998-8593-c8b739afdb82",
+      "toughness": "3",
+      "type": "Token Creature — Elephant",
+      "uuid": "546920a6-cc55-5974-8f94-d8500a85c12c"
+    }
+  ],
+  "totalSetSize": 63,
+  "translations": {
+    "Chinese Simplified": "Garruk vs. Liliana",
+    "Chinese Traditional": "Garruk vs. Liliana",
+    "French": "Garruk vs. Liliana",
+    "German": "Garruk vs. Liliana",
+    "Italian": "Garruk vs. Liliana",
+    "Japanese": "Garruk vs. Liliana",
+    "Korean": "Garruk vs. Liliana",
+    "Portuguese (Brazil)": "Garruk vs. Liliana",
+    "Russian": "Garruk vs. Liliana",
+    "Spanish": "Garruk vs. Liliana"
+  },
+  "type": "duel_deck"
 }

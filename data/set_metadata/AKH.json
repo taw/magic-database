@@ -1,12 +1,7 @@
 {
-  "name": "Amonkhet",
-  "code": "AKH",
-  "magicCardsInfoCode": "akh",
-  "releaseDate": "2017-04-28",
-  "border": "black",
+  "baseSetSize": 269,
   "block": "Amonkhet",
-  "type": "expansion",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -26,5 +21,678 @@
     "common",
     "land",
     "marketing"
-  ]
+  ],
+  "code": "AKH",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "AKH",
+  "mcmId": 1729,
+  "mcmName": "Amonkhet",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "AKH",
+  "name": "Amonkhet",
+  "releaseDate": "2017-04-28",
+  "tcgplayerGroupId": 1882,
+  "tokens": [
+    {
+      "artist": "Min Yum",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel of Sanctions",
+      "number": "1",
+      "power": "3",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "a1786cb3-6f38-4f10-b5f1-8feb20e3baaf",
+      "scryfallIllustrationId": "88517d3e-f0fe-4599-942c-81096f8cb84c",
+      "scryfallOracleId": "19b90e71-c37a-4b61-bb46-9a4a19b6ea8d",
+      "text": "Flying\nWhen Angel of Sanctions enters the battlefield, you may exile target nonland permanent an opponent controls until Angel of Sanctions leaves the battlefield.",
+      "toughness": "4",
+      "type": "Token Creature — Zombie Angel",
+      "uuid": "f64fab3e-22ea-5082-9698-14b4a767f648"
+    },
+    {
+      "artist": "Lake Hurwitz",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Anointer Priest",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "98956e73-04e4-4d7f-bda5-cfa78eb71350",
+      "scryfallIllustrationId": "dfadeeee-c78b-4279-8e48-f365f2d33321",
+      "scryfallOracleId": "e07e4e79-9c4f-4ea0-a366-9193dea74114",
+      "text": "Whenever a creature token enters the battlefield under your control, you gain 1 life.",
+      "toughness": "3",
+      "type": "Token Creature — Zombie Human Cleric",
+      "uuid": "d24a9ab5-a460-5138-ae0a-e335bb3cb512"
+    },
+    {
+      "artist": "Jakub Kasper",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Aven Initiate",
+      "number": "3",
+      "power": "3",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "1a3814e3-7ad2-4c87-8630-ab56e13b6ee9",
+      "scryfallIllustrationId": "8f11e5c8-e0aa-4d4c-b574-5f9b78e25c37",
+      "scryfallOracleId": "76a82a10-643d-441c-9895-70004cc56487",
+      "text": "Flying",
+      "toughness": "2",
+      "type": "Token Creature — Zombie Bird Warrior",
+      "uuid": "abd1f4e4-3985-5c01-b8af-dfc9e6c3dac4"
+    },
+    {
+      "artist": "Sidharth Chaturvedi",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Aven Wind Guide",
+      "number": "4",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "a8f339c6-2c0d-4631-849b-44d4360b5131",
+      "scryfallIllustrationId": "874497ba-7045-470d-878d-c625d85fc679",
+      "scryfallOracleId": "57a8745a-5dd3-45f5-9f22-3b68d8d60618",
+      "text": "Flying, vigilance\nCreature tokens you control have flying and vigilance.",
+      "toughness": "3",
+      "type": "Token Creature — Zombie Bird Warrior",
+      "uuid": "52edddcd-39e6-55ca-8d7b-7fdeacd43550"
+    },
+    {
+      "artist": "Kieran Yanner",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "21",
+      "power": "4",
+      "reverseRelated": [
+        "Trial of Strength"
+      ],
+      "scryfallId": "29b7ecd1-c70e-467c-a9ea-99c2668c3405",
+      "scryfallIllustrationId": "8201cd84-831a-4646-a95d-88df5d51d771",
+      "scryfallOracleId": "9dba1bc2-a76d-412c-bc0e-f7b8eac800f4",
+      "toughness": "2",
+      "type": "Token Creature — Beast",
+      "uuid": "51d0f803-72a0-50d8-a8f3-e4c81b0f8132"
+    },
+    {
+      "artist": "Filip Burburan",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Cat",
+      "number": "16",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "af0086cd-56b5-450e-818c-e54f45d1a104",
+      "scryfallIllustrationId": "e2e2b8e2-13b4-4e05-a47f-4d41cf087248",
+      "scryfallOracleId": "65742c00-2809-4085-a950-8f93845c03d2",
+      "text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
+      "toughness": "1",
+      "type": "Token Creature — Cat",
+      "uuid": "18645de1-114f-5230-9ae9-db881afa30f1"
+    },
+    {
+      "artist": "John Severin Brassell",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Drake",
+      "number": "18",
+      "power": "2",
+      "reverseRelated": [
+        "Drake Haven"
+      ],
+      "scryfallId": "65844e72-aa84-483f-b07e-9e34e798aaec",
+      "scryfallIllustrationId": "e861f839-b78d-4c8f-b8f4-3d9936c9ccf7",
+      "scryfallOracleId": "9e266374-80f1-458a-9417-16220d2a013a",
+      "text": "Flying",
+      "toughness": "2",
+      "type": "Token Creature — Drake",
+      "uuid": "2325c012-39fa-5d54-b336-a2914d07da2d"
+    },
+    {
+      "artist": "Izzy",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Gideon of the Trials Emblem",
+      "number": "25",
+      "reverseRelated": [
+        "Gideon of the Trials"
+      ],
+      "scryfallId": "cbebd89c-0b29-44c7-bc99-53dd4b836520",
+      "scryfallIllustrationId": "ea4ffe26-c01b-4a2f-abee-64b05bb4e204",
+      "scryfallOracleId": "ed3d2088-f800-44fb-91db-a0d48f13c56d",
+      "text": "As long as you control a Gideon planeswalker, you can't lose the game and your opponents can't win the game.",
+      "type": "Emblem — Gideon",
+      "uuid": "9d22b5a0-d540-5d72-bb9b-d9cb326dd7a6"
+    },
+    {
+      "artist": "Chris Rahn",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Glyph Keeper",
+      "number": "5",
+      "power": "5",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "e3d97a02-9187-4dbc-a511-2a15ca840cda",
+      "scryfallIllustrationId": "772eb26b-f222-4a76-bab9-adb9ee57cca6",
+      "scryfallOracleId": "9eddc428-e7bb-462b-9c50-abc3b499bf83",
+      "text": "Flying\nWhenever Glyph Keeper becomes the target of a spell or ability for the first time each turn, counter that spell or ability.",
+      "toughness": "3",
+      "type": "Token Creature — Zombie Sphinx",
+      "uuid": "92d379f5-79a4-502a-a0a3-b146e1d572b5"
+    },
+    {
+      "artist": "Scott Murphy",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Heart-Piercer Manticore",
+      "number": "6",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "6e534d68-a97f-4ae1-b202-31c7a5366b58",
+      "scryfallIllustrationId": "1a123d40-91a9-48cb-8bea-8944abeb1d32",
+      "scryfallOracleId": "7cdd9a3c-0142-4442-83c5-63f5c69b0c48",
+      "text": "When Heart-Piercer Manticore enters the battlefield, you may sacrifice another creature. When you do, Heart-Piercer Manticore deals damage equal to that creature's power to any target.",
+      "toughness": "3",
+      "type": "Token Creature — Zombie Manticore",
+      "uuid": "583be9f7-eaa9-56a1-94a2-d6cbfff64e78"
+    },
+    {
+      "artist": "Zack Stella",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Hippo",
+      "number": "22",
+      "power": "3",
+      "reverseRelated": [
+        "Mouth // Feed"
+      ],
+      "scryfallId": "1aea5e0b-dc4e-4055-9e13-1dfbc25a2f00",
+      "scryfallIllustrationId": "be9d5490-f59e-4a0a-8764-1670cc824714",
+      "scryfallOracleId": "c0751938-a8c6-4b27-b8ac-88aa70516721",
+      "toughness": "3",
+      "type": "Token Creature — Hippo",
+      "uuid": "f49ec8c8-073b-5cbc-89e1-152f5651af8f"
+    },
+    {
+      "artist": "Todd Lockwood",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Honored Hydra",
+      "number": "7",
+      "power": "6",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "7365ffff-b171-4275-9fdb-e622f8456858",
+      "scryfallIllustrationId": "2eea6b73-d5af-423f-9752-f30cfd1245d8",
+      "scryfallOracleId": "837de914-29a6-452f-b185-d2d92629f020",
+      "text": "Trample",
+      "toughness": "6",
+      "type": "Token Creature — Zombie Snake Hydra",
+      "uuid": "972afc25-8323-5e92-9d88-216d4019f434"
+    },
+    {
+      "artist": "Jason A. Engle",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Insect",
+      "number": "19",
+      "power": "1",
+      "reverseRelated": [
+        "Nest of Scarabs"
+      ],
+      "scryfallId": "242c381e-df58-4365-a68c-add1127a83cc",
+      "scryfallIllustrationId": "753bbf96-92d0-40d3-9cc9-363d01b4b01c",
+      "scryfallOracleId": "805e96af-349b-4d59-a5ce-bc6d2be7f260",
+      "toughness": "1",
+      "type": "Token Creature — Insect",
+      "uuid": "a2ddf217-635e-5d45-8cd5-901f42a0c635"
+    },
+    {
+      "artist": "Yeong-Hao Han",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Labyrinth Guardian",
+      "number": "8",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "754eeff5-b495-4aa5-94ce-ff20216c952b",
+      "scryfallIllustrationId": "bd99ff79-a5dd-419c-b0da-55b46126d60d",
+      "scryfallOracleId": "01deda1e-01f2-495f-992a-ca2e8b0a1111",
+      "text": "When Labyrinth Guardian becomes the target of a spell, sacrifice it.",
+      "toughness": "3",
+      "type": "Token Creature — Zombie Illusion Warrior",
+      "uuid": "3fc1d425-b5b0-5318-870d-b743b82bee5a"
+    },
+    {
+      "artist": "Lake Hurwitz",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Oketra's Attendant",
+      "number": "9",
+      "power": "3",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "aa5fedcd-e5d5-4250-b64e-a04772cb9025",
+      "scryfallIllustrationId": "6f7a716d-5126-42a2-aef4-a4e9af0add68",
+      "scryfallOracleId": "422b060d-eb90-4406-97b7-28943a426c83",
+      "text": "Flying",
+      "toughness": "3",
+      "type": "Token Creature — Zombie Bird Soldier",
+      "uuid": "55e2d695-b526-58ef-8590-f84c807034f0"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Punchcard",
+      "number": "26",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "993b4bfd-c5c1-4d0e-b7ff-7615245f9df8",
+      "scryfallOracleId": "96247b92-0c7a-4410-85a4-598916541b1d",
+      "type": "Card",
+      "uuid": "40568e21-9919-5e09-a1a8-1c1d7660838f"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Punchcard",
+      "number": "27",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "0ca931b5-6e12-468c-a1d1-e01363b872b1",
+      "scryfallOracleId": "96247b92-0c7a-4410-85a4-598916541b1d",
+      "type": "Card",
+      "uuid": "0bfa50c7-3206-5f57-8311-7270e9e33ff5"
+    },
+    {
+      "artist": "Zezhou Chen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Sacred Cat",
+      "number": "10",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "56ea5f68-3818-43d3-9b7b-c344305a8423",
+      "scryfallIllustrationId": "e66fbd6e-b54c-4d3a-8165-ac2b17e92562",
+      "scryfallOracleId": "34170487-e16d-4460-a4c4-2cddefc9715f",
+      "text": "Lifelink",
+      "toughness": "1",
+      "type": "Token Creature — Zombie Cat",
+      "uuid": "0c804c62-4dbc-5e8f-ae59-b69c67968302"
+    },
+    {
+      "artist": "Tyler Jacobson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Snake",
+      "number": "23",
+      "power": "1",
+      "reverseRelated": [
+        "Hapatra, Vizier of Poisons"
+      ],
+      "scryfallId": "6aaa8539-8d21-4da1-8410-d4354078390f",
+      "scryfallIllustrationId": "5694f335-0b37-422e-9096-f791a650140e",
+      "scryfallOracleId": "e3863ec2-e8ce-43d2-ab7e-ec99dfa381b6",
+      "text": "Deathtouch",
+      "toughness": "1",
+      "type": "Token Creature — Snake",
+      "uuid": "13015c79-aa01-5b51-9c68-6246fdf89259"
+    },
+    {
+      "artist": "Victor Adame Minguez",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Tah-Crop Skirmisher",
+      "number": "11",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "6c2e835c-0f39-4fd1-a839-125bee0c9dbc",
+      "scryfallIllustrationId": "85744462-1de5-41f2-80b4-ae657c188ee3",
+      "scryfallOracleId": "f1444785-ae10-420d-9621-be0df408d480",
+      "toughness": "1",
+      "type": "Token Creature — Zombie Naga Warrior",
+      "uuid": "7069be15-7a8f-5de1-ad38-b997d0759d43"
+    },
+    {
+      "artist": "Anna Steinbauer",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Temmet, Vizier of Naktamun",
+      "number": "12",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "5a6201e6-7dcd-40b1-97aa-fd9c860cea97",
+      "scryfallIllustrationId": "8f61d80a-aa99-484a-b004-b7619e4f9a02",
+      "scryfallOracleId": "bff131ae-7e0f-4242-b671-96fc03fa95a4",
+      "text": "At the beginning of combat on your turn, target creature token you control gets +1/+1 until end of turn and can't be blocked this turn.",
+      "toughness": "2",
+      "type": "Legendary Token Creature — Zombie Human Cleric",
+      "uuid": "aedee244-d79e-5ea4-9c58-4dd9a2bb644b"
+    },
+    {
+      "artist": "Izzy",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Trueheart Duelist",
+      "number": "13",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "c770d91c-b7d1-44ef-922d-128cb3faef08",
+      "scryfallIllustrationId": "5d42dfb6-1d0c-4edd-bb1c-509bd81af903",
+      "scryfallOracleId": "1cb54b3e-92cb-4b56-a726-468c89eb29a0",
+      "text": "Trueheart Duelist can block an additional creature each combat.",
+      "toughness": "2",
+      "type": "Token Creature — Zombie Human Warrior",
+      "uuid": "ff63d81b-6453-5f75-b05f-22c3d7a3e55d"
+    },
+    {
+      "artist": "Greg Opalinski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Unwavering Initiate",
+      "number": "14",
+      "power": "3",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "07ab720d-40fc-4315-bc8d-c7073cea588b",
+      "scryfallIllustrationId": "fe1df388-8c4c-41ee-91c1-8efa611065d4",
+      "scryfallOracleId": "92837e49-ebc2-4a05-86fd-cf014314e1e0",
+      "text": "Vigilance",
+      "toughness": "2",
+      "type": "Token Creature — Zombie Human Warrior",
+      "uuid": "803922c4-fe20-5504-973e-a46a884a980e"
+    },
+    {
+      "artist": "Ryan Yee",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Vizier of Many Faces",
+      "number": "15",
+      "power": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "39520c16-1f4b-4f15-aeb4-53c91e8ecfcc",
+      "scryfallIllustrationId": "7485b910-64c1-4d42-aa10-0f9d97c98c62",
+      "scryfallOracleId": "c97e158a-a1be-446c-b9aa-cae931735b9d",
+      "text": "You may have Vizier of Many Faces enter the battlefield as a copy of any creature on the battlefield, except has no mana cost, it's white, and it's a Zombie in addition to its other types.",
+      "toughness": "0",
+      "type": "Token Creature — Zombie Shapeshifter Cleric",
+      "uuid": "f6f7c191-6ef0-58ae-b841-954ef8995573"
+    },
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Warrior",
+      "number": "17",
+      "power": "1",
+      "reverseRelated": [
+        "Cartouche of Solidarity",
+        "Oketra the True",
+        "Steward of Solidarity",
+        "Supply Caravan",
+        "Start // Finish",
+        "Oketra's Monument"
+      ],
+      "scryfallId": "2d1446ed-f114-421d-bb60-9aeb655e5adb",
+      "scryfallIllustrationId": "21f3624c-4774-475f-9d89-6c2261d53edc",
+      "scryfallOracleId": "4bd91cb2-be86-4950-8b84-7b330a8a61b9",
+      "text": "Vigilance",
+      "toughness": "1",
+      "type": "Token Creature — Warrior",
+      "uuid": "f5c24ae7-2182-5260-b26d-3a6f1a71dd47"
+    },
+    {
+      "artist": "Slawomir Maniak",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wurm",
+      "number": "24",
+      "power": "5",
+      "reverseRelated": [
+        "Sandwurm Convergence"
+      ],
+      "scryfallId": "366c01a7-6399-496b-a5a3-8be45475ce33",
+      "scryfallIllustrationId": "6f21291d-ab43-484d-8548-69df90b8f546",
+      "scryfallOracleId": "1adf3c28-58c0-4239-ba4a-c53d345709b4",
+      "toughness": "5",
+      "type": "Token Creature — Wurm",
+      "uuid": "0d3182e7-5593-51d7-91e0-f196986af263"
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "20",
+      "power": "2",
+      "reverseRelated": [
+        "Doomed Dissenter",
+        "Liliana, Death's Majesty",
+        "Liliana's Mastery",
+        "Stir the Sands",
+        "Hour of Promise",
+        "Dunes of the Dead",
+        "Never // Return",
+        "Cradle of the Accursed"
+      ],
+      "scryfallId": "b5bd6905-79be-4d2c-a343-f6e6a181b3e6",
+      "scryfallIllustrationId": "d9281c7f-c149-42fc-ace9-4656cbaa76d8",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "abe1f0d5-98f1-5369-be3f-ab8dc0ad4589"
+    }
+  ],
+  "totalSetSize": 287,
+  "translations": {
+    "Chinese Simplified": "阿芒凯",
+    "Chinese Traditional": "阿芒凱",
+    "French": "Amonkhet",
+    "German": "Amonkhet",
+    "Italian": "Amonkhet",
+    "Japanese": "『アモンケット』",
+    "Korean": "아몬케트",
+    "Portuguese (Brazil)": "Amonkhet",
+    "Russian": "Амонхет",
+    "Spanish": "Amonkhet"
+  },
+  "type": "expansion"
 }

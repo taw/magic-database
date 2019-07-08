@@ -1,12 +1,7 @@
 {
-  "name": "Dissension",
-  "code": "DIS",
-  "magicCardsInfoCode": "di",
-  "releaseDate": "2006-05-05",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 180,
   "block": "Ravnica",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,16 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Zwietracht",
-    "fr": "Discorde",
-    "it": "Discordia",
-    "es": "Discordia",
-    "pt": "Insurreição",
-    "jp": "ディセンション",
-    "cn": "纷争",
-    "ru": "Раскол"
+  "code": "DIS",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DIS",
+  "mcmId": 53,
+  "mcmName": "Dissension",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Dissension",
-  "mkm_id": 53
+  "mtgoCode": "DIS",
+  "name": "Dissension",
+  "releaseDate": "2006-05-05",
+  "tcgplayerGroupId": 28,
+  "tokens": [
+
+  ],
+  "totalSetSize": 180,
+  "translations": {
+    "Chinese Simplified": "纷争",
+    "Chinese Traditional": "紛爭",
+    "French": "Discorde",
+    "German": "Zwietracht",
+    "Italian": "Discordia",
+    "Japanese": "ディセンション",
+    "Korean": "갈등",
+    "Portuguese (Brazil)": "Insurreição",
+    "Russian": "Раскол",
+    "Spanish": "Discordia"
+  },
+  "type": "expansion"
 }

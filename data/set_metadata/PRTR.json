@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Return to Ravnica",
+  "code": "PRTR",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "RTR",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Return to Ravnica Promos",
+  "parentCode": "RTR",
+  "releaseDate": "2012-10-05",
+  "tokens": [
+
+  ],
+  "totalSetSize": 10,
+  "translations": {
+  },
+  "type": "promo"
+}

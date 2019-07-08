@@ -1,12 +1,7 @@
 {
-  "name": "Judgment",
-  "code": "JUD",
-  "magicCardsInfoCode": "ju",
-  "releaseDate": "2002-05-27",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 143,
   "block": "Odyssey",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Abrechnung",
-    "fr": "Jugement",
-    "it": "Sentenza",
-    "es": "Juicio",
-    "pt": "Julgamento"
+  "code": "JUD",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "JUD",
+  "mcmId": 40,
+  "mcmName": "Judgment",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Judgment",
-  "mkm_id": 40
+  "mtgoCode": "JUD",
+  "name": "Judgment",
+  "releaseDate": "2002-05-27",
+  "tcgplayerGroupId": 63,
+  "tokens": [
+
+  ],
+  "totalSetSize": 143,
+  "translations": {
+    "Chinese Simplified": "神谴",
+    "Chinese Traditional": "神譴",
+    "French": "Jugement",
+    "German": "Abrechnung",
+    "Italian": "Sentenza",
+    "Japanese": "ジャッジメント",
+    "Korean": "심판",
+    "Portuguese (Brazil)": "Judgment",
+    "Russian": "Judgment",
+    "Spanish": "Juicio"
+  },
+  "type": "expansion"
 }

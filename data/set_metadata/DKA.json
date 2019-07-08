@@ -1,12 +1,7 @@
 {
-  "name": "Dark Ascension",
-  "code": "DKA",
-  "magicCardsInfoCode": "dka",
-  "releaseDate": "2012-02-03",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 158,
   "block": "Innistrad",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -30,18 +25,128 @@
       "checklist"
     ]
   ],
-  "translations": {
-    "de": "Dunkles Erwachen",
-    "fr": "Obscure ascension",
-    "it": "Ascesa Oscura",
-    "es": "Ascenso siniestro",
-    "pt": "Ascensão das Trevas",
-    "jp": "闇の隆盛",
-    "cn": "黑影笼罩",
-    "ru": "Возвышение Мрака",
-    "tw": "黑影籠罩",
-    "ko": "어둠의 강림"
+  "code": "DKA",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DKA",
+  "mcmId": 1345,
+  "mcmName": "Dark Ascension",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Dark Ascension",
-  "mkm_id": 1345
+  "mtgoCode": "DKA",
+  "name": "Dark Ascension",
+  "releaseDate": "2012-02-03",
+  "tcgplayerGroupId": 125,
+  "tokens": [
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Dark Ascension Checklist",
+      "number": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "825c61e7-bf33-45ea-af78-97ab3bc96753",
+      "scryfallOracleId": "23e9c096-46aa-4f45-abdf-31e5b07ec133",
+      "text": "(You can mark this card to represent a double-faced card in your library or hand.)\n☐ Loyal Cathar {W}{W}\n☐ Soul Seizer {3}{U}{U}\n☐ Chosen of Markov {2}{B}\n☐ Ravenous Demon {3}{B}{B}\n☐ Afflicted Deserter {3}{R}\n☐ Hinterland Hermit {1}{R}\n☐ Mondronen Shaman {3}{R}\n☐ Lambholt Elder {2}{G}\n☐ Scorned Villager {1}{G}\n☐ Wolfbitten Captive {G}\n☐ Huntmaster of the Fells {2}{R}{G}\n☐ Chalice of Life {3}\n☐ Elbrus, the Binding Blade {7}",
+      "type": "Card",
+      "uuid": "41c77ed8-61f5-5af5-903e-47eeb1ddfd07"
+    },
+    {
+      "artist": "John Stanko",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Human",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Gather the Townsfolk",
+        "Increasing Devotion",
+        "Commander's Authority",
+        "Thraben Doomsayer",
+        "Voice of the Provinces"
+      ],
+      "scryfallId": "bd5cd362-34f9-445f-85e1-9f6694f0f90a",
+      "scryfallIllustrationId": "6f39a2d3-4bdd-43fb-9e2b-90ab7ea0445a",
+      "scryfallOracleId": "30272edf-097c-4918-84d2-9fa6c42dbe0a",
+      "toughness": "1",
+      "type": "Token Creature — Human",
+      "uuid": "3e6a1b0a-45fd-51ca-9c32-676d44bc73b4"
+    },
+    {
+      "artist": "Michael Komarck",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Sorin, Lord of Innistrad Emblem",
+      "number": "3",
+      "reverseRelated": [
+        "Sorin, Lord of Innistrad"
+      ],
+      "scryfallId": "327ddaaf-b6a7-4c80-9b38-5ab68181b3d6",
+      "scryfallIllustrationId": "436d679d-7383-415c-b35e-d7889908f03a",
+      "scryfallOracleId": "b34f4427-836d-4e8a-bb7c-1df41f0ea6b0",
+      "text": "Creatures you control get +1/+0.",
+      "type": "Emblem — Sorin",
+      "uuid": "62e065e6-7172-56aa-8885-accbec37e084"
+    },
+    {
+      "artist": "Peter Mohrbacher",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Vampire",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Sorin, Lord of Innistrad"
+      ],
+      "scryfallId": "0d6abdaa-7be5-48a1-acc9-b3cba4c10619",
+      "scryfallIllustrationId": "33097826-edad-4fe8-aede-4246e17fe4c4",
+      "scryfallOracleId": "2496fe9a-9fd4-4c52-b5ca-39d6333eb333",
+      "text": "Lifelink",
+      "toughness": "1",
+      "type": "Token Creature — Vampire",
+      "uuid": "9d9106e6-b799-54ee-b386-cd53c6322876"
+    }
+  ],
+  "totalSetSize": 158,
+  "translations": {
+    "Chinese Simplified": "黑影笼罩",
+    "Chinese Traditional": "黑影籠罩",
+    "French": "Obscure ascension",
+    "German": "Dunkles Erwachen",
+    "Italian": "Ascesa Oscura",
+    "Japanese": "闇の隆盛",
+    "Korean": "어둠의 강림",
+    "Portuguese (Brazil)": "Ascensão das Trevas",
+    "Russian": "Возвышение Мрака",
+    "Spanish": "Ascenso siniestro"
+  },
+  "type": "expansion"
 }

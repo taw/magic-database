@@ -1,12 +1,7 @@
 {
-  "name": "Ninth Edition",
-  "code": "9ED",
-  "oldCode": "9E",
-  "magicCardsInfoCode": "9e",
-  "releaseDate": "2005-07-29",
-  "border": "white",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 350,
+  "block": "Core Set",
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,18 +18,36 @@
     "common",
     "land"
   ],
-  "translations": {
-    "de": "Haupt-Set - Neunte Edition",
-    "fr": "Édition de base - Neuvième Edition",
-    "it": "Set base - Nona Edizione",
-    "es": "Colección Básica - Novena Edición",
-    "pt": "Kit Básico - Nona Edição",
-    "jp": "第9版",
-    "cn": "第九版",
-    "ru": "Девятая редакция",
-    "tw": "Ninth Edition",
-    "ko": "Ninth Edition"
+  "code": "9ED",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "9ED",
+  "mcmId": 49,
+  "mcmName": "Ninth Edition",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Ninth Edition",
-  "mkm_id": 49
+  "mtgoCode": "9ED",
+  "name": "Ninth Edition",
+  "releaseDate": "2005-07-29",
+  "tcgplayerGroupId": 4,
+  "tokens": [
+
+  ],
+  "totalSetSize": 359,
+  "translations": {
+    "Chinese Simplified": "核心系列 第九版",
+    "Chinese Traditional": "核心系列 第九版",
+    "French": "Neuvième édition",
+    "German": "Hauptset Neunte Edition",
+    "Italian": "Set Base Nona Edizione",
+    "Japanese": "第９版 基本セット",
+    "Korean": "코어세트 9판",
+    "Portuguese (Brazil)": "Nona Edição",
+    "Russian": "Базовый выпуск Девятая редакция",
+    "Spanish": "Colección Básica - Novena edición"
+  },
+  "type": "core"
 }

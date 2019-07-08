@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Judge Gift Cards",
+  "code": "G05",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "DCI",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Judge Gift Cards 2005",
+  "releaseDate": "2005-01-01",
+  "tcgplayerGroupId": 62,
+  "tokens": [
+
+  ],
+  "totalSetSize": 4,
+  "translations": {
+  },
+  "type": "promo"
+}

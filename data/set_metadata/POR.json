@@ -1,12 +1,6 @@
 {
-  "name": "Portal",
-  "code": "POR",
-  "gathererCode": "PO",
-  "magicCardsInfoCode": "po",
-  "releaseDate": "1997-05-01",
-  "border": "black",
-  "type": "starter",
-  "booster": [
+  "baseSetSize": 215,
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,11 +17,25 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Portal",
-    "fr": "Portal",
-    "es": "Portal"
+  "code": "POR",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "POR",
+  "mcmId": 25,
+  "mcmName": "Portal",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Portal",
-  "mkm_id": 25
+  "name": "Portal",
+  "releaseDate": "1997-05-01",
+  "tcgplayerGroupId": 86,
+  "tokens": [
+
+  ],
+  "totalSetSize": 222,
+  "translations": {
+  },
+  "type": "starter"
 }

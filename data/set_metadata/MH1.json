@@ -1,0 +1,556 @@
+{
+  "baseSetSize": 254,
+  "boosterV3": [
+    [
+      "rare",
+      "mythic rare"
+    ],
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "snow land",
+    "token",
+    "full art print"
+  ],
+  "code": "MH1",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "MH1",
+  "mcmId": 2440,
+  "mcmName": "Modern Horizons",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "MH1",
+  "name": "Modern Horizons",
+  "releaseDate": "2019-06-14",
+  "tcgplayerGroupId": 2422,
+  "tokens": [
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "2",
+      "power": "4",
+      "reverseRelated": [
+        "Serra the Benevolent"
+      ],
+      "scryfallId": "91808554-23ab-44f9-92a1-87ee7d58cd9a",
+      "scryfallIllustrationId": "1f9384cd-c3b1-4e06-a67c-19a29e1c4136",
+      "scryfallOracleId": "29ff8699-53d8-413b-8a3c-0e3ea1e13ff0",
+      "text": "Flying, vigilance",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "32057d8e-a518-5c02-ab0f-46ca207e0a4f"
+    },
+    {
+      "artist": "Heather Hudson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Bear",
+      "number": "11",
+      "power": "2",
+      "reverseRelated": [
+        "Ayula's Influence",
+        "Mother Bear"
+      ],
+      "scryfallId": "c6610846-00d8-4cc2-a90a-4dc043ba7fa6",
+      "scryfallIllustrationId": "ada13b1c-381b-4899-aa0f-8436af2e6a3d",
+      "scryfallOracleId": "a62a374d-ccdd-418d-9bcd-5ca8bf9b05e8",
+      "toughness": "2",
+      "type": "Token Creature — Bear",
+      "uuid": "3e4fa4d7-5c33-5011-a28f-9c70181f2e36"
+    },
+    {
+      "artist": "James Ryman",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Battle Screech"
+      ],
+      "scryfallId": "43c72f53-db47-48d1-85f0-626440b0c88c",
+      "scryfallIllustrationId": "72545e61-6af0-44d7-a880-e7fd676136e4",
+      "scryfallOracleId": "b1a2b096-a440-4ef9-ab2a-059c79999297",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bird",
+      "uuid": "8365e779-87fe-51db-a79b-f3fcc5a73332"
+    },
+    {
+      "artist": "Victor Adame Minguez",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Construct",
+      "number": "17",
+      "power": "0",
+      "reverseRelated": [
+        "Urza, Lord High Artificer"
+      ],
+      "scryfallId": "85f212cd-4fc6-42fe-b268-22d8e3b2b7eb",
+      "scryfallIllustrationId": "89acb32a-d992-4da4-9395-a88164a37591",
+      "scryfallOracleId": "ee740c48-59cd-4fcc-b4a5-fe3dde1361d5",
+      "text": "This creature gets +1/+1 for each artifact you control.",
+      "toughness": "0",
+      "type": "Token Artifact Creature — Construct",
+      "uuid": "dc1bc393-d259-5efb-97a6-3d567fc0aa14"
+    },
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "8",
+      "power": "1",
+      "reverseRelated": [
+        "Seasoned Pyromancer"
+      ],
+      "scryfallId": "e5b57672-c346-42f5-ac3e-82466a13b957",
+      "scryfallIllustrationId": "b72510b2-4740-465b-8b71-58cea9d54eff",
+      "scryfallOracleId": "1a6c2152-71ca-46be-ab83-c84633442257",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "62cf0f6b-f88b-5e03-b2f7-9d8c721198c0"
+    },
+    {
+      "artist": "Victor Adame Minguez",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "9",
+      "power": "3",
+      "reverseRelated": [
+        "Force of Rage"
+      ],
+      "scryfallId": "addc39de-db64-41d8-9185-67a09d3e326d",
+      "scryfallIllustrationId": "d09581e2-28d6-45cf-a56e-b1cdf7a7b028",
+      "scryfallOracleId": "e2931f20-e58a-480d-bc07-4a18030a4f67",
+      "text": "Trample, haste",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "48297c70-05cb-5741-88ab-428bde202cf2"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elephant",
+      "number": "12",
+      "power": "3",
+      "reverseRelated": [
+        "Generous Gift",
+        "Trumpeting Herd"
+      ],
+      "scryfallId": "1ae11d5f-f29d-44f4-8d90-cdada1040435",
+      "scryfallIllustrationId": "0fe3c48b-f071-458f-9320-fa34b7e5d8cb",
+      "scryfallOracleId": "079c46cc-feb0-4998-8593-c8b739afdb82",
+      "toughness": "3",
+      "type": "Token Creature — Elephant",
+      "uuid": "d5964043-93fd-5e9a-9a86-8a6e807e7506"
+    },
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "10",
+      "power": "1",
+      "reverseRelated": [
+        "Sling-Gang Lieutenant",
+        "Goblin War Party",
+        "Pashalik Mons"
+      ],
+      "scryfallId": "c5522b39-802a-4508-a671-2f73b0633032",
+      "scryfallIllustrationId": "33cc8922-b6fb-459b-9c51-aac653d5c38b",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "b4cab22f-7f62-52bb-9097-f89e59dde8a0"
+    },
+    {
+      "artist": "Volkan Baǵa",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Golem",
+      "number": "18",
+      "power": "3",
+      "reverseRelated": [
+        "Splicer's Skill"
+      ],
+      "scryfallId": "dc77b308-9d0c-492f-b3fe-e00d60470767",
+      "scryfallIllustrationId": "a30ff6a4-8458-4923-9c6b-aea1b2092990",
+      "scryfallOracleId": "9859c54d-695b-4bb1-940e-cfd1c3301e89",
+      "toughness": "3",
+      "type": "Token Artifact Creature — Golem",
+      "uuid": "9801ad71-f537-569d-bbf0-bf11ed513bed"
+    },
+    {
+      "artist": "Véronique Meignaud",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Illusion",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Moonblade Shinobi"
+      ],
+      "scryfallId": "ebccb29b-8b69-4813-94bb-d96e117b609e",
+      "scryfallIllustrationId": "364aa3d8-2c59-432a-9fa7-48ea1cbe99a1",
+      "scryfallOracleId": "bd0289dc-f406-4157-9776-401b662df719",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Illusion",
+      "uuid": "7588e9e9-5efc-5d43-9272-9d1d7bed12c6"
+    },
+    {
+      "artist": "Stephan Martiniere",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Marit Lage",
+      "number": "6",
+      "power": "20",
+      "reverseRelated": [
+        "Marit Lage's Slumber"
+      ],
+      "scryfallId": "7b993828-e139-4cb6-a329-487accc1c515",
+      "scryfallIllustrationId": "75f2b602-76dd-448f-82d0-0f42c71830ec",
+      "scryfallOracleId": "48e9147e-59f7-4693-83d7-7f514be871bc",
+      "text": "Flying, indestructible",
+      "toughness": "20",
+      "type": "Token Legendary Creature — Avatar",
+      "uuid": "f0eba953-2182-5dda-86be-b1340b851cb7"
+    },
+    {
+      "artist": "Ryan Pancoast",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Myr",
+      "number": "19",
+      "power": "1",
+      "reverseRelated": [
+        "Mirrodin Besieged"
+      ],
+      "scryfallId": "323e26b2-1f7d-4a30-a0ef-1aa91e91d551",
+      "scryfallIllustrationId": "38aaf042-2fed-4761-baa7-62a3002b71fd",
+      "scryfallOracleId": "bf690282-125f-431c-a363-39f6772324c8",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Myr",
+      "uuid": "2565e5a2-76c7-55a2-99c2-d31b974e9536"
+    },
+    {
+      "artist": "Tomasz Jedruszek",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Rhino",
+      "number": "13",
+      "power": "4",
+      "reverseRelated": [
+        "Crashing Footfalls"
+      ],
+      "scryfallId": "007c828b-5854-41ac-9c18-f9d41c69ed33",
+      "scryfallIllustrationId": "fce6012e-94a3-49ab-b801-d55271865c69",
+      "scryfallOracleId": "a685171a-616f-42e1-9161-4a64fb51a977",
+      "text": "Trample",
+      "toughness": "4",
+      "type": "Token Creature — Rhino",
+      "uuid": "a4dc5a60-0238-51c4-a49d-9375ab54f981"
+    },
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Serra the Benevolent Emblem",
+      "number": "20",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "87dbb0b0-d898-491a-8ed9-efefca04e6e6",
+      "scryfallIllustrationId": "60f9c79b-e7ad-4faa-a3e6-5bf2ed17ee79",
+      "scryfallOracleId": "757a42bb-ac7e-496c-a923-226e2bdcd67b",
+      "text": "If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.",
+      "type": "Emblem — Serra",
+      "uuid": "c5bee2d6-1ba7-5c7d-b95c-eb092fb332b2"
+    },
+    {
+      "artist": "Johann Bodin",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Shapeshifter",
+      "number": "1",
+      "power": "2",
+      "reverseRelated": [
+        "Irregular Cohort",
+        "Birthing Boughs"
+      ],
+      "scryfallId": "a33fda72-e61d-478f-bc33-ff1a23b5f45b",
+      "scryfallIllustrationId": "3cf58eb6-0411-45d4-a1e5-822c710cbdb9",
+      "scryfallOracleId": "5e985bd1-fd93-4399-9080-fec66d7bd4ae",
+      "text": "Changeling",
+      "toughness": "2",
+      "type": "Token Creature — Shapeshifter",
+      "uuid": "ec01537b-904a-5832-ab3c-8fe52e1038e7"
+    },
+    {
+      "artist": "Greg Staples",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Recruit the Worthy"
+      ],
+      "scryfallId": "c61b83cf-791a-48bf-81c8-c6c940b89d83",
+      "scryfallIllustrationId": "6df28827-075d-4e5e-ba2c-d26982ace45f",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "17cc5fa9-5cdb-5e56-acff-0edd7f07efe2"
+    },
+    {
+      "artist": "Daniel Ljunggren",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Spider",
+      "number": "14",
+      "power": "1",
+      "reverseRelated": [
+        "Twin-Silk Spider",
+        "Rotwidow Pack"
+      ],
+      "scryfallId": "01591603-d903-419d-9957-cf0ae7f79240",
+      "scryfallIllustrationId": "e4ac9b64-168d-4b85-8e7b-98791d165b61",
+      "scryfallOracleId": "bd386399-69f0-4653-96a1-fd05b8fd148c",
+      "text": "Reach",
+      "toughness": "2",
+      "type": "Token Creature — Spider",
+      "uuid": "64a5cb8c-b554-532d-8da5-3d1e38cf7503"
+    },
+    {
+      "artist": "Josh Hass",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "colors": [
+        "B",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "16",
+      "power": "1",
+      "reverseRelated": [
+        "Kaya's Guile"
+      ],
+      "scryfallId": "cf24e9fa-7d7f-4693-a9ed-b8e725d0ad5c",
+      "scryfallIllustrationId": "cb429ac9-75e2-41c0-bcb1-18da51093d50",
+      "scryfallOracleId": "18ef473d-f958-4bff-8045-154f6adc6b04",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "6beff156-52aa-5e39-a2da-f0ddd61ad540"
+    },
+    {
+      "artist": "Daniel Ljunggren",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Squirrel",
+      "number": "15",
+      "power": "1",
+      "reverseRelated": [
+        "Deep Forest Hermit",
+        "Squirrel Nest"
+      ],
+      "scryfallId": "7b997fe7-69f3-4ccd-b3a7-ef5e0cb7db46",
+      "scryfallIllustrationId": "91171f39-d7d5-4827-883e-982fc2aaa4fc",
+      "scryfallOracleId": "67f21c0c-2083-4eda-9dc3-cc8aee42289f",
+      "toughness": "1",
+      "type": "Token Creature — Squirrel",
+      "uuid": "a85a3f26-eda1-5ead-9767-674da8929da0"
+    },
+    {
+      "artist": "Chase Stone",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Wrenn and Six Emblem",
+      "number": "21",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "58c8a9fc-755a-4bff-8e13-41fbf4d9e546",
+      "scryfallIllustrationId": "19945b02-50cc-407c-9056-b66225a09768",
+      "scryfallOracleId": "bc4edccc-255a-4e34-8fdb-92c7c0e3723e",
+      "text": "Instant and sorcery cards in your graveyard have retrace. (You may cast instant and sorcery cards from your graveyard by discarding a land card in addition to paying their other costs.)",
+      "type": "Emblem — Wrenn",
+      "uuid": "1800b249-985e-5f3d-87a2-26f84a2e02b3"
+    },
+    {
+      "artist": "Anna Steinbauer",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "7",
+      "power": "2",
+      "reverseRelated": [
+        "Rank Officer"
+      ],
+      "scryfallId": "9c722fe8-05f1-4da0-a23b-25e20359fcef",
+      "scryfallIllustrationId": "2391d548-fc02-4021-a6c5-fa680b9f4fde",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "f2f26170-610e-5307-8a9b-1b430a1974f1"
+    }
+  ],
+  "totalSetSize": 255,
+  "translations": {
+    "Chinese Simplified": "摩登新篇",
+    "Chinese Traditional": "近代新篇",
+    "French": "Horizons du Modern",
+    "German": "Modern: Horizonte",
+    "Italian": "Orizzonti di Modern",
+    "Japanese": "『モダンホライゾン』",
+    "Korean": "모던 호라이즌",
+    "Portuguese (Brazil)": "Modern Horizons",
+    "Russian": "Горизонты Модерна",
+    "Spanish": "Horizontes de Modern"
+  },
+  "type": "draft_innovation"
+}

@@ -1,0 +1,22 @@
+{
+  "baseSetSize": 0,
+  "code": "OE01",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "E01",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Archenemy: Nicol Bolas Schemes",
+  "parentCode": "E01",
+  "releaseDate": "2017-06-16",
+  "tokens": [
+
+  ],
+  "totalSetSize": 20,
+  "translations": {
+  },
+  "type": "archenemy"
+}

@@ -1,17 +1,57 @@
 {
-  "name": "Duel Decks: Knights vs. Dragons",
+  "baseSetSize": 0,
   "code": "DDG",
-  "magicCardsInfoCode": "ddg",
-  "releaseDate": "2011-04-01",
-  "border": "black",
-  "type": "duel deck",
-  "translations": {
-    "de": "Duel Decks: Knights vs. Dragons",
-    "fr": "Duel Decks: Knights vs. Dragons",
-    "it": "Duel Decks: Knights vs. Dragons",
-    "es": "Duel Decks: Knights vs. Dragons",
-    "jp": "Duel Decks: Knights vs. Dragons"
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DDG",
+  "mcmId": 1261,
+  "mcmName": "Duel Decks: Knights vs. Dragons",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Duel Decks: Knights vs. Dragons",
-  "mkm_id": 1261
+  "mtgoCode": "DDG",
+  "name": "Duel Decks: Knights vs. Dragons",
+  "releaseDate": "2011-04-01",
+  "tcgplayerGroupId": 36,
+  "tokens": [
+    {
+      "artist": "Brandon Kitkouski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Dragon Fodder"
+      ],
+      "scryfallId": "4bca62e7-8fb5-45ff-ac9a-17db8095e76c",
+      "scryfallIllustrationId": "026eab38-a320-4e17-922e-2525808a3aab",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "c76b078f-db1f-5c07-a098-c2625cf3db3b"
+    }
+  ],
+  "totalSetSize": 81,
+  "translations": {
+    "Chinese Simplified": "Knights vs. Dragons",
+    "Chinese Traditional": "Knights vs. Dragons",
+    "French": "Knights vs. Dragons",
+    "German": "Knights vs. Dragons",
+    "Italian": "Knights vs. Dragons",
+    "Japanese": "Knights vs. Dragons",
+    "Korean": "Knights vs. Dragons",
+    "Portuguese (Brazil)": "Knights vs. Dragons",
+    "Russian": "Knights vs. Dragons",
+    "Spanish": "Knights vs. Dragons"
+  },
+  "type": "duel_deck"
 }

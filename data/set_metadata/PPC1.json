@@ -1,0 +1,44 @@
+{
+  "baseSetSize": 0,
+  "code": "PPC1",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "M15",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "M15 Prerelease Challenge",
+  "parentCode": "M15",
+  "releaseDate": "2014-07-12",
+  "tokens": [
+    {
+      "artist": "David Palumbo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "T1",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "f36559a1-6fe9-451f-b1a5-5baa9e9301fa",
+      "scryfallIllustrationId": "cc035855-ebc1-4443-976c-661e22b89991",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "f0857e81-b65d-5787-a448-57affd27b269"
+    }
+  ],
+  "totalSetSize": 2,
+  "translations": {
+  },
+  "type": "memorabilia"
+}

@@ -1,0 +1,195 @@
+{
+  "baseSetSize": 0,
+  "code": "WC04",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "World Championship Decks 2004",
+  "releaseDate": "2004-09-01",
+  "tokens": [
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "2004 World Championships Ad",
+      "number": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "cbd6a762-f3c2-4b29-a07e-f0c9c81cf1ec",
+      "scryfallOracleId": "2f6fe48f-c3e0-4459-9e41-af5442422518",
+      "type": "Card",
+      "uuid": "2f142385-bb2a-59de-93bf-425e1beaead5"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Aeo Paquette Bio",
+      "number": "ap0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "06e5f736-2696-4428-a611-2d93e0c4e1cf",
+      "scryfallOracleId": "accb4c23-41ad-48b2-b0bc-209e4e978f96",
+      "text": "Professional Magic® player Aeo Paquette played the deck that defined the metagame at the 2004 World Championships: \"Affinity.\" Against a field full of decks designed to beat Affinity, this nineteen-year-old Canadian piloted his fast beatdown deck to a 5–1 record during the Standard portion of the tournament. Paquette credits his friend Jeff Cunningham for helping him design an Affinity deck that could compete so well against the field.",
+      "type": "Card",
+      "uuid": "982627f7-84e6-53ac-ac37-0ff345b7689d"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Aeo Paquette Decklist",
+      "number": "ap0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "2cb77c74-f4cd-46e0-a2de-1fcdc1bdbd1d",
+      "scryfallOracleId": "4b298cbb-f877-4450-88fb-136a5558a73f",
+      "type": "Card",
+      "uuid": "5d1bbb14-1727-5acc-ae96-ce8b6bee069c"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Gabriel Nassif Bio",
+      "number": "gn0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "06a5f33a-9357-46c5-bc3b-aba91581287e",
+      "scryfallOracleId": "9f7808fe-321c-43aa-ad5f-675d6a672978",
+      "text": "Twenty-year-old Gabriel Nassif is considered to be the best player never to have won a Pro Tour™ event. Designed to beat the ubiquitous \"Affinity\" decks, his blue-white control deck also plays well against anti-Affinity decks. Worlds marked the third time in the season that the Parisian had made it to the final day of a Pro Tour event, and his performance earned Nassif the coveted 2004 Player of the Year award—a title he will defend vigorously next year.",
+      "type": "Card",
+      "uuid": "60e400c9-f9a0-5a38-ba2c-8f778c6d059e"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Gabriel Nassif Decklist",
+      "number": "gn0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "07232e81-f67f-45f2-ab7e-3109e89cf039",
+      "scryfallOracleId": "d7efadbb-f39f-4fe3-9a0d-9f3ed030002b",
+      "type": "Card",
+      "uuid": "c9120747-8df8-5c7d-ad24-02f170e1d2f3"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Julien Nuijten Bio",
+      "number": "jn0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "9022a74a-f758-4475-88af-164d9e5ecf31",
+      "scryfallOracleId": "7b4f26b8-aecd-4d19-bd5a-360391eab96e",
+      "text": "The youngest ever Magic® World Champion, Dutch wunderkind Julien Nuijten came out of nowhere to stun the field. Just fifteen years old, Nuijten proved that he can play with the best. Playing a green—white Astral Slide deck designed to destroy \"Affinity\", he posted a respectable 4-2 record on the Standard day at Worlds and then calmly swept the field on the final day. He says the inspiration for his deck came from an Internet article by Pro Tour™ veteran Brian Kibler.",
+      "type": "Card",
+      "uuid": "82803b65-f95a-5d30-b1ec-8baf7fab6fd0"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Julien Nuijten Decklist",
+      "number": "jn0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "18eee350-4d70-4124-ae0d-a77f3bd7e948",
+      "scryfallOracleId": "383f8c67-fce7-496b-85a4-b7d6e6a9e650",
+      "type": "Card",
+      "uuid": "08ae372d-ee54-59a1-8836-3d52de24ddab"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Manuel Bevand Bio",
+      "number": "mb0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "f127bd8b-64fd-4fde-b520-345ed27a8585",
+      "scryfallOracleId": "48e018c8-51c6-4ccd-bdd4-4fef97e985cd",
+      "text": "Pro Tour™ veteran Manuel Bevand played an artifact-based combo deck to a perfect 6-0 record on the Standard day at Worlds. His deck uses Krark-Clan Ironworks to quickly get a Myr Incubator into play, which then creates thirty or more 1/1 Myr creatures—sometimes as early as the third turn! A twenty-seven-year-old freelance game designer from Paris, France, Bevand has been a Magic® regular since 1994, playing in over a dozen Pro Tour events. He credits Magic Online for getting him back into championship form.",
+      "type": "Card",
+      "uuid": "466e220b-55fe-5a7c-806a-78d128068927"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Manuel Bevand Decklist",
+      "number": "mb0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "836c1c87-7542-45e5-9bdc-73b9c6df1c0f",
+      "scryfallOracleId": "9f55d9ed-61b2-4846-8b0d-99e4a27a3e6a",
+      "type": "Card",
+      "uuid": "4118b473-1b71-5b6b-9e03-7166c826f44d"
+    }
+  ],
+  "totalSetSize": 102,
+  "translations": {
+  },
+  "type": "memorabilia"
+}

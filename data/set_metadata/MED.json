@@ -1,26 +1,316 @@
 {
-  "name": "Masters Edition",
+  "baseSetSize": 0,
   "code": "MED",
-  "magicCardsInfoCode": "med",
-  "releaseDate": "2007-09-10",
-  "border": "black",
-  "type": "masters",
-  "onlineOnly": true,
-  "booster": [
-    "rare",
-    "uncommon",
-    "uncommon",
-    "uncommon",
-    "common",
-    "common",
-    "common",
-    "common",
-    "common",
-    "common",
-    "common",
-    "common",
-    "common",
-    "common",
-    "land"
-  ]
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "MED",
+  "mcmId": 2373,
+  "mcmName": "Guilds of Ravnica: Mythic Edition",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "MS4",
+  "name": "Mythic Edition",
+  "releaseDate": "2018-10-05",
+  "tcgplayerGroupId": 2326,
+  "tokens": [
+    {
+      "artist": "Victor Adame Minguez",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Construct",
+      "number": "G3",
+      "power": "1",
+      "reverseRelated": [
+        "Daretti, Ingenious Iconoclast"
+      ],
+      "scryfallId": "277c8c56-11a6-4aff-aaee-b9572cc7c6ef",
+      "scryfallIllustrationId": "3d2a6a1e-f61a-4b21-abe6-bcfe678103c9",
+      "scryfallOracleId": "ebddf9b8-fd1a-4a6b-bec8-3a63485e36c0",
+      "text": "Defender",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Construct",
+      "uuid": "1c64819d-d873-5030-a628-344cac8eeb9b"
+    },
+    {
+      "artist": "Victor Adame Minguez",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Construct",
+      "number": "R1",
+      "power": "0",
+      "reverseRelated": [
+        "Karn, Scion of Urza"
+      ],
+      "scryfallId": "4263a49c-82b7-4f36-899f-11914bf3275a",
+      "scryfallIllustrationId": "89acb32a-d992-4da4-9395-a88164a37591",
+      "scryfallOracleId": "ee740c48-59cd-4fcc-b4a5-fe3dde1361d5",
+      "text": "This creature gets +1/+1 for each artifact you control.",
+      "toughness": "0",
+      "type": "Token Artifact Creature — Construct",
+      "uuid": "8dc65c2b-8f97-5f7b-a807-ef35940715e5"
+    },
+    {
+      "artist": "Jason Rainville",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Dack Fayden Emblem",
+      "number": "R2",
+      "reverseRelated": [
+        "Dack Fayden"
+      ],
+      "scryfallId": "c80136c2-7230-4fe5-b7dc-37ee32f1bd8e",
+      "scryfallIllustrationId": "f979e1df-c32f-4100-8b41-edca72e74f50",
+      "scryfallOracleId": "6c2c20cb-de02-4557-b718-ee3feea4e5b2",
+      "text": "Whenever you cast a spell that targets one or more permanents, gain control of those permanents.",
+      "type": "Emblem — Dack",
+      "uuid": "2837833b-5eeb-5cb2-8c5e-40ea25d958d6"
+    },
+    {
+      "artist": "Jason Rainville",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Domri, Chaos Bringer Emblem",
+      "number": "R3",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "bdc404cd-d518-41f7-858c-f1928e44a88c",
+      "scryfallIllustrationId": "076881c3-fc80-4b1e-b252-7b62d5b3d5dc",
+      "scryfallOracleId": "a6696704-ac0f-4319-a3c4-f6739f84d7d1",
+      "text": "At the beginning of each end step, create a 4/4 red and green Beast creature token with trample.",
+      "type": "Emblem — Domri",
+      "uuid": "8accdc1a-639d-5fb0-a6e8-95c00d36df45"
+    },
+    {
+      "artist": "Zack Stella",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Elspeth, Knight-Errant Emblem",
+      "number": "G4",
+      "reverseRelated": [
+        "Elspeth, Knight-Errant"
+      ],
+      "scryfallId": "6a62619f-a432-4314-b018-7eacda9252a7",
+      "scryfallIllustrationId": "5cd85ffc-47df-44d1-861e-1c98300d695f",
+      "scryfallOracleId": "17549447-6f19-4d87-8af1-58b6bb387003",
+      "text": "Artifacts, creatures, enchantments, and lands you control have indestructible.",
+      "type": "Emblem — Elspeth",
+      "uuid": "a8906abf-57d4-539a-ae90-eaef257b7708"
+    },
+    {
+      "artist": "Kieran Yanner",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Jaya Ballard Emblem",
+      "number": "R4",
+      "reverseRelated": [
+        "Jaya Ballard"
+      ],
+      "scryfallId": "a02ffa48-e414-493c-af51-1400913f8af4",
+      "scryfallIllustrationId": "d5fff523-5f6d-4544-aab7-1f44e0e18808",
+      "scryfallOracleId": "82f55659-e4df-485d-a7cf-a11f27d6ae5d",
+      "text": "You may cast instant and sorcery cards from your graveyard. If a card cast this way would be put into your graveyard, exile it instead.",
+      "type": "Emblem — Jaya",
+      "uuid": "0bb3dedd-3f25-5e52-bd85-65d48732966c"
+    },
+    {
+      "artist": "Kieran Yanner",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Liliana, the Last Hope Emblem",
+      "number": "G5",
+      "reverseRelated": [
+        "Liliana, the Last Hope"
+      ],
+      "scryfallId": "5a23656c-3af3-49e3-ad15-aa1056027df7",
+      "scryfallIllustrationId": "840cdd6c-0938-4d70-b4c2-338180600f88",
+      "scryfallOracleId": "78d9bb73-904b-483e-9279-5f3f43b4bdf3",
+      "text": "At the beginning of your end step, create X 2/2 black Zombie creature tokens, where X is two plus the number of Zombies you control.",
+      "type": "Emblem — Liliana",
+      "uuid": "ad9e236d-fe6f-5738-9ae9-d8f875340c51"
+    },
+    {
+      "artist": "Daniel Ljunggren",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Ral, Izzet Viceroy Emblem",
+      "number": "G6",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "18a2790c-0dcd-4564-bd5e-7d453d1c4edf",
+      "scryfallIllustrationId": "2f2755a2-1fba-4741-8418-8e0877df941b",
+      "scryfallOracleId": "7306e176-a32f-4d6d-b2cf-483ad508ddc5",
+      "text": "Whenever you cast an instant or sorcery spell, this emblem deals 4 damage to any target and you draw two cards.",
+      "type": "Emblem — Ral",
+      "uuid": "ef41bf69-ba34-56b2-a281-7b85f554a2d1"
+    },
+    {
+      "artist": "Goran Josic",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "G1",
+      "power": "1",
+      "reverseRelated": [
+        "Elspeth, Knight-Errant"
+      ],
+      "scryfallId": "de12b41f-abc6-4057-bda2-ea1d5e60321b",
+      "scryfallIllustrationId": "8435b0da-d791-4a49-ad91-d12eec86dd53",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "affab8f9-5d6a-5bd2-b43a-47d8657f9431"
+    },
+    {
+      "artist": "Lius Lasahido",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Tamiyo, the Moon Sage Emblem",
+      "number": "R5",
+      "reverseRelated": [
+        "Tamiyo, the Moon Sage"
+      ],
+      "scryfallId": "a23051f6-b2e6-42b2-86ea-ed8535ba0922",
+      "scryfallIllustrationId": "0415cda7-0042-4f9b-b74e-b5f3bc3324da",
+      "scryfallOracleId": "53bb5d83-f499-44f0-9dce-04a28bd4be4d",
+      "text": "You have no maximum hand size.\nWhenever a card is put into your graveyard from anywhere, you may return it to your hand.",
+      "type": "Emblem — Tamiyo",
+      "uuid": "a7886e47-b019-5b48-a014-880b8957c694"
+    },
+    {
+      "artist": "Yongjae Choi",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Teferi, Hero of Dominaria Emblem",
+      "number": "G7",
+      "reverseRelated": [
+        "Teferi, Hero of Dominaria"
+      ],
+      "scryfallId": "3caeb24f-b4b3-4ede-9bee-4b4272b2bbcd",
+      "scryfallIllustrationId": "c62778d4-7d44-40b6-a65d-866c40489edb",
+      "scryfallOracleId": "77f14c9f-cc82-448e-b91b-e5dcc8c63c0a",
+      "text": "Whenever you draw a card, exile target permanent an opponent controls.",
+      "type": "Emblem — Teferi",
+      "uuid": "6c9ec2fc-cb7b-5eb2-bdbf-3d52a87085fa"
+    },
+    {
+      "artist": "Livia Prima",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Vraska, Golgari Queen Emblem",
+      "number": "G8",
+      "reverseRelated": [
+        "Vraska, Golgari Queen"
+      ],
+      "scryfallId": "828f3798-a495-42f8-b989-97f0fe662326",
+      "scryfallIllustrationId": "a5a1e947-2dc7-4478-bffc-2e793f0e41a6",
+      "scryfallOracleId": "c43c74a0-8e82-4349-9df9-ffaba2b2bed7",
+      "text": "Whenever a creature you control deals combat damage to a player, that player loses the game.",
+      "type": "Emblem — Vraska",
+      "uuid": "133008ee-29b0-5e29-b6ea-1842854842a8"
+    },
+    {
+      "artist": "Anna Steinbauer",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "G2",
+      "power": "2",
+      "reverseRelated": [
+        "Liliana, the Last Hope"
+      ],
+      "scryfallId": "0645e544-e395-4ab5-add2-ba46f6c2ad51",
+      "scryfallIllustrationId": "2391d548-fc02-4021-a6c5-fa680b9f4fde",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "3de00786-caf1-56dc-ae48-4cc0c55dc38d"
+    }
+  ],
+  "totalSetSize": 24,
+  "translations": {
+  },
+  "type": "masterpiece"
 }

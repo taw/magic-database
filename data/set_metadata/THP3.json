@@ -1,0 +1,42 @@
+{
+  "baseSetSize": 0,
+  "block": "Theros",
+  "code": "THP3",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "JOU",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Journey into Nyx Hero's Path",
+  "parentCode": "JOU",
+  "releaseDate": "2014-05-02",
+  "tokens": [
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Enhancement Stickers",
+      "number": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "b75073d6-bd99-4d70-b335-72df71636617",
+      "scryfallOracleId": "861c3dd2-1142-4b66-8e9e-aa8a441c6eba",
+      "text": "Equipped creature has vigilance and can block an additional creature each combat.\nWhenever equipped creature deals damage, put a +1/+1 counter on it.\nWhenever equipped creature deals damage, scry 1.\nEquipped creature has protection from enchantments.\nEquipped creature has double strike.\nWhenever equipped creature deals damage, put a 1/1 white Soldier creature token onto the battlefield.\nWhenever equipped creature deals damage, untap two target lands.",
+      "type": "Card",
+      "uuid": "71d9d5fa-d85e-576b-9daf-60258bc20272"
+    }
+  ],
+  "totalSetSize": 9,
+  "translations": {
+  },
+  "type": "token"
+}

@@ -1,12 +1,7 @@
 {
-  "name": "Betrayers of Kamigawa",
-  "code": "BOK",
-  "magicCardsInfoCode": "bok",
-  "releaseDate": "2005-02-04",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 165,
   "block": "Kamigawa",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,15 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Verräter von Kamigawa",
-    "fr": "Traîtres de Kamigawa",
-    "it": "Traditori di Kamigawa",
-    "es": "Traidores de Kamigawa",
-    "pt": "Traidores de Kamigawa",
-    "jp": "神河謀叛",
-    "cn": "神河叛将谱"
+  "code": "BOK",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "BOK",
+  "mcmId": 51,
+  "mcmName": "Betrayers of Kamigawa",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Betrayers of Kamigawa",
-  "mkm_id": 51
+  "mtgoCode": "BOK",
+  "name": "Betrayers of Kamigawa",
+  "releaseDate": "2005-02-04",
+  "tcgplayerGroupId": 18,
+  "tokens": [
+
+  ],
+  "totalSetSize": 165,
+  "translations": {
+    "Chinese Simplified": "神河叛将谱",
+    "Chinese Traditional": "神河叛將譜",
+    "French": "神河謀叛",
+    "German": "Verräter von Kamigawa",
+    "Italian": "Traditori di Kamigawa",
+    "Japanese": "神河謀叛",
+    "Korean": "카미가와의 배신자들",
+    "Portuguese (Brazil)": "Traidores de Kamigawa",
+    "Russian": "Betrayers of Kamigawa",
+    "Spanish": "Traidores de Kamigawa"
+  },
+  "type": "expansion"
 }

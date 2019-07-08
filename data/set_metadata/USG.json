@@ -1,13 +1,7 @@
 {
-  "name": "Urza's Saga",
-  "code": "USG",
-  "gathererCode": "UZ",
-  "magicCardsInfoCode": "us",
-  "releaseDate": "1998-10-12",
-  "border": "black",
-  "type": "expansion",
-  "block": "Urza's",
-  "booster": [
+  "baseSetSize": 350,
+  "block": "Urza",
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Urzas Saga",
-    "fr": "Epopée d'Urza",
-    "it": "Saga di Urza",
-    "es": "La Saga de Urza",
-    "pt": "A Saga de Urza"
+  "code": "USG",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "USG",
+  "mcmId": 26,
+  "mcmName": "Urza's Saga",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Urza's Saga",
-  "mkm_id": 26
+  "mtgoCode": "UZ",
+  "name": "Urza's Saga",
+  "releaseDate": "1998-10-12",
+  "tcgplayerGroupId": 118,
+  "tokens": [
+
+  ],
+  "totalSetSize": 350,
+  "translations": {
+    "Chinese Simplified": "Urza’s Saga",
+    "Chinese Traditional": "Urza’s Saga",
+    "French": "Urza’s Saga",
+    "German": "Urza’s Saga",
+    "Italian": "Urza’s Saga",
+    "Japanese": "Urza’s Saga",
+    "Korean": "Urza’s Saga",
+    "Portuguese (Brazil)": "Urza’s Saga",
+    "Russian": "Urza’s Saga",
+    "Spanish": "Urza’s Saga"
+  },
+  "type": "expansion"
 }

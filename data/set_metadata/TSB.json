@@ -1,38 +1,25 @@
 {
-  "name": "Time Spiral \"Timeshifted\"",
-  "code": "TSB",
-  "magicCardsInfoCode": "tsts",
-  "releaseDate": "2006-10-06",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 121,
   "block": "Time Spiral",
-  "booster": [
-    "rare",
-    "uncommon",
-    "uncommon",
-    "uncommon",
-    "common",
-    "common",
-    "common",
-    "common",
-    "common",
-    "common",
-    "common",
-    "common",
-    "common",
-    "common",
-    "timeshifted purple"
-  ],
-  "translations": {
-    "de": "Zeitspirale",
-    "fr": "Spirale Temporelle",
-    "it": "Spirale Temporale",
-    "es": "Espiral del Tiempo",
-    "pt": "Time Spiral",
-    "jp": "時のらせん",
-    "cn": "Time Spiral",
-    "ru": "Спираль времени"
+  "code": "TSB",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "TSP",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Time Spiral",
-  "mkm_id": 56
+  "mtgoCode": "TSB",
+  "name": "Time Spiral Timeshifted",
+  "parentCode": "TSP",
+  "releaseDate": "2006-10-06",
+  "tcgplayerGroupId": 111,
+  "tokens": [
+
+  ],
+  "totalSetSize": 121,
+  "translations": {
+  },
+  "type": "expansion"
 }

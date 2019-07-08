@@ -1,12 +1,7 @@
 {
-  "name": "Mirrodin Besieged",
-  "code": "MBS",
-  "magicCardsInfoCode": "mbs",
-  "releaseDate": "2011-02-04",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 155,
   "block": "Scars of Mirrodin",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,17 +22,180 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Belagertes Mirrodin",
-    "fr": "Mirrodin assiégé",
-    "it": "Mirrodin Assediato",
-    "es": "Mirrodin sitiado",
-    "pt": "Mirrodin Sitiada",
-    "jp": "ミラディン包囲戦",
-    "cn": "围攻秘罗地",
-    "ru": "Осада Мирродина",
-    "tw": "围攻秘罗地"
+  "code": "MBS",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "MBS",
+  "mcmId": 1253,
+  "mcmName": "Mirrodin Besieged",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Mirrodin Besieged",
-  "mkm_id": 1253
+  "mtgoCode": "MBS",
+  "name": "Mirrodin Besieged",
+  "releaseDate": "2011-02-04",
+  "tcgplayerGroupId": 76,
+  "tokens": [
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Germ",
+      "number": "1",
+      "power": "0",
+      "reverseRelated": [
+        "Bonehoard",
+        "Flayer Husk",
+        "Mortarpod",
+        "Batterskull",
+        "Skinwing",
+        "Strandwalker",
+        "Lashwrithe",
+        "Necropouncer",
+        "Sickleslicer"
+      ],
+      "scryfallId": "760dcba4-c0f1-4843-9c39-393c629aae8e",
+      "scryfallIllustrationId": "285432ed-cd72-4c1b-aa86-fa6945f5a5c1",
+      "scryfallOracleId": "bb549594-35f6-4ac6-9f1f-cfb35784d99e",
+      "toughness": "0",
+      "type": "Token Creature — Germ",
+      "uuid": "f8281cb7-ef88-594b-a80f-c337dcf75916"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Golem",
+      "number": "3",
+      "power": "9",
+      "reverseRelated": [
+        "Titan Forge"
+      ],
+      "scryfallId": "2d84926d-5892-4c62-a943-fac9f0ddc569",
+      "scryfallIllustrationId": "b8444ff1-65de-40e3-8dee-fc092dd81beb",
+      "scryfallOracleId": "80fe0a7b-a310-41a1-8417-c734402e9c4f",
+      "toughness": "9",
+      "type": "Token Artifact Creature — Golem",
+      "uuid": "db46f073-1a04-57c4-a2c9-ec877def1bb0"
+    },
+    {
+      "artist": "Scott Chou",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Horror",
+      "number": "4",
+      "power": "*",
+      "reverseRelated": [
+        "Phyrexian Rebirth"
+      ],
+      "scryfallId": "5a4c5954-da2b-498a-9e86-eb4d6dc95cb8",
+      "scryfallIllustrationId": "8b673941-a37d-416f-ad87-30800ef8b620",
+      "scryfallOracleId": "7f03946b-e602-4624-bf1e-ed240b883fca",
+      "toughness": "*",
+      "type": "Token Artifact Creature — Horror",
+      "uuid": "8b804b1f-3474-574b-9da1-6928548a5d25"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Poison Counter",
+      "number": "6",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "92fcdd2b-dd90-458d-9b8b-5b1b9a3f8bd3",
+      "scryfallOracleId": "60acebe2-e1e5-478a-ab88-6a9c1409bca5",
+      "text": "(A player with ten or more poison counters loses the game.)",
+      "type": "Card",
+      "uuid": "95ce0fec-ce1d-538c-bd30-547297a25b23"
+    },
+    {
+      "artist": "Volkan Baǵa",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Thopter",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Thopter Assembly"
+      ],
+      "scryfallId": "8f4e230e-f604-4803-9cbd-fd08d2863db4",
+      "scryfallIllustrationId": "d4d37d09-5b13-4c86-a122-e1585b46cdcf",
+      "scryfallOracleId": "7c0b6b53-4ddb-4bb5-8a26-0041b2006d3f",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Thopter",
+      "uuid": "09ec87a6-47d5-5e84-8a56-a9b887b68d35",
+      "watermark": "mirran"
+    },
+    {
+      "artist": "Dave Kendall",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "2",
+      "power": "2",
+      "reverseRelated": [
+        "Nested Ghoul"
+      ],
+      "scryfallId": "46769d11-a7ae-43ac-8c00-e1681955949b",
+      "scryfallIllustrationId": "0a812187-9b22-445e-a62c-9af196446264",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "9f48f25d-a91f-5dc7-b9d0-ae989ec1ba80"
+    }
+  ],
+  "totalSetSize": 155,
+  "translations": {
+    "Chinese Simplified": "围攻秘罗地",
+    "Chinese Traditional": "圍攻秘羅地",
+    "French": "Mirrodin Besieged",
+    "German": "Mirrodins Belagerung",
+    "Italian": "Mirrodin Assediato",
+    "Japanese": "ミラディン包囲戦",
+    "Korean": "미로딘 포위전",
+    "Portuguese (Brazil)": "Mirrodin Sitiada",
+    "Russian": "Осада Мирродина",
+    "Spanish": "Mirrodin sitiado"
+  },
+  "type": "expansion"
 }

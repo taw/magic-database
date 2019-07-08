@@ -1,0 +1,66 @@
+{
+  "baseSetSize": 0,
+  "block": "Shadows Over Innistrad",
+  "code": "PEMN",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "EMN",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Eldritch Moon Promos",
+  "parentCode": "EMN",
+  "releaseDate": "2016-07-22",
+  "tokens": [
+    {
+      "artist": "Anna Steinbauer",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+
+      ],
+      "layout": "double_faced_token",
+      "name": "Zombie",
+      "number": "1Z",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "4f153ca0-0e55-4f3c-9780-570708844fd3",
+      "scryfallOracleId": "37b9b92e-ab15-4721-a520-d3d9a8d4e69f",
+      "side": "b",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "976778e0-9867-5fa0-8d8c-bb56d4c323ba"
+    },
+    {
+      "artist": "Tomasz Jedruszek",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "double_faced_token",
+      "name": "Zombie",
+      "number": "1Z",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "4f153ca0-0e55-4f3c-9780-570708844fd3",
+      "scryfallOracleId": "37b9b92e-ab15-4721-a520-d3d9a8d4e69f",
+      "side": "a",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "5f939703-73f0-539c-96c3-b9e00a97638e"
+    }
+  ],
+  "totalSetSize": 73,
+  "translations": {
+  },
+  "type": "promo"
+}

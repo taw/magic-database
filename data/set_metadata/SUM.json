@@ -1,0 +1,24 @@
+{
+  "baseSetSize": 306,
+  "block": "Core Set",
+  "code": "SUM",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "3ED",
+  "mcmId": 76,
+  "mcmName": "Summer Magic",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Summer Magic / Edgar",
+  "releaseDate": "1994-06-21",
+  "tokens": [
+
+  ],
+  "totalSetSize": 306,
+  "translations": {
+  },
+  "type": "core"
+}

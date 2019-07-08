@@ -1,12 +1,6 @@
 {
-  "name": "Portal Three Kingdoms",
-  "code": "PTK",
-  "gathererCode": "PK",
-  "magicCardsInfoCode": "p3k",
-  "releaseDate": "1999-05-01",
-  "border": "white",
-  "type": "starter",
-  "booster": [
+  "baseSetSize": 180,
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -18,10 +12,25 @@
     "land",
     "land"
   ],
-  "translations": {
-    "jp": "Portal Three Kingdoms",
-    "cn": "Portal Three Kingdoms"
+  "code": "PTK",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "PTK",
+  "mcmId": 30,
+  "mcmName": "Portal Three Kingdoms",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Portal Three Kingdoms",
-  "mkm_id": 30
+  "name": "Portal Three Kingdoms",
+  "releaseDate": "1999-05-01",
+  "tcgplayerGroupId": 88,
+  "tokens": [
+
+  ],
+  "totalSetSize": 180,
+  "translations": {
+  },
+  "type": "starter"
 }

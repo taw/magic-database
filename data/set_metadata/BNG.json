@@ -1,12 +1,7 @@
 {
-  "name": "Born of the Gods",
-  "code": "BNG",
-  "magicCardsInfoCode": "bng",
-  "releaseDate": "2014-02-07",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 165,
   "block": "Theros",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,18 +22,293 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Kinder der Götter",
-    "fr": "Créations divines",
-    "it": "Figli degli dei",
-    "es": "Nacidos de los dioses",
-    "pt": "Nascidos dos Deuses",
-    "jp": "神々の軍勢",
-    "cn": "天神创生",
-    "ru": "Порождения Богов",
-    "tw": "天神創生",
-    "ko": "신들의 피조물"
+  "code": "BNG",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "BNG",
+  "mcmId": 1469,
+  "mcmName": "Born of the Gods",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Born of the Gods",
-  "mkm_id": 1469
+  "mtgoCode": "BNG",
+  "name": "Born of the Gods",
+  "releaseDate": "2014-02-07",
+  "tcgplayerGroupId": 1276,
+  "tokens": [
+    {
+      "artist": "Clint Cearley",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Ornitharch"
+      ],
+      "scryfallId": "c862470b-f273-4e01-945b-bf3697cd1359",
+      "scryfallIllustrationId": "c8c947e0-530b-449f-9f17-1b0d82f6119c",
+      "scryfallOracleId": "b1a2b096-a440-4ef9-ab2a-059c79999297",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bird",
+      "uuid": "03cbf365-9793-591a-bb88-091d1321b627"
+    },
+    {
+      "artist": "Mike Sass",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "4",
+      "power": "2",
+      "reverseRelated": [
+        "Aerie Worshippers",
+        "Rise of Eagles"
+      ],
+      "scryfallId": "ca6ce21f-2a29-480e-91f9-b089232863ff",
+      "scryfallIllustrationId": "08e4db89-fea9-41b6-b367-3c5fbc9653b5",
+      "scryfallOracleId": "ed1eaac2-79f7-4d4f-a0c5-f87a4cf6042c",
+      "text": "Flying",
+      "toughness": "2",
+      "type": "Token Enchantment Creature — Bird",
+      "uuid": "f508d614-2896-51ed-bc6a-762d527c5723"
+    },
+    {
+      "artist": "Scott Chou",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Cat Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Brimaz, King of Oreskos",
+        "Vanguard of Brimaz"
+      ],
+      "scryfallId": "921d6192-6b6d-4aa1-be80-bc0b9f503e33",
+      "scryfallIllustrationId": "d9c6be29-ad7e-42bf-9d16-5531412b1730",
+      "scryfallOracleId": "53c009a1-b9b6-43d6-8543-77688fedf8ae",
+      "text": "Vigilance",
+      "toughness": "1",
+      "type": "Token Creature — Cat Soldier",
+      "uuid": "6ea71510-c474-5f5a-b628-3b855ae08bce"
+    },
+    {
+      "artist": "Ryan Barger",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Centaur",
+      "number": "8",
+      "power": "3",
+      "reverseRelated": [
+        "Fated Intervention",
+        "Pheres-Band Raiders"
+      ],
+      "scryfallId": "985be507-6125-4db2-b99f-8b61149ffeeb",
+      "scryfallIllustrationId": "30aa5b54-e06d-4e09-be1d-089494075d4a",
+      "scryfallOracleId": "d3988ada-5df2-4055-be63-30db40ad3992",
+      "toughness": "3",
+      "type": "Token Enchantment Creature — Centaur",
+      "uuid": "4baa6b60-f975-5f1a-b254-fee0e2de86e2"
+    },
+    {
+      "artist": "Greg Staples",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "7",
+      "power": "3",
+      "reverseRelated": [
+        "Satyr Nyx-Smith"
+      ],
+      "scryfallId": "97e5fee3-6dd9-4bbe-b64d-ddfa4b9d4256",
+      "scryfallIllustrationId": "280e8a79-3eba-4ded-be85-382a2139439c",
+      "scryfallOracleId": "e43cada0-1ed7-4246-ae53-c34a0e91a012",
+      "toughness": "1",
+      "type": "Token Enchantment Creature — Elemental",
+      "uuid": "b200c21c-2fc0-5206-8e7c-c5c7eb2673fc"
+    },
+    {
+      "artist": "Richard Wright",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Gold",
+      "number": "10",
+      "reverseRelated": [
+        "Gild",
+        "King Macar, the Gold-Cursed"
+      ],
+      "scryfallId": "f8b8298e-5ce6-4ff6-9563-fcd158ce841e",
+      "scryfallIllustrationId": "5ea02106-4af0-4762-8740-a8007f91cda1",
+      "scryfallOracleId": "5aa757d8-db7a-4a60-b63e-c9777c141953",
+      "text": "Sacrifice this artifact: Add one mana of any color.",
+      "type": "Token Artifact",
+      "uuid": "b9ded5b3-30cf-59da-a51d-0db889016058"
+    },
+    {
+      "artist": "Scott M. Fischer",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Kiora, the Crashing Wave Emblem",
+      "number": "11",
+      "reverseRelated": [
+        "Kiora, the Crashing Wave"
+      ],
+      "scryfallId": "e45f7850-2ebb-4530-9859-f87b4e0e27be",
+      "scryfallIllustrationId": "90f55c9a-ee1e-4e05-bf74-e4fcf8c04d83",
+      "scryfallOracleId": "1a7523ff-8683-4187-bea7-edee70392791",
+      "text": "At the beginning of your end step, create a 9/9 blue Kraken creature token.",
+      "type": "Emblem — Kiora",
+      "uuid": "b1facfb0-9542-5e71-b081-4dea5ac1b87a"
+    },
+    {
+      "artist": "Dan Scott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Kraken",
+      "number": "5",
+      "power": "9",
+      "reverseRelated": [
+        "Kiora, the Crashing Wave"
+      ],
+      "scryfallId": "f9576efe-03eb-49da-bb00-5bf8e50877fb",
+      "scryfallIllustrationId": "e07a8271-9fdd-4d2b-9b7a-1b309bccc36a",
+      "scryfallOracleId": "cd0f813b-1f9f-484d-adab-bc8d16d2b867",
+      "toughness": "9",
+      "type": "Token Creature — Kraken",
+      "uuid": "db0d2079-a3cd-5eb9-a722-0c1e3ee5266a"
+    },
+    {
+      "artist": "David Palumbo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "God-Favored General"
+      ],
+      "scryfallId": "66f90245-fa63-48b2-a20a-8a6f00dd5853",
+      "scryfallIllustrationId": "7866725a-d0bb-4841-8de1-68aca453807d",
+      "scryfallOracleId": "cca22679-fb67-4a43-b824-0f8faac0f319",
+      "toughness": "1",
+      "type": "Token Enchantment Creature — Soldier",
+      "uuid": "4a989b5a-86af-57d1-8269-0ebab16e8a2a"
+    },
+    {
+      "artist": "Raoul Vitale",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "9",
+      "power": "2",
+      "reverseRelated": [
+        "Raised by Wolves"
+      ],
+      "scryfallId": "8958b650-c831-4499-813b-5699954ab2f0",
+      "scryfallIllustrationId": "957587f7-aca0-40d4-9306-94ceb7b18167",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "7648ecd0-df26-5727-9aca-c04ad0d08aa4"
+    },
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "6",
+      "power": "2",
+      "reverseRelated": [
+        "Forlorn Pseudamma"
+      ],
+      "scryfallId": "aa525567-24f3-4ad4-b0b2-3b09d87cd106",
+      "scryfallIllustrationId": "48f09034-d897-47f6-b065-d49fc29747f1",
+      "scryfallOracleId": "7cd97599-7858-4fba-8ccc-06aed3246380",
+      "toughness": "2",
+      "type": "Token Enchantment Creature — Zombie",
+      "uuid": "17d0ae94-d560-5903-9bac-98331bb52f9e"
+    }
+  ],
+  "totalSetSize": 165,
+  "translations": {
+    "Chinese Simplified": "天神创生",
+    "Chinese Traditional": "天神創生",
+    "French": "Créations divines",
+    "German": "Kinder der Götter",
+    "Italian": "Figli degli dei",
+    "Japanese": "『神々の軍勢』",
+    "Korean": "신들의 피조물",
+    "Portuguese (Brazil)": "Nascidos dos Deuses",
+    "Russian": "Порождения Богов",
+    "Spanish": "Nacidos de los Dioses"
+  },
+  "type": "expansion"
 }

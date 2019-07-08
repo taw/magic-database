@@ -1,13 +1,7 @@
 {
-  "name": "Planeshift",
-  "code": "PLS",
-  "gathererCode": "PS",
-  "magicCardsInfoCode": "ps",
-  "releaseDate": "2001-02-05",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 143,
   "block": "Invasion",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Weltenwechsel",
-    "fr": "Planeshift",
-    "it": "Congiunzione",
-    "es": "Transmigración",
-    "pt": "Conjunção"
+  "code": "PLS",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "PLS",
+  "mcmId": 35,
+  "mcmName": "Planeshift",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Planeshift",
-  "mkm_id": 35
+  "mtgoCode": "PS",
+  "name": "Planeshift",
+  "releaseDate": "2001-02-05",
+  "tcgplayerGroupId": 85,
+  "tokens": [
+
+  ],
+  "totalSetSize": 146,
+  "translations": {
+    "Chinese Simplified": "Planeshift",
+    "Chinese Traditional": "Planeshift",
+    "French": "Planeshift",
+    "German": "Planeshift",
+    "Italian": "Planeshift",
+    "Japanese": "Planeshift",
+    "Korean": "Planeshift",
+    "Portuguese (Brazil)": "Planeshift",
+    "Russian": "Planeshift",
+    "Spanish": "Planeshift"
+  },
+  "type": "expansion"
 }

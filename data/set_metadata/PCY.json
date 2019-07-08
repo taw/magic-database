@@ -1,13 +1,7 @@
 {
-  "name": "Prophecy",
-  "code": "PCY",
-  "gathererCode": "PR",
-  "magicCardsInfoCode": "pr",
-  "releaseDate": "2000-06-05",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 143,
   "block": "Masques",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Prophezeihung",
-    "fr": "Prophétie",
-    "it": "Profezia",
-    "es": "Profecía",
-    "pt": "Profecia"
+  "code": "PCY",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "PCY",
+  "mcmId": 33,
+  "mcmName": "Prophecy",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Prophecy",
-  "mkm_id": 33
+  "mtgoCode": "PR",
+  "name": "Prophecy",
+  "releaseDate": "2000-06-05",
+  "tcgplayerGroupId": 94,
+  "tokens": [
+
+  ],
+  "totalSetSize": 143,
+  "translations": {
+    "Chinese Simplified": "Prophecy",
+    "Chinese Traditional": "Prophecy",
+    "French": "Prophecy",
+    "German": "Prophecy",
+    "Italian": "Prophecy",
+    "Japanese": "Prophecy",
+    "Korean": "Prophecy",
+    "Portuguese (Brazil)": "Prophecy",
+    "Russian": "Prophecy",
+    "Spanish": "Prophecy"
+  },
+  "type": "expansion"
 }

@@ -1,0 +1,25 @@
+{
+  "baseSetSize": 0,
+  "block": "Kaladesh",
+  "code": "PKLD",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "KLD",
+  "mcmId": 1726,
+  "mcmName": "Kaladesh: Promos",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Kaladesh Promos",
+  "parentCode": "KLD",
+  "releaseDate": "2016-09-30",
+  "tokens": [
+
+  ],
+  "totalSetSize": 73,
+  "translations": {
+  },
+  "type": "promo"
+}

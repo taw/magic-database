@@ -1,12 +1,7 @@
 {
-  "name": "Lorwyn",
-  "code": "LRW",
-  "magicCardsInfoCode": "lw",
-  "releaseDate": "2007-10-12",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 301,
   "block": "Lorwyn",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,17 +19,310 @@
     "common",
     "marketing"
   ],
-  "translations": {
-    "de": "Lorwyn",
-    "fr": "Lorwyn",
-    "it": "Lorwyn",
-    "es": "Lorwyn",
-    "pt": "Lorwyn",
-    "jp": "ローウィン",
-    "cn": "洛温",
-    "ru": "Лорвин",
-    "tw": "Lorwyn"
+  "code": "LRW",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "LRW",
+  "mcmId": 84,
+  "mcmName": "Lorwyn",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Lorwyn",
-  "mkm_id": 84
+  "mtgoCode": "LRW",
+  "name": "Lorwyn",
+  "releaseDate": "2007-10-12",
+  "tcgplayerGroupId": 67,
+  "tokens": [
+    {
+      "artist": "Vance Kovacs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Avatar",
+      "number": "1",
+      "power": "*",
+      "reverseRelated": [
+        "Ajani Goldmane"
+      ],
+      "scryfallId": "f669cb99-be79-413b-8266-1dfd6a15cb41",
+      "scryfallIllustrationId": "08a69ed9-7c06-402c-8462-cc01614555e2",
+      "scryfallOracleId": "6a20eb3c-4ebb-4560-9b77-da35a4c2f207",
+      "text": "This creature's power and toughness are each equal to your life total.",
+      "toughness": "*",
+      "type": "Token Creature — Avatar",
+      "uuid": "0c3c819c-9300-5d46-9e29-c19168ac45e6"
+    },
+    {
+      "artist": "John Donahue",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "7",
+      "power": "3",
+      "reverseRelated": [
+        "Garruk Wildspeaker"
+      ],
+      "scryfallId": "c3cbd01b-dbf5-424a-855d-f9a9d7e7e414",
+      "scryfallIllustrationId": "b241883c-fe4f-42c9-be2c-2ed51bcc174b",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "0949b11a-6e7d-515e-8582-33e2336e44a6"
+    },
+    {
+      "artist": "Anthony S. Waters",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "2",
+      "power": "4",
+      "reverseRelated": [
+        "Hoofprints of the Stag"
+      ],
+      "scryfallId": "1c791044-be86-47d8-8c1b-299f6ab254e6",
+      "scryfallIllustrationId": "f5ecf10d-9ff2-4aa8-8719-c88ee3738c7a",
+      "scryfallOracleId": "3b6d8366-9459-43f7-9d3e-371b8398aee2",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Elemental",
+      "uuid": "5629fca0-c74a-5b73-9c6a-55e4be3a067a"
+    },
+    {
+      "artist": "Brandon Kitkouski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "8",
+      "power": "4",
+      "reverseRelated": [
+        "Walker of the Grove",
+        "Eyes of the Wisent"
+      ],
+      "scryfallId": "8b4ef48d-a328-4eb9-a2e3-925c1cd38b1a",
+      "scryfallIllustrationId": "09c0235a-05a6-45f6-aa8d-685e7cd83b45",
+      "scryfallOracleId": "c5a790eb-a3cf-4214-b743-9123ad002ade",
+      "toughness": "4",
+      "type": "Token Creature — Elemental",
+      "uuid": "8ece6c60-2d76-5548-b635-09e87efdab64"
+    },
+    {
+      "artist": "Jim Pavelec",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental Shaman",
+      "number": "6",
+      "power": "3",
+      "reverseRelated": [
+        "Hearthcage Giant",
+        "Hostility",
+        "Rebellion of the Flamekin"
+      ],
+      "scryfallId": "a280aee2-e15a-4625-b429-4032eae08a41",
+      "scryfallIllustrationId": "a81c9910-1a59-467f-a6be-9f57f839fb7e",
+      "scryfallOracleId": "a44da885-2d0f-4e16-ba68-ec80640e819f",
+      "toughness": "1",
+      "type": "Token Creature — Elemental Shaman",
+      "uuid": "08edbbbe-79ea-552d-a8ce-cc013be3d819"
+    },
+    {
+      "artist": "Dominick Domingo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elf Warrior",
+      "number": "9",
+      "power": "1",
+      "reverseRelated": [
+        "Ambassador Oak",
+        "Hunting Triad",
+        "Prowess of the Fair",
+        "Elvish Promenade",
+        "Gilt-Leaf Ambush",
+        "Imperious Perfect",
+        "Lys Alana Huntmaster",
+        "Nath of the Gilt-Leaf"
+      ],
+      "scryfallId": "27b171ac-b2ef-4a80-92d1-6d9e71f3e3ca",
+      "scryfallIllustrationId": "72fc0613-c78e-4e0f-8056-a47fb8b761b2",
+      "scryfallOracleId": "dac8a765-6845-4b57-bb79-4ec463436f92",
+      "toughness": "1",
+      "type": "Token Creature — Elf Warrior",
+      "uuid": "a1645aa5-8c7e-5f9a-a274-70a862273e06"
+    },
+    {
+      "artist": "Richard Sardinha",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Goblin Rogue",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Warren Weirding",
+        "Weirding Shaman",
+        "Boggart Mob",
+        "Marsh Flitter"
+      ],
+      "scryfallId": "f44d5271-5d10-46b2-9ba2-5788d99de2e6",
+      "scryfallIllustrationId": "0d8f8a03-730e-4337-97e6-6277ddf013c7",
+      "scryfallOracleId": "a0814e97-bf28-4ffb-b65d-845de3613065",
+      "toughness": "1",
+      "type": "Token Creature — Goblin Rogue",
+      "uuid": "d4545afe-636e-5600-a94d-60d1e042efa8"
+    },
+    {
+      "artist": "Greg Hildebrandt",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Kithkin Soldier",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Cloudgoat Ranger",
+        "Kinsbaile Borderguard",
+        "Militia's Pride",
+        "Guardian of Cloverdell"
+      ],
+      "scryfallId": "ad29eb21-7ee3-4a67-9601-a62ea0cbe4c0",
+      "scryfallIllustrationId": "4d8601e2-97be-43a4-8f09-3256445d24c4",
+      "scryfallOracleId": "caf4a0d2-64de-42df-a88e-bb0d3f34e207",
+      "toughness": "1",
+      "type": "Token Creature — Kithkin Soldier",
+      "uuid": "ba305586-e0b6-50f7-8163-305cf919b4a7"
+    },
+    {
+      "artist": "Mark Poole",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Merfolk Wizard",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Stonybrook Schoolmaster",
+        "Summon the School",
+        "Benthicore"
+      ],
+      "scryfallId": "526da544-23dd-42b8-8c00-c3609eea4489",
+      "scryfallIllustrationId": "07fa2592-01b8-4508-90a9-520f372a6995",
+      "scryfallOracleId": "224debbd-6073-4455-accf-bcf3c9674c72",
+      "toughness": "1",
+      "type": "Token Creature — Merfolk Wizard",
+      "uuid": "3c232b90-6aa3-5342-9fcd-cb14ff42b803"
+    },
+    {
+      "artist": "Franz Vohwinkel",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Shapeshifter",
+      "number": "11",
+      "power": "1",
+      "reverseRelated": [
+        "Crib Swap"
+      ],
+      "scryfallId": "1a7d89ca-8611-4bda-b5c8-0350ce091102",
+      "scryfallIllustrationId": "31004897-2994-49d6-9668-98941c5458fa",
+      "scryfallOracleId": "fe8478ec-2af9-472b-b104-a71521a3559f",
+      "text": "Changeling",
+      "toughness": "1",
+      "type": "Token Creature — Shapeshifter",
+      "uuid": "c2bd40cc-cc8d-5d84-99d4-ce4d78bcf7ed"
+    },
+    {
+      "artist": "Pete Venters",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "10",
+      "power": "2",
+      "reverseRelated": [
+        "Wolf-Skull Shaman",
+        "Wren's Run Packmaster"
+      ],
+      "scryfallId": "02a80dc2-0811-4df0-95f1-dd80ce9e24de",
+      "scryfallIllustrationId": "c7de7ba0-48f3-4dc9-a209-0b5162730727",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "a7d3dcbc-b293-53d0-a867-cb4d7fa9b990"
+    }
+  ],
+  "totalSetSize": 301,
+  "translations": {
+    "Chinese Simplified": "洛温",
+    "Chinese Traditional": "洛溫",
+    "French": "Lorwyn",
+    "German": "Lorwyn",
+    "Italian": "Lorwyn",
+    "Japanese": "ローウィン",
+    "Korean": "로윈",
+    "Portuguese (Brazil)": "Lorwyn",
+    "Russian": "Лорвин",
+    "Spanish": "Lorwyn"
+  },
+  "type": "expansion"
 }

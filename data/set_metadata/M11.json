@@ -1,11 +1,7 @@
 {
-  "name": "Magic 2011",
-  "code": "M11",
-  "magicCardsInfoCode": "m11",
-  "releaseDate": "2010-07-16",
-  "border": "black",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 249,
+  "block": "Core Set",
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -26,17 +22,176 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Magic 2011",
-    "fr": "Magic 2011",
-    "it": "Magic 2011",
-    "es": "Magic 2011",
-    "pt": "Magic 2011",
-    "jp": "Magic 2011",
-    "cn": "Magic 2011",
-    "ru": "Magic 2011",
-    "tw": "Magic 2011"
+  "code": "M11",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "M11",
+  "mcmId": 1197,
+  "mcmName": "Magic 2011",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Magic 2011",
-  "mkm_id": 1197
+  "mtgoCode": "M11",
+  "name": "Magic 2011",
+  "releaseDate": "2010-07-16",
+  "tcgplayerGroupId": 69,
+  "tokens": [
+    {
+      "artist": "Vance Kovacs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Avatar",
+      "number": "1",
+      "power": "*",
+      "reverseRelated": [
+        "Ajani Goldmane"
+      ],
+      "scryfallId": "863768b5-3cf9-415c-b4fd-371dc5afee18",
+      "scryfallIllustrationId": "08a69ed9-7c06-402c-8462-cc01614555e2",
+      "scryfallOracleId": "6a20eb3c-4ebb-4560-9b77-da35a4c2f207",
+      "text": "This creature's power and toughness are each equal to your life total.",
+      "toughness": "*",
+      "type": "Token Creature — Avatar",
+      "uuid": "08539f71-0375-5e41-a55f-6cf59d4a6439"
+    },
+    {
+      "artist": "John Donahue",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "4",
+      "power": "3",
+      "reverseRelated": [
+        "Garruk Wildspeaker"
+      ],
+      "scryfallId": "664bd13a-80fd-4ffe-bc65-f02a7a087427",
+      "scryfallIllustrationId": "b241883c-fe4f-42c9-be2c-2ed51bcc174b",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "c70da0e1-07db-52a6-ac96-825e1e5582b8"
+    },
+    {
+      "artist": "Paul Bonner",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "2",
+      "power": "3",
+      "reverseRelated": [
+        "Roc Egg"
+      ],
+      "scryfallId": "5a84671e-cbe8-467e-9a8a-bbecba6158fa",
+      "scryfallIllustrationId": "0668318e-f4c6-4d47-838e-50321cf14c4a",
+      "scryfallOracleId": "9b6825f6-5944-47f0-b2f1-04fbcb12a1cb",
+      "text": "Flying",
+      "toughness": "3",
+      "type": "Token Creature — Bird",
+      "uuid": "f7a0c26a-f392-5a96-8742-e39441c20b8a"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Ooze",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Mitotic Slime"
+      ],
+      "scryfallId": "8ea26341-372c-4657-8910-08e0131fe0fc",
+      "scryfallIllustrationId": "665a5d27-0a7e-42cf-9ec8-db98f54272c7",
+      "scryfallOracleId": "8b3e81cb-d756-44e9-854c-715f51949ade",
+      "text": "When this creature dies, create two 1/1 green Ooze creature tokens.",
+      "toughness": "2",
+      "type": "Token Creature — Ooze",
+      "uuid": "977b9e4e-5206-515d-86ed-9b8fa4507a65"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Ooze",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Mitotic Slime"
+      ],
+      "scryfallId": "24edd312-ef8e-48a0-8532-13e072daa00f",
+      "scryfallIllustrationId": "f5713e93-0a8c-4734-8153-151577ec24f3",
+      "scryfallOracleId": "ee54f59e-a334-4f0d-8bc6-44fb97c948ac",
+      "toughness": "1",
+      "type": "Token Creature — Ooze",
+      "uuid": "97292da0-735c-573c-a20e-ee3df8ef71e1"
+    },
+    {
+      "artist": "Bud Cook",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+        "Grave Titan"
+      ],
+      "scryfallId": "6b365694-e056-48b9-aae3-599180c0c29c",
+      "scryfallIllustrationId": "46e08797-daf4-45a0-a950-cdcc29bfbf61",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "f69e1a73-2df5-5e5f-9c7f-b97c3b646fab"
+    }
+  ],
+  "totalSetSize": 249,
+  "translations": {
+    "Chinese Simplified": "核心系列2011",
+    "Chinese Traditional": "核心系列2011",
+    "French": "Édition de base 2011",
+    "German": "2011 Hauptset",
+    "Italian": "Set Base 2011",
+    "Japanese": "基本セット2011",
+    "Korean": "2011 코어세트",
+    "Portuguese (Brazil)": "Coleção Básica 2011",
+    "Russian": "Базовый выпуск 2011",
+    "Spanish": "Colección básica 2011"
+  },
+  "type": "core"
 }

@@ -1,12 +1,7 @@
 {
-  "name": "Shards of Alara",
-  "code": "ALA",
-  "magicCardsInfoCode": "ala",
-  "releaseDate": "2008-10-03",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 249,
   "block": "Alara",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,16 +22,288 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Fragmente von Alara",
-    "fr": "Les éclats d'Alara",
-    "it": "Frammenti di Alara",
-    "es": "Fragmentos de Alara",
-    "pt": "Fragmentos de Alara",
-    "jp": "アラーラの断片",
-    "cn": "阿拉若断片",
-    "ru": "Осколки Алары"
+  "code": "ALA",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ALA",
+  "mcmId": 102,
+  "mcmName": "Shards of Alara",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Shards of Alara",
-  "mkm_id": 102
+  "mtgoCode": "ALA",
+  "name": "Shards of Alara",
+  "releaseDate": "2008-10-03",
+  "tcgplayerGroupId": 103,
+  "tokens": [
+    {
+      "artist": "Paolo Parente",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "R",
+        "W"
+      ],
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "10",
+      "power": "8",
+      "reverseRelated": [
+        "Godsire"
+      ],
+      "scryfallId": "a7382e4b-43dc-4b35-8a9e-ab886ea0a981",
+      "scryfallIllustrationId": "949d8590-243a-42d9-be42-8893ad5d0f0d",
+      "scryfallOracleId": "caf35bcc-02af-4cef-a1ae-2d4d235e4a79",
+      "toughness": "8",
+      "type": "Token Creature — Beast",
+      "uuid": "6d3bc3d2-6e4d-5536-94c9-163864700933"
+    },
+    {
+      "artist": "Vance Kovacs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "6",
+      "power": "4",
+      "reverseRelated": [
+        "Broodmate Dragon",
+        "Sarkhan Vol"
+      ],
+      "scryfallId": "cbb3e91d-9cae-49c8-ba92-087ad8171b9d",
+      "scryfallIllustrationId": "708ca047-b8c3-49d2-bc31-973de95572a3",
+      "scryfallOracleId": "c8790543-9399-4312-9b15-aa8a45c8fec7",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Dragon",
+      "uuid": "3170f64c-1943-5c5a-9fab-7b4710acba91"
+    },
+    {
+      "artist": "Brandon Kitkouski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+        "Kathari Bomber",
+        "Dragon Fodder",
+        "Goblin Assault"
+      ],
+      "scryfallId": "2b2b01b8-3dcb-4eab-9402-0db343543c38",
+      "scryfallIllustrationId": "026eab38-a320-4e17-922e-2525808a3aab",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "78a1d519-9068-55bc-92a5-9cc6a20854f9"
+    },
+    {
+      "artist": "Howard Lyon",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Homunculus",
+      "number": "2",
+      "power": "0",
+      "reverseRelated": [
+        "Puppet Conjurer"
+      ],
+      "scryfallId": "3546df95-926d-421d-a763-e559a1847273",
+      "scryfallIllustrationId": "9cbf1030-4671-4e7c-954e-99ffb72f0fd1",
+      "scryfallOracleId": "9249c5ac-e870-4df3-8854-12f4aff4aa5c",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Homunculus",
+      "uuid": "61ebeebc-c8c8-5863-aeb4-ab7fe98aa060"
+    },
+    {
+      "artist": "Anthony S. Waters",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Ooze",
+      "number": "8",
+      "power": "*",
+      "reverseRelated": [
+        "Ooze Garden"
+      ],
+      "scryfallId": "39a4b6d1-c5f5-4a2d-a00c-97f6395c941b",
+      "scryfallIllustrationId": "d8c5fe8b-7866-49b7-a866-2c58e3714b4a",
+      "scryfallOracleId": "bb3da6d2-aed7-4057-b94b-6882fb45cc89",
+      "toughness": "*",
+      "type": "Token Creature — Ooze",
+      "uuid": "d4dfbbdf-758d-58cb-8562-fb43f56e8a74"
+    },
+    {
+      "artist": "Trevor Claxton",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "9",
+      "power": "1",
+      "reverseRelated": [
+        "Spore Burst",
+        "Morbid Bloom",
+        "Tukatongue Thallid",
+        "Jund Battlemage",
+        "Mycoloth",
+        "Necrogenesis",
+        "Sprouting Thrinax"
+      ],
+      "scryfallId": "622759a9-e68b-48c1-8e03-beaab0a52556",
+      "scryfallIllustrationId": "4a713dbf-31bc-47e6-958c-3aed10865e80",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "2820e70f-28d3-5995-96a5-a0557a26a1a3"
+    },
+    {
+      "artist": "Thomas M. Baxa",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Skeleton",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Skeletonize"
+      ],
+      "scryfallId": "6894192e-782b-49ef-b9fc-28b76e2268ab",
+      "scryfallIllustrationId": "6cffd63a-d51d-4017-ab79-fe63c61d15f2",
+      "scryfallOracleId": "9174887a-5990-49c8-ae95-83d830f9d4f3",
+      "text": "{B}: Regenerate this creature.",
+      "toughness": "1",
+      "type": "Token Creature — Skeleton",
+      "uuid": "66aeaecc-461b-5453-ae7f-488bfd879d89"
+    },
+    {
+      "artist": "Alan Pollack",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Elspeth, Knight-Errant",
+        "Martial Coup",
+        "Knight-Captain of Eos",
+        "Bant Sojourners"
+      ],
+      "scryfallId": "927580e6-353a-46bb-ac05-52a5fa78a959",
+      "scryfallIllustrationId": "cb255fcf-05ca-471c-b65d-2577aa754168",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "3b82737c-f80f-57d0-bc77-f8b0f09a0308"
+    },
+    {
+      "artist": "Andrew Murray",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Thopter",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Sharding Sphinx",
+        "Thopter Foundry"
+      ],
+      "scryfallId": "52510a8b-a5a2-421b-a8b4-5ab60c848628",
+      "scryfallIllustrationId": "8f3ab49a-8831-46b8-a74e-5b985ec34c3c",
+      "scryfallOracleId": "e3c8482e-ce21-43f8-ac07-c26c01941a4d",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Thopter",
+      "uuid": "67003af9-5c6e-5edd-b7ff-0df5dffc8e2f"
+    },
+    {
+      "artist": "Dave Kendall",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Grixis Slavedriver",
+        "Archdemon of Unx",
+        "Necromancer's Covenant",
+        "Unscythe, Killer of Kings"
+      ],
+      "scryfallId": "ba9b6612-5372-4e6f-841f-20009f71a736",
+      "scryfallIllustrationId": "bc57b1b7-e022-4245-9a10-6544217f27c4",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "59461ae1-ebba-5e2d-b00b-f7c286b9022b"
+    }
+  ],
+  "totalSetSize": 249,
+  "translations": {
+    "Chinese Simplified": "阿拉若断片",
+    "Chinese Traditional": "阿拉若斷片",
+    "French": "Les éclats d'Alara",
+    "German": "Fragmente von Alara",
+    "Italian": "Frammenti di Alara",
+    "Japanese": "アラーラの断片",
+    "Korean": "알라라의 파편",
+    "Portuguese (Brazil)": "Fragmentos de Alara",
+    "Russian": "Осколки Алары",
+    "Spanish": "Fragmentos de Alara"
+  },
+  "type": "expansion"
 }

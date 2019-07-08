@@ -1,7 +1,513 @@
 {
-  "name": "Commander Anthology 2018",
+  "baseSetSize": 0,
+  "block": "Commander",
   "code": "CM2",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "CM2",
+  "mcmId": 2109,
+  "mcmName": "Commander Anthology II",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Commander Anthology Volume II",
   "releaseDate": "2018-06-08",
-  "border": "black",
+  "tcgplayerGroupId": 2246,
+  "tokens": [
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Migratory Route"
+      ],
+      "scryfallId": "1e938ebe-be52-4803-8fce-db0b82d9b892",
+      "scryfallIllustrationId": "ff674f23-ee33-4a22-91dd-3142f5798df1",
+      "scryfallOracleId": "b1a2b096-a440-4ef9-ab2a-059c79999297",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bird",
+      "uuid": "8f35ee60-1542-59bc-8e67-b6f2d352644d"
+    },
+    {
+      "artist": "Dan Scott",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Daretti, Scrap Savant Emblem",
+      "number": "18",
+      "reverseRelated": [
+        "Daretti, Scrap Savant"
+      ],
+      "scryfallId": "64165269-d8c9-4d10-8c45-2c37455f7d6c",
+      "scryfallIllustrationId": "b9bdb027-4709-407b-a6be-67b56d0f097d",
+      "scryfallOracleId": "a7fcd41f-1e83-4a50-b102-3331d6d834c0",
+      "text": "Whenever an artifact is put into your graveyard from the battlefield, return that card to the battlefield at the beginning of the next end step.",
+      "type": "Emblem — Daretti",
+      "uuid": "7d8faede-a283-55cb-b301-86f52cb54851"
+    },
+    {
+      "artist": "Jim Pavelec",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental Shaman",
+      "number": "8",
+      "power": "3",
+      "reverseRelated": [
+        "Hostility"
+      ],
+      "scryfallId": "a271bdf3-2868-425d-987c-4ce272152a2f",
+      "scryfallIllustrationId": "a81c9910-1a59-467f-a6be-9f57f839fb7e",
+      "scryfallOracleId": "a44da885-2d0f-4e16-ba68-ec80640e819f",
+      "toughness": "1",
+      "type": "Token Creature — Elemental Shaman",
+      "uuid": "e451465b-3c38-5843-897f-71c37de9b257"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Experience Counter",
+      "number": "19",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "1374bfa2-9714-486d-90aa-7a9b8d8ef3a8",
+      "scryfallOracleId": "36403fd7-dad1-4c98-b52b-1150d9d566e5",
+      "text": "(Place your experience counters here.)",
+      "type": "Card",
+      "uuid": "5d94d87d-7484-5746-bb98-fa4ce45dbf0f"
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Germ",
+      "number": "6",
+      "power": "0",
+      "reverseRelated": [
+        "Grip of Phyresis",
+        "Scytheclaw",
+        "Bonehoard",
+        "Lashwrithe"
+      ],
+      "scryfallId": "61f94e32-3b22-4c47-b866-1f36a7f3c734",
+      "scryfallIllustrationId": "285432ed-cd72-4c1b-aa86-fa6945f5a5c1",
+      "scryfallOracleId": "bb549594-35f6-4ac6-9f1f-cfb35784d99e",
+      "toughness": "0",
+      "type": "Token Creature — Germ",
+      "uuid": "9b4f445b-9406-571c-98e3-18e626f9a3c8"
+    },
+    {
+      "artist": "Adam Paquette",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Goat",
+      "number": "3",
+      "power": "0",
+      "reverseRelated": [
+        "Trading Post",
+        "Springjack Pasture"
+      ],
+      "scryfallId": "6a0b0bdf-13c7-498a-b2fb-83257f1e0fea",
+      "scryfallIllustrationId": "f82e64b7-aedf-41a2-9169-b68a232d4c48",
+      "scryfallOracleId": "f62b776a-d4de-455a-ae5a-ca07982974db",
+      "toughness": "1",
+      "type": "Token Creature — Goat",
+      "uuid": "f59db24f-19f0-5a25-9673-dad77ea6b86c"
+    },
+    {
+      "artist": "Dave Kendall",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "9",
+      "power": "1",
+      "reverseRelated": [
+        "Beetleback Chief"
+      ],
+      "scryfallId": "dff50bc7-3d7e-49e9-9557-658a4f083c6e",
+      "scryfallIllustrationId": "12f18aeb-2a92-431f-9d1d-9d3ae9c9dba5",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "ec7eae05-fc44-5d3b-a59c-aaa2c58de548"
+    },
+    {
+      "artist": "Hideaki Takamura",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Knight",
+      "number": "4",
+      "power": "2",
+      "reverseRelated": [
+        "Hunted Dragon"
+      ],
+      "scryfallId": "a0c79cdb-969b-4c3b-8ad0-cbbd359a966b",
+      "scryfallIllustrationId": "f65a1994-e40b-48c1-ba63-fa74026e84f3",
+      "scryfallOracleId": "100435fe-ae77-4644-8b4a-4c941bb2067f",
+      "text": "First strike",
+      "toughness": "2",
+      "type": "Token Creature — Knight",
+      "uuid": "3e4f611d-8a6b-5e82-86a7-9582d411edb2"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Lightning Rager",
+      "number": "10",
+      "power": "5",
+      "reverseRelated": [
+        "Rite of the Raging Storm"
+      ],
+      "scryfallId": "05aa19b7-da04-4845-868e-3ad2edb9a9ba",
+      "scryfallIllustrationId": "95c5bdec-5540-4171-9f1b-09a2d21fd975",
+      "scryfallOracleId": "5bb0c2ce-429c-4188-8d5a-7183dc104590",
+      "text": "Trample, haste\nAt the beginning of the end step, sacrifice this creature.",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "913b73e6-9f25-58b1-a5bc-92f4f07409c9"
+    },
+    {
+      "artist": "Ryan Pancoast",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Myr",
+      "number": "12",
+      "power": "1",
+      "reverseRelated": [
+        "Myr Battlesphere",
+        "Myr Sire"
+      ],
+      "scryfallId": "2896024f-c294-4629-975c-368fe781f118",
+      "scryfallIllustrationId": "38aaf042-2fed-4761-baa7-62a3002b71fd",
+      "scryfallOracleId": "bf690282-125f-431c-a363-39f6772324c8",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Myr",
+      "uuid": "5396994f-ad87-58a2-a597-beb09da44ab8"
+    },
+    {
+      "artist": "Greg Staples",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Pentavite",
+      "number": "13",
+      "power": "1",
+      "reverseRelated": [
+        "Pentavus"
+      ],
+      "scryfallId": "b6571af0-80e2-474b-a8b1-d3d90e954d2b",
+      "scryfallIllustrationId": "27378cca-8d9e-433d-8994-f374bb87b3ed",
+      "scryfallOracleId": "c9e57f97-be25-4ab6-9158-d2677d7742f7",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Pentavite",
+      "uuid": "666dc03e-aa30-5573-b9f7-b96de33d8e65"
+    },
+    {
+      "artist": "Brad Rigney",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "11",
+      "power": "1",
+      "reverseRelated": [
+        "Tana, the Bloodsower",
+        "Jade Mage",
+        "Fists of Ironwood",
+        "Mycoloth",
+        "Verdant Force",
+        "Artifact Mutation",
+        "Aura Mutation",
+        "Ghave, Guru of Spores",
+        "Thelonite Hermit",
+        "Korozda Guildmage",
+        "Necrogenesis",
+        "Sprouting Thrinax",
+        "Selesnya Guildmage",
+        "Druidic Satchel",
+        "Vitu-Ghazi, the City-Tree"
+      ],
+      "scryfallId": "34f6ffaa-6dee-49db-ac59-745eae5e75b2",
+      "scryfallIllustrationId": "54430daa-acec-42fc-9330-ef8c4c015569",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "5e4b3e70-84a6-5434-b536-d084ae34ce47"
+    },
+    {
+      "artist": "Franz Vohwinkel",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Shapeshifter",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Crib Swap"
+      ],
+      "scryfallId": "d28f610d-1d72-4afe-86fe-6f123ee6ef4e",
+      "scryfallIllustrationId": "31004897-2994-49d6-9668-98941c5458fa",
+      "scryfallOracleId": "fe8478ec-2af9-472b-b104-a71521a3559f",
+      "text": "Changeling",
+      "toughness": "1",
+      "type": "Token Creature — Shapeshifter",
+      "uuid": "fc977a4c-3244-5c65-bfd0-9ff19fe1390e"
+    },
+    {
+      "artist": "Mike Sass",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Benevolent Offering",
+        "Hallowed Spiritkeeper",
+        "Kirtar's Wrath",
+        "Custodi Soulbinders",
+        "Afterlife",
+        "Geist-Honored Monk",
+        "Midnight Haunting",
+        "Requiem Angel",
+        "Spectral Procession"
+      ],
+      "scryfallId": "4914610d-7d4f-4cf6-98db-c39e79cce25c",
+      "scryfallIllustrationId": "1dbe0618-dd47-442c-acf6-ac5e4b136e5a",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "b8ff6c3c-df88-5ae7-a0ab-5c1ce20c3498"
+    },
+    {
+      "artist": "Mark Zug",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Triskelavite",
+      "number": "14",
+      "power": "1",
+      "reverseRelated": [
+        "Triskelavus"
+      ],
+      "scryfallId": "b5ddb67c-82fb-42d6-a4c2-11cd38eb128d",
+      "scryfallIllustrationId": "2411b571-28fa-4b90-8b6f-56c833f37d31",
+      "scryfallOracleId": "80e72f55-b718-4442-93ee-f9175a739975",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Triskelavite",
+      "uuid": "0fe7f4d2-9220-51bf-949f-bbd590f52038"
+    },
+    {
+      "artist": "Franz Vohwinkel",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Tuktuk the Returned",
+      "number": "15",
+      "power": "5",
+      "reverseRelated": [
+        "Tuktuk the Explorer"
+      ],
+      "scryfallId": "0b1686c8-5ce1-49bd-aae3-dce89578094a",
+      "scryfallIllustrationId": "6bab4e39-9f54-4475-9756-7187a435eb34",
+      "scryfallOracleId": "9ccb2b2a-23a9-42c4-947f-47c7eafdb018",
+      "toughness": "5",
+      "type": "Token Legendary Artifact Creature — Goblin Golem",
+      "uuid": "abf8e444-42b6-540a-a873-ec4e511b6c76"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Wurm",
+      "number": "16",
+      "power": "3",
+      "reverseRelated": [
+        "Wurmcoil Engine"
+      ],
+      "scryfallId": "309be48a-cb15-4530-8393-04ccb945c998",
+      "scryfallIllustrationId": "b99f46a0-659f-4e0c-aad1-091e5fed64a2",
+      "scryfallOracleId": "5e3f41f7-9b42-437a-a9f9-f09250b083db",
+      "text": "Deathtouch",
+      "toughness": "3",
+      "type": "Token Artifact Creature — Wurm",
+      "uuid": "a1c1bf02-fb46-5c4c-8b49-03d396f99986"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Wurm",
+      "number": "17",
+      "power": "3",
+      "reverseRelated": [
+        "Wurmcoil Engine"
+      ],
+      "scryfallId": "ec840840-36d2-419e-9ed8-0635a225f0df",
+      "scryfallIllustrationId": "066e78a3-b6cf-44c6-bf5d-d2533d11731d",
+      "scryfallOracleId": "1b9ccdd7-4935-45e2-bb16-b09870dd965d",
+      "text": "Lifelink",
+      "toughness": "3",
+      "type": "Token Artifact Creature — Wurm",
+      "uuid": "50bf0600-5592-5e4c-a08e-e3f73c334515"
+    },
+    {
+      "artist": "Bud Cook",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "7",
+      "power": "2",
+      "reverseRelated": [
+        "Curse of Disturbance",
+        "Ghoulcaller Gisa",
+        "Overseer of the Damned",
+        "Varina, Lich Queen",
+        "Dread Summons",
+        "Syphon Flesh",
+        "Army of the Damned",
+        "Waste Not",
+        "Grave Titan",
+        "Liliana's Reaver",
+        "Necromancer's Covenant"
+      ],
+      "scryfallId": "ebe4227f-6e53-4150-80b2-2d764d1ca32d",
+      "scryfallIllustrationId": "46e08797-daf4-45a0-a950-cdcc29bfbf61",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "229a9555-f289-5e58-9f51-7e18af4200d0"
+    }
+  ],
+  "totalSetSize": 312,
+  "translations": {
+    "Chinese Simplified": "Commander Anthology Volume II",
+    "Chinese Traditional": "Commander Anthology Volume II",
+    "French": "Commander Anthology Volume II",
+    "German": "Commander Anthology Volume II",
+    "Italian": "Commander Anthology Volume II",
+    "Japanese": "Commander Anthology Volume II",
+    "Korean": "Commander Anthology Volume II",
+    "Portuguese (Brazil)": "Commander Anthology Volume II",
+    "Russian": "Commander Anthology Volume II",
+    "Spanish": "Commander Anthology Volume II"
+  },
   "type": "commander"
 }

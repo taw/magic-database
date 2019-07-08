@@ -1,0 +1,21 @@
+{
+  "baseSetSize": 0,
+  "code": "PHUK",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "PHUK",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Hachette UK",
+  "releaseDate": "2006-01-01",
+  "tokens": [
+
+  ],
+  "totalSetSize": 60,
+  "translations": {
+  },
+  "type": "box"
+}

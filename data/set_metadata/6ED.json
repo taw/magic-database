@@ -1,12 +1,7 @@
 {
-  "name": "Classic Sixth Edition",
-  "code": "6ED",
-  "gathererCode": "6E",
-  "magicCardsInfoCode": "6e",
-  "releaseDate": "1999-04-21",
-  "border": "white",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 350,
+  "block": "Core Set",
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,13 +18,35 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Classic Sechste Edition",
-    "fr": "Classique Sixième Edition",
-    "it": "Classic Sesta Edizione",
-    "es": "Clásica Sexta Edición",
-    "pt": "Classica Sexta Edição"
+  "code": "6ED",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "6ED",
+  "mcmId": 29,
+  "mcmName": "Sixth Edition",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Sixth Edition",
-  "mkm_id": 29
+  "name": "Classic Sixth Edition",
+  "releaseDate": "1999-04-21",
+  "tcgplayerGroupId": 23,
+  "tokens": [
+
+  ],
+  "totalSetSize": 350,
+  "translations": {
+    "Chinese Simplified": "Classic Sixth Edition",
+    "Chinese Traditional": "Classic Sixth Edition",
+    "French": "Classic Sixth Edition",
+    "German": "Classic Sixth Edition",
+    "Italian": "Classic Sixth Edition",
+    "Japanese": "Classic Sixth Edition",
+    "Korean": "Classic Sixth Edition",
+    "Portuguese (Brazil)": "Classic Sixth Edition",
+    "Russian": "Classic Sixth Edition",
+    "Spanish": "Classic Sixth Edition"
+  },
+  "type": "core"
 }

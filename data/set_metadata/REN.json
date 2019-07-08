@@ -1,0 +1,25 @@
+{
+  "baseSetSize": 122,
+  "code": "REN",
+  "isFoilOnly": false,
+  "isForeignOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "REN",
+  "mcmId": 60,
+  "mcmName": "Renaissance",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Renaissance",
+  "releaseDate": "1995-08-01",
+  "tcgplayerGroupId": 2379,
+  "tokens": [
+
+  ],
+  "totalSetSize": 122,
+  "translations": {
+  },
+  "type": "masters"
+}

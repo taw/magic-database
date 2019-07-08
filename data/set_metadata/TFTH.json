@@ -1,0 +1,142 @@
+{
+  "baseSetSize": 0,
+  "block": "Theros",
+  "code": "TFTH",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "THS",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Face the Hydra",
+  "parentCode": "THS",
+  "releaseDate": "2013-10-19",
+  "tokens": [
+    {
+      "artist": "Richard Wright",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Hydra Head",
+      "number": "1",
+      "power": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "27d772a9-7542-4ffe-9cd4-e144d129f342",
+      "scryfallIllustrationId": "1ae61f9f-c3af-49b0-a0a5-e721a8bc4ce2",
+      "scryfallOracleId": "95ca0292-a3fa-40f3-a396-222f9d8f73f8",
+      "text": "Hero's Reward — When Hydra Head leaves the battlefield, each player gains 2 life.",
+      "toughness": "3",
+      "type": "Token Creature — Head",
+      "uuid": "df0fffa9-ef2d-5433-baa0-01517e144bed"
+    },
+    {
+      "artist": "Richard Wright",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Ravenous Brute Head",
+      "number": "2",
+      "power": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "a76d49f7-2860-4972-ab97-1e798ea017d1",
+      "scryfallIllustrationId": "b8a4b0ea-906f-4e0b-88ba-4d6ad46cb872",
+      "scryfallOracleId": "c118040f-b7e6-4caf-a09c-df8a1382887c",
+      "text": "Hero's Reward — When Ravenous Brute Head leaves the battlefield, each player gains 2 life and draws a card.",
+      "toughness": "6",
+      "type": "Token Elite Creature — Head",
+      "uuid": "8f69c05c-51c0-5bb2-ba51-47101bbd308d"
+    },
+    {
+      "artist": "Richard Wright",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Savage Vigor Head",
+      "number": "3",
+      "power": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "4b90bd09-d6aa-4201-a7fe-78accbcfc4e8",
+      "scryfallIllustrationId": "a19b886e-b135-4e58-b5b0-a1f1abf0818c",
+      "scryfallOracleId": "a21b783d-3d39-40e6-aabb-64f7956f4fba",
+      "text": "At the beginning of the Hydra's end step, reveal the top card of the Hydra's library and the Hydra casts that card.\nHero's Reward — When Savage Vigor Head leaves the battlefield, each player gains 4 life and draws a card.",
+      "toughness": "8",
+      "type": "Token Elite Creature — Head",
+      "uuid": "7f26ac79-39c8-5112-9294-7bade14424e5"
+    },
+    {
+      "artist": "Richard Wright",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Shrieking Titan Head",
+      "number": "4",
+      "power": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "44ef6754-b611-4e52-a04b-dc2c794d2cb8",
+      "scryfallIllustrationId": "9ce202fc-8227-4704-99c7-3c4432332db0",
+      "scryfallOracleId": "a66c44ed-5eca-48e4-8361-4f866feac7e8",
+      "text": "At the beginning of the Hydra's end step, each player discards a card.\nHero's Reward — When Shrieking Titan Head leaves the battlefield, each player gains 4 life and draws a card.",
+      "toughness": "8",
+      "type": "Token Elite Creature — Head",
+      "uuid": "dfc19427-65cb-504e-9f31-fc3365889c24"
+    },
+    {
+      "artist": "Richard Wright",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Snapping Fang Head",
+      "number": "5",
+      "power": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "11decc7a-58e7-43f3-acc5-9ec94cce858d",
+      "scryfallIllustrationId": "77f117b9-1f07-4872-99d5-6147abdd67ab",
+      "scryfallOracleId": "8bea08c7-cfa7-46f0-807c-62b69ff39074",
+      "text": "At the beginning of the Hydra's end step, Snapping Fang Head deals 1 damage to each player.\nHero's Reward — When Snapping Fang Head leaves the battlefield, each player gains 4 life and draws a card.",
+      "toughness": "8",
+      "type": "Token Elite Creature — Head",
+      "uuid": "b39407c4-0cb6-5733-aa9d-b57bf6f70caa"
+    }
+  ],
+  "totalSetSize": 15,
+  "translations": {
+  },
+  "type": "token"
+}

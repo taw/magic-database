@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Scars of Mirrodin",
+  "code": "PSOM",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "SOM",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Scars of Mirrodin Promos",
+  "parentCode": "SOM",
+  "releaseDate": "2010-09-30",
+  "tokens": [
+
+  ],
+  "totalSetSize": 5,
+  "translations": {
+  },
+  "type": "promo"
+}

@@ -1,13 +1,7 @@
 {
-  "name": "Apocalypse",
-  "code": "APC",
-  "gathererCode": "AP",
-  "magicCardsInfoCode": "ap",
-  "releaseDate": "2001-06-04",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 143,
   "block": "Invasion",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Apokalypse",
-    "fr": "Apocalypse",
-    "it": "Apocalisse",
-    "es": "Apocalipsis",
-    "pt": "Apocalipse"
+  "code": "APC",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "APC",
+  "mcmId": 36,
+  "mcmName": "Apocalypse",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Apocalypse",
-  "mkm_id": 36
+  "mtgoCode": "AP",
+  "name": "Apocalypse",
+  "releaseDate": "2001-06-04",
+  "tcgplayerGroupId": 10,
+  "tokens": [
+
+  ],
+  "totalSetSize": 143,
+  "translations": {
+    "Chinese Simplified": "启示录",
+    "Chinese Traditional": "啟示錄",
+    "French": "Apocalypse",
+    "German": "Apokalypse",
+    "Italian": "Apocalisse",
+    "Japanese": "アポカリプス",
+    "Korean": "파멸",
+    "Portuguese (Brazil)": "Apocalipse",
+    "Russian": "Apocalypse",
+    "Spanish": "Apocalipsis"
+  },
+  "type": "expansion"
 }

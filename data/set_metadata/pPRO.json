@@ -1,11 +1,24 @@
 {
-  "name": "Pro Tour",
-  "code": "pPRO",
-  "magicCardsInfoCode": "pro",
-  "magicRaritiesCodes": [
-    "14-rarities-pro-tour-card"
-  ],
+  "baseSetSize": 0,
+  "code": "PPRO",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "STAR",
+  "mcmId": 1596,
+  "mcmName": "Pro Tour Promos",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Pro Tour Promos",
   "releaseDate": "2007-02-09",
-  "border": "black",
+  "tcgplayerGroupId": 93,
+  "tokens": [
+
+  ],
+  "totalSetSize": 10,
+  "translations": {
+  },
   "type": "promo"
 }

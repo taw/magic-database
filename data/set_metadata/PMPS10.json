@@ -1,0 +1,22 @@
+{
+  "baseSetSize": 0,
+  "code": "PMPS10",
+  "isFoilOnly": false,
+  "isForeignOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "PMPS",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Magic Premiere Shop 2010",
+  "releaseDate": "2010-01-01",
+  "tokens": [
+
+  ],
+  "totalSetSize": 5,
+  "translations": {
+  },
+  "type": "promo"
+}

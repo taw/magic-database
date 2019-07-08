@@ -1,0 +1,485 @@
+{
+  "baseSetSize": 280,
+  "block": "Core Set",
+  "boosterV3": [
+    [
+      "rare",
+      "mythic rare"
+    ],
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "land",
+    "marketing"
+  ],
+  "code": "M19",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "M19",
+  "mcmId": 1835,
+  "mcmName": "Core 2019",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "M19",
+  "name": "Core Set 2019",
+  "releaseDate": "2018-07-13",
+  "tcgplayerGroupId": 2250,
+  "tokens": [
+    {
+      "artist": "Victor Adame Minguez",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Ajani, Adversary of Tyrants Emblem",
+      "number": "15",
+      "reverseRelated": [
+        "Ajani, Adversary of Tyrants"
+      ],
+      "scryfallId": "1c97e5b2-a024-4aa7-a9b8-45f441aad138",
+      "scryfallIllustrationId": "d5dda222-7902-4b57-bf3d-3bf2fa0768a9",
+      "scryfallOracleId": "7c0edef3-5346-4001-87ae-11157be58031",
+      "text": "At the beginning of your end step, create three 1/1 white Cat creature tokens with lifelink.",
+      "type": "Emblem — Ajani",
+      "uuid": "e7dbc757-3e01-546c-88e6-ed2e8a4adcf0"
+    },
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "1",
+      "power": "4",
+      "reverseRelated": [
+        "Resplendent Angel"
+      ],
+      "scryfallId": "dc31e017-81e6-43bf-bf8e-ea0faca5d9b7",
+      "scryfallIllustrationId": "1f9384cd-c3b1-4e06-a67c-19a29e1c4136",
+      "scryfallOracleId": "29ff8699-53d8-413b-8a3c-0e3ea1e13ff0",
+      "text": "Flying, vigilance",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "7878c465-f8b8-5806-8d7f-097b062b4fe5"
+    },
+    {
+      "artist": "Slawomir Maniak",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Avatar",
+      "number": "2",
+      "power": "4",
+      "reverseRelated": [
+        "Ajani's Last Stand"
+      ],
+      "scryfallId": "5f3f8f97-0c27-49d6-ae9a-a0fe2a7ce38b",
+      "scryfallIllustrationId": "22853fcf-f010-4eb9-b8c3-91a9fe815679",
+      "scryfallOracleId": "350948bd-71bd-4604-83ec-fa75828cab3a",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Avatar",
+      "uuid": "afcbb2e2-1a1f-5229-9e76-55f76f96e51f"
+    },
+    {
+      "artist": "Wayne Reynolds",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Bat",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+        "Regal Bloodlord",
+        "Desecrated Tomb"
+      ],
+      "scryfallId": "f1349fcb-db31-4b1d-8063-e5c28b4472cc",
+      "scryfallIllustrationId": "23fa4c20-35ff-4b4f-8fcd-a14eaf4551c5",
+      "scryfallOracleId": "ff86d8fc-5242-405e-b5e3-f9ff73296794",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bat",
+      "uuid": "9c015804-09d9-5930-bd59-6ed0d0f32a49"
+    },
+    {
+      "artist": "Jason Felix",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "12",
+      "power": "3",
+      "reverseRelated": [
+        "Druid of Horns"
+      ],
+      "scryfallId": "832691a5-c638-481b-a413-3fdfc604a132",
+      "scryfallIllustrationId": "5f22cdac-7317-4ca1-857c-bd76d4e401f7",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "98b69d02-3fe4-5901-856a-b529a46c4881"
+    },
+    {
+      "artist": "Aaron Miller",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Cat",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Ajani, Adversary of Tyrants",
+        "Leonin Warleader"
+      ],
+      "scryfallId": "b31f1580-5bba-4cef-b0c8-f2837a597b7d",
+      "scryfallIllustrationId": "4b0494f1-a728-41c2-9f69-6a64c67c0fac",
+      "scryfallOracleId": "65742c00-2809-4085-a950-8f93845c03d2",
+      "text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
+      "toughness": "1",
+      "type": "Token Creature — Cat",
+      "uuid": "8053ca73-8712-5370-9677-34815f23ba64"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Core Set 2019 Checklist",
+      "number": "CH1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "68d08909-a214-433b-a3b7-4baf916cd458",
+      "scryfallIllustrationId": "85a94062-eaaf-4049-ae55-8b284e3d62e8",
+      "scryfallOracleId": "b432fa59-484b-43ec-98c2-a2d89c50ca8a",
+      "text": "(Use this card to represent a double-faced Nicol Bolas card in your library or hand.)\n☐ Nicol Bolas, the Ravager {1}{U}{B}{R}",
+      "type": "Card",
+      "uuid": "e8517cfa-7e71-504d-bce2-6c4100da0802"
+    },
+    {
+      "artist": "Alex Konstad",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "10",
+      "power": "5",
+      "reverseRelated": [
+        "Lathliss, Dragon Queen",
+        "Sarkhan, Fireblood",
+        "Draconic Disciple"
+      ],
+      "scryfallId": "2ec9eae0-2c0b-4225-8fa5-96f04a239d47",
+      "scryfallIllustrationId": "e98a00a7-d6fe-410b-8a5c-f8ff5bce4958",
+      "scryfallOracleId": "60fe4897-6760-4c5a-8074-c92bd64df52b",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Dragon",
+      "uuid": "a9cdec70-e836-5b57-92c4-a72c3dfe8fe9"
+    },
+    {
+      "artist": "Jack Wang",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "9",
+      "power": "2",
+      "reverseRelated": [
+        "Dragon Egg"
+      ],
+      "scryfallId": "f43a5ec2-8898-4645-84d7-b7218682be9b",
+      "scryfallIllustrationId": "f3a70737-ee42-49c2-b628-6eb2b17a50e7",
+      "scryfallOracleId": "ec6df381-5ea7-4c68-8416-093b107f0784",
+      "text": "Flying\n{R}: This creature gets +1/+0 until end of turn.",
+      "toughness": "2",
+      "type": "Token Creature — Dragon",
+      "uuid": "36f72990-cada-587f-883b-19cf1fe4ac31"
+    },
+    {
+      "artist": "William O'Connor",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elf Warrior",
+      "number": "13",
+      "power": "1",
+      "reverseRelated": [
+        "Thorn Lieutenant"
+      ],
+      "scryfallId": "808b9201-6fc5-4613-85d6-6e66c6e36a8e",
+      "scryfallIllustrationId": "a573739e-fe8e-4ddf-9c96-03a34bd0e3b0",
+      "scryfallOracleId": "dac8a765-6845-4b57-bb79-4ec463436f92",
+      "toughness": "1",
+      "type": "Token Creature — Elf Warrior",
+      "uuid": "d67c98bb-d6a5-5d83-a567-758b0968fdc5"
+    },
+    {
+      "artist": "Filip Burburan",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "11",
+      "power": "1",
+      "reverseRelated": [
+        "Goblin Instigator"
+      ],
+      "scryfallId": "4f736760-60d5-412d-9877-753eb7b5f926",
+      "scryfallIllustrationId": "8493908b-1f6c-4031-bc65-d120a3629a18",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "d7b89c33-5b10-5343-8fb5-cccc6865c2fc"
+    },
+    {
+      "artist": "Matt Stewart",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Knight",
+      "number": "4",
+      "power": "2",
+      "reverseRelated": [
+        "Gallant Cavalry",
+        "Knightly Valor",
+        "Sigiled Sword of Valeron"
+      ],
+      "scryfallId": "fd8ca5ee-7b93-4248-8f4a-b88261ee1eed",
+      "scryfallIllustrationId": "ae4800d6-1be9-4a71-9745-cbbfaa0ec8fe",
+      "scryfallOracleId": "340aaeb6-cd18-4908-9729-8c53ab02c6f8",
+      "text": "Vigilance",
+      "toughness": "2",
+      "type": "Token Creature — Knight",
+      "uuid": "c589d32e-22d9-524b-86b1-f89e36bfb6d2"
+    },
+    {
+      "artist": "Aaron Miller",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Ox",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Transmogrifying Wand"
+      ],
+      "scryfallId": "8f1d69f9-d9d7-47a9-9236-351f81ffa9ae",
+      "scryfallIllustrationId": "a476937b-8285-4dab-b52f-091186907ced",
+      "scryfallOracleId": "bcb63395-fec2-4792-bb4e-2c3e9b4703b4",
+      "toughness": "4",
+      "type": "Token Creature — Ox",
+      "uuid": "c5f491a7-530a-52fb-93bb-87985a73e994"
+    },
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Lena, Selfless Champion",
+        "Heroic Reinforcements"
+      ],
+      "scryfallId": "07929ced-5c81-4b05-82e1-522fec1cf5c0",
+      "scryfallIllustrationId": "b4e06409-cc4b-4e0e-b6c5-0b03c86c5a21",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "f1add910-f490-525d-bce7-fcb42a514376"
+    },
+    {
+      "artist": "Josh Hass",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Tezzeret, Artifice Master Emblem",
+      "number": "16",
+      "reverseRelated": [
+        "Tezzeret, Artifice Master"
+      ],
+      "scryfallId": "faa83538-e94d-4842-ba9c-812187ecfa0b",
+      "scryfallIllustrationId": "caac2a4b-7c7e-4afa-85d1-cb0cdc7cbd48",
+      "scryfallOracleId": "94e2a122-19f6-43cf-8b1a-fd773e490a96",
+      "text": "At the beginning of your end step, search your library for a permanent card, put it onto the battlefield, then shuffle your library.",
+      "type": "Emblem — Tezzeret",
+      "uuid": "2459c428-de6f-56e1-ae11-c4d458ec1c36"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Thopter",
+      "number": "14",
+      "power": "1",
+      "reverseRelated": [
+        "Aviation Pioneer",
+        "Sai, Master Thopterist",
+        "Tezzeret, Artifice Master"
+      ],
+      "scryfallId": "d0044cd9-2136-423e-aa2a-829e8f007535",
+      "scryfallIllustrationId": "6cba3a90-c033-447e-8cd0-3e0ba3180432",
+      "scryfallOracleId": "7c0b6b53-4ddb-4bb5-8a26-0041b2006d3f",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Thopter",
+      "uuid": "5e89c616-f74a-5bd0-9d23-0d41097f50a3"
+    },
+    {
+      "artist": "Anna Steinbauer",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Vivien Reid Emblem",
+      "number": "17",
+      "reverseRelated": [
+        "Vivien Reid"
+      ],
+      "scryfallId": "1cf97003-eef0-4c01-aee1-8a8264d8ef95",
+      "scryfallIllustrationId": "d6aa4e70-7231-4a63-8f9b-db2f068d5751",
+      "scryfallOracleId": "de4fe6a3-0ea4-4745-9028-59e078331633",
+      "text": "Creatures you control get +2/+2 and have vigilance, trample, and indestructible.",
+      "type": "Emblem — Vivien",
+      "uuid": "6cbd30fe-22e3-51c0-bbd8-f1f974fc4c05"
+    },
+    {
+      "artist": "Paul Scott Canavan",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "8",
+      "power": "2",
+      "reverseRelated": [
+        "Doomed Dissenter",
+        "Graveyard Marshal",
+        "Open the Graves"
+      ],
+      "scryfallId": "ed08aac1-9e82-4049-9926-618f15222024",
+      "scryfallIllustrationId": "85b31ab9-6520-44f0-ac79-44652936d4ac",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "6fa8a48b-ad42-56ba-8bd2-89a5752d2b10"
+    }
+  ],
+  "totalSetSize": 314,
+  "translations": {
+    "Chinese Simplified": "2019核心系列",
+    "Chinese Traditional": "2019核心系列",
+    "French": "Édition de base 2019",
+    "German": "Hauptset 2019",
+    "Italian": "Set Base 2019",
+    "Japanese": "『基本セット2019』",
+    "Korean": "코어세트 2019",
+    "Portuguese (Brazil)": "COLEÇÃO BÁSICA 2019",
+    "Russian": "БАЗОВЫЙ ВЫПУСК 2019",
+    "Spanish": "COLECCIÓN BÁSICA 2019"
+  },
+  "type": "core"
+}

@@ -1,12 +1,7 @@
 {
-  "name": "Morningtide",
-  "code": "MOR",
-  "magicCardsInfoCode": "mt",
-  "releaseDate": "2008-02-01",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 150,
   "block": "Lorwyn",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,16 +19,106 @@
     "common",
     "marketing"
   ],
-  "translations": {
-    "de": "Morgenluft",
-    "fr": "Lèveciel",
-    "it": "Aurora",
-    "es": "Alborada",
-    "pt": "Alvorecer",
-    "jp": "モーニングタイド",
-    "cn": "晨光",
-    "ru": "Рассвет"
+  "code": "MOR",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "MOR",
+  "mcmId": 92,
+  "mcmName": "Morningtide",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Morningtide",
-  "mkm_id": 92
+  "mtgoCode": "MOR",
+  "name": "Morningtide",
+  "releaseDate": "2008-02-01",
+  "tcgplayerGroupId": 77,
+  "tokens": [
+    {
+      "artist": "Jim Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Faerie Rogue",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Notorious Throng",
+        "Bitterblossom",
+        "Violet Pall"
+      ],
+      "scryfallId": "1666cae8-8750-4091-8e45-259e76268db9",
+      "scryfallIllustrationId": "bd254f7b-9e18-40c5-a9eb-dee8ed8ec422",
+      "scryfallOracleId": "741b9f0d-8c0d-4865-b177-fb64b687ad11",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Faerie Rogue",
+      "uuid": "4e90bd50-4e4a-5f88-bcc0-dc74b8bb395f"
+    },
+    {
+      "artist": "Steve Ellis",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Giant Warrior",
+      "number": "1",
+      "power": "5",
+      "reverseRelated": [
+        "Feudkiller's Verdict"
+      ],
+      "scryfallId": "0661166a-7d6c-4cba-8190-8d3eedf7f58c",
+      "scryfallIllustrationId": "95c871fc-8ce0-4af1-85b7-825628b93f41",
+      "scryfallOracleId": "de8fd8a1-561e-4ecc-988f-cdd8d9163349",
+      "toughness": "5",
+      "type": "Token Creature — Giant Warrior",
+      "uuid": "381e8626-f958-5956-965d-eea55c4e4f81"
+    },
+    {
+      "artist": "Richard Sardinha",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Treefolk Shaman",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+        "Reach of Branches"
+      ],
+      "scryfallId": "55c82ec9-692e-48eb-9337-c350fe815a3e",
+      "scryfallIllustrationId": "22944624-46d7-4442-9f4e-c8672b15aa43",
+      "scryfallOracleId": "36a2a641-862f-43fe-9d45-111eae1430ce",
+      "toughness": "5",
+      "type": "Token Creature — Treefolk Shaman",
+      "uuid": "eb3f3a2c-3dac-5014-8a46-6cf8e010e4ec"
+    }
+  ],
+  "totalSetSize": 150,
+  "translations": {
+    "Chinese Simplified": "晨光",
+    "Chinese Traditional": "晨光",
+    "French": "Lèveciel",
+    "German": "Morgenluft",
+    "Italian": "Aurora",
+    "Japanese": "モーニングタイド",
+    "Korean": "일출",
+    "Portuguese (Brazil)": "Alvorecer",
+    "Russian": "Рассвет"
+  },
+  "type": "expansion"
 }

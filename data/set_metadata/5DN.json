@@ -1,12 +1,7 @@
 {
-  "name": "Fifth Dawn",
-  "code": "5DN",
-  "magicCardsInfoCode": "5dn",
-  "releaseDate": "2004-06-04",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 165,
   "block": "Mirrodin",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,15 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Fünfte Morgenröte",
-    "fr": "La Cinquième Aube",
-    "it": "Quinta Alba",
-    "es": "Quinto Amanecer",
-    "pt": "A Quinta Aurora",
-    "jp": "フィフス・ドーン",
-    "cn": "五色曙光"
+  "code": "5DN",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "5DN",
+  "mcmId": 47,
+  "mcmName": "Fifth Dawn",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Fifth Dawn",
-  "mkm_id": 47
+  "mtgoCode": "5DN",
+  "name": "Fifth Dawn",
+  "releaseDate": "2004-06-04",
+  "tcgplayerGroupId": 43,
+  "tokens": [
+
+  ],
+  "totalSetSize": 165,
+  "translations": {
+    "Chinese Simplified": "五色曙光",
+    "Chinese Traditional": "五色曙光",
+    "French": "La cinquième aube",
+    "German": "Fünfte Morgenröte",
+    "Italian": "Quinta Alba",
+    "Japanese": "フィフス・ドーン",
+    "Korean": "다섯번째 새벽",
+    "Portuguese (Brazil)": "Aquinta Aurora",
+    "Russian": "Fifth Dawn",
+    "Spanish": "Quinto amanecer"
+  },
+  "type": "expansion"
 }

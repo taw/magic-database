@@ -1,11 +1,7 @@
 {
-  "name": "Magic Origins",
-  "code": "ORI",
-  "magicCardsInfoCode": "ori",
-  "releaseDate": "2015-07-17",
-  "border": "black",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 272,
+  "block": "Core Set",
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -29,18 +25,395 @@
       "checklist"
     ]
   ],
-  "translations": {
-    "de": "Magic Ursprünge",
-    "fr": "Magic Origines",
-    "it": "Magic Origins",
-    "es": "Magic Orígenes",
-    "pt": "Magic – Origens",
-    "jp": "マジック・オリジン",
-    "cn": "万智牌：起源",
-    "ru": "Magic: Истоки",
-    "tw": "魔法風雲會：起源",
-    "ko": "매직의 기원"
+  "code": "ORI",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ORI",
+  "mcmId": 1652,
+  "mcmName": "Magic Origins",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Magic Origins",
-  "mkm_id": 1652
+  "mtgoCode": "ORI",
+  "name": "Magic Origins",
+  "releaseDate": "2015-07-17",
+  "tcgplayerGroupId": 1512,
+  "tokens": [
+    {
+      "artist": "Cyril Van Der Haegen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "1",
+      "power": "4",
+      "reverseRelated": [
+        "Sigil of the Empty Throne"
+      ],
+      "scryfallId": "a1ce74d5-ec65-44e8-b6c2-3f70b9fc3dbb",
+      "scryfallIllustrationId": "b9d5cf13-232e-492f-9542-bb7d8b150bad",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "1fbc2420-f10d-51cf-a03c-1df5c38b5fa2"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Ashaya, the Awoken World",
+      "number": "7",
+      "power": "4",
+      "reverseRelated": [
+        "Nissa, Vastwood Seer // Nissa, Sage Animist"
+      ],
+      "scryfallId": "0affd414-f774-48d1-af9e-bff74e58e1ca",
+      "scryfallIllustrationId": "828fa029-50eb-4677-8b21-6ecf585cc5db",
+      "scryfallOracleId": "20622bb3-cbb9-4aef-b5bf-3292106cbd8f",
+      "toughness": "4",
+      "type": "Token Legendary Creature — Elemental",
+      "uuid": "78128420-482d-55ab-94cd-c7c6fed040cc"
+    },
+    {
+      "artist": "Eric Deschamps",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Chandra, Roaring Flame Emblem",
+      "number": "14",
+      "reverseRelated": [
+        "Chandra, Fire of Kaladesh // Chandra, Roaring Flame"
+      ],
+      "scryfallId": "4a8123a6-7e7b-49fb-9ebc-19d8150852e8",
+      "scryfallIllustrationId": "75840a4c-5201-4493-af0b-00ea0d7555c6",
+      "scryfallOracleId": "64c3e607-4c74-4665-b65c-0c03aac167f8",
+      "text": "At the beginning of your upkeep, this emblem deals 3 damage to you.",
+      "type": "Emblem — Chandra",
+      "uuid": "f7497f34-cee3-5c91-985d-b091c0ba93bb"
+    },
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Demon",
+      "number": "4",
+      "power": "5",
+      "reverseRelated": [
+        "Priest of the Blood Rite"
+      ],
+      "scryfallId": "14259948-5427-401f-b510-f5b705445e50",
+      "scryfallIllustrationId": "3b4ea287-7b41-4b10-9a03-b471a7a422f2",
+      "scryfallOracleId": "0045c5fa-3229-4050-b139-5712fa24b308",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Demon",
+      "uuid": "8d139afb-6536-5803-b7f7-851524512f2c"
+    },
+    {
+      "artist": "Marco Nelor",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "8",
+      "power": "2",
+      "reverseRelated": [
+        "Zendikar's Roil"
+      ],
+      "scryfallId": "b7047838-ac9f-4ca1-9827-73d87098124f",
+      "scryfallIllustrationId": "eb5cc1ce-2942-4e2e-8228-85dc7154ef41",
+      "scryfallOracleId": "e3c32eb9-508a-41d3-b85f-cb85ab2f2716",
+      "toughness": "2",
+      "type": "Token Creature — Elemental",
+      "uuid": "b61b1283-02f2-5b32-bccb-fabb21a22082"
+    },
+    {
+      "artist": "William O'Connor",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elf Warrior",
+      "number": "9",
+      "power": "1",
+      "reverseRelated": [
+        "Dwynen's Elite"
+      ],
+      "scryfallId": "4bb75376-3b3c-4957-bf87-952f8cfc1da7",
+      "scryfallIllustrationId": "a573739e-fe8e-4ddf-9c96-03a34bd0e3b0",
+      "scryfallOracleId": "dac8a765-6845-4b57-bb79-4ec463436f92",
+      "toughness": "1",
+      "type": "Token Creature — Elf Warrior",
+      "uuid": "5efc7ca4-05a2-58dc-bb15-944ef13022e4"
+    },
+    {
+      "artist": "Brandon Kitkouski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Dragon Fodder"
+      ],
+      "scryfallId": "b21498f5-9098-4e50-b1d3-bd64cba1372a",
+      "scryfallIllustrationId": "026eab38-a320-4e17-922e-2525808a3aab",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "77a7a693-5d53-5c67-ad75-8d9271ad6d1e"
+    },
+    {
+      "artist": "Jaime Jones",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Jace, Telepath Unbound Emblem",
+      "number": "12",
+      "reverseRelated": [
+        "Jace, Vryn's Prodigy // Jace, Telepath Unbound"
+      ],
+      "scryfallId": "458e37b1-a849-41ae-b63c-3e09ffd814e4",
+      "scryfallIllustrationId": "1f705526-6111-454e-846b-d9c6dca1fc3c",
+      "scryfallOracleId": "eadc6752-4f92-4e79-bdc7-ecb001f2ea4c",
+      "text": "Whenever you cast a spell, target opponent puts the top five cards of their library into their graveyard.",
+      "type": "Emblem — Jace",
+      "uuid": "fab78756-7e8e-50b9-a5c9-37562023cde3"
+    },
+    {
+      "artist": "Matt Stewart",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Knight",
+      "number": "2",
+      "power": "2",
+      "reverseRelated": [
+        "Gideon's Phalanx",
+        "Knightly Valor"
+      ],
+      "scryfallId": "1bc2969b-2176-4471-b316-9c80443866dd",
+      "scryfallIllustrationId": "ae4800d6-1be9-4a71-9745-cbbfaa0ec8fe",
+      "scryfallOracleId": "340aaeb6-cd18-4908-9729-8c53ab02c6f8",
+      "text": "Vigilance",
+      "toughness": "2",
+      "type": "Token Creature — Knight",
+      "uuid": "6c09f675-c199-5a8b-ba62-d98df6a7afa9"
+    },
+    {
+      "artist": "Karla Ortiz",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Liliana, Defiant Necromancer Emblem",
+      "number": "13",
+      "reverseRelated": [
+        "Liliana, Heretical Healer // Liliana, Defiant Necromancer"
+      ],
+      "scryfallId": "d75f984f-2e11-4f52-b3b0-dd9d94a2dd74",
+      "scryfallIllustrationId": "b9a0cb3f-428c-4c6d-8517-2592a15e3368",
+      "scryfallOracleId": "3936445b-b05d-445b-983a-1d6b2d79d71c",
+      "text": "Whenever a creature dies, return it to the battlefield under your control at the beginning of the next end step.",
+      "type": "Emblem — Liliana",
+      "uuid": "53fb8da4-17cb-5fd1-9969-ac65ed9348fe"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Magic Origins Checklist",
+      "number": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "f3dcc7b5-c911-44c9-be5a-087298ddb492",
+      "scryfallOracleId": "516a074e-29d7-4599-a057-f90d88ad0c8f",
+      "text": "(You can mark this card to represent a double-faced Planeswalker card in your library or hand.)\n☐ Kytheon, Hero of Akros {W}\n☐ Jace, Vryn's Prodigy {1}{U}\n☐ Liliana, Heretical Healer {1}{B}{B}\n☐ Chandra, Fire of Kaladesh {1}{R}{R}\n☐ Nissa, Vastwood Seer {2}{G}",
+      "type": "Card",
+      "uuid": "e7f5d07e-0e02-5863-91ff-4f76b630568b"
+    },
+    {
+      "artist": "Steve Prescott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Murder Investigation"
+      ],
+      "scryfallId": "e33426f5-59bf-456c-8fff-0ca27eacdef9",
+      "scryfallIllustrationId": "ba2f54d1-db28-410e-90e0-a3e892a8b578",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "3dcdfb16-cb69-5f28-8681-12f2ba9bd395"
+    },
+    {
+      "artist": "Adam Paquette",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Thopter",
+      "number": "10",
+      "power": "1",
+      "reverseRelated": [
+        "Aspiring Aeronaut",
+        "Thopter Spy Network",
+        "Whirler Rogue",
+        "Ghirapur Gearcrafter",
+        "Pia and Kiran Nalaar",
+        "Thopter Engineer",
+        "Hangarback Walker",
+        "Foundry of the Consuls"
+      ],
+      "scryfallId": "75fa5fab-1076-443b-ba27-46d10770883d",
+      "scryfallIllustrationId": "458f96c5-d6b7-4d15-b38f-09f75f3e2733",
+      "scryfallOracleId": "7c0b6b53-4ddb-4bb5-8a26-0041b2006d3f",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Thopter",
+      "uuid": "c11f24ba-2bba-52c5-b21d-d44b72d2867a"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Thopter",
+      "number": "11",
+      "power": "1",
+      "reverseRelated": [
+        "Aspiring Aeronaut",
+        "Thopter Spy Network",
+        "Whirler Rogue",
+        "Ghirapur Gearcrafter",
+        "Pia and Kiran Nalaar",
+        "Thopter Engineer",
+        "Hangarback Walker",
+        "Foundry of the Consuls"
+      ],
+      "scryfallId": "bfa49655-6ce7-404b-ad12-33ec1cd7c0d3",
+      "scryfallIllustrationId": "6cba3a90-c033-447e-8cd0-3e0ba3180432",
+      "scryfallOracleId": "7c0b6b53-4ddb-4bb5-8a26-0041b2006d3f",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Thopter",
+      "uuid": "afd1cf6d-d6b0-5c3d-a5ca-8250122666f0"
+    },
+    {
+      "artist": "Lucas Graciano",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Liliana, Heretical Healer // Liliana, Defiant Necromancer",
+        "Undead Servant"
+      ],
+      "scryfallId": "e5ccae95-95c2-4d11-aa68-5c80ecf90fd2",
+      "scryfallIllustrationId": "6bb462b0-a2a7-4cdf-9fe4-c14d6aceeddc",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "93ce30b5-4771-5fa1-b0e7-f7b6c303f393"
+    }
+  ],
+  "totalSetSize": 288,
+  "translations": {
+    "Chinese Simplified": "万智牌：起源",
+    "Chinese Traditional": "魔法風雲會：起源",
+    "French": "Magic Origines",
+    "German": "Magic Ursprünge",
+    "Italian": "Magic Origins",
+    "Japanese": "『マジック・オリジン』",
+    "Korean": "매직의 기원",
+    "Portuguese (Brazil)": "Magic – Origens",
+    "Russian": "Magic: Истоки",
+    "Spanish": "Magic Orígenes"
+  },
+  "type": "core"
 }

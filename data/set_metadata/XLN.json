@@ -1,12 +1,7 @@
 {
-  "name": "Ixalan",
-  "code": "XLN",
-  "magicCardsInfoCode": "xln",
-  "releaseDate": "2017-09-29",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 279,
   "block": "Ixalan",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,14 +22,394 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Ixalan",
-    "fr": "Ixalan",
-    "it": "Ixalan",
-    "es": "Ixalan",
-    "pt": "Ixalan",
-    "ru": "Ixalan"
+  "code": "XLN",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "XLN",
+  "mcmId": 1812,
+  "mcmName": "Ixalan",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Ixalan",
-  "mkm_id": 114
+  "mtgoCode": "XLN",
+  "name": "Ixalan",
+  "releaseDate": "2017-09-29",
+  "tcgplayerGroupId": 2043,
+  "tokens": [
+    {
+      "artist": "Filip Burburan",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Dinosaur",
+      "number": "5",
+      "power": "3",
+      "reverseRelated": [
+        "Baffling End",
+        "Crested Herdcaller",
+        "Raptor Hatchling",
+        "Thundering Spineback",
+        "Huatli, Warrior Poet",
+        "Regisaur Alpha"
+      ],
+      "scryfallId": "1ccee594-e1e6-4a82-bc17-93bcdeb36198",
+      "scryfallIllustrationId": "b96dc45f-9157-4f51-9413-a31b248fd40c",
+      "scryfallOracleId": "240300bd-5088-43c5-a873-290507515843",
+      "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
+      "toughness": "3",
+      "type": "Token Creature — Dinosaur",
+      "uuid": "396544e9-890e-5e28-a237-fd5e20930a54"
+    },
+    {
+      "artist": "Noah Bradley",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Illusion",
+      "number": "2",
+      "power": "2",
+      "reverseRelated": [
+        "Jace, Cunning Castaway"
+      ],
+      "scryfallId": "a10729a5-061a-4daf-91d6-0f6ce813a992",
+      "scryfallIllustrationId": "55329662-628d-4260-a572-b77f44b85dd3",
+      "scryfallOracleId": "b667447a-96d8-4908-a34d-309666e2180a",
+      "text": "When this creature becomes the target of a spell, sacrifice it.",
+      "toughness": "2",
+      "type": "Token Creature — Illusion",
+      "uuid": "d1ccf15d-8e4c-5387-afc9-c892359df0e0"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Ixalan Checklist",
+      "number": "CH1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "4a8b3030-5495-404b-938c-8c4a387a1341",
+      "scryfallOracleId": "479045c5-adc1-4c31-aa58-3e29214e94b2",
+      "text": "(You can mark this card to represent a double-faced card in your library or hand.)\n☐ Legion's Landing {W}\n☐ Search for Azcanta {1}{U}\n☐ Arguel's Blood Fast {1}{B}\n☐ Vance's Blasting Cannons {3}{R}\n☐ Growing Rites of Itlimoc {2}{G}\n☐ Conqueror's Galleon {4}\n☐ Dowsing Dagger {2}\n☐ Primal Amulet {4}\n☐ Thaumatic Compass {2}\n☐ Treasure Map {2}",
+      "type": "Card",
+      "uuid": "decf9440-8ec0-555e-bb12-b52334c8470c"
+    },
+    {
+      "artist": "Randy Gallegos",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Merfolk",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Aquatic Incursion",
+        "Deeproot Waters",
+        "Jungleborn Pioneer"
+      ],
+      "scryfallId": "90317f5e-d121-4c00-86cc-5bbee953f600",
+      "scryfallIllustrationId": "d0ba16c4-81cc-4dad-8977-d6a77d78ef1f",
+      "scryfallOracleId": "fd6663bc-49ae-4e31-b0aa-60f142dfd18c",
+      "text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)",
+      "toughness": "1",
+      "type": "Token Creature — Merfolk",
+      "uuid": "f271d078-aecc-5b89-8f90-70eb3821815b"
+    },
+    {
+      "artist": "Matt Stewart",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Pirate",
+      "number": "4",
+      "power": "2",
+      "reverseRelated": [
+        "Fathom Fleet Captain",
+        "Vraska, Relic Seeker"
+      ],
+      "scryfallId": "2d7fc721-6b5b-4920-86fa-0fbfd90adaf5",
+      "scryfallIllustrationId": "67fe941e-9506-473d-9c2b-b9fa7345f4bb",
+      "scryfallOracleId": "3fb1576f-b9e7-4150-ab6e-2c1e56ac1c57",
+      "text": "Menace (This creature can't be blocked except by two or more creatures.)",
+      "toughness": "2",
+      "type": "Token Creature — Pirate",
+      "uuid": "2131268e-e908-5880-ba89-e0bc7cdddfd4"
+    },
+    {
+      "artist": "Florian de Gesincourt",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Plant",
+      "number": "6",
+      "power": "0",
+      "reverseRelated": [
+        "Dowsing Dagger // Lost Vale"
+      ],
+      "scryfallId": "642d1d93-22d0-43f9-8691-6790876185a0",
+      "scryfallIllustrationId": "8a6fa577-0c1a-4057-883f-0f14ba81ed00",
+      "scryfallOracleId": "639d5f0d-d0ea-49bf-9075-12252315601e",
+      "text": "Defender (This creature can't attack.)",
+      "toughness": "2",
+      "type": "Token Creature — Plant",
+      "uuid": "ebb2f816-71f1-5abc-9644-1f84c9b25e19"
+    },
+    {
+      "artist": "Milivoj Ćeran",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Treasure",
+      "number": "10",
+      "reverseRelated": [
+        "Hornswoggle",
+        "Sailor of Means",
+        "Depths of Desire",
+        "Pirate's Prize",
+        "Prosperous Pirates",
+        "Pitiless Plunderer",
+        "Spell Swindle",
+        "Brass's Bounty",
+        "Brazen Freebooter",
+        "Contract Killing",
+        "Dire Fleet Hoarder",
+        "Pirate's Pillage",
+        "Heartless Pillage",
+        "Revel in Riches",
+        "Ruthless Knave",
+        "Wanted Scoundrels",
+        "Captain Lannery Storm",
+        "Trove of Temptation",
+        "Storm the Vault // Vault of Catlacan",
+        "Wily Goblin",
+        "Gleaming Barrier",
+        "Deadeye Plunderers",
+        "Prying Blade",
+        "Treasure Map // Treasure Cove"
+      ],
+      "scryfallId": "bbe8bced-9524-47f6-a600-bf4ddc072698",
+      "scryfallIllustrationId": "ad9c80ba-0f0f-4e61-8a89-b02640d43019",
+      "scryfallOracleId": "3c549374-6c37-42e0-8d88-a8555d46732d",
+      "text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+      "type": "Token Artifact — Treasure",
+      "uuid": "392fd06f-c48c-583a-98be-147551c5f31c"
+    },
+    {
+      "artist": "Florian de Gesincourt",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Treasure",
+      "number": "7",
+      "reverseRelated": [
+        "Hornswoggle",
+        "Sailor of Means",
+        "Depths of Desire",
+        "Pirate's Prize",
+        "Prosperous Pirates",
+        "Pitiless Plunderer",
+        "Spell Swindle",
+        "Brass's Bounty",
+        "Brazen Freebooter",
+        "Contract Killing",
+        "Dire Fleet Hoarder",
+        "Pirate's Pillage",
+        "Heartless Pillage",
+        "Revel in Riches",
+        "Ruthless Knave",
+        "Wanted Scoundrels",
+        "Captain Lannery Storm",
+        "Trove of Temptation",
+        "Storm the Vault // Vault of Catlacan",
+        "Wily Goblin",
+        "Gleaming Barrier",
+        "Deadeye Plunderers",
+        "Prying Blade",
+        "Treasure Map // Treasure Cove"
+      ],
+      "scryfallId": "720f3e68-84c0-462e-a0d1-90236ccc494a",
+      "scryfallIllustrationId": "2fa2a428-79af-41d8-8742-4acd1a579c38",
+      "scryfallOracleId": "3c549374-6c37-42e0-8d88-a8555d46732d",
+      "text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+      "type": "Token Artifact — Treasure",
+      "uuid": "2ffc358f-b0f5-5201-b61b-d3548f9c2172"
+    },
+    {
+      "artist": "Zoltan Boros",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Treasure",
+      "number": "8",
+      "reverseRelated": [
+        "Hornswoggle",
+        "Sailor of Means",
+        "Depths of Desire",
+        "Pirate's Prize",
+        "Prosperous Pirates",
+        "Pitiless Plunderer",
+        "Spell Swindle",
+        "Brass's Bounty",
+        "Brazen Freebooter",
+        "Contract Killing",
+        "Dire Fleet Hoarder",
+        "Pirate's Pillage",
+        "Heartless Pillage",
+        "Revel in Riches",
+        "Ruthless Knave",
+        "Wanted Scoundrels",
+        "Captain Lannery Storm",
+        "Trove of Temptation",
+        "Storm the Vault // Vault of Catlacan",
+        "Wily Goblin",
+        "Gleaming Barrier",
+        "Deadeye Plunderers",
+        "Prying Blade",
+        "Treasure Map // Treasure Cove"
+      ],
+      "scryfallId": "21e89101-f1cf-4bbd-a1d5-c5d48512e0dd",
+      "scryfallIllustrationId": "7de0f7c9-3435-4741-991e-3bc80a179bf1",
+      "scryfallOracleId": "3c549374-6c37-42e0-8d88-a8555d46732d",
+      "text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+      "type": "Token Artifact — Treasure",
+      "uuid": "90d41a22-8965-50dc-96e3-04a073c610db"
+    },
+    {
+      "artist": "Jason Felix",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Treasure",
+      "number": "9",
+      "reverseRelated": [
+        "Hornswoggle",
+        "Sailor of Means",
+        "Depths of Desire",
+        "Pirate's Prize",
+        "Prosperous Pirates",
+        "Pitiless Plunderer",
+        "Spell Swindle",
+        "Brass's Bounty",
+        "Brazen Freebooter",
+        "Contract Killing",
+        "Dire Fleet Hoarder",
+        "Pirate's Pillage",
+        "Heartless Pillage",
+        "Revel in Riches",
+        "Ruthless Knave",
+        "Wanted Scoundrels",
+        "Captain Lannery Storm",
+        "Trove of Temptation",
+        "Storm the Vault // Vault of Catlacan",
+        "Wily Goblin",
+        "Gleaming Barrier",
+        "Deadeye Plunderers",
+        "Prying Blade",
+        "Treasure Map // Treasure Cove"
+      ],
+      "scryfallId": "56f06ec6-634d-454b-a46a-dfefe4600d27",
+      "scryfallIllustrationId": "c417cef6-632a-473a-a828-331895904aa0",
+      "scryfallOracleId": "3c549374-6c37-42e0-8d88-a8555d46732d",
+      "text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+      "type": "Token Artifact — Treasure",
+      "uuid": "7778df5e-2350-5b1b-a849-42bacd96a6f2"
+    },
+    {
+      "artist": "John Severin Brassell",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Vampire",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Martyr of Dusk",
+        "Legion's Landing // Adanto, the First Fort",
+        "Mavren Fein, Dusk Apostle",
+        "Squire's Devotion",
+        "Paladin of the Bloodstained",
+        "Queen's Commission",
+        "Elenda, the Dusk Rose",
+        "Call to the Feast"
+      ],
+      "scryfallId": "09293ae7-0629-417b-9eda-9bd3f6d8e118",
+      "scryfallIllustrationId": "e8101ef4-07fd-47d1-9300-42f65ef11383",
+      "scryfallOracleId": "97af46cb-6209-4ae7-81cc-792894999937",
+      "text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
+      "toughness": "1",
+      "type": "Token Creature — Vampire",
+      "uuid": "9acb46b7-b25f-51f2-8d78-3a33984687a5"
+    }
+  ],
+  "totalSetSize": 289,
+  "translations": {
+    "Chinese Simplified": "依夏兰",
+    "Chinese Traditional": "依夏蘭",
+    "French": "Ixalan",
+    "German": "Ixalan",
+    "Italian": "Ixalan",
+    "Japanese": "『イクサラン』",
+    "Korean": "익살란",
+    "Portuguese (Brazil)": "Ixalan",
+    "Russian": "Иксалан",
+    "Spanish": "Ixalan"
+  },
+  "type": "expansion"
 }

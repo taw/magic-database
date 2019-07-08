@@ -1,8 +1,46 @@
 {
-  "name": "Explorers of Ixalan",
+  "baseSetSize": 0,
   "code": "E02",
-  "magicCardsInfoCode": "e02",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "E02",
+  "mcmId": 1830,
+  "mcmName": "Explorers of Ixalan",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Explorers of Ixalan",
   "releaseDate": "2017-11-24",
-  "border": "black",
-  "type": "board game deck"
+  "tcgplayerGroupId": 2077,
+  "tokens": [
+    {
+      "artist": "Joseph Meehan",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "T1",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "eac3b55f-ebf8-413e-b987-3b92e89ca7c5",
+      "scryfallIllustrationId": "328aab39-17fb-48ef-a40e-b692d07e4d5e",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "88d4c282-836e-5116-84ac-8663b4f0aa6d"
+    }
+  ],
+  "totalSetSize": 48,
+  "translations": {
+  },
+  "type": "box"
 }

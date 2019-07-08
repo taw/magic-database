@@ -1,11 +1,7 @@
 {
-  "name": "Magic 2013",
-  "code": "M13",
-  "magicCardsInfoCode": "m13",
-  "releaseDate": "2012-07-13",
-  "border": "black",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 249,
+  "block": "Core Set",
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -26,18 +22,295 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Magic 2013",
-    "fr": "Magic 2013",
-    "it": "Magic 2013",
-    "es": "Magic 2013",
-    "pt": "Magic 2013",
-    "jp": "2013基本セット",
-    "cn": "核心系列2013",
-    "ru": "Базовый выпуск 2013",
-    "tw": "核心系列2013",
-    "ko": "매직2013"
+  "code": "M13",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "M13",
+  "mcmId": 1388,
+  "mcmName": "Magic 2013",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Magic 2013",
-  "mkm_id": 1388
+  "mtgoCode": "M13",
+  "name": "Magic 2013",
+  "releaseDate": "2012-07-13",
+  "tcgplayerGroupId": 364,
+  "tokens": [
+    {
+      "artist": "John Donahue",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "8",
+      "power": "3",
+      "reverseRelated": [
+        "Garruk, Primal Hunter",
+        "Thragtusk",
+        "Wurm"
+      ],
+      "scryfallId": "c94010f1-cd4b-4f65-8a0e-2df6eec058ec",
+      "scryfallIllustrationId": "b241883c-fe4f-42c9-be2c-2ed51bcc174b",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "baf960e2-f182-5205-839d-5a4c24706a44"
+    },
+    {
+      "artist": "Jesper Ejsing",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Cat",
+      "number": "1",
+      "power": "2",
+      "reverseRelated": [
+        "Ajani, Caller of the Pride"
+      ],
+      "scryfallId": "f97868f6-a9ce-4ce9-bc3f-b535f3202602",
+      "scryfallIllustrationId": "101b0ebd-7d56-403b-96a8-cf2fcec6fcf4",
+      "scryfallOracleId": "6788478d-e157-4483-be09-9edb3f841431",
+      "toughness": "2",
+      "type": "Token Creature — Cat",
+      "uuid": "14ecb53e-5746-58c3-a4c2-22b3b9eee399"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Drake",
+      "number": "4",
+      "power": "2",
+      "reverseRelated": [
+        "Talrand, Sky Summoner",
+        "Talrand's Invocation"
+      ],
+      "scryfallId": "93679bb9-ee1c-4eea-bcdd-72785d5788af",
+      "scryfallIllustrationId": "bd27a16e-6ba3-4966-8d70-9ed6e7f52d62",
+      "scryfallOracleId": "9e266374-80f1-458a-9417-16220d2a013a",
+      "text": "Flying",
+      "toughness": "2",
+      "type": "Token Creature — Drake",
+      "uuid": "42432afc-b6fd-57bf-8d35-4fb8d93c9114"
+    },
+    {
+      "artist": "Adam Paquette",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Goat",
+      "number": "2",
+      "power": "0",
+      "reverseRelated": [
+        "Trading Post"
+      ],
+      "scryfallId": "fa0f1de9-464c-4f12-bd1d-a4a5b88fe803",
+      "scryfallIllustrationId": "f82e64b7-aedf-41a2-9169-b68a232d4c48",
+      "scryfallOracleId": "f62b776a-d4de-455a-ae5a-ca07982974db",
+      "toughness": "1",
+      "type": "Token Creature — Goat",
+      "uuid": "09b5995c-5627-5ce9-bd20-eff76cffe9c4"
+    },
+    {
+      "artist": "Karl Kopinski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Krenko, Mob Boss",
+        "Krenko's Command"
+      ],
+      "scryfallId": "0e67efea-8a80-42ec-8e77-07d387d933d4",
+      "scryfallIllustrationId": "033b1753-2e94-45b6-a841-2be33bbfbc2d",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "67d1be9b-d091-5e56-8ae5-af68a9081e41"
+    },
+    {
+      "artist": "Anthony Francisco",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Hellion",
+      "number": "7",
+      "power": "4",
+      "reverseRelated": [
+        "Hellion Crucible"
+      ],
+      "scryfallId": "3b43b811-ec0f-4ad7-a152-f7f077bafaa4",
+      "scryfallIllustrationId": "2b2dc3c7-9f29-4cb5-aafc-0b46f6e5d832",
+      "scryfallOracleId": "4b7f673b-b7ce-4158-97c5-3fb3d3f24ba7",
+      "toughness": "4",
+      "type": "Token Creature — Hellion",
+      "uuid": "71e3d6b1-eefe-5346-b77e-7941678b4d63"
+    },
+    {
+      "artist": "D. Alexander Gregory",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Liliana of the Dark Realms Emblem",
+      "number": "11",
+      "reverseRelated": [
+        "Liliana of the Dark Realms"
+      ],
+      "scryfallId": "2bd1b0b9-f1bb-4808-be3f-5b3faf185cf1",
+      "scryfallIllustrationId": "da07b601-7b05-43f9-ab7b-c918f59cfcb3",
+      "scryfallOracleId": "ecf396e7-88fd-4c82-90c6-b8f84a120f71",
+      "text": "Swamps you control have '{T}: Add {B}{B}{B}{B}.'",
+      "type": "Emblem — Liliana",
+      "uuid": "760f93be-9c3c-5d3b-ab01-cd3a02c43a6d"
+    },
+    {
+      "artist": "Brad Rigney",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "9",
+      "power": "1",
+      "reverseRelated": [
+        "Fungal Sprouting"
+      ],
+      "scryfallId": "dd67de8a-3879-4d03-a716-6e907d597b25",
+      "scryfallIllustrationId": "54430daa-acec-42fc-9330-ef8c4c015569",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "d82d11b9-d169-59eb-b706-b716e41e5682"
+    },
+    {
+      "artist": "Greg Staples",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Attended Knight",
+        "Captain of the Watch",
+        "Captain's Call"
+      ],
+      "scryfallId": "86272c08-c5f2-413f-87ea-b135aca2d9c5",
+      "scryfallIllustrationId": "6df28827-075d-4e5e-ba2c-d26982ace45f",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "341fc4e0-7b85-5487-bf7c-edb4f8b8d0d0"
+    },
+    {
+      "artist": "Anthony Francisco",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wurm",
+      "number": "10",
+      "power": "6",
+      "reverseRelated": [
+        "Garruk, Primal Hunter",
+        "Beast"
+      ],
+      "scryfallId": "a4d87f38-c342-4186-8768-c3f1aceb680a",
+      "scryfallIllustrationId": "b5073061-ca8d-4ca8-988e-9a44dcbc2e23",
+      "scryfallOracleId": "46a55586-cc9a-443c-b458-e628afc3c587",
+      "toughness": "6",
+      "type": "Token Creature — Wurm",
+      "uuid": "618a8959-c8fc-51d5-bb99-4c2965f3ac37"
+    },
+    {
+      "artist": "Lucas Graciano",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Vile Rebirth"
+      ],
+      "scryfallId": "1966d7e6-cd4a-47ff-bc3e-f8e0db8a3439",
+      "scryfallIllustrationId": "6bb462b0-a2a7-4cdf-9fe4-c14d6aceeddc",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "d780ceb1-e22c-5e1f-a166-b8de3b89111d"
+    }
+  ],
+  "totalSetSize": 249,
+  "translations": {
+    "Chinese Simplified": "核心系列2013",
+    "Chinese Traditional": "核心系列2013",
+    "French": "Colección básica 2013",
+    "German": "2013 Hauptset",
+    "Italian": "Set Base 2013",
+    "Japanese": "『基本セット2013』",
+    "Korean": "2013 코어세트",
+    "Portuguese (Brazil)": "Coleção Básica 2013",
+    "Russian": "Базовый выпуск 2013",
+    "Spanish": "Colección básica 2013"
+  },
+  "type": "core"
 }

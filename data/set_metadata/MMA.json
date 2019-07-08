@@ -1,11 +1,6 @@
 {
-  "name": "Modern Masters",
-  "code": "MMA",
-  "magicCardsInfoCode": "mma",
-  "releaseDate": "2013-06-07",
-  "border": "black",
-  "type": "reprint",
-  "booster": [
+  "baseSetSize": 229,
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -30,6 +25,420 @@
       "foil common"
     ]
   ],
-  "mkm_name": "Modern Masters",
-  "mkm_id": 1444
+  "code": "MMA",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "MMA",
+  "mcmId": 1444,
+  "mcmName": "Modern Masters",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "MMA",
+  "name": "Modern Masters",
+  "releaseDate": "2013-06-07",
+  "tcgplayerGroupId": 1111,
+  "tokens": [
+    {
+      "artist": "Wayne Reynolds",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Bat",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Skeletal Vampire"
+      ],
+      "scryfallId": "89d7ed94-564b-415c-b590-d89c972384a1",
+      "scryfallIllustrationId": "23fa4c20-35ff-4b4f-8fcd-a14eaf4551c5",
+      "scryfallOracleId": "ff86d8fc-5242-405e-b5e3-f9ff73296794",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bat",
+      "uuid": "c16f2c52-b0a1-5b21-897e-ee514cddd5ed"
+    },
+    {
+      "artist": "Vance Kovacs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "9",
+      "power": "4",
+      "reverseRelated": [
+        "Sarkhan Vol"
+      ],
+      "scryfallId": "529930fe-a1af-42fb-85a4-4999e787b25b",
+      "scryfallIllustrationId": "708ca047-b8c3-49d2-bc31-973de95572a3",
+      "scryfallOracleId": "c8790543-9399-4312-9b15-aa8a45c8fec7",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Dragon",
+      "uuid": "3ab06568-b2af-59e9-ae63-c74d18663ff9"
+    },
+    {
+      "artist": "Brandon Kitkouski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "11",
+      "power": "4",
+      "reverseRelated": [
+        "Walker of the Grove"
+      ],
+      "scryfallId": "0e9c63b7-ec72-443f-9216-5cb7bd07e940",
+      "scryfallIllustrationId": "09c0235a-05a6-45f6-aa8d-685e7cd83b45",
+      "scryfallOracleId": "c5a790eb-a3cf-4214-b743-9123ad002ade",
+      "toughness": "4",
+      "type": "Token Creature — Elemental",
+      "uuid": "4e7063bb-636c-581a-b835-cfec4f1e61bf"
+    },
+    {
+      "artist": "Volkan Baǵa",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Elspeth, Knight-Errant Emblem",
+      "number": "16",
+      "reverseRelated": [
+        "Elspeth, Knight-Errant"
+      ],
+      "scryfallId": "014c0557-11b8-49da-8486-0dd14b919338",
+      "scryfallIllustrationId": "5da6e7ad-d754-4dc9-8910-b9f0f002fbd3",
+      "scryfallOracleId": "17549447-6f19-4d87-8af1-58b6bb387003",
+      "text": "Artifacts, creatures, enchantments, and lands you control have indestructible.",
+      "type": "Emblem — Elspeth",
+      "uuid": "63d05a71-3095-5b87-a079-23117d8628a3"
+    },
+    {
+      "artist": "E. M. Gist",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "colors": [
+        "B",
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Faerie Rogue",
+      "number": "14",
+      "power": "1",
+      "reverseRelated": [
+        "Oona, Queen of the Fae"
+      ],
+      "scryfallId": "e1eb3b8a-f9d3-4ce1-b171-ba7b0c3f4830",
+      "scryfallIllustrationId": "cd880bd0-cdf6-414e-be18-7216595d826c",
+      "scryfallOracleId": "759b1cd0-a2d9-46d3-8433-33892abd184c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Faerie Rogue",
+      "uuid": "18a7bfdc-ca06-5540-b5ea-4145099479c4"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Giant Warrior",
+      "number": "1",
+      "power": "5",
+      "reverseRelated": [
+        "Feudkiller's Verdict"
+      ],
+      "scryfallId": "c1a41d0d-aaf5-4cb4-a9db-07992c57e436",
+      "scryfallIllustrationId": "f5fa2c80-4597-4be3-a7c8-a55224485d0e",
+      "scryfallOracleId": "de8fd8a1-561e-4ecc-988f-cdd8d9163349",
+      "toughness": "5",
+      "type": "Token Creature — Giant Warrior",
+      "uuid": "ac18a7a1-7c5d-5e45-82d0-61f640fb214a"
+    },
+    {
+      "artist": "Dave Kendall",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "10",
+      "power": "1",
+      "reverseRelated": [
+        "Empty the Warrens",
+        "Mogg War Marshal"
+      ],
+      "scryfallId": "2b1ac66f-4b21-4acf-b51b-41c9d241d971",
+      "scryfallIllustrationId": "12f18aeb-2a92-431f-9d1d-9d3ae9c9dba5",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "64a87322-dccf-5b90-98d8-ff09e4f41dd7"
+    },
+    {
+      "artist": "Dave Kendall",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Goblin Rogue",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Marsh Flitter",
+        "Warren Weirding"
+      ],
+      "scryfallId": "33bd708d-dc84-44d3-a563-536ade028bd0",
+      "scryfallIllustrationId": "19c4fc50-b4d6-4e41-b8ec-a976ea9d3adb",
+      "scryfallOracleId": "a0814e97-bf28-4ffb-b65d-845de3613065",
+      "toughness": "1",
+      "type": "Token Creature — Goblin Rogue",
+      "uuid": "2efdc255-d210-57da-acab-ca0e6b9fde22"
+    },
+    {
+      "artist": "Véronique Meignaud",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Illusion",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Meloku the Clouded Mirror"
+      ],
+      "scryfallId": "b24ae780-d226-4deb-9a4a-91262763d0cd",
+      "scryfallIllustrationId": "364aa3d8-2c59-432a-9fa7-48ea1cbe99a1",
+      "scryfallOracleId": "bd0289dc-f406-4157-9776-401b662df719",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Illusion",
+      "uuid": "31b00174-dfc2-5adb-9f1f-ae841cc4c054"
+    },
+    {
+      "artist": "Randy Gallegos",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Kithkin Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Cenn's Enlistment",
+        "Cloudgoat Ranger"
+      ],
+      "scryfallId": "28adced8-4f86-4dc7-bd21-e20ba403219c",
+      "scryfallIllustrationId": "00825dcd-eb99-43e9-bf0d-efdba80b2bac",
+      "scryfallOracleId": "caf4a0d2-64de-42df-a88e-bb0d3f34e207",
+      "toughness": "1",
+      "type": "Token Creature — Kithkin Soldier",
+      "uuid": "d107b71c-cea3-5f2d-ba67-e5937717b804"
+    },
+    {
+      "artist": "Warren Mahy",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "12",
+      "power": "1",
+      "reverseRelated": [
+        "Pallid Mycoderm",
+        "Sporesower Thallid",
+        "Sporoloth Ancient",
+        "Thallid",
+        "Thallid Germinator",
+        "Thallid Shell-Dweller",
+        "Verdeloth the Ancient"
+      ],
+      "scryfallId": "15854c49-14fd-4947-8444-c5ab614cb416",
+      "scryfallIllustrationId": "77f6a380-50b1-4209-9d78-95434c947c0a",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "a5818cb0-b800-51ef-abb8-d4c5b5530435"
+    },
+    {
+      "artist": "Goran Josic",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Elspeth, Knight-Errant"
+      ],
+      "scryfallId": "c3317ef0-5104-41de-9e7a-2629ad658ae7",
+      "scryfallIllustrationId": "8435b0da-d791-4a49-ad91-d12eec86dd53",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "34031387-624c-5c2c-b651-df11215e1d5f"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Spider",
+      "number": "7",
+      "power": "2",
+      "reverseRelated": [
+        "Penumbra Spider"
+      ],
+      "scryfallId": "2d833298-a270-4b89-987c-5b6432bbc311",
+      "scryfallIllustrationId": "c5ebe8cb-edf8-47db-a57d-56486c52d0a0",
+      "scryfallOracleId": "c16b3a1e-0e60-41f2-899e-d22bcf1144ae",
+      "text": "Reach",
+      "toughness": "4",
+      "type": "Token Creature — Spider",
+      "uuid": "3686fcb3-fdea-5f30-bff0-3dfd2f613cf1"
+    },
+    {
+      "artist": "Zack Stella",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Treefolk Shaman",
+      "number": "13",
+      "power": "2",
+      "reverseRelated": [
+        "Reach of Branches"
+      ],
+      "scryfallId": "d75c1ada-2a49-49e8-800d-f11d08263dde",
+      "scryfallIllustrationId": "98348b9d-b5b2-4b65-b64e-b891b2ed22e0",
+      "scryfallOracleId": "36a2a641-862f-43fe-9d45-111eae1430ce",
+      "toughness": "5",
+      "type": "Token Creature — Treefolk Shaman",
+      "uuid": "f78b08c8-c7bf-5351-88dc-46bf00c47c61"
+    },
+    {
+      "artist": "Chuck Lukacs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "colors": [
+        "B",
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Worm",
+      "number": "15",
+      "power": "1",
+      "reverseRelated": [
+        "Worm Harvest"
+      ],
+      "scryfallId": "828b9eb1-ccdc-4540-9d53-7853539af189",
+      "scryfallIllustrationId": "378a91e5-1f4c-4b4a-9a65-7757e2e7a34d",
+      "scryfallOracleId": "318d6000-b6e0-4ef0-ad58-d470f4a271e6",
+      "toughness": "1",
+      "type": "Token Creature — Worm",
+      "uuid": "dccb6e6e-2b66-546d-9416-ea2a46bebeff"
+    },
+    {
+      "artist": "Bud Cook",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "8",
+      "power": "2",
+      "reverseRelated": [
+        "Bridge from Below"
+      ],
+      "scryfallId": "738dce42-9852-4ced-8e9e-4639fad8b79f",
+      "scryfallIllustrationId": "46e08797-daf4-45a0-a950-cdcc29bfbf61",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "31c61771-d35e-576f-997c-0a086ed92854"
+    }
+  ],
+  "totalSetSize": 229,
+  "translations": {
+    "Chinese Simplified": "Modern Masters",
+    "Chinese Traditional": "Modern Masters",
+    "French": "Modern Masters",
+    "German": "Modern Masters",
+    "Italian": "Modern Masters",
+    "Japanese": "Modern Masters",
+    "Korean": "Modern Masters",
+    "Portuguese (Brazil)": "Modern Masters",
+    "Russian": "Modern Masters",
+    "Spanish": "Modern Masters"
+  },
+  "type": "masters"
 }

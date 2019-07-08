@@ -1,0 +1,195 @@
+{
+  "baseSetSize": 0,
+  "code": "WC02",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "World Championship Decks 2002",
+  "releaseDate": "2002-08-14",
+  "tokens": [
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "2002 World Championships Ad",
+      "number": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "9b896682-eb09-47cb-8135-e8546e9173e1",
+      "scryfallOracleId": "d0b3f7c1-ee16-4bed-af8a-96201168ec81",
+      "type": "Card",
+      "uuid": "c2ab436f-7199-5789-a0a9-aefb3d806465"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Brian Kibler Bio",
+      "number": "bk0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "3746d381-9c73-4d74-aa7f-79426e163eb7",
+      "scryfallOracleId": "ae55f60e-c0d1-4a95-aa95-7f19f279c326",
+      "text": "Pro Tour™ veteran Brian Kibler piloted his green-white-red \"Red Zone 2K2\" deck to an impressive finish at this year's Worlds. This deck quickly tried to put its many creatures into the \"red zone,\" the attacking zone on the playmats used on the Pro Tour circuit. The twenty-one–year-old Kibler attends Emory University in Atlanta, Georgia, and is part of the \"Mini Colony\" playtest group that designed the Red Zone 2K2 deck.",
+      "type": "Card",
+      "uuid": "c4b0d335-bf3a-50d5-b633-5a827602c07f"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Brian Kibler Decklist",
+      "number": "bk0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "d938bdec-eb97-4b3e-abdc-6eddd7bcd44e",
+      "scryfallOracleId": "ee248b65-6a38-4a50-a277-3a3e3798c551",
+      "type": "Card",
+      "uuid": "4db32daa-4016-5363-94e4-5c22c8d4ffe4"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Carlos Romão Bio",
+      "number": "cr0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "baf955be-0742-483d-a7df-e58792f31817",
+      "scryfallOracleId": "6d2632ab-69b3-4d6b-895f-e34984008eab",
+      "text": "Carlos Romão played the same style of deck that many people at this year's World Championships chose to play: blue-black Psychatog. He simple played his version better than everyone else playing theirs. Romão, known as \"Jaba\" to his friends, was a perfect 6-0 during the Swiss portion of the tournament, posting a stunning 12-0 game record. This twenty-year-old native of São Paulo, Brazil, has been widely regarded as one of the best players in South America. His deck tried to stay alive long enough to play Upheaval, while floating mana to replay Psychatog on the same turn.",
+      "type": "Card",
+      "uuid": "a3b8f11d-6f05-5735-8796-5bf928547f66"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Carlos Romão Decklist",
+      "number": "cr0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "62a4afbd-6325-4451-9840-6d5fda836118",
+      "scryfallOracleId": "0d0cfaf3-95e5-499d-a94e-c21e96c3bf08",
+      "type": "Card",
+      "uuid": "383c373e-4f73-534d-8652-192e1100966e"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Raphael Levy Bio",
+      "number": "rl0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "9464681a-9478-4f87-b22d-c32b9cbb0832",
+      "scryfallOracleId": "633b73de-cf85-41f0-acae-d8f67718a447",
+      "text": "A native of Toulouse, France, Raphael Levy posted an impressive 5-1 record during the Standard portion of this year's Worlds playing a blue-green deck he named \"Le Wonder Goose.\" This deck used lots of small creatures–like Numble Mongoose and Werebear–that get bigger at threshold. The deck used blue not for countermagic, but for cards like Careful Study and Mental Note, which help the deck reach threshold more quickly, and for Wonder in the graveyard, which allows the deck's pumped-up threshold creatures to fly.",
+      "type": "Card",
+      "uuid": "30a552b4-cbe4-5e44-9d2c-f3cf4fa33d2e"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Raphael Levy Decklist",
+      "number": "rl0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "9b787cb5-4c62-4dc4-baf8-fe7a2c87e4b8",
+      "scryfallOracleId": "d3797259-8c37-4818-9a99-07dda4f5a5ed",
+      "type": "Card",
+      "uuid": "08daaec6-4310-54c3-9524-b24101d1de6b"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Sim Han How Bio",
+      "number": "shh0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "73bb5b31-d562-4c2f-af92-b995abb8d6eb",
+      "scryfallOracleId": "27414d58-0d34-40be-a3ac-eb04d32a92e0",
+      "text": "Malaysian National Champion Sim Han How raised some eyebrows by posting a 6-0 record with his blue-green-red \"Squirrel Opposition\" deck. This deck tried to get out lots of Squirrel tokens with Squirrel Nest before using Opposition to tie up the opponent's creatures and mana. Han How won quite a few games using some tricky sideboarding, such as pulling out his enchantments and bringing in more beatdown cards like Flametongue Kavu and Roar of the Wurm. Besides being a top Magic® player, Han How is also a student at Bandar Utama College in Kuala Lumpur, Malaysia.",
+      "type": "Card",
+      "uuid": "f9b2bc36-f0be-5ad8-9626-6b6e897ffd92"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Sim Han How Decklist",
+      "number": "shh0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "84e93fcb-b8cb-4f31-9ff4-d0180c40845a",
+      "scryfallOracleId": "60054968-0052-4f54-9ccd-dece48a853b4",
+      "type": "Card",
+      "uuid": "2203a26a-9345-5c61-81ef-1fce1f124d30"
+    }
+  ],
+  "totalSetSize": 152,
+  "translations": {
+  },
+  "type": "memorabilia"
+}

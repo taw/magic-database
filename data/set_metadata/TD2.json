@@ -1,0 +1,22 @@
+{
+  "baseSetSize": 0,
+  "code": "TD2",
+  "isFoilOnly": false,
+  "isOnlineOnly": true,
+  "keyruneCode": "TD2",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "TD2",
+  "name": "Duel Decks: Mirrodin Pure vs. New Phyrexia",
+  "releaseDate": "2011-05-14",
+  "tokens": [
+
+  ],
+  "totalSetSize": 88,
+  "translations": {
+  },
+  "type": "duel_deck"
+}

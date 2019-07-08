@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "code": "PRES",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "STAR",
+  "mcmId": 98,
+  "mcmName": "Resale Promos",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Resale Promos",
+  "releaseDate": "2007-01-01",
+  "tokens": [
+
+  ],
+  "totalSetSize": 23,
+  "translations": {
+  },
+  "type": "promo"
+}

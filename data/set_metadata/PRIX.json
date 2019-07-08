@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Ixalan",
+  "code": "PRIX",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "RIX",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Rivals of Ixalan Promos",
+  "parentCode": "RIX",
+  "releaseDate": "2018-01-19",
+  "tokens": [
+
+  ],
+  "totalSetSize": 66,
+  "translations": {
+  },
+  "type": "promo"
+}

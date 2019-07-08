@@ -1,0 +1,22 @@
+{
+  "baseSetSize": 0,
+  "code": "PM11",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "M11",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Magic 2011 Promos",
+  "parentCode": "M11",
+  "releaseDate": "2010-07-15",
+  "tokens": [
+
+  ],
+  "totalSetSize": 5,
+  "translations": {
+  },
+  "type": "promo"
+}

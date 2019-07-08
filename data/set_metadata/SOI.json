@@ -1,12 +1,7 @@
 {
-  "name": "Shadows over Innistrad",
-  "code": "SOI",
-  "magicCardsInfoCode": "soi",
-  "releaseDate": "2016-04-08",
-  "border": "black",
-  "type": "expansion",
-  "block": "Shadows over Innistrad",
-  "booster": [
+  "baseSetSize": 297,
+  "block": "Shadows Over Innistrad",
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -37,15 +32,665 @@
     ],
     "marketing"
   ],
+  "code": "SOI",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "SOI",
+  "mcmId": 1694,
+  "mcmName": "Shadows over Innistrad",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "SOI",
+  "name": "Shadows over Innistrad",
+  "releaseDate": "2016-04-08",
+  "tcgplayerGroupId": 1708,
+  "tokens": [
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "1",
+      "power": "4",
+      "reverseRelated": [
+        "Descend upon the Sinful",
+        "Invocation of Saint Traft"
+      ],
+      "scryfallId": "bdb975fe-ac30-4249-bb55-7efb64645e4d",
+      "scryfallIllustrationId": "52433729-f5bc-46b1-a0b6-d03dc7412241",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "a35e994f-cfd3-58e1-8b73-c33bbece0daa"
+    },
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Arlinn Kord Emblem",
+      "number": "18",
+      "reverseRelated": [
+        "Arlinn Kord // Arlinn, Embraced by the Moon"
+      ],
+      "scryfallId": "bb0686c3-a44a-449d-ab12-eeb9c0c25489",
+      "scryfallIllustrationId": "556854e2-3e2c-4aa3-8ea2-e7bd5d99249f",
+      "scryfallOracleId": "ad2f01c3-bcc3-497d-8749-e623073ce0bc",
+      "text": "Creatures you control have haste and \"{T}: This creature deals damage equal to its power to any target.\"",
+      "type": "Emblem — Arlinn",
+      "uuid": "9bc360bd-681f-5b56-b74a-846cc0bf9a50"
+    },
+    {
+      "artist": "John Avon",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Clue",
+      "number": "11",
+      "reverseRelated": [
+        "Bygone Bishop",
+        "Declaration in Stone",
+        "Expose Evil",
+        "Humble the Brute",
+        "Survive the Night",
+        "Thraben Inspector",
+        "Confirm Suspicions",
+        "Daring Sleuth // Bearer of Overwhelming Truths",
+        "Drownyard Explorers",
+        "Erdwal Illuminator",
+        "Fleeting Memories",
+        "Gone Missing",
+        "Jace's Scrutiny",
+        "Ongoing Investigation",
+        "Press for Answers",
+        "Trail of Evidence",
+        "Briarbridge Patrol",
+        "Byway Courier",
+        "Confront the Unknown",
+        "Root Out",
+        "Tireless Tracker",
+        "Ulvenwald Mysteries",
+        "Weirding Wood",
+        "Magnifying Glass",
+        "Tamiyo's Journal"
+      ],
+      "scryfallId": "f2c859e1-181e-44d1-afbd-bbd6e52cf42a",
+      "scryfallIllustrationId": "3b985758-1bbd-43b1-88b2-659003891d27",
+      "scryfallOracleId": "496e1083-c792-40a4-adf4-fec1d559cd5e",
+      "text": "{2}, Sacrifice this artifact: Draw a card.",
+      "type": "Token Artifact — Clue",
+      "uuid": "f23972bc-cd17-5d7d-9530-39eaa3bf98ff"
+    },
+    {
+      "artist": "Noah Bradley",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Clue",
+      "number": "12",
+      "reverseRelated": [
+        "Bygone Bishop",
+        "Declaration in Stone",
+        "Expose Evil",
+        "Humble the Brute",
+        "Survive the Night",
+        "Thraben Inspector",
+        "Confirm Suspicions",
+        "Daring Sleuth // Bearer of Overwhelming Truths",
+        "Drownyard Explorers",
+        "Erdwal Illuminator",
+        "Fleeting Memories",
+        "Gone Missing",
+        "Jace's Scrutiny",
+        "Ongoing Investigation",
+        "Press for Answers",
+        "Trail of Evidence",
+        "Briarbridge Patrol",
+        "Byway Courier",
+        "Confront the Unknown",
+        "Root Out",
+        "Tireless Tracker",
+        "Ulvenwald Mysteries",
+        "Weirding Wood",
+        "Magnifying Glass",
+        "Tamiyo's Journal"
+      ],
+      "scryfallId": "4f1241c3-d960-4eb4-a726-ca474209645b",
+      "scryfallIllustrationId": "49dc2f9e-26d5-4a17-8841-d71011091c3e",
+      "scryfallOracleId": "496e1083-c792-40a4-adf4-fec1d559cd5e",
+      "text": "{2}, Sacrifice this artifact: Draw a card.",
+      "type": "Token Artifact — Clue",
+      "uuid": "1c8e3c9f-adc4-5f9b-ac24-9fbd50ae49d2"
+    },
+    {
+      "artist": "Zezhou Chen",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Clue",
+      "number": "13",
+      "reverseRelated": [
+        "Bygone Bishop",
+        "Declaration in Stone",
+        "Expose Evil",
+        "Humble the Brute",
+        "Survive the Night",
+        "Thraben Inspector",
+        "Confirm Suspicions",
+        "Daring Sleuth // Bearer of Overwhelming Truths",
+        "Drownyard Explorers",
+        "Erdwal Illuminator",
+        "Fleeting Memories",
+        "Gone Missing",
+        "Jace's Scrutiny",
+        "Ongoing Investigation",
+        "Press for Answers",
+        "Trail of Evidence",
+        "Briarbridge Patrol",
+        "Byway Courier",
+        "Confront the Unknown",
+        "Root Out",
+        "Tireless Tracker",
+        "Ulvenwald Mysteries",
+        "Weirding Wood",
+        "Magnifying Glass",
+        "Tamiyo's Journal"
+      ],
+      "scryfallId": "271afa7e-2126-4497-b871-9795b7355d69",
+      "scryfallIllustrationId": "fd565cd3-df64-4160-826e-0b73312bfb6d",
+      "scryfallOracleId": "496e1083-c792-40a4-adf4-fec1d559cd5e",
+      "text": "{2}, Sacrifice this artifact: Draw a card.",
+      "type": "Token Artifact — Clue",
+      "uuid": "2acd9704-d28b-5736-abe9-4e8d31f70885"
+    },
+    {
+      "artist": "Cliff Childs",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Clue",
+      "number": "14",
+      "reverseRelated": [
+        "Bygone Bishop",
+        "Declaration in Stone",
+        "Expose Evil",
+        "Humble the Brute",
+        "Survive the Night",
+        "Thraben Inspector",
+        "Confirm Suspicions",
+        "Daring Sleuth // Bearer of Overwhelming Truths",
+        "Drownyard Explorers",
+        "Erdwal Illuminator",
+        "Fleeting Memories",
+        "Gone Missing",
+        "Jace's Scrutiny",
+        "Ongoing Investigation",
+        "Press for Answers",
+        "Trail of Evidence",
+        "Briarbridge Patrol",
+        "Byway Courier",
+        "Confront the Unknown",
+        "Root Out",
+        "Tireless Tracker",
+        "Ulvenwald Mysteries",
+        "Weirding Wood",
+        "Magnifying Glass",
+        "Tamiyo's Journal"
+      ],
+      "scryfallId": "291e6490-6727-45ae-90ba-de2ff8f63162",
+      "scryfallIllustrationId": "28b8ef58-6974-4b18-b7e1-5de1917cc71b",
+      "scryfallOracleId": "496e1083-c792-40a4-adf4-fec1d559cd5e",
+      "text": "{2}, Sacrifice this artifact: Draw a card.",
+      "type": "Token Artifact — Clue",
+      "uuid": "f793000c-ceb6-52f1-af4e-4c47ee1f2c0a"
+    },
+    {
+      "artist": "James Paick",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Clue",
+      "number": "15",
+      "reverseRelated": [
+        "Bygone Bishop",
+        "Declaration in Stone",
+        "Expose Evil",
+        "Humble the Brute",
+        "Survive the Night",
+        "Thraben Inspector",
+        "Confirm Suspicions",
+        "Daring Sleuth // Bearer of Overwhelming Truths",
+        "Drownyard Explorers",
+        "Erdwal Illuminator",
+        "Fleeting Memories",
+        "Gone Missing",
+        "Jace's Scrutiny",
+        "Ongoing Investigation",
+        "Press for Answers",
+        "Trail of Evidence",
+        "Briarbridge Patrol",
+        "Byway Courier",
+        "Confront the Unknown",
+        "Root Out",
+        "Tireless Tracker",
+        "Ulvenwald Mysteries",
+        "Weirding Wood",
+        "Magnifying Glass",
+        "Tamiyo's Journal"
+      ],
+      "scryfallId": "b2d16818-7812-4d36-b1bf-fb954e5ac958",
+      "scryfallIllustrationId": "ed14b341-0e80-4e21-921d-64388a0646ac",
+      "scryfallOracleId": "496e1083-c792-40a4-adf4-fec1d559cd5e",
+      "text": "{2}, Sacrifice this artifact: Draw a card.",
+      "type": "Token Artifact — Clue",
+      "uuid": "9c1de785-18dc-5a61-a3f5-2664ef253c62"
+    },
+    {
+      "artist": "Franz Vohwinkel",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Clue",
+      "number": "16",
+      "reverseRelated": [
+        "Bygone Bishop",
+        "Declaration in Stone",
+        "Expose Evil",
+        "Humble the Brute",
+        "Survive the Night",
+        "Thraben Inspector",
+        "Confirm Suspicions",
+        "Daring Sleuth // Bearer of Overwhelming Truths",
+        "Drownyard Explorers",
+        "Erdwal Illuminator",
+        "Fleeting Memories",
+        "Gone Missing",
+        "Jace's Scrutiny",
+        "Ongoing Investigation",
+        "Press for Answers",
+        "Trail of Evidence",
+        "Briarbridge Patrol",
+        "Byway Courier",
+        "Confront the Unknown",
+        "Root Out",
+        "Tireless Tracker",
+        "Ulvenwald Mysteries",
+        "Weirding Wood",
+        "Magnifying Glass",
+        "Tamiyo's Journal"
+      ],
+      "scryfallId": "3d66ec9c-7e5d-47ca-bce4-46798152d1f4",
+      "scryfallIllustrationId": "173c472d-156c-4c7a-8867-9befbae8f833",
+      "scryfallOracleId": "496e1083-c792-40a4-adf4-fec1d559cd5e",
+      "text": "{2}, Sacrifice this artifact: Draw a card.",
+      "type": "Token Artifact — Clue",
+      "uuid": "47555ad8-a4d5-5484-9feb-ac24bd121b29"
+    },
+    {
+      "artist": "Wayne England",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Devil",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Make Mischief",
+        "Dance with Devils",
+        "Devils' Playground"
+      ],
+      "scryfallId": "3e78c4b8-371b-43d7-a315-fb299704aa60",
+      "scryfallIllustrationId": "e436cb4b-e874-4710-8616-e5cca2d7a1ba",
+      "scryfallOracleId": "02d1dc2f-625e-4be3-9daf-e48c44bc9bf7",
+      "text": "When this creature dies, it deals 1 damage to any target.",
+      "toughness": "1",
+      "type": "Token Creature — Devil",
+      "uuid": "e139c239-aa39-5c0b-b07f-f567e0b706d8"
+    },
+    {
+      "artist": "Min Yum",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "colors": [
+        "B",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Human Cleric",
+      "number": "10",
+      "power": "1",
+      "reverseRelated": [
+        "Hanweir Militia Captain // Westvale Cult Leader",
+        "Westvale Abbey // Ormendahl, Profane Prince"
+      ],
+      "scryfallId": "94ed2eca-1579-411d-af6f-c7359c65de30",
+      "scryfallIllustrationId": "6fdbf5d5-8676-4648-9209-599621b82c18",
+      "scryfallOracleId": "e649b92c-a1ef-4c72-8f1f-6ac775957294",
+      "toughness": "1",
+      "type": "Token Creature — Human Cleric",
+      "uuid": "3ee202d3-833a-5aca-8519-be31030f5a6e"
+    },
+    {
+      "artist": "Deruchenko Alexander",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Human Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Strength of Arms",
+        "Thraben Standard Bearer",
+        "Ulvenwald Mysteries",
+        "Sigarda, Heron's Grace"
+      ],
+      "scryfallId": "d9cbf36e-4044-4f08-9bae-f0dcb2455716",
+      "scryfallIllustrationId": "bef781a2-e626-48dc-8f70-0bb3a6369e26",
+      "scryfallOracleId": "a4095286-d51b-4527-b6ce-23aa539fc23a",
+      "toughness": "1",
+      "type": "Token Creature — Human Soldier",
+      "uuid": "5791eecb-f848-56ce-9300-27744b918be0"
+    },
+    {
+      "artist": "Christopher Moeller",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Insect",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+        "It of the Horrid Swarm",
+        "Crawling Sensation"
+      ],
+      "scryfallId": "0057f94e-c2be-44e1-a93b-e31432f4ffa5",
+      "scryfallIllustrationId": "2a8fd364-0c7f-456d-a206-6d16cd4ed461",
+      "scryfallOracleId": "c39cd31f-c4a2-4ca8-b4f9-b2e6289743bc",
+      "toughness": "1",
+      "type": "Token Creature — Insect",
+      "uuid": "46524ad1-b6d2-5020-8e4e-c35ab350e441"
+    },
+    {
+      "artist": "Tyler Jacobson",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Jace, Unraveler of Secrets Emblem",
+      "number": "17",
+      "reverseRelated": [
+        "Jace, Unraveler of Secrets"
+      ],
+      "scryfallId": "7aa30438-3733-467e-aa31-f8e8ad2e62f3",
+      "scryfallIllustrationId": "30d30133-3184-4223-843b-da9a90ee75e1",
+      "scryfallOracleId": "59f48dcc-4a8a-4537-b612-0666a5c73455",
+      "text": "Whenever an opponent casts their first spell each turn, counter that spell.",
+      "type": "Emblem — Jace",
+      "uuid": "24f1f0db-b868-54fc-9741-242ada01f732"
+    },
+    {
+      "artist": "Nils Hamm",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Ooze",
+      "number": "8",
+      "power": "3",
+      "reverseRelated": [
+        "Inexorable Blob"
+      ],
+      "scryfallId": "623a7905-3a10-4d23-96fa-4960cac8f4e3",
+      "scryfallIllustrationId": "8291bfe0-05e6-4ec9-b21e-88798a45be49",
+      "scryfallOracleId": "54a41f40-3409-481f-8ad4-dfb939f6c7a9",
+      "toughness": "3",
+      "type": "Token Creature — Ooze",
+      "uuid": "de62ea1a-c7dd-5022-bd92-8ca9819ddb5b"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Shadows Over Innistrad Checklist 1",
+      "number": "CH1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "4d323ead-24f5-42e4-9e23-aa14eb66264d",
+      "scryfallOracleId": "cbf56928-ec9b-4727-adbe-dc41f27cc0f6",
+      "text": "(You can mark this card to represent a double-faced card in your library or hand.)\n☐ Avacynian Missionaries {3}{W}\n☐ Pious Evangel {2}{W}\n☐ Town Gossipmonger {W}\n☐ Aberrant Researcher {3}{U}\n☐ Daring Sleuth {1}{U}\n☐ Uninvited Geist {2}{U}\n☐ Accursed Witch {3}{B}\n☐ Heir of Falkenrath {1}{B}\n☐ Kindly Stranger {2}{B}\n☐ Breakneck Rider {1}{R}{R}\n☐ Convicted Killer {2}{R}\n☐ Gatstaf Arsonists {4}{R}\n☐ Kessig Forgemaster {1}{R}\n☐ Skin Invasion {1}{R}\n☐ Village Messenger {R}\n☐ Autumnal Gloom {2}{G}\n☐ Duskwatch Recruiter {1}{G}\n☐ Hermit of the Natterknolls {2}{G}\n☐ Hinterland Logger {1}{G}\n☐ Lambholt Pacifist {1}{G}\n☐ Solitary Hunter {3}{G}\n☐ Harvest Hand {3}\n☐ Neglected Heirloom {1}\n☐ Thraben Gargoyle {1}",
+      "type": "Card",
+      "uuid": "58ba9d43-fe1f-51f0-aef3-854f3ca607f3"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Shadows Over Innistrad Checklist 2",
+      "number": "CH2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "4825c59d-9e27-4a12-ba84-642b8540e573",
+      "scryfallOracleId": "c082295c-c319-41ae-8c2c-29f55672cd9c",
+      "text": "(You can mark this card to represent a double-faced card in your library or hand.)\n☐ Archangel Avacyn {3}{W}{W}\n☐ Hanweir Militia Captain {1}{W}\n☐ Startled Awake {2}{U}{U}\n☐ Thing in the Ice {1}{U}\n☐ Elusive Tormentor {2}{B}{B}\n☐ Geier Reach Bandit {2}{R}\n☐ Sage of Ancient Lore {4}{G}\n☐ Arlinn Kord {2}{R}{G}\n☐ Westvale Abbey",
+      "type": "Card",
+      "uuid": "49ce6e24-cc29-5265-b83b-29605169d2d5"
+    },
+    {
+      "artist": "Jason A. Engle",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Dauntless Cathar",
+        "Drogskol Cavalry",
+        "Emissary of the Sleepless",
+        "Nearheath Chaplain",
+        "Not Forgotten",
+        "Sanctifier of Souls",
+        "Spectral Reserves",
+        "Vessel of Ephemera",
+        "Haunted Dead",
+        "Slayer's Plate"
+      ],
+      "scryfallId": "3a53a7c6-6b32-4491-8c96-e564abea8880",
+      "scryfallIllustrationId": "0828f150-0794-496c-bab6-df789d5b94f2",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "f8b3b19f-d890-52bf-acd1-275fd7cba305"
+    },
+    {
+      "artist": "Lake Hurwitz",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Vampire Knight",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Call the Bloodline",
+        "Sorin, Grim Nemesis"
+      ],
+      "scryfallId": "8989fdb4-723b-4c80-89b4-930ccac13b22",
+      "scryfallIllustrationId": "d882eb09-b117-4a72-bfbe-e347a16db944",
+      "scryfallOracleId": "6c51e34f-6577-4ae9-8e6c-dc1573e1f91a",
+      "text": "Lifelink",
+      "toughness": "1",
+      "type": "Token Creature — Vampire Knight",
+      "uuid": "a35b64bd-0365-5bcd-8436-51cd0363bfdc"
+    },
+    {
+      "artist": "Aaron Miller",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "9",
+      "power": "2",
+      "reverseRelated": [
+        "Wolfkin Bond",
+        "Cult of the Waxing Moon",
+        "Pack Guardian",
+        "Silverfur Partisan",
+        "Arlinn Kord // Arlinn, Embraced by the Moon"
+      ],
+      "scryfallId": "0a5ac360-dc47-4bc5-a4cc-ff223abc3ffc",
+      "scryfallIllustrationId": "d32e2175-7b9d-4aea-a67e-52e70f174da5",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "eaa238fe-8ad0-5109-8f35-2b0101d7eaac"
+    },
+    {
+      "artist": "Craig J Spearing",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Drunau Corpse Trawler",
+        "Rise from the Tides",
+        "Cryptbreaker",
+        "Dark Salvation",
+        "Graf Harvest",
+        "Liliana, the Last Hope",
+        "Noosegraf Mob",
+        "Oath of Liliana",
+        "Diregraf Colossus",
+        "From Under the Floorboards",
+        "Ghoulcaller's Accomplice",
+        "Gisa's Bidding",
+        "Shamble Back"
+      ],
+      "scryfallId": "e0a12a72-5cd9-4f1b-997d-7dabb65e9f51",
+      "scryfallIllustrationId": "2c6c9ac5-bb7b-4f9a-811d-4be9eb072914",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "afc68a45-093f-5cb5-b693-4c2302214f47"
+    }
+  ],
+  "totalSetSize": 302,
   "translations": {
-    "de": "Schatten über Innistrad",
-    "fr": "Ténèbres sur Innistrad",
-    "it": "Ombre su Innistrad",
-    "es": "Sombras sobre Innistrad",
-    "pt": "Sombras em Innistrad",
-    "jp": "イニストラードを覆う影",
-    "cn": "依尼翠暗影",
-    "ru": "Тени над Иннистрадом",
-    "ko": "이니스트라드에 드리운 그림자"
-  }
+    "Chinese Simplified": "依尼翠暗影",
+    "Chinese Traditional": "依尼翠闇影",
+    "French": "Ténèbres sur Innistrad",
+    "German": "Schatten über Innistrad",
+    "Italian": "Ombre su Innistrad",
+    "Japanese": "『イニストラードを覆う影』",
+    "Korean": "이니스트라드에 드리운 그림자",
+    "Portuguese (Brazil)": "Sombras Em Innistrad",
+    "Russian": "Тени над Иннистрадом",
+    "Spanish": "Sombras sobre Innistrad"
+  },
+  "type": "expansion"
 }

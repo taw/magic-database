@@ -1,8 +1,152 @@
 {
-  "name": "Archenemy: Nicol Bolas",
+  "baseSetSize": 0,
   "code": "E01",
-  "magicCardsInfoCode": "e01",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "E01",
+  "mcmId": 1730,
+  "mcmName": "Archenemy: Nicol Bolas",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Archenemy: Nicol Bolas",
   "releaseDate": "2017-06-16",
-  "border": "black",
+  "tcgplayerGroupId": 1904,
+  "tokens": [
+    {
+      "artist": "John Donahue",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "4",
+      "power": "3",
+      "reverseRelated": [
+        "Thragtusk"
+      ],
+      "scryfallId": "c5ca0ca5-421c-41d9-a797-3c8443d253ae",
+      "scryfallIllustrationId": "b241883c-fe4f-42c9-be2c-2ed51bcc174b",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "f0ea87cc-5397-5424-9ba2-cbef51c34992"
+    },
+    {
+      "artist": "Steve Prescott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "5",
+      "power": "4",
+      "reverseRelated": [
+        "Rampaging Baloths"
+      ],
+      "scryfallId": "a4210312-e617-4e72-bf80-2c8d42b7777d",
+      "scryfallIllustrationId": "b37e5fc3-c689-4bfe-90ba-098f7ec55b5b",
+      "scryfallOracleId": "695b14a0-920a-47bd-bd4a-7989862cdd0a",
+      "toughness": "4",
+      "type": "Token Creature — Beast",
+      "uuid": "53e25916-5ba2-5a50-9bb4-ff8a08fa4f54"
+    },
+    {
+      "artist": "Grzegorz Rutkowski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Horror",
+      "number": "3",
+      "power": "3",
+      "reverseRelated": [
+        "Delight in the Hunt",
+        "For Each of You, a Gift",
+        "My Forces Are Innumerable",
+        "There Is No Refuge"
+      ],
+      "scryfallId": "8cfb1a9c-3f34-4362-bc2d-4cd584488820",
+      "scryfallIllustrationId": "a7a3d579-8ba6-4f85-95dd-455620f8e880",
+      "scryfallOracleId": "3ad090f0-cf3b-48ed-80a9-7b86db765e08",
+      "toughness": "3",
+      "type": "Token Creature — Horror",
+      "uuid": "8ef66a2a-630c-5dc6-aef5-2da190b3e4c9"
+    },
+    {
+      "artist": "Steve Prescott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Precinct Captain"
+      ],
+      "scryfallId": "3b7ed2fe-4f78-4a09-8d2c-342dcf92eae4",
+      "scryfallIllustrationId": "ba2f54d1-db28-410e-90e0-a3e892a8b578",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "b89c6af3-7644-51a4-a3ff-e82d07c744d3"
+    },
+    {
+      "artist": "Ryan Yee",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Doomed Traveler"
+      ],
+      "scryfallId": "5b2c2f3d-9489-4e7b-85e3-db1f2ee0f601",
+      "scryfallIllustrationId": "50ddbe3c-fb6c-4a9f-87c9-fd200719576f",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "1b4eb9ba-96d4-54fc-aca8-e81167112045"
+    }
+  ],
+  "totalSetSize": 106,
+  "translations": {
+    "Chinese Simplified": "Archenemy: Nicol Bolas",
+    "Chinese Traditional": "Archenemy: Nicol Bolas",
+    "French": "Archenemy: Nicol Bolas",
+    "German": "Archenemy: Nicol Bolas",
+    "Italian": "Archenemy: Nicol Bolas",
+    "Japanese": "Archenemy: Nicol Bolas",
+    "Korean": "Archenemy: Nicol Bolas",
+    "Portuguese (Brazil)": "Archenemy: Nicol Bolas",
+    "Russian": "Archenemy: Nicol Bolas",
+    "Spanish": "Archenemy: Nicol Bolas"
+  },
   "type": "archenemy"
 }

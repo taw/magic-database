@@ -1,0 +1,35 @@
+{
+  "baseSetSize": 0,
+  "code": "V17",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "V17",
+  "mcmId": 1819,
+  "mcmName": "From the Vault: Transform",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "V17",
+  "name": "From the Vault: Transform",
+  "releaseDate": "2017-11-24",
+  "tcgplayerGroupId": 2078,
+  "tokens": [
+
+  ],
+  "totalSetSize": 16,
+  "translations": {
+    "Chinese Simplified": "From The Vault: Transform",
+    "Chinese Traditional": "From The Vault: Transform",
+    "French": "From The Vault: Transform",
+    "German": "From The Vault: Transform",
+    "Italian": "From The Vault: Transform",
+    "Japanese": "From The Vault: Transform",
+    "Korean": "From The Vault: Transform",
+    "Portuguese (Brazil)": "From The Vault: Transform",
+    "Russian": "From The Vault: Transform",
+    "Spanish": "From The Vault: Transform"
+  },
+  "type": "from_the_vault"
+}

@@ -1,10 +1,35 @@
 {
-  "name": "From the Vault: Twenty",
+  "baseSetSize": 0,
   "code": "V13",
-  "magicCardsInfoCode": "v13",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "V13",
+  "mcmId": 1455,
+  "mcmName": "From the Vault: Twenty",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "V13",
+  "name": "From the Vault: Twenty",
   "releaseDate": "2013-08-23",
-  "border": "black",
-  "type": "from the vault",
-  "mkm_name": "From the Vault: Twenty",
-  "mkm_id": 1455
+  "tcgplayerGroupId": 1141,
+  "tokens": [
+
+  ],
+  "totalSetSize": 20,
+  "translations": {
+    "Chinese Simplified": "From The Vault: Twenty",
+    "Chinese Traditional": "From The Vault: Twenty",
+    "French": "From The Vault: Twenty",
+    "German": "From The Vault: Twenty",
+    "Italian": "From The Vault: Twenty",
+    "Japanese": "From The Vault: Twenty",
+    "Korean": "From The Vault: Twenty",
+    "Portuguese (Brazil)": "From The Vault: Twenty",
+    "Russian": "From The Vault: Twenty",
+    "Spanish": "From The Vault: Twenty"
+  },
+  "type": "from_the_vault"
 }

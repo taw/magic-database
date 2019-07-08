@@ -1,12 +1,7 @@
 {
-  "name": "Return to Ravnica",
-  "code": "RTR",
-  "magicCardsInfoCode": "rtr",
-  "releaseDate": "2012-10-05",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 274,
   "block": "Return to Ravnica",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,18 +22,340 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Rückkehr nach Ravnica",
-    "fr": "Retour sur Ravnica",
-    "it": "Ritorno a Ravnica",
-    "es": "Regreso a Rávnica",
-    "pt": "Retorno a Ravnica",
-    "jp": "ラヴニカへの回帰",
-    "cn": "再访拉尼卡",
-    "ru": "Возвращение в Равнику",
-    "tw": "再訪拉尼卡",
-    "ko": "라브니카로의 귀환"
+  "code": "RTR",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "RTR",
+  "mcmId": 1389,
+  "mcmName": "Return to Ravnica",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Return to Ravnica",
-  "mkm_id": 1389
+  "mtgoCode": "RTR",
+  "name": "Return to Ravnica",
+  "releaseDate": "2012-10-05",
+  "tcgplayerGroupId": 370,
+  "tokens": [
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Assassin",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Vraska the Unseen"
+      ],
+      "scryfallId": "89eb9f92-d189-4438-b6fe-cb253055d63e",
+      "scryfallIllustrationId": "89a9687a-9387-410c-a386-67666dffef28",
+      "scryfallOracleId": "d32c3005-d2d9-4863-a4f3-2301b854230c",
+      "text": "Whenever this creature deals combat damage to a player, that player loses the game.",
+      "toughness": "1",
+      "type": "Token Creature — Assassin",
+      "uuid": "17de157c-fcf6-57c0-bda1-7a93ab4def50"
+    },
+    {
+      "artist": "James Ryman",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Scion of Vitu-Ghazi",
+        "Eyes in the Skies",
+        "Seller of Songbirds",
+        "Beck // Call"
+      ],
+      "scryfallId": "05b4dbe1-12ac-404f-a1fe-96e0b620533e",
+      "scryfallIllustrationId": "72545e61-6af0-44d7-a880-e7fd676136e4",
+      "scryfallOracleId": "b1a2b096-a440-4ef9-ab2a-059c79999297",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bird",
+      "uuid": "8ce1456f-63d1-5f7d-8481-f469e73865a8"
+    },
+    {
+      "artist": "Slawomir Maniak",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Centaur",
+      "number": "7",
+      "power": "3",
+      "reverseRelated": [
+        "Trostani's Summoner",
+        "Centaur's Herald",
+        "Alive // Well",
+        "Call of the Conclave",
+        "Coursers' Accord",
+        "Vitu-Ghazi Guildmage"
+      ],
+      "scryfallId": "880d5dc1-ceec-4c5f-93c2-c88b7dbfcac2",
+      "scryfallIllustrationId": "0ebb8410-46dc-4dc8-acc3-a6082e765b13",
+      "scryfallOracleId": "c41ea1cd-d87a-4e4c-b814-4c24c5bef511",
+      "toughness": "3",
+      "type": "Token Creature — Centaur",
+      "uuid": "335979de-7378-54f7-a97f-5ce74c61a701"
+    },
+    {
+      "artist": "Mark Zug",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "5",
+      "power": "6",
+      "reverseRelated": [
+        "Utvara Hellkite"
+      ],
+      "scryfallId": "84310f84-3e5f-4db8-bff1-16bef64de1a0",
+      "scryfallIllustrationId": "425de6aa-d8d8-46a2-94a0-2a286b4b26fe",
+      "scryfallOracleId": "606c46d7-18a5-4cce-9975-029899b82b34",
+      "text": "Flying",
+      "toughness": "6",
+      "type": "Token Creature — Dragon",
+      "uuid": "cdb7ee98-cb5b-5983-9bf1-e4f21ca7fccb"
+    },
+    {
+      "artist": "Yeong-Hao Han",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "G",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "12",
+      "power": "8",
+      "reverseRelated": [
+        "Grove of the Guardian"
+      ],
+      "scryfallId": "b64c5f80-4676-4860-be0e-20bcf2227405",
+      "scryfallIllustrationId": "4bfecddd-4601-4415-ba30-24c564d5a68e",
+      "scryfallOracleId": "3edbadbb-2efb-43a9-aad5-8d1019d1ab6e",
+      "text": "Vigilance",
+      "toughness": "8",
+      "type": "Token Creature — Elemental",
+      "uuid": "bdf0840a-1955-594e-9280-cbdfd8d406ee",
+      "watermark": "selesnya"
+    },
+    {
+      "artist": "Christopher Moeller",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Goblin Rally",
+        "Survey the Wreckage"
+      ],
+      "scryfallId": "577c2e32-deb6-40d9-a050-c2acb5bfc05f",
+      "scryfallIllustrationId": "b7fa8d30-3cac-41f9-a250-e890ab1db48b",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "5d02e13c-6c0a-51ab-9472-71277391be75"
+    },
+    {
+      "artist": "Matt Stewart",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Knight",
+      "number": "2",
+      "power": "2",
+      "reverseRelated": [
+        "Sunspire Gatekeepers",
+        "Knightly Valor",
+        "Knight Watch",
+        "Security Blockade",
+        "Selesnya Charm"
+      ],
+      "scryfallId": "67d3d039-248a-4eb8-be5c-12959b458fea",
+      "scryfallIllustrationId": "ae4800d6-1be9-4a71-9745-cbbfaa0ec8fe",
+      "scryfallOracleId": "340aaeb6-cd18-4908-9729-8c53ab02c6f8",
+      "text": "Vigilance",
+      "toughness": "2",
+      "type": "Token Creature — Knight",
+      "uuid": "ab4f54a4-c6a2-5396-9a35-40f033c81ee5"
+    },
+    {
+      "artist": "Marco Nelor",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Ooze",
+      "number": "8",
+      "power": "*",
+      "reverseRelated": [
+        "Miming Slime",
+        "Ooze Flux",
+        "Slime Molding",
+        "Mystic Genesis"
+      ],
+      "scryfallId": "a686e51d-e8c3-4ed6-8357-c3d38d56dd09",
+      "scryfallIllustrationId": "5eef263f-0607-4842-9278-976a55946fef",
+      "scryfallOracleId": "bb3da6d2-aed7-4057-b94b-6882fb45cc89",
+      "toughness": "*",
+      "type": "Token Creature — Ooze",
+      "uuid": "8d2037e7-2c40-536d-9888-3ecdc0836e54"
+    },
+    {
+      "artist": "Tomasz Jedruszek",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Rhino",
+      "number": "9",
+      "power": "4",
+      "reverseRelated": [
+        "Horncaller's Chant"
+      ],
+      "scryfallId": "1331008a-ae86-4640-b823-a73be766ac16",
+      "scryfallIllustrationId": "fce6012e-94a3-49ab-b801-d55271865c69",
+      "scryfallOracleId": "a685171a-616f-42e1-9161-4a64fb51a977",
+      "text": "Trample",
+      "toughness": "4",
+      "type": "Token Creature — Rhino",
+      "uuid": "03ddf234-9f45-5476-803f-1c56a7365507"
+    },
+    {
+      "artist": "Raoul Vitale",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "10",
+      "power": "1",
+      "reverseRelated": [
+        "Korozda Guildmage"
+      ],
+      "scryfallId": "e6544989-91b4-4db7-ad44-f1355f1d6e6b",
+      "scryfallIllustrationId": "6d96368d-fce7-40d1-9984-dedf1972cb4c",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "0d37576f-063f-534f-b0c9-d7d9b291766f"
+    },
+    {
+      "artist": "Steve Prescott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Precinct Captain",
+        "Murder Investigation"
+      ],
+      "scryfallId": "944a40e8-5469-4d8b-b044-67ff3382ec92",
+      "scryfallIllustrationId": "ba2f54d1-db28-410e-90e0-a3e892a8b578",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "f82abc1b-d55b-5011-be76-ee509c63e058"
+    },
+    {
+      "artist": "Anthony Palumbo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wurm",
+      "number": "11",
+      "power": "5",
+      "reverseRelated": [
+        "Advent of the Wurm",
+        "Worldspine Wurm",
+        "Armada Wurm"
+      ],
+      "scryfallId": "33ee3f6c-5df6-4271-b2f9-86b9afffab7b",
+      "scryfallIllustrationId": "e0ca20ae-a710-4579-9f8f-401538cc2f4a",
+      "scryfallOracleId": "25be869c-ea45-4fdc-9cff-bde028d5cb66",
+      "text": "Trample",
+      "toughness": "5",
+      "type": "Token Creature — Wurm",
+      "uuid": "d92bca34-880b-5079-9776-4d522584eb9a"
+    }
+  ],
+  "totalSetSize": 274,
+  "translations": {
+    "Chinese Simplified": "再访拉尼卡",
+    "Chinese Traditional": "再訪拉尼卡",
+    "French": "Retour sur Ravnica",
+    "German": "Rückkehr nach Ravnica",
+    "Italian": "Ritorno a Ravnica",
+    "Japanese": "『ラヴニカへの回帰』",
+    "Korean": "라브니카로의 귀환",
+    "Portuguese (Brazil)": "Retorno a Ravnica",
+    "Russian": "Возвращение в Равнику",
+    "Spanish": "Regreso a Rávnica"
+  },
+  "type": "expansion"
 }

@@ -1,12 +1,7 @@
 {
-  "name": "Khans of Tarkir",
-  "code": "KTK",
-  "magicCardsInfoCode": "ktk",
-  "releaseDate": "2014-09-26",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 269,
   "block": "Khans of Tarkir",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,18 +22,355 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Khane von Tarkir",
-    "fr": "Les Khans de Tarkir",
-    "it": "I Khan di Tarkir",
-    "es": "Kans de Tarkir",
-    "pt": "Khans de Tarkir",
-    "jp": "タルキール覇王譚",
-    "cn": "鞑契可汗",
-    "ru": "Ханы Таркира",
-    "tw": "韃契可汗",
-    "ko": "타르커의 칸"
+  "code": "KTK",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "KTK",
+  "mcmId": 1495,
+  "mcmName": "Khans of Tarkir",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Khans of Tarkir",
-  "mkm_id": 1495
+  "mtgoCode": "KTK",
+  "name": "Khans of Tarkir",
+  "releaseDate": "2014-09-26",
+  "tcgplayerGroupId": 1356,
+  "tokens": [
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Bear",
+      "number": "8",
+      "power": "4",
+      "reverseRelated": [
+        "Bear's Companion"
+      ],
+      "scryfallId": "ca3dae7d-3880-4c0a-acfb-8fd227cf9fab",
+      "scryfallIllustrationId": "437ae275-f890-46f9-b62a-67650a9eefb5",
+      "scryfallOracleId": "af4bd34a-0a0b-4c53-8f13-579c45ab471a",
+      "toughness": "4",
+      "type": "Token Creature — Bear",
+      "uuid": "e3ad379b-a6b0-5996-ae41-ac8a1da77a43"
+    },
+    {
+      "artist": "Mark Zug",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "1",
+      "power": "3",
+      "reverseRelated": [
+        "Wingmate Roc"
+      ],
+      "scryfallId": "aa788dea-2968-45e8-9e08-c89e3e227d88",
+      "scryfallIllustrationId": "77a6f754-0f0f-4d9e-a520-70fadbb28371",
+      "scryfallOracleId": "c1cb2b2b-b595-4049-bee6-af6aee059743",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Bird",
+      "uuid": "b80cf492-2d3b-559a-9ac7-798abd73c6ee"
+    },
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+        "Goblinslide",
+        "Hordeling Outburst",
+        "Dragon Fodder",
+        "Mardu Ascendancy",
+        "Ponyback Brigade"
+      ],
+      "scryfallId": "ed418a8b-f158-492d-a323-6265b3175292",
+      "scryfallIllustrationId": "3ace299e-0719-4a86-a0dc-110cf7cabaa6",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "b9ecf1d0-c3d3-5cae-a14f-f63accb747cf"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Morph",
+      "number": "11",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "bc513990-b4e8-498b-84d5-8317bc79a667",
+      "scryfallIllustrationId": "3015e27b-dc01-4cc5-bc01-2093ba313af1",
+      "scryfallOracleId": "8f92f8d7-ec89-426f-86dc-fbc259eb5559",
+      "text": "(You can cover a face-down creature with this reminder card.\nA card with morph can be turned face up any time for its morph cost.)",
+      "toughness": "2",
+      "type": "Creature",
+      "uuid": "26629564-d6dd-5e4a-8b90-7dc698d1d7d7"
+    },
+    {
+      "artist": "Daarken",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Sarkhan, the Dragonspeaker Emblem",
+      "number": "12",
+      "reverseRelated": [
+        "Sarkhan, the Dragonspeaker"
+      ],
+      "scryfallId": "9d0430bc-5b7e-431e-a8d0-168f679fe79c",
+      "scryfallIllustrationId": "9cea221b-86c1-4307-9ab3-81be5b729a34",
+      "scryfallOracleId": "bcc1ae6f-c00c-4385-8d1f-97fa03c0309c",
+      "text": "At the beginning of your draw step, draw two additional cards.\nAt the beginning of your end step, discard your hand.",
+      "type": "Emblem — Sarkhan",
+      "uuid": "2c0433f3-f164-5b4a-b1ec-ad019990a42a"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Snake",
+      "number": "9",
+      "power": "1",
+      "reverseRelated": [
+        "Rite of the Serpent",
+        "Hooded Hydra"
+      ],
+      "scryfallId": "032e9f9d-b1e5-4724-9b80-e51500d12d5b",
+      "scryfallIllustrationId": "ad5925dd-d30c-41a5-a189-8d39b8e37f76",
+      "scryfallOracleId": "9ecd83ce-f866-4cbe-9712-c44aabe979c6",
+      "toughness": "1",
+      "type": "Token Creature — Snake",
+      "uuid": "6c8dd3ab-f1ce-50d6-a09b-a7feca5593c4"
+    },
+    {
+      "artist": "Cynthia Sheppard",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Sorin, Solemn Visitor Emblem",
+      "number": "13",
+      "reverseRelated": [
+        "Sorin, Solemn Visitor"
+      ],
+      "scryfallId": "8f6e8950-5b1e-48b6-8d32-2a463455499d",
+      "scryfallIllustrationId": "19833590-f566-4b0c-bbe3-c00be371e7a0",
+      "scryfallOracleId": "fd01f885-26b0-4497-960e-5a571881ee28",
+      "text": "At the beginning of each opponent's upkeep, that player sacrifices a creature.",
+      "type": "Emblem — Sorin",
+      "uuid": "a5123313-642a-508f-9986-47f90e7e246b"
+    },
+    {
+      "artist": "Mike Sass",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Sandsteppe Outcast",
+        "Abzan Ascendancy"
+      ],
+      "scryfallId": "7071930c-689a-44b9-b52d-45027fd14446",
+      "scryfallIllustrationId": "1dbe0618-dd47-442c-acf6-ac5e4b136e5a",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "27a29fce-4e50-59ef-8752-f31a7770e3d3"
+    },
+    {
+      "artist": "Ryan Alexander Lee",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "colors": [
+        "B",
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Spirit Warrior",
+      "number": "10",
+      "power": "*",
+      "reverseRelated": [
+        "Kin-Tree Invocation"
+      ],
+      "scryfallId": "febc7ce0-387f-413c-a387-2952b990ff3f",
+      "scryfallIllustrationId": "91c8da99-942a-41b9-aeda-ea891aaea6be",
+      "scryfallOracleId": "9f27e9e7-8063-4c71-ac4a-ba0f24daa384",
+      "toughness": "*",
+      "type": "Token Creature — Spirit Warrior",
+      "uuid": "0cdda0c1-2ed3-5a27-b867-7554c5013749"
+    },
+    {
+      "artist": "Cynthia Sheppard",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Vampire",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Sorin, Solemn Visitor"
+      ],
+      "scryfallId": "71496671-f7ba-4014-a895-d70a27979db7",
+      "scryfallIllustrationId": "c54e5678-66e7-47a5-a985-1dc7f18490ee",
+      "scryfallOracleId": "13a3ac6f-6558-4fb2-99f4-cf7a83c298ad",
+      "text": "Flying",
+      "toughness": "2",
+      "type": "Token Creature — Vampire",
+      "uuid": "c6f34ffc-984c-55cd-9737-ca93f7a0cef5"
+    },
+    {
+      "artist": "Ryan Barger",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Warrior",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Herald of Anafenza",
+        "Mardu Hordechief",
+        "Take Up Arms",
+        "Secure the Wastes",
+        "Mardu Charm"
+      ],
+      "scryfallId": "f46bcc76-181c-4e06-aa04-590a3e651dc7",
+      "scryfallIllustrationId": "23448f74-a331-4f2f-9220-46411b13d929",
+      "scryfallOracleId": "6a880a0f-0a98-4505-9c27-9821be3e4818",
+      "toughness": "1",
+      "type": "Token Creature — Warrior",
+      "uuid": "d68584a8-6a5b-518f-be03-2b435db0bb92"
+    },
+    {
+      "artist": "Yefim Kligerman",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Warrior",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Herald of Anafenza",
+        "Mardu Hordechief",
+        "Take Up Arms",
+        "Secure the Wastes",
+        "Mardu Charm"
+      ],
+      "scryfallId": "af4c9101-85bf-4a4f-a496-ff6db7b531b7",
+      "scryfallIllustrationId": "909101ff-c1a0-419e-97d0-678520fa7117",
+      "scryfallOracleId": "6a880a0f-0a98-4505-9c27-9821be3e4818",
+      "toughness": "1",
+      "type": "Token Creature — Warrior",
+      "uuid": "a3a4178d-d481-55eb-a2ba-914773f9fa8d"
+    },
+    {
+      "artist": "Wayne Reynolds",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "6",
+      "power": "2",
+      "reverseRelated": [
+        "Empty the Pits",
+        "Rakshasa Gravecaller",
+        "Sidisi, Brood Tyrant",
+        "Necromaster Dragon"
+      ],
+      "scryfallId": "ba7da3d0-2471-48ab-8e7c-af8046d9e0be",
+      "scryfallIllustrationId": "37bed8ce-956b-4b1e-8e72-e1fcbd13f8dc",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "1d2fe2bd-1d51-510b-a33a-8419ee50bd4a"
+    }
+  ],
+  "totalSetSize": 269,
+  "translations": {
+    "Chinese Simplified": "鞑契可汗",
+    "Chinese Traditional": "韃契可汗",
+    "French": "Les Khans de Tarkir",
+    "German": "Khane von Tarkir",
+    "Italian": "I Khan di Tarkir",
+    "Japanese": "『タルキール覇王譚』",
+    "Korean": "타르커의 칸",
+    "Portuguese (Brazil)": "Khans de Tarkir",
+    "Russian": "Ханы Таркира",
+    "Spanish": "Kans de Tarkir"
+  },
+  "type": "expansion"
 }

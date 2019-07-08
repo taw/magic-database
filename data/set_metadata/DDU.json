@@ -1,0 +1,138 @@
+{
+  "baseSetSize": 0,
+  "code": "DDU",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DDU",
+  "mcmId": 2068,
+  "mcmName": "Duel Decks: Elves vs. Inventors",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "DDU",
+  "name": "Duel Decks: Elves vs. Inventors",
+  "releaseDate": "2018-04-06",
+  "tcgplayerGroupId": 2207,
+  "tokens": [
+    {
+      "artist": "William O'Connor",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elf Warrior",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Dwynen's Elite"
+      ],
+      "scryfallId": "dfc3f3dd-1392-4407-9640-9b7af6fba91b",
+      "scryfallIllustrationId": "a573739e-fe8e-4ddf-9c96-03a34bd0e3b0",
+      "scryfallOracleId": "dac8a765-6845-4b57-bb79-4ec463436f92",
+      "toughness": "1",
+      "type": "Token Creature — Elf Warrior",
+      "uuid": "f3c1b853-1210-512e-9b7f-06af57108e38"
+    },
+    {
+      "artist": "Ryan Pancoast",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Myr",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Myr Battlesphere",
+        "Myr Sire"
+      ],
+      "scryfallId": "fd2eef3b-9001-477a-8ec4-2a59d906acc6",
+      "scryfallIllustrationId": "38aaf042-2fed-4761-baa7-62a3002b71fd",
+      "scryfallOracleId": "bf690282-125f-431c-a363-39f6772324c8",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Myr",
+      "uuid": "861104ba-0718-581b-9a1b-a9b4a7ba4409"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Thopter",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Whirler Rogue",
+        "Ghirapur Gearcrafter",
+        "Pia and Kiran Nalaar",
+        "Maverick Thopterist",
+        "Thopter Assembly",
+        "Foundry of the Consuls"
+      ],
+      "scryfallId": "4f5a36e3-0529-44d3-94d0-f1bd0399dc38",
+      "scryfallIllustrationId": "6cba3a90-c033-447e-8cd0-3e0ba3180432",
+      "scryfallOracleId": "7c0b6b53-4ddb-4bb5-8a26-0041b2006d3f",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Thopter",
+      "uuid": "56ddfcc6-223d-54d0-9aca-5b76c7cd853f"
+    },
+    {
+      "artist": "Richard Wright",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Thopter",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Whirler Rogue",
+        "Ghirapur Gearcrafter",
+        "Pia and Kiran Nalaar",
+        "Maverick Thopterist",
+        "Thopter Assembly",
+        "Foundry of the Consuls"
+      ],
+      "scryfallId": "5a4649cc-07fb-4ff0-9ac6-846763b799df",
+      "scryfallIllustrationId": "c263f60c-e1ef-480b-8e93-d5c399697e4a",
+      "scryfallOracleId": "7c0b6b53-4ddb-4bb5-8a26-0041b2006d3f",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Thopter",
+      "uuid": "6a1b1b16-f815-5c6f-80ba-6fd11061dd13"
+    }
+  ],
+  "totalSetSize": 76,
+  "translations": {
+    "Chinese Simplified": "Duel Deck: Elves vs. Inventors",
+    "Chinese Traditional": "Duel Deck: Elves vs. Inventors",
+    "French": "Duel Deck: Elves vs. Inventors",
+    "German": "Duel Deck: Elves vs. Inventors",
+    "Italian": "Duel Deck: Elves vs. Inventors",
+    "Korean": "Duel Deck: Elves vs. Inventors",
+    "Portuguese (Brazil)": "Duel Deck: Elves vs. Inventors",
+    "Russian": "Duel Deck: Elves vs. Inventors",
+    "Spanish": "Duel Deck: Elves vs. Inventors"
+  },
+  "type": "duel_deck"
+}

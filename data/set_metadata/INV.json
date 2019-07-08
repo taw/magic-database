@@ -1,13 +1,7 @@
 {
-  "name": "Invasion",
-  "code": "INV",
-  "gathererCode": "IN",
-  "magicCardsInfoCode": "in",
-  "releaseDate": "2000-10-02",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 350,
   "block": "Invasion",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Invasion",
-    "fr": "Invasion",
-    "it": "Invasione",
-    "es": "Invasión",
-    "pt": "Invasão"
+  "code": "INV",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "INV",
+  "mcmId": 34,
+  "mcmName": "Invasion",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Invasion",
-  "mkm_id": 34
+  "mtgoCode": "IN",
+  "name": "Invasion",
+  "releaseDate": "2000-10-02",
+  "tcgplayerGroupId": 60,
+  "tokens": [
+
+  ],
+  "totalSetSize": 350,
+  "translations": {
+    "Chinese Simplified": "Invasion",
+    "Chinese Traditional": "Invasion",
+    "French": "Invasion",
+    "German": "Invasion",
+    "Italian": "Invasion",
+    "Japanese": "Invasion",
+    "Korean": "Invasion",
+    "Portuguese (Brazil)": "Invasion",
+    "Russian": "Invasion",
+    "Spanish": "Invasion"
+  },
+  "type": "expansion"
 }

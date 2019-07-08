@@ -1,13 +1,22 @@
 {
+  "baseSetSize": 0,
+  "code": "PALP",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
   "name": "Asia Pacific Land Program",
-  "code": "pALP",
-  "magicCardsInfoCode": "apac",
-  "magicRaritiesCodes": [
-    "44-rarities-apac-lands"
-  ],
   "releaseDate": "1998-09-01",
-  "border": "black",
-  "type": "promo",
-  "mkm_name": "APAC Lands",
-  "mkm_id": 97
+  "tcgplayerGroupId": 9,
+  "tokens": [
+
+  ],
+  "totalSetSize": 15,
+  "translations": {
+  },
+  "type": "promo"
 }

@@ -1,12 +1,6 @@
 {
-  "name": "Tempest Remastered",
-  "code": "TPR",
-  "magicCardsInfoCode": "tpr",
-  "releaseDate": "2015-05-06",
-  "border": "black",
-  "type": "reprint",
-  "onlineOnly": true,
-  "booster": [
+  "baseSetSize": 269,
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -26,6 +20,33 @@
     "common",
     "land"
   ],
-  "mkm_name": "Tempest",
-  "mkm_id": 19
+  "code": "TPR",
+  "isFoilOnly": false,
+  "isOnlineOnly": true,
+  "keyruneCode": "TPR",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "TPR",
+  "name": "Tempest Remastered",
+  "releaseDate": "2015-05-06",
+  "tokens": [
+
+  ],
+  "totalSetSize": 269,
+  "translations": {
+    "Chinese Simplified": "Tempest Remastered",
+    "Chinese Traditional": "Tempest Remastered",
+    "French": "Tempest Remastered",
+    "German": "Tempest Remastered",
+    "Italian": "Tempest Remastered",
+    "Japanese": "Tempest Remastered",
+    "Korean": "Tempest Remastered",
+    "Portuguese (Brazil)": "Tempest Remastered",
+    "Russian": "Tempest Remastered",
+    "Spanish": "Tempest Remastered"
+  },
+  "type": "masters"
 }

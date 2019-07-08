@@ -1,10 +1,25 @@
 {
-  "name": "From the Vault: Dragons",
+  "baseSetSize": 0,
   "code": "DRB",
-  "magicCardsInfoCode": "fvd",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "DRB",
+  "mcmId": 100,
+  "mcmName": "From the Vault: Dragons",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "DRB",
+  "name": "From the Vault: Dragons",
   "releaseDate": "2008-08-29",
-  "border": "black",
-  "type": "from the vault",
-  "mkm_name": "From the Vault: Dragons",
-  "mkm_id": 100
+  "tcgplayerGroupId": 47,
+  "tokens": [
+
+  ],
+  "totalSetSize": 15,
+  "translations": {
+  },
+  "type": "from_the_vault"
 }

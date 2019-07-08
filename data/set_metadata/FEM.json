@@ -1,14 +1,14 @@
 {
-  "name": "Fallen Empires",
-  "code": "FEM",
-  "gathererCode": "FE",
-  "magicCardsInfoCode": "fe",
-  "releaseDate": "1994-11-15",
-  "border": "black",
-  "type": "expansion",
-  "booster": [
-    "uncommon",
-    "uncommon",
+  "baseSetSize": 187,
+  "boosterV3": [
+    [
+      "rare",
+      "uncommon"
+    ],
+    [
+      "rare",
+      "uncommon"
+    ],
     "common",
     "common",
     "common",
@@ -16,6 +16,35 @@
     "common",
     "common"
   ],
-  "mkm_name": "Fallen Empires",
-  "mkm_id": 9
+  "code": "FEM",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "FEM",
+  "mcmId": 9,
+  "mcmName": "Fallen Empires",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Fallen Empires",
+  "releaseDate": "1994-11-01",
+  "tcgplayerGroupId": 41,
+  "tokens": [
+
+  ],
+  "totalSetSize": 187,
+  "translations": {
+    "Chinese Simplified": "Fallen Empires",
+    "Chinese Traditional": "Fallen Empires",
+    "French": "Fallen Empires",
+    "German": "Fallen Empires",
+    "Italian": "Fallen Empires",
+    "Japanese": "Fallen Empires",
+    "Korean": "Fallen Empires",
+    "Portuguese (Brazil)": "Fallen Empires",
+    "Russian": "Fallen Empires",
+    "Spanish": "Fallen Empires"
+  },
+  "type": "expansion"
 }

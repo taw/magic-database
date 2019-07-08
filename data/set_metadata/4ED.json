@@ -1,12 +1,7 @@
 {
-  "name": "Fourth Edition",
-  "code": "4ED",
-  "gathererCode": "4E",
-  "magicCardsInfoCode": "4e",
-  "releaseDate": "1995-04-01",
-  "border": "white",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 378,
+  "block": "Core Set",
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,13 +18,35 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Vierte Edition",
-    "fr": "Quatrième Edition",
-    "it": "Quarta Edizione",
-    "es": "Cuarta Edición",
-    "pt": "Quarta Edição"
+  "code": "4ED",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "4ED",
+  "mcmId": 10,
+  "mcmName": "Fourth Edition",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Fourth Edition",
-  "mkm_id": 10
+  "name": "Fourth Edition",
+  "releaseDate": "1995-04-01",
+  "tcgplayerGroupId": 46,
+  "tokens": [
+
+  ],
+  "totalSetSize": 378,
+  "translations": {
+    "Chinese Simplified": "Fourth Edition",
+    "Chinese Traditional": "Fourth Edition",
+    "French": "Fourth Edition",
+    "German": "Fourth Edition",
+    "Italian": "Fourth Edition",
+    "Japanese": "Fourth Edition",
+    "Korean": "Fourth Edition",
+    "Portuguese (Brazil)": "Fourth Edition",
+    "Russian": "Fourth Edition",
+    "Spanish": "Fourth Edition"
+  },
+  "type": "core"
 }

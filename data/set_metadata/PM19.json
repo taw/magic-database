@@ -1,0 +1,24 @@
+{
+  "baseSetSize": 0,
+  "code": "PM19",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "M19",
+  "mcmId": 2337,
+  "mcmName": "Core 2019: Promos",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Core Set 2019 Promos",
+  "parentCode": "M19",
+  "releaseDate": "2018-07-13",
+  "tokens": [
+
+  ],
+  "totalSetSize": 77,
+  "translations": {
+  },
+  "type": "promo"
+}

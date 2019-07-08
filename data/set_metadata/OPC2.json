@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "code": "OPC2",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "PC2",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "OPC2",
+  "name": "Planechase 2012 Planes",
+  "parentCode": "PC2",
+  "releaseDate": "2012-06-01",
+  "tokens": [
+
+  ],
+  "totalSetSize": 40,
+  "translations": {
+  },
+  "type": "planechase"
+}

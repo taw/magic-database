@@ -1,12 +1,6 @@
 {
-  "name": "Masters Edition IV",
-  "code": "ME4",
-  "magicCardsInfoCode": "me4",
-  "releaseDate": "2011-01-10",
-  "border": "black",
-  "type": "masters",
-  "onlineOnly": true,
-  "booster": [
+  "baseSetSize": 269,
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -22,5 +16,34 @@
     "common",
     "common",
     "urza land"
-  ]
+  ],
+  "code": "ME4",
+  "isFoilOnly": false,
+  "isOnlineOnly": true,
+  "keyruneCode": "ME4",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "ME4",
+  "name": "Masters Edition IV",
+  "releaseDate": "2011-01-10",
+  "tokens": [
+
+  ],
+  "totalSetSize": 269,
+  "translations": {
+    "Chinese Simplified": "Masters Edition IV",
+    "Chinese Traditional": "Masters Edition IV",
+    "French": "Masters Edition IV",
+    "German": "Masters Edition IV",
+    "Italian": "Masters Edition IV",
+    "Japanese": "Masters Edition IV",
+    "Korean": "Masters Edition IV",
+    "Portuguese (Brazil)": "Masters Edition IV",
+    "Russian": "Masters Edition IV",
+    "Spanish": "Masters Edition IV"
+  },
+  "type": "masters"
 }

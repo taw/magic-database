@@ -1,12 +1,7 @@
 {
-  "name": "Rivals of Ixalan",
-  "code": "RIX",
-  "magicCardsInfoCode": "rix",
-  "releaseDate": "2018-01-19",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 196,
   "block": "Ixalan",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,14 +22,192 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Ixalan",
-    "fr": "Ixalan",
-    "it": "Ixalan",
-    "es": "Ixalan",
-    "pt": "Ixalan",
-    "ru": "Ixalan"
+  "code": "RIX",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "RIX",
+  "mcmId": 1829,
+  "mcmName": "Rivals of Ixalan",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Rivals of Ixalan",
-  "mkm_id": 1829
+  "mtgoCode": "RIX",
+  "name": "Rivals of Ixalan",
+  "releaseDate": "2018-01-19",
+  "tcgplayerGroupId": 2098,
+  "tokens": [
+    {
+      "artist": "Yeong-Hao Han",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "City's Blessing",
+      "number": "6",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "ba64ed3e-93c5-406f-a38d-65cc68472122",
+      "scryfallIllustrationId": "8c1be4a0-ecd2-42ca-bb5e-712668e6a831",
+      "scryfallOracleId": "73d60ab9-1c38-4592-a5b5-ab84788bcc84",
+      "type": "Card",
+      "uuid": "d5c9e7b6-a757-58ba-8689-f80204fb9e80"
+    },
+    {
+      "artist": "Jason Rainville",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "1",
+      "power": "0",
+      "reverseRelated": [
+        "Rekindling Phoenix"
+      ],
+      "scryfallId": "bd0bf1d7-2e66-41fd-ae9a-ea86b939e7c9",
+      "scryfallIllustrationId": "37071500-1a8d-4298-9202-1931cd2bb073",
+      "scryfallOracleId": "e0cb29c7-8689-4174-a65a-4b21f21dee03",
+      "text": "At the beginning of your upkeep, sacrifice this creature and return target card named Rekindling Phoenix from your graveyard to the battlefield. It gains haste until end of turn.",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "a6ddb59d-91d7-55ae-bb64-8d60b25584a1"
+    },
+    {
+      "artist": "Lius Lasahido",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Tilonalli's Summoner"
+      ],
+      "scryfallId": "577a3396-e974-47fb-91bd-01751cae83bf",
+      "scryfallIllustrationId": "c6483b25-05b4-4485-a8c6-7b4a6df07104",
+      "scryfallOracleId": "1a6c2152-71ca-46be-ab83-c84633442257",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "a29e0c3f-e01f-5e5f-9840-885cd0bdced4"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Golem",
+      "number": "4",
+      "power": "4",
+      "reverseRelated": [
+        "Golden Guardian // Gold-Forge Garrison"
+      ],
+      "scryfallId": "a7820eb9-6d7f-4bc4-b421-4e4420642fb7",
+      "scryfallIllustrationId": "7cf669d9-3fb4-4ee1-9b5b-bc515663bd88",
+      "scryfallOracleId": "ee924697-f02c-412c-82cf-145b943aec06",
+      "toughness": "4",
+      "type": "Token Artifact Creature — Golem",
+      "uuid": "532cbb46-3f36-5c5e-83da-a6476a6e55a3"
+    },
+    {
+      "artist": "Chris Rahn",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Huatli, Radiant Champion Emblem",
+      "number": "5",
+      "reverseRelated": [
+        "Huatli, Radiant Champion"
+      ],
+      "scryfallId": "859f645b-24e0-4c34-ae82-ba0ae9854377",
+      "scryfallIllustrationId": "057ce3da-25b8-44e7-89b6-6e72c6e98e4b",
+      "scryfallOracleId": "afda1646-af35-4073-a0f0-a1b817cafa17",
+      "text": "Whenever a creature enters the battlefield under your control, you may draw a card.",
+      "type": "Emblem — Huatli",
+      "uuid": "4270c248-7831-511d-8bb3-4d0f0a4c801b"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Rivals of Ixalan Checklist",
+      "number": "CH1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "9236ab9c-7730-46d9-a543-84ff7b245ece",
+      "scryfallOracleId": "5b50d349-5666-4251-95d1-db6526b2870c",
+      "text": "(You can mark this card to represent a double-faced card in your library or hand.)\n☐ Hadana's Climb {1}{G}{U}\n☐ Journey to Eternity {1}{B}{G}\n☐ Path of Mettle {R}{W}\n☐ Profane Procession {1}{W}{B}\n☐ Storm the Vault {2}{U}{R}\n☐ Azor's Gateway {2}\n☐ Golden Guardian {4}",
+      "type": "Card",
+      "uuid": "0aa437e7-8b73-52a7-8f15-432c210aae2e"
+    },
+    {
+      "artist": "Joseph Meehan",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Overgrown Armasaur",
+        "Tendershoot Dryad"
+      ],
+      "scryfallId": "925715e5-bb94-406b-82b1-93b4d51f0cc2",
+      "scryfallIllustrationId": "328aab39-17fb-48ef-a40e-b692d07e4d5e",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "9e744862-5cce-57fd-8a02-6f3687b1741c"
+    }
+  ],
+  "totalSetSize": 205,
+  "translations": {
+    "Chinese Simplified": "决胜伊夏兰",
+    "Chinese Traditional": "決勝依夏蘭",
+    "French": "LES COMBATTANTS D'IXALAN",
+    "German": "RIVALEN VON IXALAN",
+    "Italian": "RIVALI DI IXALAN",
+    "Japanese": "『イクサランの相克』",
+    "Korean": "익살란의 숙적들",
+    "Portuguese (Brazil)": "RIVAIS DE IXALAN",
+    "Russian": "БОРЬБА ЗА ИКСАЛАН",
+    "Spanish": "RIVALES DE IXALAN"
+  },
+  "type": "expansion"
 }

@@ -1,0 +1,190 @@
+{
+  "baseSetSize": 0,
+  "block": "Theros",
+  "code": "TDAG",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "JOU",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Defeat a God",
+  "parentCode": "JOU",
+  "releaseDate": "2014-05-25",
+  "tokens": [
+    {
+      "artist": "Steve Argyle",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Ecstatic Piper",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "8f960d71-b55d-4730-9b3f-49e9afd2809c",
+      "scryfallIllustrationId": "b0bea65b-85db-4c6e-97b7-8bec40528fea",
+      "scryfallOracleId": "9207ec2c-ebc2-4da8-84cd-62d26c0df0e6",
+      "text": "When Ecstatic Piper enters the battlefield, Xenagos Ascended attacks this turn if able.\nHero's Reward — When Ecstatic Piper leaves the battlefield, each player gains 2 life.",
+      "toughness": "2",
+      "type": "Token Creature — Satyr Reveler",
+      "uuid": "de9fa48c-33ea-5581-ad3e-4a3940c62304"
+    },
+    {
+      "artist": "Julie Dillon",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Maddened Oread",
+      "number": "4",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "076ad38c-30ec-41a4-be18-c287f65d1d86",
+      "scryfallIllustrationId": "c5dee2c8-0bae-427c-a42a-ecb606aea6aa",
+      "scryfallOracleId": "7cce1ffb-b813-4729-b2aa-0a4ab05420ee",
+      "text": "As long as five or more Revelers are on the battlefield, Maddened Oread attacks each turn if able.\nHero's Reward — When Maddened Oread leaves the battlefield, each player gains 3 life.",
+      "toughness": "2",
+      "type": "Token Enchantment Creature — Nymph Reveler",
+      "uuid": "ba28baa5-6e12-5291-8547-68571132c12e"
+    },
+    {
+      "artist": "Mathias Kollros",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Pheres-Band Revelers",
+      "number": "5",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "ae0182f2-31c0-4927-9ca5-0b3f4d342409",
+      "scryfallIllustrationId": "b97b5f35-e68e-4bca-b084-23ae397cfa43",
+      "scryfallOracleId": "101fd855-4ba8-4fbd-9ce3-b0f402e00855",
+      "text": "Hero's Reward — When Pheres-Band Revelers leaves the battlefield, each player draws a card.",
+      "toughness": "4",
+      "type": "Token Creature — Centaur Reveler",
+      "uuid": "4a1fe855-83c8-5c66-8767-ff4e2ee6a7ae"
+    },
+    {
+      "artist": "Karl Kopinski",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Rollicking Throng",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "8da84d4f-5526-401f-9762-4fcfbc313c81",
+      "scryfallIllustrationId": "010be0fe-927c-43de-8992-103e0833b6d0",
+      "scryfallOracleId": "d4b8a9dd-6b01-4d5e-9853-f5b6be3e9cf6",
+      "text": "When Rollicking Throng enters the battlefield, reveal the top card of Xenagos's library and Xenagos casts that card. (This ability doesn't trigger as the game begins.)",
+      "toughness": "3",
+      "type": "Token Creature — Human Reveler",
+      "uuid": "e441c35c-7610-52e0-9ebf-ff57ec3b0a2d"
+    },
+    {
+      "artist": "Ulrich Brunin",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Serpent Dancers",
+      "number": "6",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "f4210dae-7248-4a7b-9646-99683c0dce17",
+      "scryfallIllustrationId": "0b631f6a-3820-4d47-bb4e-06a298178ff9",
+      "scryfallOracleId": "cfe14f30-a413-41dc-82e6-48eef2e92fa8",
+      "text": "Deathtouch\nHero's Reward — When Serpent Dancers leaves the battlefield, each player draws a card.",
+      "toughness": "4",
+      "type": "Token Creature — Human Reveler",
+      "uuid": "2a1021fd-ab42-5f7b-ba16-6808315d8ca4"
+    },
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Wild Maenads",
+      "number": "7",
+      "power": "3",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "7b8ec95a-e728-446b-8c4a-a3571e6aa458",
+      "scryfallIllustrationId": "ffbf7bdd-6ab0-48e1-8804-4900219c87c5",
+      "scryfallOracleId": "858be142-a1e1-4711-9d6c-ebe6a43150a1",
+      "text": "First Strike\nHero's Reward — When Wild Maenads leaves the battlefield, each player gains 3 life.",
+      "toughness": "1",
+      "type": "Token Creature — Human Reveler",
+      "uuid": "852f078a-a762-55b4-a35f-0aa74cd1905a"
+    },
+    {
+      "artist": "Tyler Jacobson",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Xenagos Ascended",
+      "number": "1",
+      "power": "6",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "fe9dd9f0-3071-4bbd-80d2-e35b153006d7",
+      "scryfallIllustrationId": "c3f4e7cc-c7cb-4b8c-935d-890a4b5ba470",
+      "scryfallOracleId": "e5ec6510-ff7a-4abe-9bea-658cf40f0479",
+      "text": "Xenagos Ascended can't leave the battlefield as long as a Reveler is on the battlefield.\nWhen Xenagos Ascended leaves the battlefield, each player wins the game.",
+      "toughness": "5",
+      "type": "Token Legendary Enchantment Creature — God",
+      "uuid": "cfdba892-7229-509a-9b3a-82e91d2a4b01"
+    }
+  ],
+  "totalSetSize": 15,
+  "translations": {
+  },
+  "type": "token"
+}

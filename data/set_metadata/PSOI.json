@@ -1,0 +1,25 @@
+{
+  "baseSetSize": 0,
+  "block": "Shadows Over Innistrad",
+  "code": "PSOI",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "SOI",
+  "mcmId": 1704,
+  "mcmName": "Shadows over Innistrad: Promos",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Shadows over Innistrad Promos",
+  "parentCode": "SOI",
+  "releaseDate": "2016-04-08",
+  "tokens": [
+
+  ],
+  "totalSetSize": 88,
+  "translations": {
+  },
+  "type": "promo"
+}

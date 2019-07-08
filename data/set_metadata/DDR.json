@@ -1,8 +1,179 @@
 {
-  "name": "Duel Decks: Nissa vs. Ob Nixilis",
+  "baseSetSize": 0,
   "code": "DDR",
-  "magicCardsInfoCode": "ddr",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DDR",
+  "mcmId": 1720,
+  "mcmName": "Duel Decks: Nissa vs. Ob Nixilis",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Duel Decks: Nissa vs. Ob Nixilis",
   "releaseDate": "2016-09-02",
-  "type": "duel deck",
-  "border": "black"
+  "tcgplayerGroupId": 1835,
+  "tokens": [
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "duelDeck": "c",
+      "layout": "normal",
+      "name": "Demon",
+      "number": "72",
+      "power": "5",
+      "reverseRelated": [
+        "Priest of the Blood Rite"
+      ],
+      "scryfallId": "545639fc-e521-41f2-81b2-a671007321eb",
+      "scryfallIllustrationId": "3b4ea287-7b41-4b10-9a03-b471a7a422f2",
+      "scryfallOracleId": "0045c5fa-3229-4050-b139-5712fa24b308",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Demon",
+      "uuid": "a2045bcd-f6e0-5082-93a7-b7483a89321f"
+    },
+    {
+      "artist": "Izzy",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "duelDeck": "c",
+      "layout": "normal",
+      "name": "Eldrazi Scion",
+      "number": "71",
+      "power": "1",
+      "reverseRelated": [
+        "Carrier Thrall"
+      ],
+      "scryfallId": "a7ba0398-35e1-4733-ad29-e853757d6f24",
+      "scryfallIllustrationId": "ddcd64a9-54f1-4338-89d8-1722f57d6237",
+      "scryfallOracleId": "0eb3cd4b-c34e-448c-a9ab-e7b0b4524833",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Scion",
+      "uuid": "5bcf4b05-b868-5d2a-bc6d-aa96e46b14d9"
+    },
+    {
+      "artist": "Brandon Kitkouski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "duelDeck": "c",
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "74",
+      "power": "4",
+      "reverseRelated": [
+        "Walker of the Grove"
+      ],
+      "scryfallId": "f2eb4f6d-f437-41c7-ae27-f2df759353e0",
+      "scryfallIllustrationId": "09c0235a-05a6-45f6-aa8d-685e7cd83b45",
+      "scryfallOracleId": "c5a790eb-a3cf-4214-b743-9123ad002ade",
+      "toughness": "4",
+      "type": "Token Creature — Elemental",
+      "uuid": "a9d2bbe1-e8e2-5b31-a36b-bf54d2a22a35"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "duelDeck": "c",
+      "layout": "emblem",
+      "name": "Ob Nixilis Reignited Emblem",
+      "number": "76",
+      "reverseRelated": [
+        "Ob Nixilis Reignited"
+      ],
+      "scryfallId": "1f1f0078-2c85-4903-9fe8-626dcd87dc1e",
+      "scryfallIllustrationId": "93cbca4b-1995-4f73-afe9-e443fdcfe319",
+      "scryfallOracleId": "ec502426-efc4-406d-a080-0debea880f55",
+      "text": "Whenever a player draws a card, you lose 2 life.",
+      "type": "Emblem — Nixilis",
+      "uuid": "87d4afbb-b2c5-5de8-8860-7e8be3ff74f2"
+    },
+    {
+      "artist": "Daren Bader",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "duelDeck": "c",
+      "layout": "normal",
+      "name": "Plant",
+      "number": "75",
+      "power": "0",
+      "reverseRelated": [
+        "Nissa, Voice of Zendikar",
+        "Khalni Garden"
+      ],
+      "scryfallId": "fa0025fa-c530-4151-bcff-48425a4f1db5",
+      "scryfallIllustrationId": "db072403-4f85-47a1-ab8d-02d3d8e18213",
+      "scryfallOracleId": "bcd346a7-4d96-4a0c-9725-fb740e32b730",
+      "toughness": "1",
+      "type": "Token Creature — Plant",
+      "uuid": "bf2b67a7-9e19-524e-89a7-37bef4a8201b"
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "duelDeck": "c",
+      "layout": "normal",
+      "name": "Zombie Giant",
+      "number": "73",
+      "power": "5",
+      "reverseRelated": [
+        "Quest for the Gravelord"
+      ],
+      "scryfallId": "094ceb6a-51fa-4347-b1be-ae4a80b189be",
+      "scryfallIllustrationId": "41bafe66-8f6f-4e89-a65b-a448a60159fd",
+      "scryfallOracleId": "e7bba04b-be75-4857-a724-c9e2150d56ad",
+      "toughness": "5",
+      "type": "Token Creature — Zombie Giant",
+      "uuid": "a556568c-0ea1-5541-8c20-067f597278bb"
+    }
+  ],
+  "totalSetSize": 76,
+  "translations": {
+    "Chinese Simplified": "Nissa vs. Ob Nixilis",
+    "Chinese Traditional": "Nissa vs. Ob Nixilis",
+    "French": "Nissa vs. Ob Nixilis",
+    "German": "Nissa vs. Ob Nixilis",
+    "Italian": "Nissa vs. Ob Nixilis",
+    "Japanese": "『デュエルデッキ：ニッサ VS オブ・ニクシリス』",
+    "Korean": "Nissa vs. Ob Nixilis",
+    "Portuguese (Brazil)": "Nissa vs. Ob Nixilis",
+    "Russian": "Nissa vs. Ob Nixilis",
+    "Spanish": "Nissa vs. Ob Nixilis"
+  },
+  "type": "duel_deck"
 }

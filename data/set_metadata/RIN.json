@@ -1,0 +1,24 @@
+{
+  "baseSetSize": 69,
+  "code": "RIN",
+  "isFoilOnly": false,
+  "isForeignOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "RIN",
+  "mcmId": 96,
+  "mcmName": "Rinascimento",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Rinascimento",
+  "releaseDate": "1995-08-01",
+  "tokens": [
+
+  ],
+  "totalSetSize": 69,
+  "translations": {
+  },
+  "type": "masters"
+}

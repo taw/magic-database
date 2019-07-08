@@ -1,12 +1,7 @@
 {
-  "name": "Time Spiral",
-  "code": "TSP",
-  "magicCardsInfoCode": "ts",
-  "releaseDate": "2006-10-06",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 301,
   "block": "Time Spiral",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,16 +18,36 @@
     "common",
     "timeshifted purple"
   ],
-  "translations": {
-    "de": "Zeitspirale",
-    "fr": "Spirale Temporelle",
-    "it": "Spirale Temporale",
-    "es": "Espiral del Tiempo",
-    "pt": "Time Spiral",
-    "jp": "時のらせん",
-    "cn": "Time Spiral",
-    "ru": "Спираль времени"
+  "code": "TSP",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "TSP",
+  "mcmId": 56,
+  "mcmName": "Time Spiral",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Time Spiral",
-  "mkm_id": 56
+  "mtgoCode": "TSP",
+  "name": "Time Spiral",
+  "releaseDate": "2006-10-06",
+  "tcgplayerGroupId": 110,
+  "tokens": [
+
+  ],
+  "totalSetSize": 301,
+  "translations": {
+    "Chinese Simplified": "时间漩涡",
+    "Chinese Traditional": "Time Spiral",
+    "French": "Spirale temporelle",
+    "German": "Zeitspirale",
+    "Italian": "Espiral Temporal",
+    "Japanese": "時のらせん",
+    "Korean": "시간의 나선",
+    "Portuguese (Brazil)": "Espiral Temporal",
+    "Russian": "Спираль Времени",
+    "Spanish": "Espiral del tiempo"
+  },
+  "type": "expansion"
 }

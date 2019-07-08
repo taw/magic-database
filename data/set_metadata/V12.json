@@ -1,11 +1,35 @@
 {
-  "name": "From the Vault: Realms",
+  "baseSetSize": 0,
   "code": "V12",
-  "oldCode": "FVR",
-  "magicCardsInfoCode": "v12",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "V12",
+  "mcmId": 1397,
+  "mcmName": "From the Vault: Realms",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "V12",
+  "name": "From the Vault: Realms",
   "releaseDate": "2012-08-31",
-  "border": "black",
-  "type": "from the vault",
-  "mkm_name": "From the Vault: Realms",
-  "mkm_id": 1397
+  "tcgplayerGroupId": 368,
+  "tokens": [
+
+  ],
+  "totalSetSize": 15,
+  "translations": {
+    "Chinese Simplified": "From The Vault: Realms",
+    "Chinese Traditional": "From The Vault: Realms",
+    "French": "From The Vault: Realms",
+    "German": "From The Vault: Realms",
+    "Italian": "From The Vault: Realms",
+    "Japanese": "From The Vault: Realms",
+    "Korean": "From The Vault: Realms",
+    "Portuguese (Brazil)": "From The Vault: Realms",
+    "Russian": "From The Vault: Realms",
+    "Spanish": "From The Vault: Realms"
+  },
+  "type": "from_the_vault"
 }

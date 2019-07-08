@@ -1,12 +1,7 @@
 {
-  "name": "Kaladesh",
-  "code": "KLD",
-  "magicCardsInfoCode": "kld",
-  "releaseDate": "2016-09-30",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 264,
   "block": "Kaladesh",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -26,5 +21,445 @@
     "common",
     "land",
     "marketing"
-  ]
+  ],
+  "code": "KLD",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "KLD",
+  "mcmId": 1717,
+  "mcmName": "Kaladesh",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "KLD",
+  "name": "Kaladesh",
+  "releaseDate": "2016-09-30",
+  "tcgplayerGroupId": 1791,
+  "tokens": [
+    {
+      "artist": "Sara Winters",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "1",
+      "power": "6",
+      "reverseRelated": [
+        "Architect of the Untamed"
+      ],
+      "scryfallId": "4de1d095-459f-42fd-9d9f-8f71d002a5b2",
+      "scryfallIllustrationId": "91015f05-c179-4e09-b5e3-1da244b1c70d",
+      "scryfallOracleId": "347a9b41-8545-405d-9b4b-3691890201d7",
+      "toughness": "6",
+      "type": "Token Artifact Creature — Beast",
+      "uuid": "1cef66c9-e5fc-58d5-8409-26a888623cb7"
+    },
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Chandra, Torch of Defiance Emblem",
+      "number": "10",
+      "reverseRelated": [
+        "Chandra, Torch of Defiance"
+      ],
+      "scryfallId": "50ce1db3-417c-4c22-84e5-c463addde476",
+      "scryfallIllustrationId": "7da45d88-5076-40a1-b9ca-6f446ead2d9f",
+      "scryfallOracleId": "1c944fa3-ff6c-4638-a8cd-77d3ca68e599",
+      "text": "Whenever you cast a spell, this emblem deals 5 damage to any target.",
+      "type": "Emblem — Chandra",
+      "uuid": "37f67fbb-1ec9-5a11-b665-6cf8cbe7b841"
+    },
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Construct",
+      "number": "2",
+      "power": "*",
+      "reverseRelated": [
+        "Metallurgic Summonings",
+        "Oviya Pashiri, Sage Lifecrafter"
+      ],
+      "scryfallId": "623a08d1-f5ff-48b7-bdb6-54b8d7a4b931",
+      "scryfallIllustrationId": "f8c2d7c7-2888-4dfa-a3f1-6be8226214f3",
+      "scryfallOracleId": "63ff850d-df4a-4903-95cb-cc04dfacc3f1",
+      "toughness": "*",
+      "type": "Token Artifact Creature — Construct",
+      "uuid": "607217cd-8dde-5a90-97b0-4d78466ba26d"
+    },
+    {
+      "artist": "Kieran Yanner",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Construct",
+      "number": "3",
+      "power": "*",
+      "reverseRelated": [
+        "Metallurgic Summonings",
+        "Oviya Pashiri, Sage Lifecrafter"
+      ],
+      "scryfallId": "a55f071a-f250-4a2b-9060-da27f2fc0f48",
+      "scryfallIllustrationId": "b5c496ce-6910-4573-a4df-ee7a66104a36",
+      "scryfallOracleId": "63ff850d-df4a-4903-95cb-cc04dfacc3f1",
+      "toughness": "*",
+      "type": "Token Artifact Creature — Construct",
+      "uuid": "5efb7fc9-9392-557f-9057-fbe0be3d6505"
+    },
+    {
+      "artist": "Tyler Jacobson",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Dovin Baan Emblem",
+      "number": "12",
+      "reverseRelated": [
+        "Dovin Baan"
+      ],
+      "scryfallId": "a76ccde7-c78d-4f4a-9fe4-ad6986e2cb8e",
+      "scryfallIllustrationId": "7c7d5949-7d6d-406f-aa79-661a77ad126e",
+      "scryfallOracleId": "885c2943-8f47-4faa-9953-4ea045ab7eea",
+      "text": "Your opponents can't untap more than two permanents during their untap steps.",
+      "type": "Emblem — Dovin",
+      "uuid": "4d98bc81-65f7-57ae-974b-fb3452724378"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Energy Reserve",
+      "number": "13",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "a446b9f8-cb22-408a-93ff-bee44a0dccc0",
+      "scryfallOracleId": "a91a6a32-3a82-4da0-8c80-1fe1ddebe915",
+      "text": "(Place your energy counters in this area.)",
+      "type": "Card",
+      "uuid": "c000b882-95a3-53d8-966b-87f5d1bbf9a7"
+    },
+    {
+      "artist": "Clint Cearley",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Nissa, Vital Force Emblem",
+      "number": "11",
+      "reverseRelated": [
+        "Nissa, Vital Force"
+      ],
+      "scryfallId": "54986eaa-1bbb-4d34-ae09-fa7de2627ba0",
+      "scryfallIllustrationId": "afaa8d86-bafd-4308-84f7-984ac2cbcd72",
+      "scryfallOracleId": "c2c6951d-c944-469b-92e2-82aa3a660f0c",
+      "text": "Whenever a land enters the battlefield under your control, you may draw a card.",
+      "type": "Emblem — Nissa",
+      "uuid": "0942bc71-6cd6-5938-a27b-3e43bf4b32f9"
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Servo",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Aether Inspector",
+        "Angel of Invention",
+        "Countless Gears Renegade",
+        "Glint-Sleeve Artisan",
+        "Master Trinketeer",
+        "Propeller Pioneer",
+        "Sram's Expertise",
+        "Aether Swooper",
+        "Servo Exhibition",
+        "Visionary Augmenter",
+        "Aether Poisoner",
+        "Renegade's Getaway",
+        "Ambitious Aetherborn",
+        "Sly Requisitioner",
+        "Aether Chaser",
+        "Marionette Master",
+        "Maulfist Squad",
+        "Aether Herder",
+        "Weaponcraft Enthusiast",
+        "Hidden Stockpile",
+        "Cultivator of Blades",
+        "Elegant Edgecrafters",
+        "Highspire Artisan",
+        "Peema Outrider",
+        "Servo Schematic",
+        "Accomplished Automaton",
+        "Animation Module",
+        "Cogworker's Puzzleknot",
+        "Iron League Steed",
+        "Thopter"
+      ],
+      "scryfallId": "60842b1a-6ae7-4b3b-a23f-0d94a3d89884",
+      "scryfallIllustrationId": "ece2de1a-9a37-4f90-b3ed-8f0374722960",
+      "scryfallOracleId": "b6ca7bd1-d72e-4260-8b52-997ee1377279",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Servo",
+      "uuid": "1cafa14f-3ecf-5ee1-a48a-99fe59a950bc"
+    },
+    {
+      "artist": "Victor Adame Minguez",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Servo",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Aether Inspector",
+        "Angel of Invention",
+        "Countless Gears Renegade",
+        "Glint-Sleeve Artisan",
+        "Master Trinketeer",
+        "Propeller Pioneer",
+        "Sram's Expertise",
+        "Aether Swooper",
+        "Servo Exhibition",
+        "Visionary Augmenter",
+        "Aether Poisoner",
+        "Renegade's Getaway",
+        "Ambitious Aetherborn",
+        "Sly Requisitioner",
+        "Aether Chaser",
+        "Marionette Master",
+        "Maulfist Squad",
+        "Aether Herder",
+        "Weaponcraft Enthusiast",
+        "Hidden Stockpile",
+        "Cultivator of Blades",
+        "Elegant Edgecrafters",
+        "Highspire Artisan",
+        "Peema Outrider",
+        "Servo Schematic",
+        "Accomplished Automaton",
+        "Animation Module",
+        "Cogworker's Puzzleknot",
+        "Iron League Steed",
+        "Thopter"
+      ],
+      "scryfallId": "d79e2bf1-d26d-4be3-a5ad-a43346ed445a",
+      "scryfallIllustrationId": "94a5a7f8-b162-4e26-a581-10e852796c82",
+      "scryfallOracleId": "b6ca7bd1-d72e-4260-8b52-997ee1377279",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Servo",
+      "uuid": "03efaa96-5991-5e13-84e3-76cfa745c520"
+    },
+    {
+      "artist": "Jung Park",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Servo",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Aether Inspector",
+        "Angel of Invention",
+        "Countless Gears Renegade",
+        "Glint-Sleeve Artisan",
+        "Master Trinketeer",
+        "Propeller Pioneer",
+        "Sram's Expertise",
+        "Aether Swooper",
+        "Servo Exhibition",
+        "Visionary Augmenter",
+        "Aether Poisoner",
+        "Renegade's Getaway",
+        "Ambitious Aetherborn",
+        "Sly Requisitioner",
+        "Aether Chaser",
+        "Marionette Master",
+        "Maulfist Squad",
+        "Aether Herder",
+        "Weaponcraft Enthusiast",
+        "Hidden Stockpile",
+        "Cultivator of Blades",
+        "Elegant Edgecrafters",
+        "Highspire Artisan",
+        "Peema Outrider",
+        "Servo Schematic",
+        "Accomplished Automaton",
+        "Animation Module",
+        "Cogworker's Puzzleknot",
+        "Iron League Steed",
+        "Thopter"
+      ],
+      "scryfallId": "e1980809-4c81-4080-92cd-31776962a4e1",
+      "scryfallIllustrationId": "b884dfae-4f56-412e-9625-7468578b8cc3",
+      "scryfallOracleId": "b6ca7bd1-d72e-4260-8b52-997ee1377279",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Servo",
+      "uuid": "8f0f8161-d2ac-530d-9ab8-b1f29dfb3682"
+    },
+    {
+      "artist": "Adam Paquette",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Thopter",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+        "Hangarback Walker",
+        "Efficient Construction",
+        "Experimental Aviator",
+        "Pia Nalaar",
+        "Maverick Thopterist",
+        "Filigree Crawler",
+        "Whirler Virtuoso",
+        "Whirlermaker",
+        "Servo"
+      ],
+      "scryfallId": "fd03a2b9-bfd7-4e1d-b660-e9f945699b78",
+      "scryfallIllustrationId": "458f96c5-d6b7-4d15-b38f-09f75f3e2733",
+      "scryfallOracleId": "7c0b6b53-4ddb-4bb5-8a26-0041b2006d3f",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Thopter",
+      "uuid": "650a5371-c9e3-5af6-94d7-3196dc280871"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Thopter",
+      "number": "8",
+      "power": "1",
+      "reverseRelated": [
+        "Hangarback Walker",
+        "Efficient Construction",
+        "Experimental Aviator",
+        "Pia Nalaar",
+        "Maverick Thopterist",
+        "Filigree Crawler",
+        "Whirler Virtuoso",
+        "Whirlermaker",
+        "Servo"
+      ],
+      "scryfallId": "7d39524b-a4af-44ed-8f04-50680628c28f",
+      "scryfallIllustrationId": "6cba3a90-c033-447e-8cd0-3e0ba3180432",
+      "scryfallOracleId": "7c0b6b53-4ddb-4bb5-8a26-0041b2006d3f",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Thopter",
+      "uuid": "a9cdcc29-2795-5951-9dbf-4b0186b6f0bd"
+    },
+    {
+      "artist": "Richard Wright",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Thopter",
+      "number": "9",
+      "power": "1",
+      "reverseRelated": [
+        "Hangarback Walker",
+        "Efficient Construction",
+        "Experimental Aviator",
+        "Pia Nalaar",
+        "Maverick Thopterist",
+        "Filigree Crawler",
+        "Whirler Virtuoso",
+        "Whirlermaker",
+        "Servo"
+      ],
+      "scryfallId": "9c9a3d08-040a-4fec-b86d-c41a074f925c",
+      "scryfallIllustrationId": "c263f60c-e1ef-480b-8e93-d5c399697e4a",
+      "scryfallOracleId": "7c0b6b53-4ddb-4bb5-8a26-0041b2006d3f",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Thopter",
+      "uuid": "7e2fd723-430d-5cc8-9888-18cc9bfef842"
+    }
+  ],
+  "totalSetSize": 278,
+  "translations": {
+    "Chinese Simplified": "卡拉德许",
+    "Chinese Traditional": "卡拉德許",
+    "French": "Kaladesh",
+    "German": "Kaladesh",
+    "Italian": "Kaladesh",
+    "Japanese": "『カラデシュ』",
+    "Korean": "칼라데시",
+    "Portuguese (Brazil)": "Kaladesh",
+    "Russian": "«Каладеш»",
+    "Spanish": "Kaladesh"
+  },
+  "type": "expansion"
 }

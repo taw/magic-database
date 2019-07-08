@@ -1,17 +1,35 @@
 {
-  "name": "Planechase 2012 Edition",
+  "baseSetSize": 0,
   "code": "PC2",
-  "magicCardsInfoCode": "pc2",
-  "releaseDate": "2012-06-01",
-  "border": "black",
-  "type": "planechase",
-  "translations": {
-    "de": "Planechase 2012 Edition",
-    "fr": "Planechase 2012 Edition",
-    "it": "Planechase 2012 Edition",
-    "es": "Planechase 2012 Edition",
-    "jp": "プレインチェイス2012"
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "PC2",
+  "mcmId": 1369,
+  "mcmName": "Planechase 2012",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Planechase 2012",
-  "mkm_id": 1369
+  "mtgoCode": "PC2",
+  "name": "Planechase 2012",
+  "releaseDate": "2012-06-01",
+  "tcgplayerGroupId": 363,
+  "tokens": [
+
+  ],
+  "totalSetSize": 156,
+  "translations": {
+    "Chinese Simplified": "Planechase",
+    "Chinese Traditional": "Planechase",
+    "French": "Planechase",
+    "German": "Planechase",
+    "Italian": "Planechase",
+    "Japanese": "Planechase",
+    "Korean": "Planechase",
+    "Portuguese (Brazil)": "Planechase",
+    "Russian": "Planechase",
+    "Spanish": "Planechase"
+  },
+  "type": "planechase"
 }

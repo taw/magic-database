@@ -1,11 +1,35 @@
 {
-  "name": "From the Vault: Legends",
+  "baseSetSize": 0,
   "code": "V11",
-  "oldCode": "FVL",
-  "magicCardsInfoCode": "fvl",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "V11",
+  "mcmId": 1286,
+  "mcmName": "From the Vault: Legends",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "V11",
+  "name": "From the Vault: Legends",
   "releaseDate": "2011-08-26",
-  "border": "black",
-  "type": "from the vault",
-  "mkm_name": "From the Vault: Legends",
-  "mkm_id": 1286
+  "tcgplayerGroupId": 49,
+  "tokens": [
+
+  ],
+  "totalSetSize": 15,
+  "translations": {
+    "Chinese Simplified": "From The Vault: Legends",
+    "Chinese Traditional": "From The Vault: Legends",
+    "French": "From The Vault: Legends",
+    "German": "From The Vault: Legends",
+    "Italian": "From The Vault: Legends",
+    "Japanese": "From The Vault: Legends",
+    "Korean": "From The Vault: Legends",
+    "Portuguese (Brazil)": "From The Vault: Legends",
+    "Russian": "From The Vault: Legends",
+    "Spanish": "From The Vault: Legends"
+  },
+  "type": "from_the_vault"
 }

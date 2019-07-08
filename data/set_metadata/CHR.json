@@ -1,12 +1,6 @@
 {
-  "name": "Chronicles",
-  "code": "CHR",
-  "gathererCode": "CH",
-  "magicCardsInfoCode": "ch",
-  "releaseDate": "1995-07-01",
-  "border": "white",
-  "type": "reprint",
-  "booster": [
+  "baseSetSize": 125,
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -20,6 +14,35 @@
     "common",
     "common"
   ],
-  "mkm_name": "Chronicles",
-  "mkm_id": 12
+  "code": "CHR",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "CHR",
+  "mcmId": 12,
+  "mcmName": "Chronicles",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Chronicles",
+  "releaseDate": "1995-07-01",
+  "tcgplayerGroupId": 22,
+  "tokens": [
+
+  ],
+  "totalSetSize": 125,
+  "translations": {
+    "Chinese Simplified": "Chronicles / Renaissance",
+    "Chinese Traditional": "Chronicles / Renaissance",
+    "French": "Chronicles / Renaissance",
+    "German": "Chronicles / Renaissance",
+    "Italian": "Chronicles / Renaissance",
+    "Japanese": "Chronicles / Renaissance",
+    "Korean": "Chronicles / Renaissance",
+    "Portuguese (Brazil)": "Chronicles / Renaissance",
+    "Russian": "Chronicles / Renaissance",
+    "Spanish": "Chronicles / Renaissance"
+  },
+  "type": "masters"
 }

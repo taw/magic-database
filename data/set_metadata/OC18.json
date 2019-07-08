@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Commander",
+  "code": "OC18",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "C18",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Commander 2018 Oversized",
+  "parentCode": "C18",
+  "releaseDate": "2018-08-09",
+  "tokens": [
+
+  ],
+  "totalSetSize": 4,
+  "translations": {
+  },
+  "type": "memorabilia"
+}

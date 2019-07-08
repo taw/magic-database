@@ -1,12 +1,7 @@
 {
-  "name": "Champions of Kamigawa",
-  "code": "CHK",
-  "magicCardsInfoCode": "chk",
-  "releaseDate": "2004-10-01",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 306,
   "block": "Kamigawa",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,15 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Meister von Kamigawa",
-    "fr": "Guerriers de Kamigawa",
-    "it": "Campioni di Kamigawa",
-    "es": "Campeones de Kamigawa",
-    "pt": "Campeões de Kamigawa",
-    "jp": "神河物語",
-    "cn": "神河群英录"
+  "code": "CHK",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "CHK",
+  "mcmId": 48,
+  "mcmName": "Champions of Kamigawa",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Champions of Kamigawa",
-  "mkm_id": 48
+  "mtgoCode": "CHK",
+  "name": "Champions of Kamigawa",
+  "releaseDate": "2004-10-01",
+  "tcgplayerGroupId": 20,
+  "tokens": [
+
+  ],
+  "totalSetSize": 307,
+  "translations": {
+    "Chinese Simplified": "神河群英录",
+    "Chinese Traditional": "神河群英錄",
+    "French": "神河物語",
+    "German": "Meister von Kamigawa",
+    "Italian": "Campioni di Kamigawa",
+    "Japanese": "神河物語",
+    "Korean": "카미가와의 투사",
+    "Portuguese (Brazil)": "Campeões de Kamigawa",
+    "Russian": "Champions of Kamigawa",
+    "Spanish": "Campeones de Kamigawa"
+  },
+  "type": "expansion"
 }

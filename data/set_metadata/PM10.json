@@ -1,0 +1,22 @@
+{
+  "baseSetSize": 0,
+  "code": "PM10",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "M10",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Magic 2010 Promos",
+  "parentCode": "M10",
+  "releaseDate": "2009-07-16",
+  "tokens": [
+
+  ],
+  "totalSetSize": 5,
+  "translations": {
+  },
+  "type": "promo"
+}

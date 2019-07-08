@@ -1,12 +1,7 @@
 {
-  "name": "Eventide",
-  "code": "EVE",
-  "magicCardsInfoCode": "eve",
-  "releaseDate": "2008-07-25",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 180,
   "block": "Shadowmoor",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,16 +19,210 @@
     "common",
     "marketing"
   ],
-  "translations": {
-    "de": "Abendkühle",
-    "fr": "Coucheciel",
-    "it": "Vespro",
-    "es": "Crepúsculo",
-    "pt": "Entardecer",
-    "jp": "イーブンタイド",
-    "cn": "暮光",
-    "ru": "Сумерки"
+  "code": "EVE",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "EVE",
+  "mcmId": 99,
+  "mcmName": "Eventide",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Eventide",
-  "mkm_id": 99
+  "mtgoCode": "EVE",
+  "name": "Eventide",
+  "releaseDate": "2008-07-25",
+  "tcgplayerGroupId": 39,
+  "tokens": [
+    {
+      "artist": "William O'Connor",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "3",
+      "power": "3",
+      "reverseRelated": [
+        "Savage Conception"
+      ],
+      "scryfallId": "3fc3a29a-280d-4f2c-9a01-8cfead75f583",
+      "scryfallIllustrationId": "20b48311-448f-41d9-ac61-5c56da62ba1d",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "367eac8c-e8a1-5c81-8c4f-135b91623db7"
+    },
+    {
+      "artist": "Heather Hudson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Fable of Wolf and Owl",
+        "Wolf"
+      ],
+      "scryfallId": "d453ee89-6122-4d51-989c-e78b046a9de3",
+      "scryfallIllustrationId": "4c81cb47-6e50-48b4-81aa-5038be844812",
+      "scryfallOracleId": "39593ebf-49ee-4a74-8498-952b43fa5127",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bird",
+      "uuid": "30fc975c-f104-5458-87bb-399e735e80fd"
+    },
+    {
+      "artist": "Randy Gallegos",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R",
+        "U"
+      ],
+      "colors": [
+        "R",
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "5",
+      "power": "5",
+      "reverseRelated": [
+        "Call the Skybreaker"
+      ],
+      "scryfallId": "c702fc63-4a79-4c54-b22e-7e479b8354d2",
+      "scryfallIllustrationId": "5b7ffb95-4aa6-4a0a-9318-22e0b30ec161",
+      "scryfallOracleId": "66b91a2c-d5ac-421e-b210-039a20c71b16",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Elemental",
+      "uuid": "d5357ca1-c076-55e7-ad77-ff980305175b"
+    },
+    {
+      "artist": "Terese Nielsen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Goat",
+      "number": "1",
+      "power": "0",
+      "reverseRelated": [
+        "Springjack Shepherd",
+        "Springjack Pasture"
+      ],
+      "scryfallId": "90f67615-8a09-4ab9-9927-899a15e72c03",
+      "scryfallIllustrationId": "99b9d9fc-d22b-4ad0-91b3-15ad80adfc11",
+      "scryfallOracleId": "f62b776a-d4de-455a-ae5a-ca07982974db",
+      "toughness": "1",
+      "type": "Token Creature — Goat",
+      "uuid": "ff73a071-d4f8-5476-b886-6f4306b18ffc"
+    },
+    {
+      "artist": "Jeff Miracola",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "colors": [
+        "R",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Goblin Soldier",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+        "Rise of the Hobgoblins"
+      ],
+      "scryfallId": "e836db04-161c-4f4f-88d2-4271cec62008",
+      "scryfallIllustrationId": "74888fa3-cada-477d-bcc6-1798ab872798",
+      "scryfallOracleId": "7b646e97-6c1d-4b37-8e27-82c36f2561e9",
+      "toughness": "1",
+      "type": "Token Creature — Goblin Soldier",
+      "uuid": "493000e7-16bf-540a-a50b-dc67100eee54"
+    },
+    {
+      "artist": "Larry MacDougall",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "colors": [
+        "B",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Beckon Apparition"
+      ],
+      "scryfallId": "c48d8e99-a530-4eec-a938-254c98073975",
+      "scryfallIllustrationId": "bd844dfa-69d2-4e8f-9f37-ef60f861f847",
+      "scryfallOracleId": "18ef473d-f958-4bff-8045-154f6adc6b04",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "6d3c9e61-dd11-5735-ac6d-19ea7d4526de"
+    },
+    {
+      "artist": "Chuck Lukacs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "colors": [
+        "B",
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Worm",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Creakwood Liege",
+        "Worm Harvest"
+      ],
+      "scryfallId": "0788f7a4-793a-42f4-a7c9-05e4b4587897",
+      "scryfallIllustrationId": "378a91e5-1f4c-4b4a-9a65-7757e2e7a34d",
+      "scryfallOracleId": "318d6000-b6e0-4ef0-ad58-d470f4a271e6",
+      "toughness": "1",
+      "type": "Token Creature — Worm",
+      "uuid": "720b2603-4ea7-5ae6-982b-78a923b49456"
+    }
+  ],
+  "totalSetSize": 180,
+  "translations": {
+    "Chinese Simplified": "暮光",
+    "Chinese Traditional": "暮光",
+    "French": "Coucheciel",
+    "German": "Abendkühle",
+    "Italian": "Vespro",
+    "Japanese": "イーブンタイド",
+    "Korean": "일몰",
+    "Portuguese (Brazil)": "Entardecer",
+    "Russian": "Сумерки",
+    "Spanish": "Crepúsculo"
+  },
+  "type": "expansion"
 }

@@ -1,11 +1,7 @@
 {
-  "name": "Magic 2014 Core Set",
-  "code": "M14",
-  "magicCardsInfoCode": "m14",
-  "releaseDate": "2013-07-19",
-  "border": "black",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 249,
+  "block": "Core Set",
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -26,18 +22,340 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Hauptset Magic 2014",
-    "fr": "Édition de base Magic 2014",
-    "it": "Set Base Magic 2014",
-    "es": "Colección básica Magic 2014",
-    "pt": "Coleção Básica Magic 2014",
-    "jp": "マジック基本セット2014",
-    "cn": "魔法風雲會2014核心系列",
-    "ru": "Базовый выпуск Magic 2014",
-    "tw": "万智牌2014核心系列",
-    "ko": "매직 2014 코어세트"
+  "code": "M14",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "M14",
+  "mcmId": 1449,
+  "mcmName": "Magic 2014",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Magic 2014",
-  "mkm_id": 1449
+  "mtgoCode": "M14",
+  "name": "Magic 2014",
+  "releaseDate": "2013-07-19",
+  "tcgplayerGroupId": 1113,
+  "tokens": [
+    {
+      "artist": "James Ryman",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "2",
+      "power": "4",
+      "reverseRelated": [
+        "Angelic Accord",
+        "Devout Invocation"
+      ],
+      "scryfallId": "826320b7-4ccf-4ace-8c2c-15052b6bad73",
+      "scryfallIllustrationId": "9ad41f32-8ef8-4ac4-9a19-575cd1212306",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "ddfe9326-5c08-550c-a623-c3134304e0e8"
+    },
+    {
+      "artist": "John Donahue",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "9",
+      "power": "3",
+      "reverseRelated": [
+        "Primeval Bounty"
+      ],
+      "scryfallId": "a8fc2dc9-40df-46d8-98c0-ca4919bd5524",
+      "scryfallIllustrationId": "b241883c-fe4f-42c9-be2c-2ed51bcc174b",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "8996190e-bcb7-5fe4-b36b-b0929b6fe07e"
+    },
+    {
+      "artist": "Jesper Ejsing",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Cat",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+        "Ajani, Caller of the Pride",
+        "Ajani's Chosen"
+      ],
+      "scryfallId": "db41ce71-52df-4bc1-884d-b09419d8dd13",
+      "scryfallIllustrationId": "101b0ebd-7d56-403b-96a8-cf2fcec6fcf4",
+      "scryfallOracleId": "6788478d-e157-4483-be09-9edb3f841431",
+      "toughness": "2",
+      "type": "Token Creature — Cat",
+      "uuid": "74659c88-c000-5527-ad13-4c131fd23ab7"
+    },
+    {
+      "artist": "Jack Wang",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "6",
+      "power": "2",
+      "reverseRelated": [
+        "Dragon Egg"
+      ],
+      "scryfallId": "0efaa5b5-984d-4eff-81b6-9b4989f149eb",
+      "scryfallIllustrationId": "f3a70737-ee42-49c2-b628-6eb2b17a50e7",
+      "scryfallOracleId": "ec6df381-5ea7-4c68-8416-093b107f0784",
+      "text": "Flying\n{R}: This creature gets +1/+0 until end of turn.",
+      "toughness": "2",
+      "type": "Token Creature — Dragon",
+      "uuid": "b74d5c46-439a-58eb-bf55-993f13568525"
+    },
+    {
+      "artist": "Jaime Jones",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+        "Molten Birth",
+        "Young Pyromancer"
+      ],
+      "scryfallId": "ed37fa8e-5930-4e57-8ead-73894ac40c19",
+      "scryfallIllustrationId": "443849e1-c8ce-4914-8f4f-1f10dc5556b7",
+      "scryfallOracleId": "1a6c2152-71ca-46be-ab83-c84633442257",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "22881dfd-2b3b-5f4c-86c9-feb3bbe81ad3"
+    },
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "8",
+      "power": "1",
+      "reverseRelated": [
+        "Molten Birth",
+        "Young Pyromancer"
+      ],
+      "scryfallId": "fc7315d5-26d9-4ecc-bca2-b75c6fb12597",
+      "scryfallIllustrationId": "b72510b2-4740-465b-8b71-58cea9d54eff",
+      "scryfallOracleId": "1a6c2152-71ca-46be-ab83-c84633442257",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "249f62eb-8867-5f9b-8fa6-4c1672fec935"
+    },
+    {
+      "artist": "Karl Kopinski",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Garruk, Caller of Beasts Emblem",
+      "number": "13",
+      "reverseRelated": [
+        "Garruk, Caller of Beasts"
+      ],
+      "scryfallId": "d16429cb-9b00-4411-9ffc-252b38ad0b8c",
+      "scryfallIllustrationId": "2ed13658-afc3-4537-b524-9052268d64d3",
+      "scryfallOracleId": "b14134b7-c763-4c69-add8-c595c8cbf223",
+      "text": "Whenever you cast a creature spell, you may search your library for a creature card, put it onto the battlefield, then shuffle your library.",
+      "type": "Emblem — Garruk",
+      "uuid": "bf3c8d9b-b0c1-5ddb-974d-98dd61b4f3b8"
+    },
+    {
+      "artist": "Adam Paquette",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Goat",
+      "number": "4",
+      "power": "0",
+      "reverseRelated": [
+        "Trading Post"
+      ],
+      "scryfallId": "64e90524-bad8-4d24-85be-9402401e7b42",
+      "scryfallIllustrationId": "f82e64b7-aedf-41a2-9169-b68a232d4c48",
+      "scryfallOracleId": "f62b776a-d4de-455a-ae5a-ca07982974db",
+      "toughness": "1",
+      "type": "Token Creature — Goat",
+      "uuid": "6f12cc46-04b9-5f60-9094-bbf11abb0db2"
+    },
+    {
+      "artist": "D. Alexander Gregory",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Liliana of the Dark Realms Emblem",
+      "number": "12",
+      "reverseRelated": [
+        "Liliana of the Dark Realms"
+      ],
+      "scryfallId": "f327de6e-c9f1-478d-9940-b500df8cef10",
+      "scryfallIllustrationId": "da07b601-7b05-43f9-ab7b-c918f59cfcb3",
+      "scryfallOracleId": "ecf396e7-88fd-4c82-90c6-b8f84a120f71",
+      "text": "Swamps you control have '{T}: Add {B}{B}{B}{B}.'",
+      "type": "Emblem — Liliana",
+      "uuid": "4a1f79e6-1fc6-5cd8-9f9d-72b73cf92b99"
+    },
+    {
+      "artist": "Brad Rigney",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "10",
+      "power": "1",
+      "reverseRelated": [
+        "Sporemound"
+      ],
+      "scryfallId": "afd66b96-eccb-44ce-9125-063d34af2ff8",
+      "scryfallIllustrationId": "54430daa-acec-42fc-9330-ef8c4c015569",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "7aa7bf91-710e-50d1-ac80-3818a333cdbf"
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Sliver",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Hive Stirrings"
+      ],
+      "scryfallId": "68353af0-9cd0-43c0-9b39-8f904c618e3a",
+      "scryfallIllustrationId": "8ac3df78-76c9-4c2e-8e81-fa76af3be70f",
+      "scryfallOracleId": "9ac81d75-2bec-46ab-84e1-2fc893d45219",
+      "toughness": "1",
+      "type": "Token Creature — Sliver",
+      "uuid": "603c33d6-c8e1-5f9f-8466-f79903e19fc0"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "11",
+      "power": "2",
+      "reverseRelated": [
+        "Howl of the Night Pack"
+      ],
+      "scryfallId": "309f1bd4-78af-4722-9d45-b5f40b001570",
+      "scryfallIllustrationId": "8de43024-f594-4ea8-bddc-291d084d9e4e",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "a35ec780-3d0b-54f0-add6-4aeb835f7b82"
+    },
+    {
+      "artist": "Lucas Graciano",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Liliana's Reaver",
+        "Vile Rebirth",
+        "Xathrid Necromancer"
+      ],
+      "scryfallId": "07d82a8d-4c57-401f-92c3-8fd9ba20174a",
+      "scryfallIllustrationId": "6bb462b0-a2a7-4cdf-9fe4-c14d6aceeddc",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "17c535ec-9049-5f7f-adcd-973f7272284b"
+    }
+  ],
+  "totalSetSize": 249,
+  "translations": {
+    "Chinese Simplified": "万智牌2014 核心系列",
+    "Chinese Traditional": "魔法風雲會2014 核心系列",
+    "French": "Édition de base Magic 2014",
+    "German": "Hauptset Magic 2014",
+    "Italian": "Set Base Magic 2014",
+    "Japanese": "『マジック基本セット2014』",
+    "Korean": "매직 2014 코어세트",
+    "Portuguese (Brazil)": "Coleção Básica de Magic 2014",
+    "Russian": "Базовый выпуск Magic 2014",
+    "Spanish": "Colección básica Magic 2014"
+  },
+  "type": "core"
 }

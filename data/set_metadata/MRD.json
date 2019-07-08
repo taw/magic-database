@@ -1,12 +1,7 @@
 {
-  "name": "Mirrodin",
-  "code": "MRD",
-  "magicCardsInfoCode": "mi",
-  "releaseDate": "2003-10-02",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 306,
   "block": "Mirrodin",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,14 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Mirrodin",
-    "fr": "Mirrodin",
-    "it": "Mirrodin",
-    "es": "Mirrodin",
-    "pt": "Mirrodin",
-    "jp": "ミラディン"
+  "code": "MRD",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "MRD",
+  "mcmId": 45,
+  "mcmName": "Mirrodin",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Mirrodin",
-  "mkm_id": 45
+  "mtgoCode": "MRD",
+  "name": "Mirrodin",
+  "releaseDate": "2003-10-02",
+  "tcgplayerGroupId": 75,
+  "tokens": [
+
+  ],
+  "totalSetSize": 306,
+  "translations": {
+    "Chinese Simplified": "秘罗地",
+    "Chinese Traditional": "秘羅地",
+    "French": "Mirrodin",
+    "German": "Mirrodin",
+    "Italian": "Mirrodin",
+    "Japanese": "ミラディン",
+    "Korean": "미로딘",
+    "Portuguese (Brazil)": "Mirrodin",
+    "Russian": "Mirrodin",
+    "Spanish": "Mirrodin"
+  },
+  "type": "expansion"
 }

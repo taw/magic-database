@@ -1,0 +1,109 @@
+{
+  "baseSetSize": 0,
+  "code": "DD1",
+  "codeV3": "EVG",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DD1",
+  "mcmId": 91,
+  "mcmName": "Duel Decks: Elves vs. Goblins",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "EVG",
+  "name": "Duel Decks: Elves vs. Goblins",
+  "releaseDate": "2007-11-16",
+  "tcgplayerGroupId": 33,
+  "tokens": [
+    {
+      "artist": "Anthony S. Waters",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "T1",
+      "power": "7",
+      "reverseRelated": [
+        "Voice of the Woods"
+      ],
+      "scryfallId": "5e37e5ee-d860-4a81-951b-d03bcea9feff",
+      "scryfallIllustrationId": "a024231e-92b7-40c9-9f5d-d83fcfd247b9",
+      "scryfallOracleId": "ab19c684-94c6-4491-8a6b-7f31dddadae6",
+      "text": "Trample",
+      "toughness": "7",
+      "type": "Token Creature — Elemental",
+      "uuid": "bb399f5f-a9f0-53bf-a8f7-a7b128eca8b2"
+    },
+    {
+      "artist": "Dominick Domingo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elf Warrior",
+      "number": "T2",
+      "power": "1",
+      "reverseRelated": [
+        "Imperious Perfect",
+        "Lys Alana Huntmaster",
+        "Elvish Promenade"
+      ],
+      "scryfallId": "04af8edc-19c6-47df-8ea1-c87a72d1ce65",
+      "scryfallIllustrationId": "72fc0613-c78e-4e0f-8056-a47fb8b761b2",
+      "scryfallOracleId": "dac8a765-6845-4b57-bb79-4ec463436f92",
+      "toughness": "1",
+      "type": "Token Creature — Elf Warrior",
+      "uuid": "93c2ccaa-a960-5f9f-82be-ab82284cc932"
+    },
+    {
+      "artist": "Dave Kendall",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "T3",
+      "power": "1",
+      "reverseRelated": [
+        "Siege-Gang Commander",
+        "Ib Halfheart, Goblin Tactician",
+        "Mogg War Marshal"
+      ],
+      "scryfallId": "31f173fc-112c-4aec-b464-3f81e2ee213e",
+      "scryfallIllustrationId": "12f18aeb-2a92-431f-9d1d-9d3ae9c9dba5",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "7eccfa23-3923-5fb9-b759-72519b66245c"
+    }
+  ],
+  "totalSetSize": 62,
+  "translations": {
+    "Chinese Simplified": "Elves vs. Goblins",
+    "Chinese Traditional": "Elves vs. Goblins",
+    "French": "Elves vs. Goblins",
+    "German": "Elves vs. Goblins",
+    "Italian": "Elves vs. Goblins",
+    "Japanese": "Elves vs. Goblins",
+    "Korean": "Elves vs. Goblins",
+    "Portuguese (Brazil)": "Elves vs. Goblins",
+    "Russian": "Elves vs. Goblins",
+    "Spanish": "Elves vs. Goblins"
+  },
+  "type": "duel_deck"
+}

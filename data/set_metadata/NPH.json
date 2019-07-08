@@ -1,12 +1,7 @@
 {
-  "name": "New Phyrexia",
-  "code": "NPH",
-  "magicCardsInfoCode": "nph",
-  "releaseDate": "2011-05-13",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 175,
   "block": "Scars of Mirrodin",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,17 +22,164 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Das neue Phyrexia",
-    "fr": "La Nouvelle Phyrexia",
-    "it": "Nuova Phyrexia",
-    "es": "Nueva Phyrexia",
-    "pt": "Nova Phyrexia",
-    "jp": "新たなるファイレクシア",
-    "cn": "新非瑞克西亚",
-    "ru": "Новая Фирексия",
-    "tw": "新非瑞克西亚"
+  "code": "NPH",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "NPH",
+  "mcmId": 1262,
+  "mcmName": "New Phyrexia",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "New Phyrexia",
-  "mkm_id": 1262
+  "mtgoCode": "NPH",
+  "name": "New Phyrexia",
+  "releaseDate": "2011-05-13",
+  "tcgplayerGroupId": 79,
+  "tokens": [
+    {
+      "artist": "Dave Allsop",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "1",
+      "power": "3",
+      "reverseRelated": [
+        "Beast Within",
+        "Fresh Meat"
+      ],
+      "scryfallId": "7b226475-c85c-4b78-9d6a-70cc9545bc31",
+      "scryfallIllustrationId": "bdefb360-c065-4d43-8e88-53be5ea76e8e",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "ff541945-f28a-534d-af3c-8bcf60bc6b6d"
+    },
+    {
+      "artist": "Jaime Jones",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Chancellor of the Forge",
+        "Kuldotha Rebirth"
+      ],
+      "scryfallId": "feeae905-e456-4598-b3de-b339397983bf",
+      "scryfallIllustrationId": "4ade7f52-0c57-4da6-831c-c9c3e34ea7dd",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "5be5a1b1-e1c8-5482-8bc8-2dfbbf1778f5"
+    },
+    {
+      "artist": "Volkan Baǵa",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Golem",
+      "number": "3",
+      "power": "3",
+      "reverseRelated": [
+        "Blade Splicer",
+        "Master Splicer",
+        "Sensor Splicer",
+        "Wing Splicer",
+        "Maul Splicer",
+        "Vital Splicer",
+        "Conversion Chamber",
+        "Golem Foundry",
+        "Precursor Golem"
+      ],
+      "scryfallId": "fe9e8d3b-ebc0-448b-bd14-a9f418e196e7",
+      "scryfallIllustrationId": "a30ff6a4-8458-4923-9c6b-aea1b2092990",
+      "scryfallOracleId": "9859c54d-695b-4bb1-940e-cfd1c3301e89",
+      "toughness": "3",
+      "type": "Token Artifact Creature — Golem",
+      "uuid": "9a41b47d-8472-5bed-a465-51312bbf2bd3"
+    },
+    {
+      "artist": "Matt Stewart",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Myr",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Master's Call",
+        "Myrsmith",
+        "Parasitic Implant",
+        "Myr Sire",
+        "Myr Turbine",
+        "Shrine of Loyal Legions",
+        "Myr Battlesphere",
+        "Origin Spellbomb"
+      ],
+      "scryfallId": "5c087beb-99c0-403e-bb44-33cfc549a831",
+      "scryfallIllustrationId": "28b69ea3-c8e3-4ba9-9c58-d6f78603b34d",
+      "scryfallOracleId": "bf690282-125f-431c-a363-39f6772324c8",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Myr",
+      "uuid": "7a4e6f75-3d72-518c-b193-57e0c5cd2b88"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Poison Counter",
+      "number": "5",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "470618f6-f67f-44c6-a086-285632508915",
+      "scryfallOracleId": "60acebe2-e1e5-478a-ab88-6a9c1409bca5",
+      "text": "(A player with ten or more poison counters loses the game.)",
+      "type": "Card",
+      "uuid": "6af86608-6cd4-58c0-9da8-900be174eb0c"
+    }
+  ],
+  "totalSetSize": 175,
+  "translations": {
+    "Chinese Simplified": "新非瑞克西亚",
+    "Chinese Traditional": "新非瑞克西亞",
+    "French": "New Phyrexia",
+    "German": "Das neue Phyrexia",
+    "Italian": "Nuova Phyrexia",
+    "Japanese": "新たなるファイレクシア",
+    "Korean": "뉴 피렉시아",
+    "Portuguese (Brazil)": "Nova Phyrexia",
+    "Russian": "Новая Фирексия",
+    "Spanish": "Nueva Phyrexia"
+  },
+  "type": "expansion"
 }

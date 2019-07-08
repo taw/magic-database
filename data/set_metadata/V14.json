@@ -1,10 +1,35 @@
 {
-  "name": "From the Vault: Annihilation (2014)",
+  "baseSetSize": 0,
   "code": "V14",
-  "magicCardsInfoCode": "v14",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "V14",
+  "mcmId": 1494,
+  "mcmName": "From the Vault: Annihilation",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "V14",
+  "name": "From the Vault: Annihilation",
   "releaseDate": "2014-08-22",
-  "border": "black",
-  "type": "from the vault",
-  "mkm_name": "From the Vault: Annihilation",
-  "mkm_id": 1494
+  "tcgplayerGroupId": 1475,
+  "tokens": [
+
+  ],
+  "totalSetSize": 15,
+  "translations": {
+    "Chinese Simplified": "From The Vault: Annihilation",
+    "Chinese Traditional": "From The Vault: Annihilation",
+    "French": "From The Vault: Annihilation",
+    "German": "From The Vault: Annihilation",
+    "Italian": "From The Vault: Annihilation",
+    "Japanese": "From The Vault: Annihilation",
+    "Korean": "From The Vault: Annihilation",
+    "Portuguese (Brazil)": "From The Vault: Annihilation",
+    "Russian": "From The Vault: Annihilation",
+    "Spanish": "From The Vault: Annihilation"
+  },
+  "type": "from_the_vault"
 }

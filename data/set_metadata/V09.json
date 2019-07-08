@@ -1,11 +1,35 @@
 {
-  "name": "From the Vault: Exiled",
+  "baseSetSize": 0,
   "code": "V09",
-  "oldCode": "FVE",
-  "magicCardsInfoCode": "fve",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "V09",
+  "mcmId": 112,
+  "mcmName": "From the Vault: Exiled",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "V09",
+  "name": "From the Vault: Exiled",
   "releaseDate": "2009-08-28",
-  "border": "black",
-  "type": "from the vault",
-  "mkm_name": "From the Vault: Exiled",
-  "mkm_id": 112
+  "tcgplayerGroupId": 48,
+  "tokens": [
+
+  ],
+  "totalSetSize": 15,
+  "translations": {
+    "Chinese Simplified": "From The Vault: Exiled",
+    "Chinese Traditional": "From The Vault: Exiled",
+    "French": "From The Vault: Exiled",
+    "German": "From The Vault: Exiled",
+    "Italian": "From The Vault: Exiled",
+    "Japanese": "From The Vault: Exiled",
+    "Korean": "From The Vault: Exiled",
+    "Portuguese (Brazil)": "From The Vault: Exiled",
+    "Russian": "From The Vault: Exiled",
+    "Spanish": "From The Vault: Exiled"
+  },
+  "type": "from_the_vault"
 }

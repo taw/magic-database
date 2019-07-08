@@ -1,12 +1,7 @@
 {
-  "name": "Gatecrash",
-  "code": "GTC",
-  "magicCardsInfoCode": "gtc",
-  "releaseDate": "2013-02-01",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 249,
   "block": "Return to Ravnica",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,18 +22,234 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Gildensturm",
-    "fr": "Insurrection",
-    "it": "Irruzione",
-    "es": "Intrusión",
-    "pt": "Portões Violados",
-    "jp": "ギルド門侵犯",
-    "cn": "兵临古城",
-    "ru": "Незваные Гости",
-    "tw": "兵臨古城",
-    "ko": "충돌의 관문"
+  "code": "GTC",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "GTC",
+  "mcmId": 1424,
+  "mcmName": "Gatecrash",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Gatecrash",
-  "mkm_id": 1424
+  "mtgoCode": "GTC",
+  "name": "Gatecrash",
+  "releaseDate": "2013-02-01",
+  "tcgplayerGroupId": 569,
+  "tokens": [
+    {
+      "artist": "Steve Argyle",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "1",
+      "power": "4",
+      "reverseRelated": [
+        "Urbis Protector"
+      ],
+      "scryfallId": "71766a5a-ce00-4e48-b4f6-0d1a7f5b2691",
+      "scryfallIllustrationId": "c150a324-ddb1-44d6-870a-cea1553646f2",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "a588f899-7fb1-5257-94c8-e0802a1e5a1f"
+    },
+    {
+      "artist": "Jason Chan",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "colors": [
+        "B",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Cleric",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Deathpact Angel"
+      ],
+      "scryfallId": "9af74e26-69d7-4683-9a71-9b420c03d75f",
+      "scryfallIllustrationId": "3fa3f062-182c-4ee4-aaf9-b28b476a7e97",
+      "scryfallOracleId": "e12d9459-1520-423f-aa33-231df05e61bb",
+      "text": "{3}{W}{B}{B}, {T}, Sacrifice this creature: Return a card named Deathpact Angel from your graveyard to the battlefield.",
+      "toughness": "1",
+      "type": "Token Creature — Cleric",
+      "uuid": "027f894b-dd9e-5a9e-a011-38811cd3e1fc"
+    },
+    {
+      "artist": "Tyler Jacobson",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Domri Rade Emblem",
+      "number": "8",
+      "reverseRelated": [
+        "Domri Rade"
+      ],
+      "scryfallId": "1612f546-1bdb-4861-966c-4eeb7d1e65e8",
+      "scryfallIllustrationId": "2f452655-963c-42aa-bcf3-40a82cd572c7",
+      "scryfallOracleId": "b7dc9439-d9bb-435a-8d3b-9e92bfae16ef",
+      "text": "Creatures you control have double strike, trample, hexproof, and haste.",
+      "type": "Emblem — Domri",
+      "uuid": "69e38698-9f32-5460-b96f-6f58c04500ee"
+    },
+    {
+      "artist": "Jack Wang",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Frog Lizard",
+      "number": "3",
+      "power": "3",
+      "reverseRelated": [
+        "Rapid Hybridization"
+      ],
+      "scryfallId": "b938d2e0-7e90-4f57-b363-5c68a6207d6c",
+      "scryfallIllustrationId": "44cb22ed-7a4c-4e3f-bbd3-548940000a78",
+      "scryfallOracleId": "8653c69b-99a9-4881-a14c-68ba928c34d5",
+      "toughness": "3",
+      "type": "Token Creature — Frog Lizard",
+      "uuid": "f3fe4e5a-ce8d-5b65-9a9a-7c2947606f8b"
+    },
+    {
+      "artist": "Adam Paquette",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "colors": [
+        "B",
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Horror",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Call of the Nightwing"
+      ],
+      "scryfallId": "79a71b52-58f9-4945-9557-0fbcbbf5a241",
+      "scryfallIllustrationId": "68a409c2-7903-4d22-bfc4-787d2411facb",
+      "scryfallOracleId": "8b329024-aa49-40ae-9691-9aaf3d923164",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Horror",
+      "uuid": "13864278-104f-5bf4-96d4-4f14d3813594",
+      "watermark": "dimir"
+    },
+    {
+      "artist": "Nils Hamm",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Rat",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Ogre Slumlord"
+      ],
+      "scryfallId": "f1fb8ca6-7351-457a-b2a4-48f57ec3c64a",
+      "scryfallIllustrationId": "b41511ec-f3c5-4193-8330-28a627e5da40",
+      "scryfallOracleId": "7c753b68-b519-43ba-9c58-4902f4850626",
+      "toughness": "1",
+      "type": "Token Creature — Rat",
+      "uuid": "b2947191-edd7-59c0-815a-546116958381"
+    },
+    {
+      "artist": "David Palumbo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "colors": [
+        "R",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Blaze Commando",
+        "Assemble the Legion",
+        "Sunhome Guildmage"
+      ],
+      "scryfallId": "a8a5a5a5-a8ae-41ed-9af5-b99d80ce0b35",
+      "scryfallIllustrationId": "437e7a42-4c1c-4777-bf91-a2b376df38a4",
+      "scryfallOracleId": "04ba3865-3e4b-4583-b49b-f5433926c29a",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "92224685-a71e-5047-a1da-551c2f9d2b00"
+    },
+    {
+      "artist": "Cliff Childs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "colors": [
+        "B",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+        "Teysa, Envoy of Ghosts",
+        "Beckon Apparition"
+      ],
+      "scryfallId": "91f3a4b0-0992-4245-b245-033ad1083a93",
+      "scryfallIllustrationId": "7781acf5-5a1c-4bfd-aa67-7fe6693c5cbb",
+      "scryfallOracleId": "18ef473d-f958-4bff-8045-154f6adc6b04",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "37923fa6-1f72-5a8b-aa88-0e3bc5161464"
+    }
+  ],
+  "totalSetSize": 249,
+  "translations": {
+    "Chinese Simplified": "兵临古城",
+    "Chinese Traditional": "兵臨古城",
+    "French": "Insurrection",
+    "German": "Gildensturm",
+    "Italian": "Irruzione",
+    "Japanese": "『ギルド門侵犯』",
+    "Korean": "충돌의 관문",
+    "Portuguese (Brazil)": "Portões Violados",
+    "Russian": "Незваные Гости",
+    "Spanish": "Intrusión"
+  },
+  "type": "expansion"
 }

@@ -1,0 +1,22 @@
+{
+  "baseSetSize": 0,
+  "code": "PWAR",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "WAR",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "War of the Spark Promos",
+  "parentCode": "WAR",
+  "releaseDate": "2019-03-31",
+  "tokens": [
+
+  ],
+  "totalSetSize": 131,
+  "translations": {
+  },
+  "type": "promo"
+}

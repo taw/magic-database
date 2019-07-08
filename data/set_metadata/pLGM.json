@@ -1,11 +1,21 @@
 {
-  "name": "Legend Membership",
-  "code": "pLGM",
-  "magicCardsInfoCode": "dcilm",
-  "magicRaritiesCodes": [
-    "23-rarities-dci-legend-membership-promos"
-  ],
+  "baseSetSize": 0,
+  "code": "PLGM",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "DCI Legend Membership",
   "releaseDate": "1995-01-01",
-  "border": "black",
+  "tokens": [
+
+  ],
+  "totalSetSize": 2,
+  "translations": {
+  },
   "type": "promo"
 }

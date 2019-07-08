@@ -1,0 +1,22 @@
+{
+  "baseSetSize": 0,
+  "code": "OARC",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ARC",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Archenemy Schemes",
+  "parentCode": "ARC",
+  "releaseDate": "2010-06-18",
+  "tokens": [
+
+  ],
+  "totalSetSize": 45,
+  "translations": {
+  },
+  "type": "archenemy"
+}

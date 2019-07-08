@@ -1,0 +1,22 @@
+{
+  "baseSetSize": 0,
+  "code": "PHJ",
+  "isFoilOnly": false,
+  "isForeignOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Hobby Japan Promos",
+  "releaseDate": "2002-07-01",
+  "tokens": [
+
+  ],
+  "totalSetSize": 5,
+  "translations": {
+  },
+  "type": "promo"
+}

@@ -1,13 +1,7 @@
 {
-  "name": "Ice Age",
-  "code": "ICE",
-  "gathererCode": "IA",
-  "magicCardsInfoCode": "ia",
-  "releaseDate": "1995-06-01",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 383,
   "block": "Ice Age",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,13 +18,35 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Eiszeit",
-    "fr": "Ere Glaciaire",
-    "it": "Era Glaciale",
-    "es": "Era Glacial",
-    "pt": "Era Glacial"
+  "code": "ICE",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ICE",
+  "mcmId": 11,
+  "mcmName": "Ice Age",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Ice Age",
-  "mkm_id": 11
+  "name": "Ice Age",
+  "releaseDate": "1995-06-01",
+  "tcgplayerGroupId": 58,
+  "tokens": [
+
+  ],
+  "totalSetSize": 383,
+  "translations": {
+    "Chinese Simplified": "Ice Age",
+    "Chinese Traditional": "Ice Age",
+    "French": "Ice Age",
+    "German": "Ice Age",
+    "Italian": "Ice Age",
+    "Japanese": "Ice Age",
+    "Korean": "Ice Age",
+    "Portuguese (Brazil)": "Ice Age",
+    "Russian": "Ice Age",
+    "Spanish": "Ice Age"
+  },
+  "type": "expansion"
 }

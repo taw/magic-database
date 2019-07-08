@@ -1,18 +1,678 @@
 {
-  "name": "Commander 2015",
+  "baseSetSize": 0,
+  "block": "Commander",
   "code": "C15",
-  "magicCardsInfoCode": "c15",
-  "releaseDate": "2015-11-13",
-  "border": "black",
-  "type": "commander",
-  "translations": {
-    "de": "Commander 2015",
-    "fr": "Commander 2015",
-    "it": "Commander 2015",
-    "es": "Commander 2015",
-    "jp": "Commander 2015",
-    "cn": "Commander 2015"
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "C15",
+  "mcmId": 1679,
+  "mcmName": "Commander 2015",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Commander 2015",
-  "mkm_id": 1679
+  "name": "Commander 2015",
+  "releaseDate": "2015-11-13",
+  "tcgplayerGroupId": 1673,
+  "tokens": [
+    {
+      "artist": "Cyril Van Der Haegen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "2",
+      "power": "4",
+      "reverseRelated": [
+        "Empyrial Storm",
+        "Entreat the Angels",
+        "Decree of Justice",
+        "Sigil of the Empty Throne",
+        "Moonsilver Spear"
+      ],
+      "scryfallId": "8adb32a4-6a42-41e9-a1ce-9502e391620a",
+      "scryfallIllustrationId": "b9d5cf13-232e-492f-9542-bb7d8b150bad",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "73b1edb6-7f0e-5cac-ae5c-78c5bce53be1"
+    },
+    {
+      "artist": "Heather Hudson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Bear",
+      "number": "12",
+      "power": "2",
+      "reverseRelated": [
+        "Caller of the Claw"
+      ],
+      "scryfallId": "c879d4a6-cef5-48f1-8c08-f5b59ec850de",
+      "scryfallIllustrationId": "ada13b1c-381b-4899-aa0f-8436af2e6a3d",
+      "scryfallOracleId": "a62a374d-ccdd-418d-9bcd-5ca8bf9b05e8",
+      "toughness": "2",
+      "type": "Token Creature — Bear",
+      "uuid": "55455fdd-b217-5e24-aefb-405d9d344401"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "13",
+      "power": "4",
+      "reverseRelated": [
+        "Ezuri's Predation",
+        "Rampaging Baloths",
+        "Hunting Pack"
+      ],
+      "scryfallId": "920f4eca-4e0c-4cbc-9a9b-a5b4b447d49d",
+      "scryfallIllustrationId": "c4efc0d2-5321-42f3-8262-264d1b808029",
+      "scryfallOracleId": "695b14a0-920a-47bd-bd4a-7989862cdd0a",
+      "toughness": "4",
+      "type": "Token Creature — Beast",
+      "uuid": "ad5b20bb-c161-57ef-8952-d8dc9ac8ef1d"
+    },
+    {
+      "artist": "Jesper Ejsing",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Cat",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+        "Ajani's Chosen",
+        "Kemba, Kha Regent",
+        "White Sun's Zenith"
+      ],
+      "scryfallId": "9494ce65-5f2d-421c-a112-5de18e36f48b",
+      "scryfallIllustrationId": "101b0ebd-7d56-403b-96a8-cf2fcec6fcf4",
+      "scryfallOracleId": "6788478d-e157-4483-be09-9edb3f841431",
+      "toughness": "2",
+      "type": "Token Creature — Cat",
+      "uuid": "1451cae5-0498-5dd9-8f94-ea99f792e216"
+    },
+    {
+      "artist": "Jim Pavelec",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "9",
+      "power": "5",
+      "reverseRelated": [
+        "Awaken the Sky Tyrant",
+        "Day of the Dragons",
+        "Death by Dragons"
+      ],
+      "scryfallId": "e290b7f1-1598-4581-96b1-f57419ec408e",
+      "scryfallIllustrationId": "1462a26d-dd62-457d-96f2-07a4066426ed",
+      "scryfallOracleId": "60fe4897-6760-4c5a-8074-c92bd64df52b",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Dragon",
+      "uuid": "20a80e05-f0cd-571f-962f-d18ed0a24716"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Drake",
+      "number": "6",
+      "power": "2",
+      "reverseRelated": [
+        "Talrand, Sky Summoner"
+      ],
+      "scryfallId": "8fb5229a-8bdf-4090-8a5c-a35780bd6ff9",
+      "scryfallIllustrationId": "bd27a16e-6ba3-4966-8d70-9ed6e7f52d62",
+      "scryfallOracleId": "9e266374-80f1-458a-9417-16220d2a013a",
+      "text": "Flying",
+      "toughness": "2",
+      "type": "Token Creature — Drake",
+      "uuid": "58340399-e3a2-5546-89a8-efbc7a225930"
+    },
+    {
+      "artist": "Randy Gallegos",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R",
+        "U"
+      ],
+      "colors": [
+        "R",
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "20",
+      "power": "5",
+      "reverseRelated": [
+        "Call the Skybreaker"
+      ],
+      "scryfallId": "123f4998-2fee-4533-97ea-3afba67e6b80",
+      "scryfallIllustrationId": "5b7ffb95-4aa6-4a0a-9318-22e0b30ec161",
+      "scryfallOracleId": "66b91a2c-d5ac-421e-b210-039a20c71b16",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Elemental",
+      "uuid": "cd2fdca6-9ea2-5528-bcd7-b3c61dbd28a7"
+    },
+    {
+      "artist": "Jim Pavelec",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental Shaman",
+      "number": "10",
+      "power": "3",
+      "reverseRelated": [
+        "Hostility"
+      ],
+      "scryfallId": "12b27173-a486-4c03-8fce-e334f35d40b6",
+      "scryfallIllustrationId": "a81c9910-1a59-467f-a6be-9f57f839fb7e",
+      "scryfallOracleId": "a44da885-2d0f-4e16-ba68-ec80640e819f",
+      "toughness": "1",
+      "type": "Token Creature — Elemental Shaman",
+      "uuid": "34efc581-754e-5842-998a-b1f97a5ce620"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elephant",
+      "number": "14",
+      "power": "3",
+      "reverseRelated": [
+        "Bestial Menace",
+        "Kazandu Tuskcaller",
+        "Terastodon",
+        "Wolf",
+        "Snake"
+      ],
+      "scryfallId": "3dfc158c-bc5a-4f4b-a813-8ae372dbb0e7",
+      "scryfallIllustrationId": "0fe3c48b-f071-458f-9320-fa34b7e5d8cb",
+      "scryfallOracleId": "079c46cc-feb0-4998-8593-c8b739afdb82",
+      "toughness": "3",
+      "type": "Token Creature — Elephant",
+      "uuid": "a175ac6b-8950-5b9b-92cf-ac11eb03f65a"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Experience Counter",
+      "number": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "73805b39-7624-4fbd-bcc0-4241e733a97f",
+      "scryfallOracleId": "36403fd7-dad1-4c98-b52b-1150d9d566e5",
+      "text": "(Place your experience counters here.)",
+      "type": "Card",
+      "uuid": "3e2c1be3-4769-5a82-a96b-91cbc2e8165b"
+    },
+    {
+      "artist": "Jack Wang",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Frog Lizard",
+      "number": "15",
+      "power": "3",
+      "reverseRelated": [
+        "Rapid Hybridization"
+      ],
+      "scryfallId": "3bb5609e-6e4b-4af5-838d-88b76582ae70",
+      "scryfallIllustrationId": "44cb22ed-7a4c-4e3f-bbd3-548940000a78",
+      "scryfallOracleId": "8653c69b-99a9-4881-a14c-68ba928c34d5",
+      "toughness": "3",
+      "type": "Token Creature — Frog Lizard",
+      "uuid": "7812d6d9-0e4d-510e-b868-c6756019504c"
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Germ",
+      "number": "7",
+      "power": "0",
+      "reverseRelated": [
+        "Grip of Phyresis",
+        "Scytheclaw",
+        "Bonehoard",
+        "Lashwrithe"
+      ],
+      "scryfallId": "d573bb59-5167-4578-8674-355f38d0b7be",
+      "scryfallIllustrationId": "285432ed-cd72-4c1b-aa86-fa6945f5a5c1",
+      "scryfallOracleId": "bb549594-35f6-4ac6-9f1f-cfb35784d99e",
+      "toughness": "0",
+      "type": "Token Creature — Germ",
+      "uuid": "e1c6c9cf-7a0d-5ff6-ad1b-ae572aca128f"
+    },
+    {
+      "artist": "Richard Wright",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Gold",
+      "number": "24",
+      "reverseRelated": [
+        "Curse of Opulence",
+        "Gild"
+      ],
+      "scryfallId": "0ca10abd-8d9d-4c0b-9d33-c3516abdf6b3",
+      "scryfallIllustrationId": "5ea02106-4af0-4762-8740-a8007f91cda1",
+      "scryfallOracleId": "5aa757d8-db7a-4a60-b63e-c9777c141953",
+      "text": "Sacrifice this artifact: Add one mana of any color.",
+      "type": "Token Artifact",
+      "uuid": "82855c00-daca-5087-bee7-bdefe72657eb"
+    },
+    {
+      "artist": "Hideaki Takamura",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Knight",
+      "number": "4",
+      "power": "2",
+      "reverseRelated": [
+        "Hunted Dragon"
+      ],
+      "scryfallId": "2a6415b3-cd84-41fc-95cd-3d2dd84911cb",
+      "scryfallIllustrationId": "f65a1994-e40b-48c1-ba63-fa74026e84f3",
+      "scryfallOracleId": "100435fe-ae77-4644-8b4a-4c941bb2067f",
+      "text": "First strike",
+      "toughness": "2",
+      "type": "Token Creature — Knight",
+      "uuid": "a95f5f18-3065-5b6d-ada5-6b5f8565b77d"
+    },
+    {
+      "artist": "Matt Stewart",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Knight",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Righteous Confluence",
+        "Selesnya Charm"
+      ],
+      "scryfallId": "fb900962-2273-4e13-92c5-e9aced0d322d",
+      "scryfallIllustrationId": "ae4800d6-1be9-4a71-9745-cbbfaa0ec8fe",
+      "scryfallOracleId": "340aaeb6-cd18-4908-9729-8c53ab02c6f8",
+      "text": "Vigilance",
+      "toughness": "2",
+      "type": "Token Creature — Knight",
+      "uuid": "03661118-a4f1-5ca9-8a97-f7ba7487a3e6"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Lightning Rager",
+      "number": "11",
+      "power": "5",
+      "reverseRelated": [
+        "Rite of the Raging Storm"
+      ],
+      "scryfallId": "cde2b3db-d71b-401f-852c-81c39d585a16",
+      "scryfallIllustrationId": "95c5bdec-5540-4171-9f1b-09a2d21fd975",
+      "scryfallOracleId": "5bb0c2ce-429c-4188-8d5a-7183dc104590",
+      "text": "Trample, haste\nAt the beginning of the end step, sacrifice this creature.",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "325331bf-6b8f-5725-a43b-4516d46fc6e6"
+    },
+    {
+      "artist": "Brad Rigney",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "16",
+      "power": "1",
+      "reverseRelated": [
+        "Tana, the Bloodsower",
+        "Jade Mage",
+        "Fists of Ironwood",
+        "Mycoloth",
+        "Verdant Force",
+        "Artifact Mutation",
+        "Aura Mutation",
+        "Ghave, Guru of Spores",
+        "Thelonite Hermit",
+        "Korozda Guildmage",
+        "Necrogenesis",
+        "Sprouting Thrinax",
+        "Selesnya Guildmage",
+        "Druidic Satchel",
+        "Vitu-Ghazi, the City-Tree"
+      ],
+      "scryfallId": "bf6cf1cf-3efa-409f-84ec-783621566000",
+      "scryfallIllustrationId": "54430daa-acec-42fc-9330-ef8c4c015569",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "c7b5738c-e854-53aa-b546-7fe350e64172"
+    },
+    {
+      "artist": "Franz Vohwinkel",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Shapeshifter",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Crib Swap"
+      ],
+      "scryfallId": "57753582-85bc-4485-b924-eaab563678d6",
+      "scryfallIllustrationId": "31004897-2994-49d6-9668-98941c5458fa",
+      "scryfallOracleId": "fe8478ec-2af9-472b-b104-a71521a3559f",
+      "text": "Changeling",
+      "toughness": "1",
+      "type": "Token Creature — Shapeshifter",
+      "uuid": "dddcdd6c-2b07-5dff-ab78-38512bf721bf"
+    },
+    {
+      "artist": "Dan Scott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Snake",
+      "number": "17",
+      "power": "1",
+      "reverseRelated": [
+        "Bestial Menace",
+        "Cobra Trap",
+        "Orochi Hatchery",
+        "Wolf",
+        "Elephant"
+      ],
+      "scryfallId": "f29ed172-10e9-430d-977f-7f48da2b65de",
+      "scryfallIllustrationId": "59938d84-9cc6-4a7e-829d-9db806e6fc0f",
+      "scryfallOracleId": "9ecd83ce-f866-4cbe-9712-c44aabe979c6",
+      "toughness": "1",
+      "type": "Token Creature — Snake",
+      "uuid": "0b8da677-d58c-54dd-927b-13be1fa98b5a"
+    },
+    {
+      "artist": "Christopher Moeller",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "U"
+      ],
+      "colors": [
+        "G",
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Snake",
+      "number": "21",
+      "power": "1",
+      "reverseRelated": [
+        "Patagia Viper"
+      ],
+      "scryfallId": "153f01ac-8601-488f-8da7-72f392c0a3c6",
+      "scryfallIllustrationId": "c01cc3e0-9311-4088-b95b-b1bea4bda453",
+      "scryfallOracleId": "b54d7c25-6de9-4782-9336-1bf27dc8c046",
+      "toughness": "1",
+      "type": "Token Creature — Snake",
+      "uuid": "bea5ee0a-f701-53b3-a74e-a2ed30cc8402"
+    },
+    {
+      "artist": "Daniel Ljunggren",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Spider",
+      "number": "18",
+      "power": "1",
+      "reverseRelated": [
+        "Arachnogenesis",
+        "Spider Spawning"
+      ],
+      "scryfallId": "e8efa0fc-e710-44f8-8128-485c2d43cc9e",
+      "scryfallIllustrationId": "e4ac9b64-168d-4b85-8e7b-98791d165b61",
+      "scryfallOracleId": "bd386399-69f0-4653-96a1-fd05b8fd148c",
+      "text": "Reach",
+      "toughness": "2",
+      "type": "Token Creature — Spider",
+      "uuid": "3f004f52-ecf5-5cdd-871d-a75b7b77571c"
+    },
+    {
+      "artist": "Cliff Childs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "colors": [
+        "B",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "22",
+      "power": "1",
+      "reverseRelated": [
+        "Teysa, Envoy of Ghosts"
+      ],
+      "scryfallId": "9e50a908-0adb-4149-b8cf-2cfb56eab2cb",
+      "scryfallIllustrationId": "7781acf5-5a1c-4bfd-aa67-7fe6693c5cbb",
+      "scryfallOracleId": "18ef473d-f958-4bff-8045-154f6adc6b04",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "2fdbe733-dc5e-58eb-b0ac-5a4358e19a17"
+    },
+    {
+      "artist": "Adam Paquette",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "colors": [
+        "B",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "23",
+      "power": "*",
+      "reverseRelated": [
+        "Daxos the Returned"
+      ],
+      "scryfallId": "03553980-53fa-4256-b478-c7e0e73e2b5b",
+      "scryfallIllustrationId": "915326fe-3290-45d7-ae7b-98039d3352a2",
+      "scryfallOracleId": "78adae1b-3c0f-4ded-9303-bb7db1b570a0",
+      "text": "This creature's power and toughness are each equal to the number of experience counters you have.",
+      "toughness": "*",
+      "type": "Token Enchantment Creature — Spirit",
+      "uuid": "1b11c97c-fd6c-554e-80a9-8253ffd48e83"
+    },
+    {
+      "artist": "David Palumbo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "19",
+      "power": "2",
+      "reverseRelated": [
+        "Wolfcaller's Howl",
+        "Kessig Cagebreakers",
+        "Bestial Menace",
+        "Wolfbriar Elemental",
+        "Wren's Run Packmaster",
+        "Elephant",
+        "Snake"
+      ],
+      "scryfallId": "7dc406c6-c2d7-4771-b916-258f7a35275a",
+      "scryfallIllustrationId": "cc035855-ebc1-4443-976c-661e22b89991",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "3f81f2b9-09e7-558e-8236-d893888328a5"
+    },
+    {
+      "artist": "Lucas Graciano",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "8",
+      "power": "2",
+      "reverseRelated": [
+        "Curse of Disturbance",
+        "Ghoulcaller Gisa",
+        "Overseer of the Damned",
+        "Varina, Lich Queen",
+        "Dread Summons",
+        "Syphon Flesh",
+        "Army of the Damned",
+        "Waste Not",
+        "Grave Titan",
+        "Liliana's Reaver",
+        "Necromancer's Covenant"
+      ],
+      "scryfallId": "8ffaa67e-32fa-4843-8858-feed2ebb40df",
+      "scryfallIllustrationId": "6bb462b0-a2a7-4cdf-9fe4-c14d6aceeddc",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "c373cda1-e50a-5e40-9005-bccc551b8e42"
+    }
+  ],
+  "totalSetSize": 342,
+  "translations": {
+    "Chinese Simplified": "Commander (2015 Edition)",
+    "Chinese Traditional": "Commander (2015 Edition)",
+    "French": "Commander (2015 Edition)",
+    "German": "Commander (2015 Edition)",
+    "Italian": "Commander (2015 Edition)",
+    "Japanese": "Commander (2015 Edition)",
+    "Korean": "Commander (2015 Edition)",
+    "Portuguese (Brazil)": "Commander (2015 Edition)",
+    "Russian": "Commander (2015 Edition)",
+    "Spanish": "Commander (2015 Edition)"
+  },
+  "type": "commander"
 }

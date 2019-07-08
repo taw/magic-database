@@ -1,13 +1,63 @@
 {
-  "name": "Duel Decks: Sorin vs. Tibalt",
+  "baseSetSize": 0,
   "code": "DDK",
-  "magicCardsInfoCode": "ddk",
-  "releaseDate": "2013-03-15",
-  "border": "black",
-  "type": "duel deck",
-  "translations": {
-    "jp": "Duel Decks: Sorin vs. Tibalt"
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DDK",
+  "mcmId": 1430,
+  "mcmName": "Duel Decks: Sorin vs. Tibalt",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Duel Decks: Sorin vs. Tibalt",
-  "mkm_id": 1430
+  "mtgoCode": "DDK",
+  "name": "Duel Decks: Sorin vs. Tibalt",
+  "releaseDate": "2013-03-15",
+  "tcgplayerGroupId": 601,
+  "tokens": [
+    {
+      "artist": "Ryan Yee",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Doomed Traveler",
+        "Twilight Drover",
+        "Mausoleum Guard",
+        "Lingering Souls",
+        "Spectral Procession",
+        "Field of Souls"
+      ],
+      "scryfallId": "58be6a05-8021-4fca-8e9f-0ebb4769c635",
+      "scryfallIllustrationId": "50ddbe3c-fb6c-4a9f-87c9-fd200719576f",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "e8799b45-4308-5f79-b69a-73e3f36cd670"
+    }
+  ],
+  "totalSetSize": 80,
+  "translations": {
+    "Chinese Simplified": "Sorin vs. Tibalt",
+    "Chinese Traditional": "Sorin vs. Tibalt",
+    "French": "Sorin vs. Tibalt",
+    "German": "Sorin vs. Tibalt",
+    "Italian": "Sorin vs. Tibalt",
+    "Japanese": "Sorin vs. Tibalt",
+    "Korean": "Sorin vs. Tibalt",
+    "Portuguese (Brazil)": "Sorin vs. Tibalt",
+    "Russian": "Sorin vs. Tibalt",
+    "Spanish": "Sorin vs. Tibalt"
+  },
+  "type": "duel_deck"
 }

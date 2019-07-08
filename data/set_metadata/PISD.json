@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Innistrad",
+  "code": "PISD",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ISD",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Innistrad Promos",
+  "parentCode": "ISD",
+  "releaseDate": "2011-09-24",
+  "tokens": [
+
+  ],
+  "totalSetSize": 5,
+  "translations": {
+  },
+  "type": "promo"
+}

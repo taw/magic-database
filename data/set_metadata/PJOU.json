@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Theros",
+  "code": "PJOU",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "JOU",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Journey into Nyx Promos",
+  "parentCode": "JOU",
+  "releaseDate": "2014-04-26",
+  "tokens": [
+
+  ],
+  "totalSetSize": 9,
+  "translations": {
+  },
+  "type": "promo"
+}

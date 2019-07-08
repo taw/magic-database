@@ -1,12 +1,7 @@
 {
-  "name": "Coldsnap",
-  "code": "CSP",
-  "magicCardsInfoCode": "cs",
-  "releaseDate": "2006-07-21",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 155,
   "block": "Ice Age",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,16 +18,59 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Kälteeinbruch",
-    "fr": "Souffle glaciaire",
-    "it": "Ondata Glaciale",
-    "es": "Ola de frío",
-    "pt": "Frente Fria",
-    "jp": "コールドスナップ",
-    "cn": "骤霜",
-    "ru": "Стужа"
+  "code": "CSP",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "CSP",
+  "mcmId": 52,
+  "mcmName": "Coldsnap",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Coldsnap",
-  "mkm_id": 52
+  "mtgoCode": "CSP",
+  "name": "Coldsnap",
+  "releaseDate": "2006-07-21",
+  "tcgplayerGroupId": 24,
+  "tokens": [
+    {
+      "artist": "Stephan Martiniere",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Marit Lage",
+      "number": "1",
+      "power": "20",
+      "reverseRelated": [
+        "Dark Depths"
+      ],
+      "scryfallId": "8f5c3863-c876-48a8-9bc8-be20cd61074c",
+      "scryfallIllustrationId": "75f2b602-76dd-448f-82d0-0f42c71830ec",
+      "scryfallOracleId": "48e9147e-59f7-4693-83d7-7f514be871bc",
+      "text": "Flying, indestructible",
+      "toughness": "20",
+      "type": "Token Legendary Creature — Avatar",
+      "uuid": "b5123ae5-3080-5869-97d4-7dc0ab6f7156"
+    }
+  ],
+  "totalSetSize": 155,
+  "translations": {
+    "Chinese Simplified": "骤霜",
+    "Chinese Traditional": "驟霜",
+    "French": "Souffle glaciaire",
+    "German": "Kälteeinbruch",
+    "Italian": "Ondata Glaciale",
+    "Japanese": "コールドスナップ",
+    "Korean": "한파",
+    "Portuguese (Brazil)": "Frente Fria",
+    "Russian": "Coldsnap",
+    "Spanish": "Ola de frío"
+  },
+  "type": "expansion"
 }

@@ -1,10 +1,35 @@
 {
-  "name": "Premium Deck Series: Graveborn",
+  "baseSetSize": 0,
   "code": "PD3",
-  "magicCardsInfoCode": "pd3",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "PD3",
+  "mcmId": 1337,
+  "mcmName": "Premium Deck Series: Graveborn",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "PD3",
+  "name": "Premium Deck Series: Graveborn",
   "releaseDate": "2011-11-18",
-  "border": "black",
-  "type": "premium deck",
-  "mkm_name": "Premium Deck Series: Graveborn",
-  "mkm_id": 1337
+  "tcgplayerGroupId": 90,
+  "tokens": [
+
+  ],
+  "totalSetSize": 30,
+  "translations": {
+    "Chinese Simplified": "Premium Deck Series: Graveborn",
+    "Chinese Traditional": "Premium Deck Series: Graveborn",
+    "French": "Premium Deck Series: Graveborn",
+    "German": "Premium Deck Series: Graveborn",
+    "Italian": "Premium Deck Series: Graveborn",
+    "Japanese": "Premium Deck Series: Graveborn",
+    "Korean": "Premium Deck Series: Graveborn",
+    "Portuguese (Brazil)": "Premium Deck Series: Graveborn",
+    "Russian": "Premium Deck Series: Graveborn",
+    "Spanish": "Premium Deck Series: Graveborn"
+  },
+  "type": "premium_deck"
 }

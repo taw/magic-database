@@ -1,0 +1,24 @@
+{
+  "baseSetSize": 0,
+  "code": "PDOM",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "DOM",
+  "mcmId": 2315,
+  "mcmName": "Dominaria: Promos",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Dominaria Promos",
+  "parentCode": "DOM",
+  "releaseDate": "2018-04-27",
+  "tokens": [
+
+  ],
+  "totalSetSize": 96,
+  "translations": {
+  },
+  "type": "promo"
+}

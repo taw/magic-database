@@ -1,11 +1,22 @@
 {
+  "baseSetSize": 0,
+  "code": "PELP",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
   "name": "European Land Program",
-  "code": "pELP",
-  "magicCardsInfoCode": "euro",
-  "magicRaritiesCodes": [
-    "46-rarities-euro-lands"
-  ],
   "releaseDate": "2000-02-05",
-  "border": "black",
+  "tcgplayerGroupId": 38,
+  "tokens": [
+
+  ],
+  "totalSetSize": 15,
+  "translations": {
+  },
   "type": "promo"
 }

@@ -1,0 +1,195 @@
+{
+  "baseSetSize": 0,
+  "code": "WC00",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "World Championship Decks 2000",
+  "releaseDate": "2000-08-02",
+  "tokens": [
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "2000 World Championships Ad",
+      "number": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "5ee6f44e-f788-46fd-a1d9-d3c7009a0ff2",
+      "scryfallOracleId": "53680692-f5a9-4774-b7ae-c4bd73b13db7",
+      "type": "Card",
+      "uuid": "9a9b096c-8537-5d72-a8e6-d9a7a271bc6b"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Janosch Kühn Bio (2000)",
+      "number": "jk0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "fe1a99b3-5ff4-48d4-8603-7271f12269f4",
+      "scryfallOracleId": "a0ebc801-4829-416a-990f-c200b109a5db",
+      "text": "Hannover, Germany native Janosch Kühn joined an elite group of players in earning his second World Championship Top 8. Kühn played a red-green deck known as \"Angry 'Derm\" or \"Son of Hermit.\" The deck built up its mana early with Birds of Paradise or Llanowar Elves, and then followed that up with mana-denial cards like Stone Rain, Plow Under, and Avalanche Riders. Masticore and Blastoderm provided the finishing punch.",
+      "type": "Card",
+      "uuid": "0172ec3e-2af0-5383-ae19-5699b9b5ec1c"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Janosch Kühn Decklist (2000)",
+      "number": "jk0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "170c4817-104c-4a10-a796-6e62c5104920",
+      "scryfallOracleId": "5ebd7be1-d3d9-4765-90c2-f88808e313ab",
+      "type": "Card",
+      "uuid": "a3b51471-078a-52d2-9aaf-a99f3512dc8b"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Jon Finkel Bio",
+      "number": "jf0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "de9d6766-2b3c-4215-858b-5205702cbc8e",
+      "scryfallOracleId": "8a14f83d-2eed-46c3-b9a5-e0e55bbd7a66",
+      "text": "\"World Champion\" was the one honor Jon Finkel had yet to claim. His dominating performance at this year's World Championships earned him that title at lost. Finkel played an explosive deck that is named after its most important card, Tinker. Fellow Team Antarctica member Dan O'Mahoney-Schwartz designed this monoblue deck. The deck used artifacts such as Grim Monolith, Metalworker, and Voltaic Key to quickly generate huge amounts of mana, and then used that mana to put large creatures into play.",
+      "type": "Card",
+      "uuid": "f5b94aef-c130-51c9-b7a7-9b7cbeb1aee0"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Jon Finkel Decklist",
+      "number": "jf0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "b905ddba-8808-45b3-81bf-406592e4c661",
+      "scryfallOracleId": "36bdc4a1-1e48-4fd5-b8dd-8a8c964d89e9",
+      "type": "Card",
+      "uuid": "981733ee-914d-533b-a270-07a537b019ff"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Nicolas Labarre Bio",
+      "number": "nl0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "260e570f-e86f-4c7f-ae69-c601de1405d8",
+      "scryfallOracleId": "0ba72b8a-56aa-45be-9628-73825b506bba",
+      "text": "The 2000 World Championships was Nicolas Labarre's third Top 8 finish at a Pro Tour™ event (Rome '98, New York '99, Worlds '00). This Rennes, France native played a combo deck that he called \"Chimera.\" This deck used searching cards like Academy Rector and Enlightened Tutor to fetch Fecundity, Saproling Cluster, and Ashnod's Altar. Once those three cards were in play, Labarre could generate as much mana as he wanted. With unlimited mana, he could play a very big Blaze or use Whetstone to immediately deck his opponent.",
+      "type": "Card",
+      "uuid": "caec4081-d71b-50ff-833c-76b674f157e6"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Nicolas Labarre Decklist",
+      "number": "nl0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "a3194e3a-b70c-4171-9e93-4d8cbb67bfe1",
+      "scryfallOracleId": "d468fd58-4acd-4059-a57c-2d957fb7dcab",
+      "type": "Card",
+      "uuid": "4fb91fb6-2eea-5b06-949d-36c96ed1ba2d"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Tom van de Logt Bio (2000)",
+      "number": "tvdl0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "4330efa7-a11b-4776-9fb0-1cae8aed67b1",
+      "scryfallOracleId": "5ac06f89-3088-4ed6-8901-47dbc90716ca",
+      "text": "Quarterfinalist Tom van de Logt posted a perfect 6–0 record during the Standard portion of this year's World Championships. The 19-year-old Groesbeek, Holland native was playing a deck that had a big impact on the metagame this year, \"Replenish.\" This deck used cards like Attunement and Frantic Search to put powerful enchantments, such as Parallax Wave and Opalescence, into the graveyard and then used Replenish to put them all back into play at once.",
+      "type": "Card",
+      "uuid": "b5e2d7a8-a1c1-5df2-ae97-3438862693dc"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Tom van de Logt Decklist (2000)",
+      "number": "tvdl0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "0e4702c0-1999-4982-aef8-1af478f1d511",
+      "scryfallOracleId": "70d4fb47-5fcf-4d69-a6d5-2a1a8ca7a790",
+      "type": "Card",
+      "uuid": "00add9c3-42c1-501b-bd85-7f6bd179c57c"
+    }
+  ],
+  "totalSetSize": 116,
+  "translations": {
+  },
+  "type": "memorabilia"
+}

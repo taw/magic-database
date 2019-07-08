@@ -1,0 +1,454 @@
+{
+  "baseSetSize": 269,
+  "boosterV3": [
+    [
+      "rare",
+      "mythic rare"
+    ],
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "land",
+    "marketing"
+  ],
+  "code": "DOM",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DOM",
+  "mcmId": 1822,
+  "mcmName": "Dominaria",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "DAR",
+  "name": "Dominaria",
+  "releaseDate": "2018-04-27",
+  "tcgplayerGroupId": 2199,
+  "tokens": [
+    {
+      "artist": "Seb McKinnon",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Cleric",
+      "number": "4",
+      "power": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "74791ac4-7297-4731-aff8-20130da8b4b7",
+      "scryfallIllustrationId": "cd92bfdd-c7c7-4052-8fb4-fe9d26bbf628",
+      "scryfallOracleId": "3759f91a-d829-49a6-8b72-542a41789ebd",
+      "toughness": "1",
+      "type": "Token Creature — Cleric",
+      "uuid": "ec26555f-26b1-53e3-8569-21b020339250"
+    },
+    {
+      "artist": "Victor Adame Minguez",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Construct",
+      "number": "14",
+      "power": "0",
+      "reverseRelated": [
+        "Karn, Scion of Urza"
+      ],
+      "scryfallId": "c5eafa38-5333-4ef2-9661-08074c580a32",
+      "scryfallIllustrationId": "89acb32a-d992-4da4-9395-a88164a37591",
+      "scryfallOracleId": "ee740c48-59cd-4fcc-b4a5-fe3dde1361d5",
+      "text": "This creature gets +1/+1 for each artifact you control.",
+      "toughness": "0",
+      "type": "Token Artifact Creature — Construct",
+      "uuid": "35d9b3f2-988c-56ac-a521-4cb0a407810c"
+    },
+    {
+      "artist": "Seb McKinnon",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Demon",
+      "number": "7",
+      "power": "6",
+      "reverseRelated": [
+        "Rite of Belzenlok"
+      ],
+      "scryfallId": "73b858b5-803b-4bcf-99d6-8c20c8b37f07",
+      "scryfallIllustrationId": "1bb962dd-8164-48d0-b48c-686ad059af18",
+      "scryfallOracleId": "b3dc62be-b52c-4259-a285-abdf611649a7",
+      "text": "Flying, trample\nAt the beginning of your upkeep, sacrifice another creature. If you can't, this creature deals 6 damage to you.",
+      "toughness": "6",
+      "type": "Token Creature — Demon",
+      "uuid": "6d1e5de0-5587-5e51-b70f-0be70c6fe075"
+    },
+    {
+      "artist": "Victor Adame Minguez",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "8",
+      "power": "3",
+      "reverseRelated": [
+        "Valduk, Keeper of the Flame"
+      ],
+      "scryfallId": "9b9cc37a-b9c3-40c2-a3e4-abfec86e199b",
+      "scryfallIllustrationId": "d09581e2-28d6-45cf-a56e-b1cdf7a7b028",
+      "scryfallOracleId": "e2931f20-e58a-480d-bc07-4a18030a4f67",
+      "text": "Trample, haste",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "6d8e3371-3274-5de0-9c91-7abe3bb22af4"
+    },
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "9",
+      "power": "1",
+      "reverseRelated": [
+        "Siege-Gang Commander"
+      ],
+      "scryfallId": "bd79264f-0734-48b7-8333-4035e518d46c",
+      "scryfallIllustrationId": "33cc8922-b6fb-459b-9c51-aac653d5c38b",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "44c28917-a8c4-55e7-bd9d-637652aa3a80"
+    },
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Jaya Ballard Emblem",
+      "number": "15",
+      "reverseRelated": [
+        "Jaya Ballard"
+      ],
+      "scryfallId": "8fcdb224-d4b3-4d99-abea-467def65ef42",
+      "scryfallIllustrationId": "48b900f0-a9a8-46de-b99e-d21665b68c7c",
+      "scryfallOracleId": "82f55659-e4df-485d-a7cf-a11f27d6ae5d",
+      "text": "You may cast instant and sorcery cards from your graveyard. If a card cast this way would be put into your graveyard, exile it instead.",
+      "type": "Emblem — Jaya",
+      "uuid": "8d3edc7a-3121-533b-9f5c-bbdca9211ddc"
+    },
+    {
+      "artist": "XiaoDi Jin",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Karox Bladewing",
+      "number": "10",
+      "power": "4",
+      "reverseRelated": [
+        "Verix Bladewing"
+      ],
+      "scryfallId": "7c0cdb0d-f720-4ed2-af08-ced9b54f6702",
+      "scryfallIllustrationId": "67c6b844-8dc3-4713-815b-da5bafec53c2",
+      "scryfallOracleId": "2aa23bbf-ecd8-4ae8-b4a3-fd1e82e5e796",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Legendary Creature — Dragon",
+      "uuid": "2c3c182c-42f5-5c44-8ea2-8bbbf1cb045a"
+    },
+    {
+      "artist": "Dan Scott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Knight",
+      "number": "1",
+      "power": "2",
+      "reverseRelated": [
+        "Call the Cavalry",
+        "History of Benalia",
+        "Aryel, Knight of Windgrace"
+      ],
+      "scryfallId": "e0bce908-fc95-40c6-a04a-752d56aca836",
+      "scryfallIllustrationId": "ba6e9677-8009-4e48-bc1b-ac98bb5216a0",
+      "scryfallOracleId": "340aaeb6-cd18-4908-9729-8c53ab02c6f8",
+      "text": "Vigilance",
+      "toughness": "2",
+      "type": "Token Creature — Knight",
+      "uuid": "94696610-be6c-5d4c-a351-6432cd0bc4dc"
+    },
+    {
+      "artist": "Tyler Walpole",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Knight",
+      "number": "2",
+      "power": "2",
+      "reverseRelated": [
+        "Call the Cavalry",
+        "History of Benalia",
+        "Aryel, Knight of Windgrace"
+      ],
+      "scryfallId": "cc7d137c-f6c0-44e5-af9f-a8bbd52d3b2a",
+      "scryfallIllustrationId": "fd28c681-ecb1-464e-9a41-5881cee3add6",
+      "scryfallOracleId": "340aaeb6-cd18-4908-9729-8c53ab02c6f8",
+      "text": "Vigilance",
+      "toughness": "2",
+      "type": "Token Creature — Knight",
+      "uuid": "ec1952ea-914a-5c59-a223-0adb3fd36eb5"
+    },
+    {
+      "artist": "Aaron Miller",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Nightmare Horror",
+      "number": "6",
+      "power": "*",
+      "reverseRelated": [
+        "Chainer's Torment"
+      ],
+      "scryfallId": "4d33b752-c806-4932-ae0a-46f00ed937de",
+      "scryfallIllustrationId": "cef1e409-5feb-4eeb-bf34-015639b9e0af",
+      "scryfallOracleId": "eabcfcf5-4f51-42c1-8eb8-38810d6ebd47",
+      "toughness": "*",
+      "type": "Token Creature — Nightmare Horror",
+      "uuid": "cc076ab8-381b-5b44-bfae-e4ae1a71776e"
+    },
+    {
+      "artist": "Mike Burns",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "11",
+      "power": "1",
+      "reverseRelated": [
+        "Deathbloom Thallid",
+        "Fungal Infection",
+        "Fungal Plots",
+        "Saproling Migration",
+        "Spore Swarm",
+        "Verdant Force",
+        "Yavimaya Sapherd",
+        "Slimefoot, the Stowaway"
+      ],
+      "scryfallId": "5371de1b-db33-4db4-a518-e35c71aa72b7",
+      "scryfallIllustrationId": "ffc2b43c-0880-4fd9-9c69-791a8963f65f",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "9117a8cb-1905-5905-9b1a-0458516f160b"
+    },
+    {
+      "artist": "Steve Prescott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "12",
+      "power": "1",
+      "reverseRelated": [
+        "Deathbloom Thallid",
+        "Fungal Infection",
+        "Fungal Plots",
+        "Saproling Migration",
+        "Spore Swarm",
+        "Verdant Force",
+        "Yavimaya Sapherd",
+        "Slimefoot, the Stowaway"
+      ],
+      "scryfallId": "0b425bdc-b3d5-4825-9f97-a00e2d932438",
+      "scryfallIllustrationId": "3121ecae-414b-4447-b5c1-e96b5feda380",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "58f12ccd-24b0-5ed9-9a0b-4803ae1fc4a9"
+    },
+    {
+      "artist": "Shreya Shetty",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "13",
+      "power": "1",
+      "reverseRelated": [
+        "Deathbloom Thallid",
+        "Fungal Infection",
+        "Fungal Plots",
+        "Saproling Migration",
+        "Spore Swarm",
+        "Verdant Force",
+        "Yavimaya Sapherd",
+        "Slimefoot, the Stowaway"
+      ],
+      "scryfallId": "a49da8fe-559f-4c34-b904-c285188fb98d",
+      "scryfallIllustrationId": "ac6d0b55-7118-4fc9-b919-3f030e0b66e1",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "c5145066-fed1-5768-aa40-93d43dbb2a02"
+    },
+    {
+      "artist": "Jakub Kasper",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Sergeant-at-Arms",
+        "Memorial to Glory"
+      ],
+      "scryfallId": "f9b56129-17a2-4512-a4d6-34779224473f",
+      "scryfallIllustrationId": "16f4d8b3-5096-46a0-8513-7431eb7c108e",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "6bbc51ca-4a39-58d5-9db4-2afc56947a69"
+    },
+    {
+      "artist": "Chris Rallis",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Teferi, Hero of Dominaria Emblem",
+      "number": "16",
+      "reverseRelated": [
+        "Teferi, Hero of Dominaria"
+      ],
+      "scryfallId": "b82ac152-5df1-46c9-98e9-ad5585f7e799",
+      "scryfallIllustrationId": "de6f4014-7c85-4021-aaef-dcafdd48a302",
+      "scryfallOracleId": "77f14c9f-cc82-448e-b91b-e5dcc8c63c0a",
+      "text": "Whenever you draw a card, exile target permanent an opponent controls.",
+      "type": "Emblem — Teferi",
+      "uuid": "7b0c88b0-d2c9-5dda-9e49-4c3f97f1b01d"
+    },
+    {
+      "artist": "Even Amundsen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie Knight",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Josu Vess, Lich Knight"
+      ],
+      "scryfallId": "0b527bcd-0d37-495a-8457-8123388056b9",
+      "scryfallIllustrationId": "4abe33c2-b9f3-4c9e-9fc9-6a1f24d36ecc",
+      "scryfallOracleId": "68a1cfb5-89d8-478c-b6e8-0706677f3217",
+      "text": "Menace (This creature can't be blocked except by two or more creatures.)",
+      "toughness": "2",
+      "type": "Token Creature — Zombie Knight",
+      "uuid": "1e7ce5a5-12e9-541e-a830-eeffc73d180e"
+    }
+  ],
+  "totalSetSize": 280,
+  "translations": {
+    "Chinese Simplified": "多明纳里亚",
+    "Chinese Traditional": "多明納里亞",
+    "French": "Dominaria",
+    "German": "Dominaria",
+    "Italian": "Dominaria",
+    "Japanese": "『ドミナリア』",
+    "Korean": "도미나리아",
+    "Portuguese (Brazil)": "DOMINÁRIA",
+    "Russian": "ДОМИНАРИЯ",
+    "Spanish": "Dominaria"
+  },
+  "type": "expansion"
+}

@@ -1,12 +1,7 @@
 {
-  "name": "Future Sight",
-  "code": "FUT",
-  "magicCardsInfoCode": "fut",
-  "releaseDate": "2007-05-04",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 180,
   "block": "Time Spiral",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "timeshifted rare"
@@ -68,16 +63,36 @@
       "timeshifted common"
     ]
   ],
-  "translations": {
-    "de": "Blick in die Zukunft",
-    "fr": "Vision de l'Avenir",
-    "it": "Visione Futura",
-    "es": "Visión del Futuro",
-    "pt": "Visão do Futuro",
-    "jp": "未来予知",
-    "cn": "预知将来",
-    "ru": "Взгляд в Будущее"
+  "code": "FUT",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "FUT",
+  "mcmId": 70,
+  "mcmName": "Future Sight",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Future Sight",
-  "mkm_id": 70
+  "mtgoCode": "FUT",
+  "name": "Future Sight",
+  "releaseDate": "2007-05-04",
+  "tcgplayerGroupId": 51,
+  "tokens": [
+
+  ],
+  "totalSetSize": 180,
+  "translations": {
+    "Chinese Simplified": "预知将来",
+    "Chinese Traditional": "Future Sight",
+    "French": "Vision de l'avenir",
+    "German": "Blick in die Zukunft",
+    "Italian": "Visione Futura",
+    "Japanese": "未来予知",
+    "Korean": "미래를 보는 눈",
+    "Portuguese (Brazil)": "Visão do Futuro",
+    "Russian": "Взгляд в Будущее",
+    "Spanish": "Visión del futuro"
+  },
+  "type": "expansion"
 }

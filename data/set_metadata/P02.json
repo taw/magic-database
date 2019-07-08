@@ -1,0 +1,41 @@
+{
+  "baseSetSize": 165,
+  "boosterV3": [
+    "rare",
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common"
+  ],
+  "code": "P02",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "P02",
+  "mcmId": 24,
+  "mcmName": "Portal Second Age",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Portal Second Age",
+  "releaseDate": "1998-06-01",
+  "tcgplayerGroupId": 87,
+  "tokens": [
+
+  ],
+  "totalSetSize": 165,
+  "translations": {
+  },
+  "type": "starter"
+}

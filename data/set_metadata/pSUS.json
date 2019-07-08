@@ -1,11 +1,22 @@
 {
-  "name": "Super Series",
-  "code": "pSUS",
-  "magicCardsInfoCode": "sus",
-  "magicRaritiesCodes": [
-    "36-rarities-junior-super-series"
-  ],
+  "baseSetSize": 0,
+  "code": "PSUS",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "DCI",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Junior Super Series",
   "releaseDate": "1999-12-01",
-  "border": "black",
+  "tcgplayerGroupId": 61,
+  "tokens": [
+
+  ],
+  "totalSetSize": 18,
+  "translations": {
+  },
   "type": "promo"
 }

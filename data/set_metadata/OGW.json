@@ -1,12 +1,7 @@
 {
-  "name": "Oath of the Gatewatch",
-  "code": "OGW",
-  "magicCardsInfoCode": "ogw",
-  "releaseDate": "2016-01-22",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 184,
   "block": "Battle for Zendikar",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,16 +22,423 @@
     "land",
     "marketing"
   ],
+  "code": "OGW",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "OGW",
+  "mcmId": 1676,
+  "mcmName": "Oath of the Gatewatch",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "OGW",
+  "name": "Oath of the Gatewatch",
+  "releaseDate": "2016-01-22",
+  "tcgplayerGroupId": 1693,
+  "tokens": [
+    {
+      "artist": "Anastasia Ovchinnikova",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "7",
+      "power": "3",
+      "reverseRelated": [
+        "Linvala, the Preserver"
+      ],
+      "scryfallId": "96f407ef-2b08-45e9-a45e-128cf0a63839",
+      "scryfallIllustrationId": "2f246b19-da49-4978-8644-7430fabfaa31",
+      "scryfallOracleId": "263fd9ed-d3dc-4a96-b731-dd8f4bb0f95a",
+      "text": "Flying",
+      "toughness": "3",
+      "type": "Token Creature — Angel",
+      "uuid": "0fb945c6-6e35-51d5-b81d-7fa80f15392b"
+    },
+    {
+      "artist": "Izzy",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Scion",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Blight Herder",
+        "Warping Wail",
+        "Abstruse Interference",
+        "Adverse Conditions",
+        "Drowner of Hope",
+        "Eldrazi Skyspawner",
+        "Incubator Drone",
+        "Sifter of Skulls",
+        "Grave Birthing",
+        "Carrier Thrall",
+        "Birthing Hulk",
+        "Scion Summoner",
+        "Vile Redeemer",
+        "Blisterpod",
+        "Brood Monitor",
+        "Call the Scions",
+        "Eyeless Watcher",
+        "From Beyond",
+        "Void Attendant",
+        "Brood Butcher",
+        "Catacomb Sifter",
+        "Spawning Bed"
+      ],
+      "scryfallId": "a03edf14-3495-4f61-ad73-f16e9456472c",
+      "scryfallIllustrationId": "87f0b321-6811-4e25-aa98-4362a8b01635",
+      "scryfallOracleId": "0eb3cd4b-c34e-448c-a9ab-e7b0b4524833",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Scion",
+      "uuid": "d4736301-adce-5d4f-9625-7f7368839511"
+    },
+    {
+      "artist": "Craig J Spearing",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Scion",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Blight Herder",
+        "Warping Wail",
+        "Abstruse Interference",
+        "Adverse Conditions",
+        "Drowner of Hope",
+        "Eldrazi Skyspawner",
+        "Incubator Drone",
+        "Sifter of Skulls",
+        "Grave Birthing",
+        "Carrier Thrall",
+        "Birthing Hulk",
+        "Scion Summoner",
+        "Vile Redeemer",
+        "Blisterpod",
+        "Brood Monitor",
+        "Call the Scions",
+        "Eyeless Watcher",
+        "From Beyond",
+        "Void Attendant",
+        "Brood Butcher",
+        "Catacomb Sifter",
+        "Spawning Bed"
+      ],
+      "scryfallId": "f88da33f-a944-4cc4-978e-3858c2e17e3a",
+      "scryfallIllustrationId": "8a1e617a-c872-4c8b-b9a2-39e5ac7fa50b",
+      "scryfallOracleId": "0eb3cd4b-c34e-448c-a9ab-e7b0b4524833",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Scion",
+      "uuid": "8f9b3b14-2b99-5b50-aa9f-ecc1a09be395"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Scion",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Blight Herder",
+        "Warping Wail",
+        "Abstruse Interference",
+        "Adverse Conditions",
+        "Drowner of Hope",
+        "Eldrazi Skyspawner",
+        "Incubator Drone",
+        "Sifter of Skulls",
+        "Grave Birthing",
+        "Carrier Thrall",
+        "Birthing Hulk",
+        "Scion Summoner",
+        "Vile Redeemer",
+        "Blisterpod",
+        "Brood Monitor",
+        "Call the Scions",
+        "Eyeless Watcher",
+        "From Beyond",
+        "Void Attendant",
+        "Brood Butcher",
+        "Catacomb Sifter",
+        "Spawning Bed"
+      ],
+      "scryfallId": "10e69ee5-ea72-4f0b-91fe-152b1459e318",
+      "scryfallIllustrationId": "0dbb2f14-ba03-4f92-93ac-9c5711e5695e",
+      "scryfallOracleId": "0eb3cd4b-c34e-448c-a9ab-e7b0b4524833",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Scion",
+      "uuid": "cabfcf59-9fb4-5851-886b-c3ceb4612ebe"
+    },
+    {
+      "artist": "Izzy",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Scion",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Blight Herder",
+        "Warping Wail",
+        "Abstruse Interference",
+        "Adverse Conditions",
+        "Drowner of Hope",
+        "Eldrazi Skyspawner",
+        "Incubator Drone",
+        "Sifter of Skulls",
+        "Grave Birthing",
+        "Carrier Thrall",
+        "Birthing Hulk",
+        "Scion Summoner",
+        "Vile Redeemer",
+        "Blisterpod",
+        "Brood Monitor",
+        "Call the Scions",
+        "Eyeless Watcher",
+        "From Beyond",
+        "Void Attendant",
+        "Brood Butcher",
+        "Catacomb Sifter",
+        "Spawning Bed"
+      ],
+      "scryfallId": "bb2f495f-3b50-4b59-a2aa-d33c1767cf7c",
+      "scryfallIllustrationId": "ddcd64a9-54f1-4338-89d8-1722f57d6237",
+      "scryfallOracleId": "0eb3cd4b-c34e-448c-a9ab-e7b0b4524833",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Scion",
+      "uuid": "a12b7588-ed02-5bcd-815e-468de5f26ef2"
+    },
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Scion",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Blight Herder",
+        "Warping Wail",
+        "Abstruse Interference",
+        "Adverse Conditions",
+        "Drowner of Hope",
+        "Eldrazi Skyspawner",
+        "Incubator Drone",
+        "Sifter of Skulls",
+        "Grave Birthing",
+        "Carrier Thrall",
+        "Birthing Hulk",
+        "Scion Summoner",
+        "Vile Redeemer",
+        "Blisterpod",
+        "Brood Monitor",
+        "Call the Scions",
+        "Eyeless Watcher",
+        "From Beyond",
+        "Void Attendant",
+        "Brood Butcher",
+        "Catacomb Sifter",
+        "Spawning Bed"
+      ],
+      "scryfallId": "d8e91066-63ee-40f7-aa69-0603b61ea49e",
+      "scryfallIllustrationId": "057984d7-30bd-4483-af72-efdce5be20d7",
+      "scryfallOracleId": "0eb3cd4b-c34e-448c-a9ab-e7b0b4524833",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Scion",
+      "uuid": "0b38a0de-4003-581b-ab2e-7a319300c928"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Scion",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Blight Herder",
+        "Warping Wail",
+        "Abstruse Interference",
+        "Adverse Conditions",
+        "Drowner of Hope",
+        "Eldrazi Skyspawner",
+        "Incubator Drone",
+        "Sifter of Skulls",
+        "Grave Birthing",
+        "Carrier Thrall",
+        "Birthing Hulk",
+        "Scion Summoner",
+        "Vile Redeemer",
+        "Blisterpod",
+        "Brood Monitor",
+        "Call the Scions",
+        "Eyeless Watcher",
+        "From Beyond",
+        "Void Attendant",
+        "Brood Butcher",
+        "Catacomb Sifter",
+        "Spawning Bed"
+      ],
+      "scryfallId": "20b7443e-7eb2-4fcb-8114-23bad3b3bf51",
+      "scryfallIllustrationId": "c823c432-09f9-405a-8781-5bcd66a67553",
+      "scryfallOracleId": "0eb3cd4b-c34e-448c-a9ab-e7b0b4524833",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Scion",
+      "uuid": "059a367a-1393-5817-9348-d22ca5201eb4"
+    },
+    {
+      "artist": "Vincent Proce",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "10",
+      "power": "*",
+      "reverseRelated": [
+        "Seed Guardian"
+      ],
+      "scryfallId": "db67bc06-b6c9-49a0-beef-4d35842497cb",
+      "scryfallIllustrationId": "e2975257-a2b4-43ca-82cf-bfc01a7f8763",
+      "scryfallOracleId": "761b9ff0-1ba3-418c-a99f-2cf855bde9f8",
+      "toughness": "*",
+      "type": "Token Creature — Elemental",
+      "uuid": "a0235f5a-bf53-58a6-a01f-8b77640e8b7a"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "9",
+      "power": "3",
+      "reverseRelated": [
+        "Chandra, Flamecaller"
+      ],
+      "scryfallId": "bc6f27f7-0248-4c04-8022-41073966e4d8",
+      "scryfallIllustrationId": "4a2d0784-4988-4283-9aa4-7a597478f4e0",
+      "scryfallOracleId": "f082b222-faf3-4616-b246-e3ef5e0dd121",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "0f5f00be-c284-51d1-b7d4-3805eb64d344"
+    },
+    {
+      "artist": "Daren Bader",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Plant",
+      "number": "11",
+      "power": "0",
+      "reverseRelated": [
+        "Nissa, Voice of Zendikar"
+      ],
+      "scryfallId": "8501a910-e181-4f85-ad34-d2a099257148",
+      "scryfallIllustrationId": "db072403-4f85-47a1-ab8d-02d3d8e18213",
+      "scryfallOracleId": "bcd346a7-4d96-4a0c-9725-fb740e32b730",
+      "toughness": "1",
+      "type": "Token Creature — Plant",
+      "uuid": "cf991abd-3cc9-5aad-9221-8c628adf8be9"
+    },
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "8",
+      "power": "2",
+      "reverseRelated": [
+        "Drana's Chosen",
+        "Kalitas, Traitor of Ghet",
+        "Null Caller"
+      ],
+      "scryfallId": "e0bde78b-98d1-4864-899b-fc2f945ce06b",
+      "scryfallIllustrationId": "ce30b37b-590b-45ea-939a-baec54ed5fd0",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "a95b6248-f30f-59d6-a571-13d728d0a3fb"
+    }
+  ],
+  "totalSetSize": 186,
   "translations": {
-    "pt": "Juramento das Sentinelas",
-    "es": "El juramento de los Guardianes",
-    "ru": "Клятва Стражей",
-    "ko": "관문수호대의 맹세",
-    "jp": "『ゲートウォッチの誓い』",
-    "it": "Giuramento dei Guardiani",
-    "de": "Eid der Wächter",
-    "fr": "Le serment des Sentinelles",
-    "zh-hant": "守護者誓約",
-    "zh-hans": "守护者誓约"
-  }
+    "Chinese Simplified": "守护者誓约",
+    "Chinese Traditional": "守護者誓約",
+    "French": "Le serment des Sentinelles",
+    "German": "Eid der Wächter",
+    "Italian": "Giuramento dei Guardiani",
+    "Japanese": "『ゲートウォッチの誓い』",
+    "Korean": "관문수호대의 맹세",
+    "Portuguese (Brazil)": "Juramento das Sentinelas",
+    "Russian": "Клятва Стражей",
+    "Spanish": "El juramento de los Guardianes"
+  },
+  "type": "expansion"
 }

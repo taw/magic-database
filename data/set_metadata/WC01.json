@@ -1,0 +1,195 @@
+{
+  "baseSetSize": 0,
+  "code": "WC01",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "World Championship Decks 2001",
+  "releaseDate": "2001-08-08",
+  "tokens": [
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "2001 World Championships Ad",
+      "number": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "3513d5d3-7e88-4f5d-927f-1e67eb18e58e",
+      "scryfallOracleId": "f2f5fdc5-1a36-47cc-84fb-e43dd9481c65",
+      "type": "Card",
+      "uuid": "18d5999c-7fd5-5621-917b-9744e98540d0"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Alex Borteh Bio",
+      "number": "ab0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "3e1fef54-5665-480d-ad3d-e5490a6853e4",
+      "scryfallOracleId": "bbb08757-3171-44c4-8cfe-c65637cee102",
+      "text": "Eighteen-year-old Alex Borteh came on strong in the last half of the 2000–2001 Pro Tour™ season. He posted an impressive Top 8 finish at U.S. Nationals and followed that up by coming within one match of winning this year's Worlds. The soon-to-be Ohio State University freshman played a monoblue combo deck that he liked to call \"Da Folk.\" This deck wins by using Opposition and Static Orb to establish a lock down while legions of Merfolk overrun opponents' immobilized defenses.",
+      "type": "Card",
+      "uuid": "2d37c6b9-a0f8-56d4-be8e-1a5e08b31010"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Alex Borteh Decklist",
+      "number": "ab0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "9597cfb4-f1ed-44ce-bb9c-cf80368546be",
+      "scryfallOracleId": "1ea8657f-2fb7-4a05-a92e-da31d334eaf9",
+      "type": "Card",
+      "uuid": "a03ed992-b6c5-51ef-9737-907a29632bd1"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Antoine Ruel Bio",
+      "number": "ar0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "fe3fbedf-fe21-4b19-b383-20d986ea2117",
+      "scryfallOracleId": "9cf541a5-bfea-4cad-ae60-239b4d15be89",
+      "text": "A member of the famous Team Block Ops, Antoine Ruel, a native of Aubervilliers, France, took his blue-black-red control deck to a third-place finish at this year's World Championships. Ruel credits his teammate Laurent Pagorek for the deck that he calls \"AK-Go.\" The deck, which Ruel played to a 5–1 record during the Standard portion of the tournament, relies on card drawing (most notably Accumulated Knowledge, or \"AK\" for short), countermagic (\"Go,\" for short), red for board control, and Nether Spirits for the win.",
+      "type": "Card",
+      "uuid": "18fdbe2c-939f-519b-a091-8e71e8816a03"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Antoine Ruel Decklist",
+      "number": "ar0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "771e021b-7ef8-46c3-9545-1f625d38d1e6",
+      "scryfallOracleId": "3fa22dfe-2020-4953-8586-b1562f08e128",
+      "type": "Card",
+      "uuid": "da477535-5437-5b5c-a913-68a3425abd88"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Jam Tomcani Bio",
+      "number": "jt0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "006a2cce-dd8f-47d5-aedd-135e51ecfa23",
+      "scryfallOracleId": "a5504345-e666-486b-9f45-f1e8fd23b3c5",
+      "text": "Jan Tomcani, from Bratislava in the Slovak Republic, came out of nowhere to stun everyone by posting a perfect 6–0 record in the Standard portion of this year's Worlds. Tomcani then proved that his run was no fluke by working his way up to the quarterfinals, where he lost to Alex Borteh in a close five-game match. Tomcani played a version of \"Fires,\" the green-red deck that defined much of this year's metagame. Tomcani's version, which splashed black, follows the normal Fires archetype of playing cheap creatures followed by Fires of Yavimaya and big creatures like Blastoderm or Spiritmonger.",
+      "type": "Card",
+      "uuid": "215bab97-b8f3-520a-ba1e-dd0b9aaa2dd3"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Jam Tomcani Decklist",
+      "number": "jt0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "e2ffc06e-fed9-4241-9fa5-0d11858765a6",
+      "scryfallOracleId": "f79c37a3-df31-4974-ba7f-6348a78fdde3",
+      "type": "Card",
+      "uuid": "538e28ae-5b54-55fa-9f41-0362d6986562"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Tom van de Logt Bio (2001)",
+      "number": "tvdl0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "67f1746f-4f15-48da-9de7-3dd62811afdb",
+      "scryfallOracleId": "169918f0-a29d-429a-b236-ecc4d5cf028f",
+      "text": "Tom van de Logt is the 2001 Netherlands National Champion as well as one of an elite group of players who have posted back-to-back World Championship Top 8 performances. Currently a student in Groesbeek, van de Logt posted an impressive 5–1 record in the Standard portion of this year's Worlds. He described his aggressive black-red \"Machine Head\" deck as \"the deck that beats the deck that beats 'Fires.'\" He liked the explosive \"I win\" draws that his deck provided, and he especially liked the way it performed against blue decks.",
+      "type": "Card",
+      "uuid": "302dfc68-565d-5760-a013-fc385012dc5b"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Tom van de Logt Decklist (2001)",
+      "number": "tvdl0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "9b4e9e76-677c-479a-949e-d7e47372bc58",
+      "scryfallOracleId": "eb8e5b78-9f04-4ac5-9a64-1f6cf2e384f9",
+      "type": "Card",
+      "uuid": "fa255f83-518c-5268-935e-a214575482cb"
+    }
+  ],
+  "totalSetSize": 137,
+  "translations": {
+  },
+  "type": "memorabilia"
+}

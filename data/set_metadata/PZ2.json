@@ -1,0 +1,22 @@
+{
+  "baseSetSize": 0,
+  "code": "PZ2",
+  "isFoilOnly": false,
+  "isOnlineOnly": true,
+  "keyruneCode": "PZ2",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "PZ2",
+  "name": "Treasure Chest",
+  "releaseDate": "2016-11-16",
+  "tokens": [
+
+  ],
+  "totalSetSize": 282,
+  "translations": {
+  },
+  "type": "treasure_chest"
+}

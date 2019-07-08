@@ -1,0 +1,69 @@
+{
+  "baseSetSize": 0,
+  "code": "ANA",
+  "isFoilOnly": false,
+  "isOnlineOnly": true,
+  "keyruneCode": "MTGA",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Arena New Player Experience",
+  "releaseDate": "2018-07-14",
+  "tokens": [
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "isOnlineOnly": true,
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "T1",
+      "power": "1",
+      "reverseRelated": [
+        "Goblin Gang Leader"
+      ],
+      "scryfallId": "e8a56b33-f720-4cbf-8015-59b5fd8ff756",
+      "scryfallIllustrationId": "33cc8922-b6fb-459b-9c51-aac653d5c38b",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "4063d496-019c-52bd-a998-27efa3c93484"
+    },
+    {
+      "artist": "Jason A. Engle",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "isOnlineOnly": true,
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "T2",
+      "power": "1",
+      "reverseRelated": [
+        "Confront the Assault"
+      ],
+      "scryfallId": "f3b5665e-2b97-47c7-bbf9-6549c2c8a9f2",
+      "scryfallIllustrationId": "0828f150-0794-496c-bab6-df789d5b94f2",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "f492f91f-7615-58a8-b17b-1e4aafefa654"
+    }
+  ],
+  "totalSetSize": 41,
+  "translations": {
+  },
+  "type": "starter"
+}

@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "code": "HTR",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "STAR",
+  "mcmId": 2417,
+  "mcmName": "Heroes of the Realm Promos",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "2016 Heroes of the Realm",
+  "releaseDate": "2017-09-20",
+  "tokens": [
+
+  ],
+  "totalSetSize": 3,
+  "translations": {
+  },
+  "type": "funny"
+}

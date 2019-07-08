@@ -1,8 +1,490 @@
 {
-  "name": "Planechase Anthology",
+  "baseSetSize": 0,
   "code": "PCA",
-  "magicCardsInfoCode": "pca",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "PCA",
+  "mcmId": 1722,
+  "mcmName": "Planechase Anthology",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Planechase Anthology",
   "releaseDate": "2016-11-25",
-  "border": "black",
+  "tcgplayerGroupId": 1793,
+  "tokens": [
+    {
+      "artist": "Cyril Van Der Haegen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "5",
+      "power": "4",
+      "reverseRelated": [
+        "Sigil of the Empty Throne"
+      ],
+      "scryfallId": "964b7e7f-af5d-495a-80a6-2fc87e35e358",
+      "scryfallIllustrationId": "b9d5cf13-232e-492f-9542-bb7d8b150bad",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "388c3dc2-cdd5-5340-b6ef-2b5fa06f2eec"
+    },
+    {
+      "artist": "Dave Allsop",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "13",
+      "power": "3",
+      "reverseRelated": [
+        "Beast Within"
+      ],
+      "scryfallId": "6e42b07b-50a4-44a9-9bc7-ccb78c5292c4",
+      "scryfallIllustrationId": "bdefb360-c065-4d43-8e88-53be5ea76e8e",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "5a3494eb-57e6-5f92-ac1b-821967bdffa2"
+    },
+    {
+      "artist": "Jesper Ejsing",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Boar",
+      "number": "14",
+      "power": "3",
+      "reverseRelated": [
+        "Brindle Shoat"
+      ],
+      "scryfallId": "83dcacd3-8707-4354-a1a5-9863d677d67f",
+      "scryfallIllustrationId": "8225805c-226e-40b1-9758-11efa105bd74",
+      "scryfallOracleId": "e4a19155-6689-43de-8175-f28dd2cf0a9a",
+      "toughness": "3",
+      "type": "Token Creature — Boar",
+      "uuid": "baf1e9dd-42f1-5f72-9dbe-5394d79cb3ad"
+    },
+    {
+      "artist": "Jim Pavelec",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "10",
+      "power": "5",
+      "reverseRelated": [
+        "Shiv"
+      ],
+      "scryfallId": "276f0298-3af9-4564-ba0f-4bbf139a706a",
+      "scryfallIllustrationId": "1462a26d-dd62-457d-96f2-07a4066426ed",
+      "scryfallOracleId": "60fe4897-6760-4c5a-8074-c92bd64df52b",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Dragon",
+      "uuid": "30e2f281-6cb0-5fe4-996c-5e8e66e2f4e2"
+    },
+    {
+      "artist": "Vincent Proce",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi",
+      "number": "1",
+      "power": "7",
+      "reverseRelated": [
+        "Hedron Fields of Agadeem"
+      ],
+      "scryfallId": "f9a7ed9a-25e4-41ad-a53e-d589e923af2c",
+      "scryfallIllustrationId": "d3134f05-d9c3-4ad6-a6d1-662617bef52a",
+      "scryfallOracleId": "8ce49358-21b3-4b5c-ad8c-a07ac256dee4",
+      "text": "Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.)",
+      "toughness": "7",
+      "type": "Token Creature — Eldrazi",
+      "uuid": "1f50c5fe-d5b4-51b9-a32c-199b88928872"
+    },
+    {
+      "artist": "Aleksi Briclot",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Spawn",
+      "number": "2",
+      "power": "0",
+      "reverseRelated": [
+        "Awakening Zone",
+        "Nest Invader"
+      ],
+      "scryfallId": "b71177f3-a7cb-4d38-b8c7-daa5b8266a19",
+      "scryfallIllustrationId": "c92785ab-6d39-468a-a99a-a1cc87a35ab8",
+      "scryfallOracleId": "3aaf906a-e749-4e86-ac79-97650b92f271",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Spawn",
+      "uuid": "54f9d3ca-6bda-5b48-9a0c-9953961f32be"
+    },
+    {
+      "artist": "Mark Tedin",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Spawn",
+      "number": "3",
+      "power": "0",
+      "reverseRelated": [
+        "Awakening Zone",
+        "Nest Invader"
+      ],
+      "scryfallId": "86e7507e-cebb-4047-b54a-226648655f2d",
+      "scryfallIllustrationId": "f3b52eb4-27b1-4f1d-a24b-882f7b884d1f",
+      "scryfallOracleId": "3aaf906a-e749-4e86-ac79-97650b92f271",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Spawn",
+      "uuid": "05cd1655-87c3-5f10-8da4-569c0deaaab7"
+    },
+    {
+      "artist": "Véronique Meignaud",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Spawn",
+      "number": "4",
+      "power": "0",
+      "reverseRelated": [
+        "Awakening Zone",
+        "Nest Invader"
+      ],
+      "scryfallId": "e7a55908-ad02-43f4-8968-cd5598cb05c6",
+      "scryfallIllustrationId": "d0aff54f-78fc-49de-bfd5-d6fc483a60b6",
+      "scryfallOracleId": "3aaf906a-e749-4e86-ac79-97650b92f271",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Spawn",
+      "uuid": "867d3bca-8059-564a-a16d-088198decbe1"
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Germ",
+      "number": "7",
+      "power": "0",
+      "reverseRelated": [
+        "Flayer Husk"
+      ],
+      "scryfallId": "51544192-095a-457c-8642-fd0ca49952d8",
+      "scryfallIllustrationId": "285432ed-cd72-4c1b-aa86-fa6945f5a5c1",
+      "scryfallOracleId": "bb549594-35f6-4ac6-9f1f-cfb35784d99e",
+      "toughness": "0",
+      "type": "Token Creature — Germ",
+      "uuid": "29aa72a6-367b-5b1f-a9a6-854cdf38a352"
+    },
+    {
+      "artist": "Terese Nielsen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Goat",
+      "number": "6",
+      "power": "0",
+      "reverseRelated": [
+        "Goldmeadow"
+      ],
+      "scryfallId": "37624323-b00f-4096-a3af-115217cfca16",
+      "scryfallIllustrationId": "99b9d9fc-d22b-4ad0-91b3-15ad80adfc11",
+      "scryfallOracleId": "f62b776a-d4de-455a-ae5a-ca07982974db",
+      "toughness": "1",
+      "type": "Token Creature — Goat",
+      "uuid": "47d19bfc-1efa-57f4-8437-6006ce68bf77"
+    },
+    {
+      "artist": "Brandon Kitkouski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "11",
+      "power": "1",
+      "reverseRelated": [
+        "Beetleback Chief",
+        "Jund"
+      ],
+      "scryfallId": "31966bcd-2259-4e46-a5f1-d8d07abe074c",
+      "scryfallIllustrationId": "026eab38-a320-4e17-922e-2525808a3aab",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "9e522382-b3b7-5d61-9560-da6789e459a2"
+    },
+    {
+      "artist": "Anthony Francisco",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Hellion",
+      "number": "12",
+      "power": "4",
+      "reverseRelated": [
+        "Hellion Eruption"
+      ],
+      "scryfallId": "00a1209e-c4c3-4250-ad36-ef451f5e34cd",
+      "scryfallIllustrationId": "2b2dc3c7-9f29-4cb5-aafc-0b46f6e5d832",
+      "scryfallOracleId": "4b7f673b-b7ce-4158-97c5-3fb3d3f24ba7",
+      "toughness": "4",
+      "type": "Token Creature — Hellion",
+      "uuid": "d4e0d838-0ef3-591d-a1ba-4492e1525241"
+    },
+    {
+      "artist": "Carl Critchlow",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Insect",
+      "number": "15",
+      "power": "1",
+      "reverseRelated": [
+        "Dragonlair Spider"
+      ],
+      "scryfallId": "e71e3a36-8f21-470f-b76c-faad47059ccb",
+      "scryfallIllustrationId": "3c492a0b-c2ef-4227-9da4-f77ff8d9d4c8",
+      "scryfallOracleId": "c39cd31f-c4a2-4ca8-b4f9-b2e6289743bc",
+      "toughness": "1",
+      "type": "Token Creature — Insect",
+      "uuid": "cc5a4591-3ed8-53e9-8549-7e2c497d313a"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Ooze",
+      "number": "16",
+      "power": "1",
+      "reverseRelated": [
+        "Mitotic Slime"
+      ],
+      "scryfallId": "ab430ac0-6fbc-4361-8adc-0c13b399310f",
+      "scryfallIllustrationId": "f5713e93-0a8c-4734-8153-151577ec24f3",
+      "scryfallOracleId": "ee54f59e-a334-4f0d-8bc6-44fb97c948ac",
+      "toughness": "1",
+      "type": "Token Creature — Ooze",
+      "uuid": "0a1e7dd3-2f21-5a29-a533-0481768679e0"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Ooze",
+      "number": "17",
+      "power": "2",
+      "reverseRelated": [
+        "Mitotic Slime"
+      ],
+      "scryfallId": "18b9c83d-4422-4b95-9fc2-070ed6b5bdf6",
+      "scryfallIllustrationId": "665a5d27-0a7e-42cf-9ec8-db98f54272c7",
+      "scryfallOracleId": "8b3e81cb-d756-44e9-854c-715f51949ade",
+      "text": "When this creature dies, create two 1/1 green Ooze creature tokens.",
+      "toughness": "2",
+      "type": "Token Creature — Ooze",
+      "uuid": "6ca2056f-1eb4-52b8-b81b-442cce2041e7"
+    },
+    {
+      "artist": "Daren Bader",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Plant",
+      "number": "18",
+      "power": "0",
+      "reverseRelated": [
+        "Khalni Garden"
+      ],
+      "scryfallId": "2e52ae24-f5a0-45a8-88e7-19b8e91c611a",
+      "scryfallIllustrationId": "db072403-4f85-47a1-ab8d-02d3d8e18213",
+      "scryfallOracleId": "bcd346a7-4d96-4a0c-9725-fb740e32b730",
+      "toughness": "1",
+      "type": "Token Creature — Plant",
+      "uuid": "6a9a1da7-86a5-513e-b275-28f143695bcd"
+    },
+    {
+      "artist": "Brad Rigney",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "19",
+      "power": "1",
+      "reverseRelated": [
+        "Bramble Elemental",
+        "Dreampod Druid",
+        "Mycoloth",
+        "Tukatongue Thallid",
+        "Last Stand",
+        "Pollenbright Wings",
+        "Vitu-Ghazi, the City-Tree",
+        "Grand Ossuary"
+      ],
+      "scryfallId": "7c8d6000-0c8a-4672-b834-314c3baf974a",
+      "scryfallIllustrationId": "54430daa-acec-42fc-9330-ef8c4c015569",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "4e035578-784a-5ab6-a04a-98e5c2b820b5"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Spider",
+      "number": "8",
+      "power": "2",
+      "reverseRelated": [
+        "Penumbra Spider"
+      ],
+      "scryfallId": "9c6a885f-1471-4827-b4b6-13db766c94bb",
+      "scryfallIllustrationId": "c5ebe8cb-edf8-47db-a57d-56486c52d0a0",
+      "scryfallOracleId": "c16b3a1e-0e60-41f2-899e-d22bcf1144ae",
+      "text": "Reach",
+      "toughness": "4",
+      "type": "Token Creature — Spider",
+      "uuid": "9e3f8348-ef50-537e-9af6-9344ba85ec88"
+    },
+    {
+      "artist": "Dave Kendall",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "9",
+      "power": "2",
+      "reverseRelated": [
+        "The Fourth Sphere",
+        "Lair of the Ashen Idol"
+      ],
+      "scryfallId": "1618e130-ccb6-4341-a999-60f61fb39cd6",
+      "scryfallIllustrationId": "bc57b1b7-e022-4245-9a10-6544217f27c4",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "19c4ed8a-343d-52ad-bd7d-661ba3fccd47"
+    }
+  ],
+  "totalSetSize": 156,
+  "translations": {
+    "Chinese Simplified": "Planechase Anthology",
+    "Chinese Traditional": "Planechase Anthology",
+    "French": "Planechase Anthology",
+    "German": "Planechase Anthology",
+    "Italian": "Planechase Anthology",
+    "Japanese": "Planechase Anthology",
+    "Korean": "Planechase Anthology",
+    "Portuguese (Brazil)": "Planechase Anthology",
+    "Russian": "Planechase Anthology",
+    "Spanish": "Planechase Anthology"
+  },
   "type": "planechase"
 }

@@ -1,12 +1,7 @@
 {
-  "name": "Avacyn Restored",
-  "code": "AVR",
-  "magicCardsInfoCode": "avr",
-  "releaseDate": "2012-05-04",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 244,
   "block": "Innistrad",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,18 +22,246 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Avacyns Rückkehr",
-    "fr": "Avacyn ressuscitée",
-    "it": "Ritorno di Avacyn",
-    "es": "Avacyn restituida",
-    "pt": "Retorno de Avacyn",
-    "jp": "アヴァシンの帰還",
-    "cn": "艾维欣重临",
-    "ru": "Возвращение Авацины",
-    "tw": "艾維欣重臨",
-    "ko": "아바신의 귀환"
+  "code": "AVR",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "AVR",
+  "mcmId": 1358,
+  "mcmName": "Avacyn Restored",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Avacyn Restored",
-  "mkm_id": 1358
+  "mtgoCode": "AVR",
+  "name": "Avacyn Restored",
+  "releaseDate": "2012-05-04",
+  "tcgplayerGroupId": 362,
+  "tokens": [
+    {
+      "artist": "Anthony Palumbo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "1",
+      "power": "4",
+      "reverseRelated": [
+        "Entreat the Angels",
+        "Geist of Saint Traft",
+        "Moonsilver Spear"
+      ],
+      "scryfallId": "68dd1682-a5d5-4323-b876-66a86c311c43",
+      "scryfallIllustrationId": "816d372f-1733-4c07-9cf2-1d7c3969ca70",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "cf8d1b8e-6045-53d1-91c6-7db6a8eda708"
+    },
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Demon",
+      "number": "5",
+      "power": "5",
+      "reverseRelated": [
+        "Demonic Rising",
+        "Skirsdag High Priest"
+      ],
+      "scryfallId": "6a3fc83f-ab02-4a44-910a-bfadc71cf162",
+      "scryfallIllustrationId": "3b4ea287-7b41-4b10-9a03-b471a7a422f2",
+      "scryfallOracleId": "0045c5fa-3229-4050-b139-5712fa24b308",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Demon",
+      "uuid": "8a1b3902-726f-5757-8735-384fde8ca4f8"
+    },
+    {
+      "artist": "Michael C. Hayes",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Human",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Gather the Townsfolk",
+        "Increasing Devotion",
+        "Commander's Authority",
+        "Thraben Doomsayer",
+        "Voice of the Provinces"
+      ],
+      "scryfallId": "8894949b-f190-461e-996a-cf2b39f08a5d",
+      "scryfallIllustrationId": "110e8ed4-9b78-4a3f-b234-700959effa98",
+      "scryfallOracleId": "30272edf-097c-4918-84d2-9fa6c42dbe0a",
+      "toughness": "1",
+      "type": "Token Creature — Human",
+      "uuid": "dd898a95-676b-5b5f-b2b0-f2eacc8a0827"
+    },
+    {
+      "artist": "Ryan Pancoast",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Human",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+        "Thatcher Revolt"
+      ],
+      "scryfallId": "5da1ef9d-878a-49d8-afe5-86ad18e30c3d",
+      "scryfallIllustrationId": "da5545fc-cbb9-4de7-a407-9d2f2ff7254e",
+      "scryfallOracleId": "44a4a06e-762a-41ab-a38f-56ed0f0bc21e",
+      "toughness": "1",
+      "type": "Token Creature — Human",
+      "uuid": "4f3cd565-0c9f-58ec-afd7-b194bdc88b93"
+    },
+    {
+      "artist": "Ryan Yee",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Elgaud Inquisitor",
+        "Doomed Traveler",
+        "Lingering Souls",
+        "Geist-Honored Monk",
+        "Requiem Angel",
+        "Mausoleum Guard",
+        "Midnight Haunting",
+        "Avacyn's Collar",
+        "Gallows at Willow Hill",
+        "Moorland Haunt"
+      ],
+      "scryfallId": "59e79ba0-33c8-46c8-8694-8bf854345fe7",
+      "scryfallIllustrationId": "50ddbe3c-fb6c-4a9f-87c9-fd200719576f",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "df55107c-2b8b-5ff7-9e32-0da31cc46cd8"
+    },
+    {
+      "artist": "Dan Scott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Geist Snatch"
+      ],
+      "scryfallId": "44c14591-f807-40cf-9c00-4c94b85fff44",
+      "scryfallIllustrationId": "003de8c9-db45-4524-9bc7-65e24e54675d",
+      "scryfallOracleId": "f39a3005-bc92-49bf-9e32-28e99c4de5c5",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "b00142a4-05c2-5f91-974d-55f195cc30c7"
+    },
+    {
+      "artist": "Eric Deschamps",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Tamiyo, the Moon Sage Emblem",
+      "number": "8",
+      "reverseRelated": [
+        "Tamiyo, the Moon Sage"
+      ],
+      "scryfallId": "cce7547c-6d3d-4586-83b2-3d208113b045",
+      "scryfallIllustrationId": "2f29613e-63fe-4111-8594-ff1d0ca2566e",
+      "scryfallOracleId": "53bb5d83-f499-44f0-9dce-04a28bd4be4d",
+      "text": "You have no maximum hand size.\nWhenever a card is put into your graveyard from anywhere, you may return it to your hand.",
+      "type": "Emblem — Tamiyo",
+      "uuid": "8c7b7ae9-d547-5ba6-a056-a58ffc7a2bf1"
+    },
+    {
+      "artist": "Lucas Graciano",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "6",
+      "power": "2",
+      "reverseRelated": [
+        "Havengul Runebinder",
+        "Reap the Seagraf",
+        "Wakedancer",
+        "Undead Alchemist",
+        "Army of the Damned",
+        "Endless Ranks of the Dead",
+        "Moan of the Unhallowed",
+        "Maalfeld Twins",
+        "Cellar Door"
+      ],
+      "scryfallId": "b877c19d-6022-4377-92e7-4511e24eb98e",
+      "scryfallIllustrationId": "6bb462b0-a2a7-4cdf-9fe4-c14d6aceeddc",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "845feeb5-52bd-5d5b-9e91-3f6d4414ca25"
+    }
+  ],
+  "totalSetSize": 244,
+  "translations": {
+    "Chinese Simplified": "艾维欣重临",
+    "Chinese Traditional": "艾維欣重臨",
+    "French": "Avacyn ressuscitée",
+    "German": "Avacyns Rückkehr",
+    "Italian": "Ritorno di Avacyn",
+    "Japanese": "アヴァシンの帰還",
+    "Korean": "아바신의 귀환",
+    "Portuguese (Brazil)": "Retorno de Avacyn",
+    "Russian": "Возвращение Авацины",
+    "Spanish": "Avacyn restituida"
+  },
+  "type": "expansion"
 }

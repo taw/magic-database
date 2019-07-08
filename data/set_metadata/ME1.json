@@ -1,0 +1,50 @@
+{
+  "baseSetSize": 195,
+  "boosterV3": [
+    "rare",
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "land",
+    "marketing"
+  ],
+  "code": "ME1",
+  "isFoilOnly": false,
+  "isOnlineOnly": true,
+  "keyruneCode": "ME1",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "MED",
+  "name": "Masters Edition",
+  "releaseDate": "2007-09-10",
+  "tokens": [
+
+  ],
+  "totalSetSize": 195,
+  "translations": {
+    "Chinese Simplified": "Masters Edition",
+    "Chinese Traditional": "Masters Edition",
+    "French": "Masters Edition",
+    "German": "Masters Edition",
+    "Italian": "Masters Edition",
+    "Japanese": "Masters Edition",
+    "Korean": "Masters Edition",
+    "Portuguese (Brazil)": "Masters Edition",
+    "Russian": "Masters Edition",
+    "Spanish": "Masters Edition"
+  },
+  "type": "masters"
+}

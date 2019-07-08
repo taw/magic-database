@@ -1,12 +1,6 @@
 {
-  "name": "Unglued",
-  "code": "UGL",
-  "gathererCode": "UG",
-  "magicCardsInfoCode": "ug",
-  "releaseDate": "1998-08-11",
-  "border": "silver",
-  "type": "un",
-  "booster": [
+  "baseSetSize": 88,
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -18,6 +12,173 @@
     "common",
     "land"
   ],
-  "mkm_name": "Unglued",
-  "mkm_id": 22
+  "code": "UGL",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "UGL",
+  "mcmId": 22,
+  "mcmName": "Unglued",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Unglued",
+  "releaseDate": "1998-08-11",
+  "tcgplayerGroupId": 113,
+  "tokens": [
+    {
+      "artist": "Pete Venters",
+      "borderColor": "silver",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "fbd728ed-d5dc-44b3-9159-6c86cab3be0c",
+      "scryfallIllustrationId": "7ce0af97-d90e-4203-a9bc-81a5b92fd08d",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "f2e29734-eaee-5063-bc26-8cdc9c852ad0"
+    },
+    {
+      "artist": "Mark Zug",
+      "borderColor": "silver",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Pegasus",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "bc944579-b6d8-40f7-8c46-146513960d61",
+      "scryfallIllustrationId": "24a77b51-0fd1-42df-9c4c-db060014c93b",
+      "scryfallOracleId": "251085b8-4bca-4fcd-92a0-006541be827e",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Pegasus",
+      "uuid": "5a97675b-ea40-5ee6-aa68-a1887f56a305"
+    },
+    {
+      "artist": "Kev Walker",
+      "borderColor": "silver",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Sheep",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Flock of Rabid Sheep"
+      ],
+      "scryfallId": "281d2c14-2343-44c9-a589-7f4da37978a2",
+      "scryfallIllustrationId": "a75b210c-dbe1-4a2b-b174-7aeae648432b",
+      "scryfallOracleId": "267c50b6-8fe7-4340-b38a-d9d916b032ce",
+      "toughness": "2",
+      "type": "Token Creature — Sheep",
+      "uuid": "cd384886-38a0-5d18-8cde-09192c4aca5d"
+    },
+    {
+      "artist": "Daren Bader",
+      "borderColor": "silver",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "b159b57d-bc52-4cef-ac7a-e364e40c3d03",
+      "scryfallIllustrationId": "cce0e2b1-0ccf-4c94-ba7f-e297f58e5757",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "786b59f9-f27d-54ce-8ad5-88491f3e51dc"
+    },
+    {
+      "artist": "Ron Spencer",
+      "borderColor": "silver",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Squirrel",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Squirrel Farm"
+      ],
+      "scryfallId": "abf24a09-0a54-4e1d-a515-ed5ae99294be",
+      "scryfallIllustrationId": "82bde723-7265-4313-a040-9661aa91a5f8",
+      "scryfallOracleId": "67f21c0c-2083-4eda-9dc3-cc8aee42289f",
+      "toughness": "1",
+      "type": "Token Creature — Squirrel",
+      "uuid": "d32a05b5-437a-587d-8fa2-292c1aa324c4"
+    },
+    {
+      "artist": "Christopher Rush",
+      "borderColor": "silver",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "8e7b5995-ee8b-40d1-b157-8df96c02cc5b",
+      "scryfallIllustrationId": "ed31a0a4-ba1d-479b-b745-a128b4ba66d8",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "dfd82ddd-bd6b-5afc-ba62-7cf6e44948f6"
+    }
+  ],
+  "totalSetSize": 88,
+  "translations": {
+    "Chinese Simplified": "Unglued",
+    "Chinese Traditional": "Unglued",
+    "French": "Unglued",
+    "German": "Unglued",
+    "Italian": "Unglued",
+    "Japanese": "Unglued",
+    "Korean": "Unglued",
+    "Portuguese (Brazil)": "Unglued",
+    "Russian": "Unglued",
+    "Spanish": "Unglued"
+  },
+  "type": "funny"
 }

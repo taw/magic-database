@@ -1,0 +1,22 @@
+{
+  "baseSetSize": 0,
+  "block": "Judge Gift Cards",
+  "code": "J19",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "STAR",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Judge Gift Cards 2019",
+  "releaseDate": "2019-04-10",
+  "tokens": [
+
+  ],
+  "totalSetSize": 2,
+  "translations": {
+  },
+  "type": "promo"
+}

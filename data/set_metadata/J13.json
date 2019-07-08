@@ -1,0 +1,45 @@
+{
+  "baseSetSize": 0,
+  "block": "Judge Gift Cards",
+  "code": "J13",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "STAR",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Judge Gift Cards 2013",
+  "releaseDate": "2013-01-01",
+  "tcgplayerGroupId": 62,
+  "tokens": [
+    {
+      "artist": "Yeong-Hao Han",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Golem",
+      "number": "9",
+      "power": "3",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "1fb69a6d-b02d-46f1-af7b-cfd8a2363ed2",
+      "scryfallIllustrationId": "781d88f8-9f95-40ea-8930-9dc8e83233a1",
+      "scryfallOracleId": "d1683ad9-cad0-4e22-8313-701276e7dbaf",
+      "toughness": "3",
+      "type": "Token Enchantment Artifact Creature — Golem",
+      "uuid": "84ea7340-d033-539f-95cc-0bbe45ed56fa"
+    }
+  ],
+  "totalSetSize": 9,
+  "translations": {
+  },
+  "type": "promo"
+}

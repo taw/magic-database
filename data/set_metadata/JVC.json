@@ -1,0 +1,44 @@
+{
+  "baseSetSize": 0,
+  "code": "JVC",
+  "codeV3": "DD3_JVC",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DD2",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Duel Decks Anthology: Jace vs. Chandra",
+  "releaseDate": "2014-12-05",
+  "tokens": [
+    {
+      "artist": "Jim Pavelec",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental Shaman",
+      "number": "1",
+      "power": "3",
+      "reverseRelated": [
+        "Hostility"
+      ],
+      "scryfallId": "b334af2e-58a6-4aaf-a6ec-87ca0398e626",
+      "scryfallIllustrationId": "a81c9910-1a59-467f-a6be-9f57f839fb7e",
+      "scryfallOracleId": "a44da885-2d0f-4e16-ba68-ec80640e819f",
+      "toughness": "1",
+      "type": "Token Creature — Elemental Shaman",
+      "uuid": "3d314073-fb96-5e8f-9eda-3d6be647e164"
+    }
+  ],
+  "totalSetSize": 62,
+  "translations": {
+  },
+  "type": "duel_deck"
+}

@@ -1,11 +1,134 @@
 {
-  "name": "Duel Decks: Blessed vs. Cursed",
+  "baseSetSize": 0,
   "code": "DDQ",
-  "magicCardsInfoCode": "ddq",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DDQ",
+  "mcmId": 1692,
+  "mcmName": "Duel Decks: Blessed vs. Cursed",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Duel Decks: Blessed vs. Cursed",
   "releaseDate": "2016-02-26",
-  "border": "black",
-  "type": "duel deck",
+  "tcgplayerGroupId": 1726,
+  "tokens": [
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "duelDeck": "c",
+      "layout": "normal",
+      "name": "Angel",
+      "number": "77",
+      "power": "4",
+      "reverseRelated": [
+        "Geist of Saint Traft"
+      ],
+      "scryfallId": "8e3a583e-2310-4284-ac44-fd28c72ec11b",
+      "scryfallIllustrationId": "adb4fb9f-2a02-4be1-885a-b51bd4886490",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "9c1fc03d-1e87-5d86-ae8f-6d34c90146c3"
+    },
+    {
+      "artist": "John Stanko",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "duelDeck": "c",
+      "layout": "normal",
+      "name": "Human",
+      "number": "78",
+      "power": "1",
+      "reverseRelated": [
+        "Gather the Townsfolk",
+        "Increasing Devotion",
+        "Voice of the Provinces"
+      ],
+      "scryfallId": "15a620da-5056-4582-8da5-2c955c3f4c0d",
+      "scryfallIllustrationId": "6f39a2d3-4bdd-43fb-9e2b-90ab7ea0445a",
+      "scryfallOracleId": "30272edf-097c-4918-84d2-9fa6c42dbe0a",
+      "toughness": "1",
+      "type": "Token Creature — Human",
+      "uuid": "09ddf644-999a-5a39-a536-af915759f609"
+    },
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "duelDeck": "c",
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "79",
+      "power": "1",
+      "reverseRelated": [
+        "Doomed Traveler"
+      ],
+      "scryfallId": "b38c8153-ded1-499f-929a-b7bc8a09cd5a",
+      "scryfallIllustrationId": "50d30d59-fc72-490a-b2db-04ffd0d0de5f",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "76e7ad79-525b-58be-8c65-c3bb959f188a"
+    },
+    {
+      "artist": "Lucas Graciano",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "duelDeck": "c",
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "80",
+      "power": "2",
+      "reverseRelated": [
+        "Havengul Runebinder",
+        "Moan of the Unhallowed"
+      ],
+      "scryfallId": "7c60e495-8fb7-43bb-b11d-52882c0246bc",
+      "scryfallIllustrationId": "6bb462b0-a2a7-4cdf-9fe4-c14d6aceeddc",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "07563757-4e9b-5c2a-8073-86cab3eb681e"
+    }
+  ],
+  "totalSetSize": 80,
   "translations": {
-    "jp": "Duel Decks: Blessed vs. Cursed"
-  }
+    "Chinese Simplified": "Blessed vs. Cursed",
+    "Chinese Traditional": "Blessed vs. Cursed",
+    "French": "Blessed vs. Cursed",
+    "German": "Blessed vs. Cursed",
+    "Italian": "Blessed vs. Cursed",
+    "Japanese": "『デュエルデッキ：正しき者 vs 堕ちし者』発表",
+    "Korean": "Blessed vs. Cursed",
+    "Portuguese (Brazil)": "Blessed vs. Cursed",
+    "Russian": "Blessed vs. Cursed",
+    "Spanish": "Blessed vs. Cursed"
+  },
+  "type": "duel_deck"
 }

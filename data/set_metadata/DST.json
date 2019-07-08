@@ -1,12 +1,7 @@
 {
-  "name": "Darksteel",
-  "code": "DST",
-  "magicCardsInfoCode": "ds",
-  "releaseDate": "2004-02-06",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 165,
   "block": "Mirrodin",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,15 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Nachtstahl",
-    "fr": "Sombracier",
-    "it": "Darksteel",
-    "es": "Darksteel",
-    "pt": "Darksteel",
-    "jp": "ダークスティール",
-    "cn": "玄铁"
+  "code": "DST",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DST",
+  "mcmId": 46,
+  "mcmName": "Darksteel",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Darksteel",
-  "mkm_id": 46
+  "mtgoCode": "DST",
+  "name": "Darksteel",
+  "releaseDate": "2004-02-06",
+  "tcgplayerGroupId": 27,
+  "tokens": [
+
+  ],
+  "totalSetSize": 165,
+  "translations": {
+    "Chinese Simplified": "玄铁",
+    "Chinese Traditional": "玄鐵",
+    "French": "Sombracier",
+    "German": "Nachtstahl",
+    "Italian": "Darksteel",
+    "Japanese": "ダークスティール",
+    "Korean": "다크스틸",
+    "Portuguese (Brazil)": "Darksteel",
+    "Russian": "Darksteel",
+    "Spanish": "Darksteel"
+  },
+  "type": "expansion"
 }

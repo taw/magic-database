@@ -1,14 +1,57 @@
 {
-  "name": "Duel Decks: Jace vs. Chandra",
+  "baseSetSize": 0,
   "code": "DD2",
-  "oldCode": "D2",
-  "magicCardsInfoCode": "jvc",
-  "releaseDate": "2008-11-07",
-  "border": "black",
-  "type": "duel deck",
-  "translations": {
-    "jp": "Duel Decks: Jace vs. Chandra"
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DD2",
+  "mcmId": 104,
+  "mcmName": "Duel Decks: Jace vs. Chandra",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Duel Decks: Jace vs. Chandra",
-  "mkm_id": 104
+  "mtgoCode": "DD2",
+  "name": "Duel Decks: Jace vs. Chandra",
+  "releaseDate": "2008-11-07",
+  "tcgplayerGroupId": 35,
+  "tokens": [
+    {
+      "artist": "Jim Pavelec",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental Shaman",
+      "number": "1",
+      "power": "3",
+      "reverseRelated": [
+        "Hostility"
+      ],
+      "scryfallId": "da6283ba-1297-4c7d-8744-f530c04194cd",
+      "scryfallIllustrationId": "a81c9910-1a59-467f-a6be-9f57f839fb7e",
+      "scryfallOracleId": "a44da885-2d0f-4e16-ba68-ec80640e819f",
+      "toughness": "1",
+      "type": "Token Creature — Elemental Shaman",
+      "uuid": "e69aa826-89bd-53b1-aaf8-bd0cb8aa32ef"
+    }
+  ],
+  "totalSetSize": 64,
+  "translations": {
+    "Chinese Simplified": "Jace vs. Chandra",
+    "Chinese Traditional": "Jace vs. Chandra",
+    "French": "Jace vs. Chandra",
+    "German": "Jace vs. Chandra",
+    "Italian": "Jace vs. Chandra",
+    "Japanese": "Jace vs. Chandra",
+    "Korean": "Jace vs. Chandra",
+    "Portuguese (Brazil)": "Jace vs. Chandra",
+    "Russian": "Jace vs. Chandra",
+    "Spanish": "Jace vs. Chandra"
+  },
+  "type": "duel_deck"
 }

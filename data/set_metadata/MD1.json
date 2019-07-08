@@ -1,10 +1,117 @@
 {
-  "name": "Modern Event Deck 2014",
+  "baseSetSize": 0,
   "code": "MD1",
-  "magicCardsInfoCode": "md1",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "MD1",
+  "mcmId": 1484,
+  "mcmName": "Modern Event Deck 2014",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Modern Event Deck 2014",
   "releaseDate": "2014-05-30",
-  "border": "black",
-  "type": "box",
-  "mkm_name": "Modern Event Deck 2014",
-  "mkm_id": 1484
+  "tcgplayerGroupId": 1346,
+  "tokens": [
+    {
+      "artist": "Volkan Baǵa",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Elspeth, Knight-Errant Emblem",
+      "number": "4",
+      "reverseRelated": [
+        "Elspeth, Knight-Errant"
+      ],
+      "scryfallId": "8360fc12-57c0-4701-8e19-0878ed5abb4f",
+      "scryfallIllustrationId": "5da6e7ad-d754-4dc9-8910-b9f0f002fbd3",
+      "scryfallOracleId": "17549447-6f19-4d87-8af1-58b6bb387003",
+      "text": "Artifacts, creatures, enchantments, and lands you control have indestructible.",
+      "type": "Emblem — Elspeth",
+      "uuid": "0192173d-ab24-58a4-a8f2-09a2bf589b5d"
+    },
+    {
+      "artist": "Matt Stewart",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Myr",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Shrine of Loyal Legions"
+      ],
+      "scryfallId": "dfe197cf-6f36-424e-a544-cbe7a56f8a32",
+      "scryfallIllustrationId": "28b69ea3-c8e3-4ba9-9c58-d6f78603b34d",
+      "scryfallOracleId": "bf690282-125f-431c-a363-39f6772324c8",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Myr",
+      "uuid": "e550e7b6-b67f-5534-b606-7bcd32f551c6"
+    },
+    {
+      "artist": "Goran Josic",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Raise the Alarm",
+        "Elspeth, Knight-Errant"
+      ],
+      "scryfallId": "05e8f775-02bd-46dc-a618-07a9a127fa69",
+      "scryfallIllustrationId": "8435b0da-d791-4a49-ad91-d12eec86dd53",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "b69b9965-1fd5-543b-8a41-268210a95038"
+    },
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Lingering Souls",
+        "Spectral Procession"
+      ],
+      "scryfallId": "2e16c19f-ef44-4ebc-aa1d-f95646ae312b",
+      "scryfallIllustrationId": "50d30d59-fc72-490a-b2db-04ffd0d0de5f",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "de24faeb-b621-5713-ba5a-c6bd302d5231"
+    }
+  ],
+  "totalSetSize": 26,
+  "translations": {
+  },
+  "type": "box"
 }

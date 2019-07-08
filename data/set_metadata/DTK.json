@@ -1,12 +1,7 @@
 {
-  "name": "Dragons of Tarkir",
-  "code": "DTK",
-  "magicCardsInfoCode": "dtk",
-  "releaseDate": "2015-03-27",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 264,
   "block": "Khans of Tarkir",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,18 +22,235 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Drachen von Tarkir",
-    "fr": "Les dragons de Tarkir",
-    "it": "Draghi di Tarkir",
-    "es": "Dragones de Tarkir",
-    "pt": "Dragões de Tarkir",
-    "jp": "タルキール龍紀伝",
-    "cn": "鞑契龙王",
-    "ru": "Драконы Таркира",
-    "tw": "韃契龍王",
-    "ko": "타르커의 용"
+  "code": "DTK",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DTK",
+  "mcmId": 1601,
+  "mcmName": "Dragons of Tarkir",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Dragons of Tarkir",
-  "mkm_id": 1601
+  "mtgoCode": "DTK",
+  "name": "Dragons of Tarkir",
+  "releaseDate": "2015-03-27",
+  "tcgplayerGroupId": 1515,
+  "tokens": [
+    {
+      "artist": "Izzy",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Djinn Monk",
+      "number": "2",
+      "power": "2",
+      "reverseRelated": [
+        "Ojutai's Summons",
+        "Skywise Teachings"
+      ],
+      "scryfallId": "f2e8077e-4400-4923-afe6-6ff5a51b5e91",
+      "scryfallIllustrationId": "4f16f40f-b715-4655-8590-37c816d83f3b",
+      "scryfallOracleId": "28571b5c-f7f5-4f9c-9891-405b54a28f60",
+      "text": "Flying",
+      "toughness": "2",
+      "type": "Token Creature — Djinn Monk",
+      "uuid": "e87d2aea-b2b5-5cf7-9a9b-de2518ce8634"
+    },
+    {
+      "artist": "Gabor Szikszai",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "5",
+      "power": "4",
+      "reverseRelated": [
+        "Descent of the Dragons",
+        "Dragon Whisperer",
+        "Sarkhan Unbroken"
+      ],
+      "scryfallId": "1ee0725f-8562-49c2-83fa-11a702e5c78d",
+      "scryfallIllustrationId": "9b8ff361-c7df-4648-b989-f8506c096d81",
+      "scryfallOracleId": "c8790543-9399-4312-9b15-aa8a45c8fec7",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Dragon",
+      "uuid": "afa56c24-e562-5aac-be3f-c53bf5e71545"
+    },
+    {
+      "artist": "Mike Bierek",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Goblinslide",
+        "Hordeling Outburst",
+        "Dragon Fodder",
+        "Mardu Ascendancy",
+        "Ponyback Brigade"
+      ],
+      "scryfallId": "e55d42ad-63b1-4468-8da0-c245db4d0ae3",
+      "scryfallIllustrationId": "26df1b02-7fbf-43d8-a22d-38ed6b6d4526",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "d81d1b18-3bbc-5ad0-8c9f-4010c4ca9353"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Morph",
+      "number": "7",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "5f29231c-dd21-4a45-a1f0-464d338128ed",
+      "scryfallIllustrationId": "3015e27b-dc01-4cc5-bc01-2093ba313af1",
+      "scryfallOracleId": "8f92f8d7-ec89-426f-86dc-fbc259eb5559",
+      "text": "(You can cover a face-down creature with this reminder card.\nA card with morph can be turned face up any time for its morph cost.)",
+      "toughness": "2",
+      "type": "Creature",
+      "uuid": "86bf9d4d-9345-5eec-a1d5-bf3f5db77608"
+    },
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Narset Transcendent Emblem",
+      "number": "8",
+      "reverseRelated": [
+        "Narset Transcendent"
+      ],
+      "scryfallId": "4a70dfe0-874c-473a-a26e-1f88a842df41",
+      "scryfallIllustrationId": "d6050edf-2d95-4812-bc07-2ad8318e1819",
+      "scryfallOracleId": "476138f9-67ff-49bf-ac11-2aac20669a1d",
+      "text": "Your opponents can't cast noncreature spells.",
+      "type": "Emblem — Narset",
+      "uuid": "d36c9891-3b4f-5262-8a9f-772d8c50ed81"
+    },
+    {
+      "artist": "Aaron Miller",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Warrior",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Herald of Anafenza",
+        "Mardu Hordechief",
+        "Take Up Arms",
+        "Secure the Wastes",
+        "Mardu Charm"
+      ],
+      "scryfallId": "677a1d9d-86fd-49db-9573-8cd2cbc1a096",
+      "scryfallIllustrationId": "2d242d9d-4b44-4840-93c2-4b9d1ddffdd2",
+      "scryfallOracleId": "6a880a0f-0a98-4505-9c27-9821be3e4818",
+      "toughness": "1",
+      "type": "Token Creature — Warrior",
+      "uuid": "e46e65fe-e9f3-5a26-a76d-3bf4e7c37870"
+    },
+    {
+      "artist": "Vincent Proce",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+        "Empty the Pits",
+        "Rakshasa Gravecaller",
+        "Sidisi, Brood Tyrant",
+        "Necromaster Dragon"
+      ],
+      "scryfallId": "e4de662d-374d-4dd7-908f-bcde7bdc5ae9",
+      "scryfallIllustrationId": "c08537ed-90fa-448a-b058-4839561edab9",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "49d91b16-f810-54ac-9d17-896d8a912c26"
+    },
+    {
+      "artist": "Nils Hamm",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie Horror",
+      "number": "4",
+      "power": "*",
+      "reverseRelated": [
+        "Corpseweft"
+      ],
+      "scryfallId": "533c41ab-d9ee-4817-a982-41d4da6fa9ad",
+      "scryfallIllustrationId": "c4f2c083-c7fa-43a8-b219-b0850a69d2f8",
+      "scryfallOracleId": "866e3d56-d400-49d3-ae9d-6298c3f9f3ff",
+      "toughness": "*",
+      "type": "Token Creature — Zombie Horror",
+      "uuid": "f1f5eafa-49c9-560c-92d4-d1038a052ee6"
+    }
+  ],
+  "totalSetSize": 264,
+  "translations": {
+    "Chinese Simplified": "鞑契龙王",
+    "Chinese Traditional": "韃契龍王",
+    "French": "Les dragons de Tarkir",
+    "German": "Drachen von Tarkir",
+    "Italian": "Draghi di Tarkir",
+    "Japanese": "『タルキール龍紀伝』",
+    "Korean": "타르커의 용",
+    "Portuguese (Brazil)": "Dragões de Tarkir",
+    "Russian": "Драконы Таркира",
+    "Spanish": "Dragones de Tarkir"
+  },
+  "type": "expansion"
 }

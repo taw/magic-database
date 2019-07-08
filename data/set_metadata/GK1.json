@@ -1,0 +1,567 @@
+{
+  "baseSetSize": 0,
+  "code": "GK1",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "GRN",
+  "mcmId": 2379,
+  "mcmName": "Guilds of Ravnica: Guild Kits",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "GRN Guild Kit",
+  "releaseDate": "2018-11-02",
+  "tcgplayerGroupId": 2334,
+  "tokens": [
+    {
+      "artist": "Adam Paquette",
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "colors": [
+        "B",
+        "U"
+      ],
+      "layout": "double_faced_token",
+      "name": "Horror",
+      "names": [
+        "Copy",
+        "Horror"
+      ],
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "a020dc47-3747-4123-9954-f0e87a858b8c",
+      "scryfallOracleId": "307fef57-1d3f-4904-8fc2-089b4149779e",
+      "side": "b",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Horror",
+      "uuid": "88aa03c6-ba62-58bd-a7d8-c14893f8bac7"
+    },
+    {
+      "artist": "Clint Cearley",
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "colors": [
+
+      ],
+      "layout": "double_faced_token",
+      "name": "Copy",
+      "names": [
+        "Copy",
+        "Horror"
+      ],
+      "number": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "a020dc47-3747-4123-9954-f0e87a858b8c",
+      "scryfallOracleId": "307fef57-1d3f-4904-8fc2-089b4149779e",
+      "side": "a",
+      "type": "Token",
+      "uuid": "cb3496cf-34f4-5e5f-b094-72eebde47ac2"
+    },
+    {
+      "artist": "Slawomir Maniak",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "double_faced_token",
+      "name": "Centaur",
+      "names": [
+        "Elemental",
+        "Centaur"
+      ],
+      "number": "10",
+      "power": "3",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "d2d19d33-407b-42fc-84de-d8a0642723c1",
+      "scryfallOracleId": "7c7539c0-95f6-4715-aee9-c443cdd45f7f",
+      "side": "b",
+      "toughness": "3",
+      "type": "Token Creature — Centaur",
+      "uuid": "10414200-ebbb-56f5-8935-de9b46b4184b"
+    },
+    {
+      "artist": "Yeong-Hao Han",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "G",
+        "W"
+      ],
+      "layout": "double_faced_token",
+      "name": "Elemental",
+      "names": [
+        "Elemental",
+        "Centaur"
+      ],
+      "number": "10",
+      "power": "8",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "d2d19d33-407b-42fc-84de-d8a0642723c1",
+      "scryfallOracleId": "7c7539c0-95f6-4715-aee9-c443cdd45f7f",
+      "side": "a",
+      "text": "Vigilance",
+      "toughness": "8",
+      "type": "Token Creature — Elemental",
+      "uuid": "db4df5b8-8031-5151-99f9-191c4f78e943"
+    },
+    {
+      "artist": "John Severin Brassell",
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "double_faced_token",
+      "name": "Soldier",
+      "names": [
+        "Goblin",
+        "Soldier"
+      ],
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "64f4dc68-060b-4c63-8f43-00f53c52a251",
+      "scryfallOracleId": "0823fbf2-7b39-4869-b3f0-091b7d7d0a5d",
+      "side": "b",
+      "text": "Lifelink",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "28f9faa0-5130-506a-a26a-d4d86d345f41"
+    },
+    {
+      "artist": "Mark Zug",
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "double_faced_token",
+      "name": "Goblin",
+      "names": [
+        "Goblin",
+        "Soldier"
+      ],
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "64f4dc68-060b-4c63-8f43-00f53c52a251",
+      "scryfallOracleId": "0823fbf2-7b39-4869-b3f0-091b7d7d0a5d",
+      "side": "a",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "e218f575-3efe-59b4-b323-8f4900413570"
+    },
+    {
+      "artist": "Tomasz Jedruszek",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "G",
+        "W"
+      ],
+      "layout": "double_faced_token",
+      "name": "Elf Knight",
+      "names": [
+        "Saproling",
+        "Elf Knight"
+      ],
+      "number": "8",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "cc77373d-34d1-475b-ade9-f49bb64bff9c",
+      "scryfallOracleId": "ca06046f-1267-47c9-9d9f-9d9f19ff2aac",
+      "side": "b",
+      "text": "Vigilance",
+      "toughness": "2",
+      "type": "Token Creature — Elf Knight",
+      "uuid": "94d8fe94-a8c1-539e-9aa3-79ab910dc380"
+    },
+    {
+      "artist": "Brad Rigney",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "double_faced_token",
+      "name": "Saproling",
+      "names": [
+        "Saproling",
+        "Elf Knight"
+      ],
+      "number": "8",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "cc77373d-34d1-475b-ade9-f49bb64bff9c",
+      "scryfallOracleId": "ca06046f-1267-47c9-9d9f-9d9f19ff2aac",
+      "side": "a",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "a07c43f2-1a28-5014-9c58-0a5115d1450c"
+    },
+    {
+      "artist": "Ben Wootten",
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "colors": [
+        "B",
+        "G"
+      ],
+      "layout": "double_faced_token",
+      "name": "Insect",
+      "names": [
+        "Saproling",
+        "Insect"
+      ],
+      "number": "5",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "c06bcc5b-4ccd-452d-8579-beee6c5cbe98",
+      "scryfallOracleId": "56c41ded-9e15-471d-ade2-1420a0607403",
+      "side": "b",
+      "type": "Token Creature — Insect",
+      "uuid": "63b981f6-d27b-5557-ba46-36c62cb75120"
+    },
+    {
+      "artist": "Raoul Vitale",
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "double_faced_token",
+      "name": "Saproling",
+      "names": [
+        "Saproling",
+        "Insect"
+      ],
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "c06bcc5b-4ccd-452d-8579-beee6c5cbe98",
+      "scryfallOracleId": "56c41ded-9e15-471d-ade2-1420a0607403",
+      "side": "a",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "b06a6f34-8d88-5fc4-8019-2f70dd712f02"
+    },
+    {
+      "artist": "Mark Zug",
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "double_faced_token",
+      "name": "Goblin",
+      "names": [
+        "Soldier",
+        "Goblin"
+      ],
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "f78c0976-83c4-4694-a93f-13046902cdd9",
+      "scryfallOracleId": "b973cb86-3a1b-42de-83ae-74dffa5bcb8a",
+      "side": "b",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "0dc640f4-21fc-5fca-aa23-53fbc6137c8b"
+    },
+    {
+      "artist": "David Palumbo",
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "colors": [
+        "R",
+        "W"
+      ],
+      "layout": "double_faced_token",
+      "name": "Soldier",
+      "names": [
+        "Soldier",
+        "Goblin"
+      ],
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "f78c0976-83c4-4694-a93f-13046902cdd9",
+      "scryfallOracleId": "b973cb86-3a1b-42de-83ae-74dffa5bcb8a",
+      "side": "a",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "a7513a66-624e-5ce8-b0c9-d2aa86ee2c47"
+    },
+    {
+      "artist": "David Palumbo",
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "colors": [
+        "R",
+        "W"
+      ],
+      "layout": "double_faced_token",
+      "name": "Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "887efa4e-f713-4165-a7e1-b0f00ac81784",
+      "scryfallOracleId": "0688fa0d-1991-4c8d-843d-4c5cae048f05",
+      "side": "b",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "b014cdab-629d-59a4-8f30-71ec0d692ac9"
+    },
+    {
+      "artist": "John Severin Brassell",
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "double_faced_token",
+      "name": "Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "887efa4e-f713-4165-a7e1-b0f00ac81784",
+      "scryfallOracleId": "0688fa0d-1991-4c8d-843d-4c5cae048f05",
+      "side": "a",
+      "text": "Lifelink",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "1d2d9040-d39e-50c2-adff-6b1f167bc798"
+    },
+    {
+      "artist": "Brad Rigney",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "double_faced_token",
+      "name": "Saproling",
+      "names": [
+        "Voja",
+        "Saproling"
+      ],
+      "number": "11",
+      "power": "1",
+      "reverseRelated": [
+        "Tolsimir Wolfblood",
+        "Voja // Saproling"
+      ],
+      "scryfallId": "2879010f-b752-4808-8531-d24e612de0d9",
+      "scryfallOracleId": "160abce3-949c-4e17-9db7-06ac4327eec6",
+      "side": "b",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "0d4e1e90-e49b-505e-a2c6-a55d49eb42d5"
+    },
+    {
+      "artist": "Richard Sardinha",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "G",
+        "W"
+      ],
+      "layout": "double_faced_token",
+      "name": "Voja",
+      "names": [
+        "Voja",
+        "Saproling"
+      ],
+      "number": "11",
+      "power": "2",
+      "reverseRelated": [
+        "Tolsimir Wolfblood",
+        "Voja // Saproling"
+      ],
+      "scryfallId": "2879010f-b752-4808-8531-d24e612de0d9",
+      "scryfallOracleId": "160abce3-949c-4e17-9db7-06ac4327eec6",
+      "side": "a",
+      "toughness": "2",
+      "type": "Token Legendary Creature — Wolf",
+      "uuid": "382188ea-87ab-5a79-9917-5f4703cb767c"
+    },
+    {
+      "artist": "Hideaki Takamura",
+      "colorIdentity": [
+        "R",
+        "U"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "double_faced_token",
+      "name": "Goblin",
+      "names": [
+        "Weird",
+        "Goblin"
+      ],
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Thunderheads",
+        "Weird // Goblin"
+      ],
+      "scryfallId": "1d34ff67-24e1-4cf5-b032-8be6b83e0819",
+      "scryfallOracleId": "9c56763e-4603-4290-9e9f-25f5eea8f4a5",
+      "side": "b",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "581315aa-510f-593d-882d-d920b1586455"
+    },
+    {
+      "artist": "Hideaki Takamura",
+      "colorIdentity": [
+        "R",
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "double_faced_token",
+      "name": "Weird",
+      "names": [
+        "Weird",
+        "Goblin"
+      ],
+      "number": "3",
+      "power": "3",
+      "reverseRelated": [
+        "Thunderheads",
+        "Weird // Goblin"
+      ],
+      "scryfallId": "1d34ff67-24e1-4cf5-b032-8be6b83e0819",
+      "scryfallOracleId": "9c56763e-4603-4290-9e9f-25f5eea8f4a5",
+      "side": "a",
+      "text": "Defender, flying",
+      "toughness": "3",
+      "type": "Token Creature — Weird",
+      "uuid": "76e3745f-3d68-5ef7-a8ab-33ee2a0619a0"
+    },
+    {
+      "artist": "Brad Rigney",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "double_faced_token",
+      "name": "Saproling",
+      "names": [
+        "Wurm",
+        "Saproling"
+      ],
+      "number": "9",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "d0c052ed-c761-4f1d-816b-092cdd6cb0fa",
+      "scryfallOracleId": "2c0800af-ecb3-4b50-833b-2632b9bdffd8",
+      "side": "b",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "bcfca017-1479-5f3d-8823-c423bccafd0d"
+    },
+    {
+      "artist": "Anthony Palumbo",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "double_faced_token",
+      "name": "Wurm",
+      "names": [
+        "Wurm",
+        "Saproling"
+      ],
+      "number": "9",
+      "power": "5",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "d0c052ed-c761-4f1d-816b-092cdd6cb0fa",
+      "scryfallOracleId": "2c0800af-ecb3-4b50-833b-2632b9bdffd8",
+      "side": "a",
+      "text": "Trample",
+      "toughness": "5",
+      "type": "Token Creature — Wurm",
+      "uuid": "7368d7a5-2309-5dee-8460-defa57e3b283"
+    }
+  ],
+  "totalSetSize": 127,
+  "translations": {
+  },
+  "type": "box"
+}

@@ -1,11 +1,6 @@
 {
-  "name": "Magic: The Gathering—Conspiracy",
-  "code": "CNS",
-  "magicCardsInfoCode": "cns",
-  "releaseDate": "2014-06-06",
-  "border": "black",
-  "type": "conspiracy",
-  "booster": [
+  "baseSetSize": 210,
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -26,10 +21,251 @@
     "draft-matters",
     "marketing"
   ],
-  "translations": {
-    "jp": "Conspiracy",
-    "cn": "Conspiracy"
+  "code": "CNS",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "CNS",
+  "mcmId": 1483,
+  "mcmName": "Conspiracy",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Conspiracy",
-  "mkm_id": 1483
+  "name": "Conspiracy",
+  "releaseDate": "2014-06-06",
+  "tcgplayerGroupId": 1312,
+  "tokens": [
+    {
+      "artist": "Adam Paquette",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Construct",
+      "number": "8",
+      "power": "1",
+      "reverseRelated": [
+        "Sentinel Dispatch",
+        "Flamewright"
+      ],
+      "scryfallId": "5f30e5e6-e9df-4ae2-9e40-ad2fee58fc29",
+      "scryfallIllustrationId": "38579b07-f277-4b2a-906f-ee155334f395",
+      "scryfallOracleId": "ebddf9b8-fd1a-4a6b-bec8-3a63485e36c0",
+      "text": "Defender",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Construct",
+      "uuid": "34f2a410-701d-57f5-a285-5f78d4bb7098"
+    },
+    {
+      "artist": "Eric Deschamps",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Dack Fayden Emblem",
+      "number": "9",
+      "reverseRelated": [
+        "Dack Fayden"
+      ],
+      "scryfallId": "f4e0b8d9-4e22-409d-acf1-05afaaac33df",
+      "scryfallIllustrationId": "27b95243-d2c8-431c-a7c1-13c9e3ad8473",
+      "scryfallOracleId": "6c2c20cb-de02-4557-b718-ee3feea4e5b2",
+      "text": "Whenever you cast a spell that targets one or more permanents, gain control of those permanents.",
+      "type": "Emblem — Dack",
+      "uuid": "332f721a-5819-5e07-9f38-13eb1250cd95"
+    },
+    {
+      "artist": "Evan Shipard",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Demon",
+      "number": "2",
+      "power": "*",
+      "reverseRelated": [
+        "Reign of the Pit"
+      ],
+      "scryfallId": "8597029c-3b0d-476e-a6ee-48402f815dab",
+      "scryfallIllustrationId": "e0646223-9008-4baa-9266-95317e22ca8d",
+      "scryfallOracleId": "0f6d78a4-f330-47b5-9c30-51324a1e7fb9",
+      "text": "Flying",
+      "toughness": "*",
+      "type": "Token Creature — Demon",
+      "uuid": "983ce7be-d8db-5edc-bfe7-ba6cda5a16b2"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elephant",
+      "number": "5",
+      "power": "3",
+      "reverseRelated": [
+        "Selvala's Charge",
+        "Elephant Guide",
+        "Terastodon",
+        "Wolf"
+      ],
+      "scryfallId": "572840b5-c0a1-4a9d-8913-f38fc7b2da78",
+      "scryfallIllustrationId": "3e247ba4-e374-47ce-ba16-0bc6215efa0b",
+      "scryfallOracleId": "079c46cc-feb0-4998-8593-c8b739afdb82",
+      "toughness": "3",
+      "type": "Token Creature — Elephant",
+      "uuid": "c1351cbd-e511-5f73-8acd-21f3a1f0716e"
+    },
+    {
+      "artist": "Dave Kendall",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Ogre",
+      "number": "4",
+      "power": "4",
+      "reverseRelated": [
+        "Grenzo's Rebuttal"
+      ],
+      "scryfallId": "efaa37e5-302e-4b4b-bb2d-6a0f9f80cd3f",
+      "scryfallIllustrationId": "eaa98694-9a93-4645-a358-ee3e98e25c30",
+      "scryfallOracleId": "99ba3fce-fab4-41a9-a215-fc3b8ece122c",
+      "toughness": "4",
+      "type": "Token Creature — Ogre",
+      "uuid": "7d78c924-3eec-58e6-bfc5-a68e6c3a88d3"
+    },
+    {
+      "artist": "Jeff Simpson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Custodi Soulbinders",
+        "Rousing of Souls",
+        "Doomed Traveler"
+      ],
+      "scryfallId": "595c4665-48e1-492e-9e62-a49ec443e161",
+      "scryfallIllustrationId": "c7c7cdea-3fd2-47ba-a4ae-772e50a7527a",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "0d1e1a7e-4b82-5fb5-b44d-31df53d895a9"
+    },
+    {
+      "artist": "Daniel Ljunggren",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Squirrel",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Squirrel Nest"
+      ],
+      "scryfallId": "3af9733f-192f-4028-8ad6-aa1187dd15e7",
+      "scryfallIllustrationId": "91171f39-d7d5-4827-883e-982fc2aaa4fc",
+      "scryfallOracleId": "67f21c0c-2083-4eda-9dc3-cc8aee42289f",
+      "toughness": "1",
+      "type": "Token Creature — Squirrel",
+      "uuid": "73493a73-2bc5-5a06-a9d9-d6e34c2f5cef"
+    },
+    {
+      "artist": "Raoul Vitale",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "7",
+      "power": "2",
+      "reverseRelated": [
+        "Predator's Howl",
+        "Wolfbriar Elemental",
+        "Elephant"
+      ],
+      "scryfallId": "a4cd989d-e274-4058-876f-3c20f28def0d",
+      "scryfallIllustrationId": "957587f7-aca0-40d4-9306-94ceb7b18167",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "957034c4-72ec-50dc-8401-eb39e0c3be70"
+    },
+    {
+      "artist": "Lucas Graciano",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+        "Wakedancer"
+      ],
+      "scryfallId": "22aec1b4-33ec-4cf1-9f41-3e0468a679cd",
+      "scryfallIllustrationId": "6bb462b0-a2a7-4cdf-9fe4-c14d6aceeddc",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "397926cc-9c41-582f-ae72-3679e6f2e168"
+    }
+  ],
+  "totalSetSize": 210,
+  "translations": {
+    "Chinese Simplified": "Conspiracy",
+    "Chinese Traditional": "Conspiracy",
+    "French": "Conspiracy",
+    "German": "Conspiracy",
+    "Italian": "Conspiracy",
+    "Japanese": "Conspiracy",
+    "Korean": "Conspiracy",
+    "Portuguese (Brazil)": "Conspiracy",
+    "Russian": "Conspiracy",
+    "Spanish": "Conspiracy"
+  },
+  "type": "draft_innovation"
 }

@@ -1,12 +1,7 @@
 {
-  "name": "Seventh Edition",
-  "code": "7ED",
-  "gathererCode": "7E",
-  "magicCardsInfoCode": "7e",
-  "releaseDate": "2001-04-11",
-  "border": "white",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 350,
+  "block": "Core Set",
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,13 +18,36 @@
     "common",
     "land"
   ],
-  "translations": {
-    "de": "Siebte Edition",
-    "fr": "Septième Edition",
-    "it": "Settima Edizione",
-    "es": "Séptima Edición",
-    "pt": "Sétima Edição"
+  "code": "7ED",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "7ED",
+  "mcmId": 37,
+  "mcmName": "Seventh Edition",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Seventh Edition",
-  "mkm_id": 37
+  "mtgoCode": "7E",
+  "name": "Seventh Edition",
+  "releaseDate": "2001-04-11",
+  "tcgplayerGroupId": 2,
+  "tokens": [
+
+  ],
+  "totalSetSize": 350,
+  "translations": {
+    "Chinese Simplified": "Core Set Seventh Edition",
+    "Chinese Traditional": "Core Set Seventh Edition",
+    "French": "Core Set Seventh Edition",
+    "German": "Core Set Seventh Edition",
+    "Italian": "Core Set Seventh Edition",
+    "Japanese": "Core Set Seventh Edition",
+    "Korean": "Core Set Seventh Edition",
+    "Portuguese (Brazil)": "Core Set Seventh Edition",
+    "Russian": "Core Set Seventh Edition",
+    "Spanish": "Core Set Seventh Edition"
+  },
+  "type": "core"
 }

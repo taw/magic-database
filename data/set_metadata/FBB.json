@@ -1,0 +1,24 @@
+{
+  "baseSetSize": 307,
+  "block": "Core Set",
+  "code": "FBB",
+  "isFoilOnly": false,
+  "isForeignOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "3ED",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Foreign Black Border",
+  "releaseDate": "1994-04-01",
+  "tcgplayerGroupId": 1689,
+  "tokens": [
+
+  ],
+  "totalSetSize": 307,
+  "translations": {
+  },
+  "type": "core"
+}

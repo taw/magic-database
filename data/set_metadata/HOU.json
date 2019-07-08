@@ -1,12 +1,7 @@
 {
-  "name": "Hour of Devastation",
-  "code": "HOU",
-  "magicCardsInfoCode": "hou",
-  "releaseDate": "2017-07-14",
-  "border": "black",
+  "baseSetSize": 199,
   "block": "Amonkhet",
-  "type": "expansion",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -26,5 +21,362 @@
     "common",
     "land",
     "marketing"
-  ]
+  ],
+  "code": "HOU",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "HOU",
+  "mcmId": 1731,
+  "mcmName": "Hour of Devastation",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "HOU",
+  "name": "Hour of Devastation",
+  "releaseDate": "2017-07-14",
+  "tcgplayerGroupId": 1934,
+  "tokens": [
+    {
+      "artist": "Slawomir Maniak",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Adorned Pouncer",
+      "number": "1",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "71dc8556-a658-40e1-8a93-6a62af208a28",
+      "scryfallIllustrationId": "37564857-98ea-437a-b61f-a9eabfb5b48f",
+      "scryfallOracleId": "28f3c157-e004-4fd3-9302-f18ab0bf18ed",
+      "text": "Double strike",
+      "toughness": "4",
+      "type": "Token Creature — Zombie Cat",
+      "uuid": "92c18484-8c6e-57f8-bff0-d74d9ea680b2"
+    },
+    {
+      "artist": "Even Amundsen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Champion of Wits",
+      "number": "2",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "65eebe6c-5bc9-463c-b74c-eae79fc3c1b6",
+      "scryfallIllustrationId": "b43cfafb-152f-42bc-9c5c-dc8a4f9c1353",
+      "scryfallOracleId": "0ea13867-97bd-4b0b-87dd-02003244f027",
+      "text": "When Champion of Wits enters the battlefield, you may draw cards equal to its power. If you do, discard two cards.",
+      "toughness": "4",
+      "type": "Token Creature — Zombie Naga Wizard",
+      "uuid": "5ccb8af9-757c-553a-a3aa-e0aa486c0e6d"
+    },
+    {
+      "artist": "Yongjae Choi",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Dreamstealer",
+      "number": "3",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "8c362d05-f2f7-4415-8937-f9f368986e61",
+      "scryfallIllustrationId": "cd4f787e-8b0d-416c-a064-315f7ab76d6b",
+      "scryfallOracleId": "fb13e45e-138f-4507-b6bd-e1c9027d2a7c",
+      "text": "Menace\nWhenever Dreamstealer deals combat damage to a player, that player discards that many cards.",
+      "toughness": "4",
+      "type": "Token Creature — Zombie Human Wizard",
+      "uuid": "f3ee86d8-30e8-5a1f-8c8b-a0b0f2a1efd1"
+    },
+    {
+      "artist": "Jason A. Engle",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Earthshaker Khenra",
+      "number": "4",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "c4bb3bd7-5aef-495e-81ba-f5d287981dbd",
+      "scryfallIllustrationId": "77f070d5-ff7c-4b82-9d0f-a9f810e6553d",
+      "scryfallOracleId": "7c60d7b2-fdc9-4e4f-92e7-9790905cfcb4",
+      "text": "Haste\nWhen Earthshaker Khenra enters the battlefield, target creature with power less than or equal to Earthshaker Khenra's power can't block this turn.",
+      "toughness": "4",
+      "type": "Token Creature — Zombie Jackal Warrior",
+      "uuid": "abbdcdd3-610e-5124-a64b-f1faf0883c04"
+    },
+    {
+      "artist": "Lucas Graciano",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Horse",
+      "number": "10",
+      "power": "5",
+      "reverseRelated": [
+        "Crested Sunmare"
+      ],
+      "scryfallId": "f3dd4d92-6471-4f4b-9c70-cbd2196e8c7b",
+      "scryfallIllustrationId": "322d9e38-b829-4123-a6d0-85b7690d5ab4",
+      "scryfallOracleId": "e8ca1b87-27c4-41a7-ba45-ee1873712019",
+      "toughness": "5",
+      "type": "Token Creature — Horse",
+      "uuid": "3c6e088a-7fb8-5cee-89ab-e26338ef3bbc"
+    },
+    {
+      "artist": "Lius Lasahido",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R",
+        "U"
+      ],
+      "colors": [
+        "R",
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Insect",
+      "number": "12",
+      "power": "1",
+      "reverseRelated": [
+        "The Locust God"
+      ],
+      "scryfallId": "ae56d9e8-de05-456b-af32-b5992992ee15",
+      "scryfallIllustrationId": "4abb4063-b670-44cc-a07c-b4ecfa2a4793",
+      "scryfallOracleId": "6f80811b-fdc7-4fb9-ac61-d8b51c28fe7f",
+      "text": "Flying, haste",
+      "toughness": "1",
+      "type": "Token Creature — Insect",
+      "uuid": "423f54a8-0582-5359-bea8-3fba278cd979"
+    },
+    {
+      "artist": "Clint Cearley",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Proven Combatant",
+      "number": "5",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "7c9d8aac-c032-4e0d-a8ef-99a7c53c7a19",
+      "scryfallIllustrationId": "2abcec18-f4a0-4eca-b7b9-7ea6729a29a5",
+      "scryfallOracleId": "1dea6957-aa6b-42b4-be21-8dc5e01d68e2",
+      "toughness": "4",
+      "type": "Token Creature — Zombie Human Warrior",
+      "uuid": "466aa27c-7cd7-5b5c-812b-44981202efe1"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Punchcard",
+      "number": "13",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "37022fc1-6a13-4873-9eaf-b827da73328e",
+      "scryfallOracleId": "f6494620-6f12-4036-a157-16e50f565e48",
+      "type": "Card",
+      "uuid": "cf9771d0-a799-5172-a027-1248b11eb425"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Punchcard",
+      "number": "14",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "1b6d3368-6295-4db1-ac89-06c77175c6de",
+      "scryfallOracleId": "f6494620-6f12-4036-a157-16e50f565e48",
+      "type": "Card",
+      "uuid": "497e410b-97fe-50aa-86ba-d957cb767162"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Resilient Khenra",
+      "number": "6",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "c1326c5d-b5a5-4942-b15d-37830ac62c7d",
+      "scryfallIllustrationId": "e87c9dc8-c98f-484b-b0ef-3c93267317fd",
+      "scryfallOracleId": "5bbd780b-cc80-4000-a357-7c341a9d45f1",
+      "text": "When Resilient Khenra enters the battlefield, you may have target creature get +X/+X until end of turn, where X is Resilient Khenra's power.",
+      "toughness": "4",
+      "type": "Token Creature — Zombie Jackal Wizard",
+      "uuid": "8c4938ae-47a3-532a-b648-d1a4535d902e"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Sinuous Striker",
+      "number": "7",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "513f2ce9-0127-4479-b37a-a835fbada8f8",
+      "scryfallIllustrationId": "a6d5ea11-92d0-4b9e-be17-cf58a4902f6b",
+      "scryfallOracleId": "e1aad66e-6db6-4032-9c93-0f1db1f14cf2",
+      "text": "{U}: Sinuous Striker gets +1/-1 until end of turn.",
+      "toughness": "4",
+      "type": "Token Creature — Zombie Naga Warrior",
+      "uuid": "7238c808-c6cb-5d85-86b9-a1338a737a6e"
+    },
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Snake",
+      "number": "11",
+      "power": "5",
+      "reverseRelated": [
+        "Rhonas's Last Stand"
+      ],
+      "scryfallId": "57708b3d-ddfb-4924-b5c9-123aa9e967ad",
+      "scryfallIllustrationId": "3b287df1-4d1d-4ee9-947a-b6e644ed68b4",
+      "scryfallOracleId": "db9b6c56-b4bd-4d6c-abfe-4771e53ce072",
+      "toughness": "4",
+      "type": "Token Creature — Snake",
+      "uuid": "97053d96-00d4-564c-af2c-5e1d228564ec"
+    },
+    {
+      "artist": "Karl Kopinski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Steadfast Sentinel",
+      "number": "8",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "872694ba-0666-43c1-8884-47a2e92a127c",
+      "scryfallIllustrationId": "6da7d953-07d4-4974-a4c5-b9ba7de25809",
+      "scryfallOracleId": "bf666b41-603d-4b0f-850d-81d7a4de06e4",
+      "text": "Vigilance",
+      "toughness": "4",
+      "type": "Token Creature — Zombie Human Cleric",
+      "uuid": "75719ec3-b522-50f7-ad37-34700e511bad"
+    },
+    {
+      "artist": "Josu Hernaiz",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Sunscourge Champion",
+      "number": "9",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "289a9593-151e-47d0-b0de-5eb9f061515a",
+      "scryfallIllustrationId": "81abae89-6c27-4b7c-b72b-71fc09a3e080",
+      "scryfallOracleId": "caf97aba-584f-436d-9f3e-7aecefc96b89",
+      "text": "When Sunscourge Champion enters the battlefield, you gain life equal to its power.",
+      "toughness": "4",
+      "type": "Token Creature — Zombie Human Wizard",
+      "uuid": "72f36f4a-5f80-5989-81c9-104115dcac8a"
+    }
+  ],
+  "totalSetSize": 209,
+  "translations": {
+    "Chinese Simplified": "幻灭时刻",
+    "Chinese Traditional": "幻滅時刻",
+    "French": "L’Âge de la Destruction",
+    "German": "Stunde der Vernichtung",
+    "Italian": "L’Era della Rovina",
+    "Japanese": "『破滅の刻』",
+    "Korean": "파멸의 시간",
+    "Portuguese (Brazil)": "Hora da Devastação",
+    "Russian": "«Час Разрушения»",
+    "Spanish": "LA HORA DE LA DEVASTACIÓN"
+  },
+  "type": "expansion"
 }

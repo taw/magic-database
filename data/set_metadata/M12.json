@@ -1,11 +1,7 @@
 {
-  "name": "Magic 2012",
-  "code": "M12",
-  "magicCardsInfoCode": "m12",
-  "releaseDate": "2011-07-15",
-  "border": "black",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 249,
+  "block": "Core Set",
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -26,17 +22,204 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Magic 2012",
-    "fr": "Magic 2012",
-    "it": "Magic 2012",
-    "es": "Magic 2012",
-    "pt": "Magic 2012",
-    "jp": "2012基本セット",
-    "cn": "核心系列2012",
-    "ru": "Базовый выпуск 2012",
-    "tw": "核心系列2012"
+  "code": "M12",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "M12",
+  "mcmId": 1280,
+  "mcmName": "Magic 2012",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Magic 2012",
-  "mkm_id": 1280
+  "mtgoCode": "M12",
+  "name": "Magic 2012",
+  "releaseDate": "2011-07-15",
+  "tcgplayerGroupId": 70,
+  "tokens": [
+    {
+      "artist": "John Donahue",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "4",
+      "power": "3",
+      "reverseRelated": [
+        "Garruk, Primal Hunter",
+        "Wurm"
+      ],
+      "scryfallId": "3bb48d4f-e39f-4d51-9bb1-efca7dbfdc83",
+      "scryfallIllustrationId": "b241883c-fe4f-42c9-be2c-2ed51bcc174b",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "d697343b-d4dc-5593-b9cd-916c62b6e5ff"
+    },
+    {
+      "artist": "Paul Bonner",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "1",
+      "power": "3",
+      "reverseRelated": [
+        "Roc Egg"
+      ],
+      "scryfallId": "b6311cc7-8431-43a3-83ec-b2a5f07acf56",
+      "scryfallIllustrationId": "0668318e-f4c6-4d47-838e-50321cf14c4a",
+      "scryfallOracleId": "9b6825f6-5944-47f0-b2f1-04fbcb12a1cb",
+      "text": "Flying",
+      "toughness": "3",
+      "type": "Token Creature — Bird",
+      "uuid": "d37dcd15-9c00-524c-b864-5429e830dd82"
+    },
+    {
+      "artist": "Greg Staples",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Pentavite",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+        "Pentavus"
+      ],
+      "scryfallId": "a1f88c3e-3532-489a-8f31-e07e8040f28e",
+      "scryfallIllustrationId": "27378cca-8d9e-433d-8994-f374bb87b3ed",
+      "scryfallOracleId": "c9e57f97-be25-4ab6-9158-d2677d7742f7",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Pentavite",
+      "uuid": "430cfbc0-b4ae-509d-b6cb-41d25cc1c319"
+    },
+    {
+      "artist": "Cyril Van Der Haegen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Jade Mage",
+        "Druidic Satchel"
+      ],
+      "scryfallId": "ca2df53f-060d-464a-9c97-908e49e2dc2c",
+      "scryfallIllustrationId": "5bd316ce-2a6b-436d-9b0d-efc131e838a8",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "f0065e99-257f-5104-bd8d-a99ffbc65df4"
+    },
+    {
+      "artist": "Paolo Parente",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Timely Reinforcements",
+        "Throne of Empires"
+      ],
+      "scryfallId": "7c2a26d0-2687-41f6-99b9-6ed4e5e8a5e4",
+      "scryfallIllustrationId": "e501a169-849f-468d-953e-62a6044a868e",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "88bf67d7-aaab-5a7f-937f-ef2c25742201"
+    },
+    {
+      "artist": "Anthony Francisco",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wurm",
+      "number": "6",
+      "power": "6",
+      "reverseRelated": [
+        "Garruk, Primal Hunter",
+        "Beast"
+      ],
+      "scryfallId": "84dc847c-7a37-4c7f-b02c-30b3e4c91fb6",
+      "scryfallIllustrationId": "b5073061-ca8d-4ca8-988e-9a44dcbc2e23",
+      "scryfallOracleId": "46a55586-cc9a-443c-b458-e628afc3c587",
+      "toughness": "6",
+      "type": "Token Creature — Wurm",
+      "uuid": "65acf1c5-4bfa-5deb-9133-2bc44e0f680f"
+    },
+    {
+      "artist": "Carl Critchlow",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+        "Cemetery Reaper",
+        "Grave Titan",
+        "Zombie Infestation"
+      ],
+      "scryfallId": "8db7e3f4-0153-425a-8edc-2747bbb89638",
+      "scryfallIllustrationId": "26f5ec4c-1603-42ac-a467-2b32faa4b71c",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "09ddd9f7-1869-5601-ba7d-40f1ca2b5adb"
+    }
+  ],
+  "totalSetSize": 249,
+  "translations": {
+    "Chinese Simplified": "核心系列2012",
+    "Chinese Traditional": "核心系列2012",
+    "French": "Édition de base 2012",
+    "German": "2012 Hauptset",
+    "Italian": "Set Base 2012",
+    "Japanese": "基本セット2012",
+    "Korean": "2012 코어세트",
+    "Portuguese (Brazil)": "Coleção Básica 2012",
+    "Russian": "Базовый выпуск 2012",
+    "Spanish": "Colección básica 2012"
+  },
+  "type": "core"
 }

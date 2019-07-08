@@ -1,11 +1,6 @@
 {
-  "name": "Iconic Masters",
-  "code": "IMA",
-  "magicCardsInfoCode": "ima",
-  "releaseDate": "2017-11-17",
-  "border": "black",
-  "type": "reprint",
-  "booster": [
+  "baseSetSize": 249,
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -29,5 +24,204 @@
       "foil uncommon",
       "foil common"
     ]
-  ]
+  ],
+  "code": "IMA",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "IMA",
+  "mcmId": 1811,
+  "mcmName": "Iconic Masters",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "IMA",
+  "name": "Iconic Masters",
+  "releaseDate": "2017-11-17",
+  "tcgplayerGroupId": 2050,
+  "tokens": [
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "1",
+      "power": "4",
+      "reverseRelated": [
+        "Angelic Accord"
+      ],
+      "scryfallId": "1dc88baf-217f-4b25-9945-75c33ae37dc2",
+      "scryfallIllustrationId": "52433729-f5bc-46b1-a0b6-d03dc7412241",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "f95cb05e-ced2-5ffc-b30b-5fb256424589"
+    },
+    {
+      "artist": "Steve Prescott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "7",
+      "power": "4",
+      "reverseRelated": [
+        "Hunting Pack",
+        "Rampaging Baloths"
+      ],
+      "scryfallId": "c9e02247-42ad-4bbc-9c89-0265c3ad85db",
+      "scryfallIllustrationId": "b37e5fc3-c689-4bfe-90ba-098f7ec55b5b",
+      "scryfallOracleId": "695b14a0-920a-47bd-bd4a-7989862cdd0a",
+      "toughness": "4",
+      "type": "Token Creature — Beast",
+      "uuid": "c00287bd-d067-5c0f-a9e9-8e7e8aea679e"
+    },
+    {
+      "artist": "Howard Lyon",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Emeria Angel"
+      ],
+      "scryfallId": "e8a1b1f2-f067-4c8a-b134-4567e4d5a7c6",
+      "scryfallIllustrationId": "d7ac5c05-5906-47b4-9772-0cdf98cddb41",
+      "scryfallOracleId": "b1a2b096-a440-4ef9-ab2a-059c79999297",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bird",
+      "uuid": "38ca5455-e810-5b63-8e31-657a7d026208"
+    },
+    {
+      "artist": "Izzy",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Djinn Monk",
+      "number": "4",
+      "power": "2",
+      "reverseRelated": [
+        "Skywise Teachings"
+      ],
+      "scryfallId": "12b5e32a-b86b-4f8b-ae93-19f0b95c4514",
+      "scryfallIllustrationId": "4f16f40f-b715-4655-8590-37c816d83f3b",
+      "scryfallOracleId": "28571b5c-f7f5-4f9c-9891-405b54a28f60",
+      "text": "Flying",
+      "toughness": "2",
+      "type": "Token Creature — Djinn Monk",
+      "uuid": "9fc4b685-52ae-5788-984a-87c76f00f25f"
+    },
+    {
+      "artist": "Jack Wang",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Dragon Egg"
+      ],
+      "scryfallId": "d83e8599-49e0-4a70-b8a8-883af4b1b7bc",
+      "scryfallIllustrationId": "f3a70737-ee42-49c2-b628-6eb2b17a50e7",
+      "scryfallOracleId": "ec6df381-5ea7-4c68-8416-093b107f0784",
+      "text": "Flying\n{R}: This creature gets +1/+0 until end of turn.",
+      "toughness": "2",
+      "type": "Token Creature — Dragon",
+      "uuid": "71de1227-fede-5374-b136-e9d9068935f2"
+    },
+    {
+      "artist": "Jim Pavelec",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "6",
+      "power": "5",
+      "reverseRelated": [
+        "Day of the Dragons"
+      ],
+      "scryfallId": "2a341b61-c945-4ea1-89a3-217a97f98ae3",
+      "scryfallIllustrationId": "1462a26d-dd62-457d-96f2-07a4066426ed",
+      "scryfallOracleId": "60fe4897-6760-4c5a-8074-c92bd64df52b",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Dragon",
+      "uuid": "f6f6c745-d5a9-506c-8ffe-cbbd9b80c10c"
+    },
+    {
+      "artist": "Ryan Yee",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Doomed Traveler"
+      ],
+      "scryfallId": "7dcd7257-ca21-4847-802b-94e2957993c3",
+      "scryfallIllustrationId": "50ddbe3c-fb6c-4a9f-87c9-fd200719576f",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "c75fd6fd-859d-5c3e-a32e-f711616b2951"
+    }
+  ],
+  "totalSetSize": 249,
+  "translations": {
+    "Chinese Simplified": "Iconic Masters",
+    "Chinese Traditional": "Iconic Masters",
+    "French": "Iconic Masters",
+    "German": "Iconic Masters",
+    "Italian": "Iconic Masters",
+    "Japanese": "Iconic Masters",
+    "Korean": "Iconic Masters",
+    "Portuguese (Brazil)": "Iconic Masters",
+    "Russian": "Iconic Masters",
+    "Spanish": "Iconic Masters"
+  },
+  "type": "masters"
 }

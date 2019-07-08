@@ -1,12 +1,7 @@
 {
-  "name": "Rise of the Eldrazi",
-  "code": "ROE",
-  "magicCardsInfoCode": "roe",
-  "releaseDate": "2010-04-23",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 248,
   "block": "Zendikar",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,16 +22,238 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Aufstieg der Eldrazi",
-    "fr": "L'ascension des Eldrazi",
-    "it": "Ascesa degli Eldrazi",
-    "es": "Levantamiento de los Eldrazi",
-    "pt": "Ascensão dos Eldrazi",
-    "jp": "エルドラージ覚醒",
-    "cn": "奥札奇再起",
-    "ru": "Возрождение Эльдрази"
+  "code": "ROE",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ROE",
+  "mcmId": 120,
+  "mcmName": "Rise of the Eldrazi",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Rise of the Eldrazi",
-  "mkm_id": 120
+  "mtgoCode": "ROE",
+  "name": "Rise of the Eldrazi",
+  "releaseDate": "2010-04-23",
+  "tcgplayerGroupId": 98,
+  "tokens": [
+    {
+      "artist": "Aleksi Briclot",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Spawn",
+      "number": "1a",
+      "power": "0",
+      "reverseRelated": [
+        "Skittering Invasion",
+        "Spawnsire of Ulamog",
+        "Corpsehatch",
+        "Dread Drone",
+        "Essence Feed",
+        "Pawn of Ulamog",
+        "Brood Birthing",
+        "Emrakul's Hatcher",
+        "Rapacious One",
+        "Spawning Breath",
+        "Awakening Zone",
+        "Growth Spasm",
+        "Kozilek's Predator",
+        "Nest Invader"
+      ],
+      "scryfallId": "e0e3826c-3c85-4910-bd6c-04894ea328d0",
+      "scryfallIllustrationId": "c92785ab-6d39-468a-a99a-a1cc87a35ab8",
+      "scryfallOracleId": "3aaf906a-e749-4e86-ac79-97650b92f271",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Spawn",
+      "uuid": "540e8f6c-03d3-5216-b880-d4267d24727e"
+    },
+    {
+      "artist": "Mark Tedin",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Spawn",
+      "number": "1b",
+      "power": "0",
+      "reverseRelated": [
+        "Skittering Invasion",
+        "Spawnsire of Ulamog",
+        "Corpsehatch",
+        "Dread Drone",
+        "Essence Feed",
+        "Pawn of Ulamog",
+        "Brood Birthing",
+        "Emrakul's Hatcher",
+        "Rapacious One",
+        "Spawning Breath",
+        "Awakening Zone",
+        "Growth Spasm",
+        "Kozilek's Predator",
+        "Nest Invader"
+      ],
+      "scryfallId": "35fb1a3d-3f1a-45ba-a643-1dca435c77de",
+      "scryfallIllustrationId": "f3b52eb4-27b1-4f1d-a24b-882f7b884d1f",
+      "scryfallOracleId": "3aaf906a-e749-4e86-ac79-97650b92f271",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Spawn",
+      "uuid": "00d47bc8-1468-569b-9b3f-65212797f9ed"
+    },
+    {
+      "artist": "Véronique Meignaud",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Spawn",
+      "number": "1c",
+      "power": "0",
+      "reverseRelated": [
+        "Skittering Invasion",
+        "Spawnsire of Ulamog",
+        "Corpsehatch",
+        "Dread Drone",
+        "Essence Feed",
+        "Pawn of Ulamog",
+        "Brood Birthing",
+        "Emrakul's Hatcher",
+        "Rapacious One",
+        "Spawning Breath",
+        "Awakening Zone",
+        "Growth Spasm",
+        "Kozilek's Predator",
+        "Nest Invader"
+      ],
+      "scryfallId": "d0da4f8d-cce9-4d08-8d11-792e0b2af7d0",
+      "scryfallIllustrationId": "d0aff54f-78fc-49de-bfd5-d6fc483a60b6",
+      "scryfallOracleId": "3aaf906a-e749-4e86-ac79-97650b92f271",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Spawn",
+      "uuid": "0e55c269-d127-5e3e-977e-402c0b56c6fa"
+    },
+    {
+      "artist": "Jung Park",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "2",
+      "power": "*",
+      "reverseRelated": [
+        "Devastating Summons"
+      ],
+      "scryfallId": "fd0c9fb3-5f4c-47f9-a9b3-369d4936de60",
+      "scryfallIllustrationId": "c825e40e-2c09-43e6-84fa-afb3ebcd69db",
+      "scryfallOracleId": "ae6c93a3-8be3-4218-a32a-ce804578058e",
+      "toughness": "*",
+      "type": "Token Creature — Elemental",
+      "uuid": "3076f340-a369-5b68-944c-87b2a8cf78f1"
+    },
+    {
+      "artist": "Anthony Francisco",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Hellion",
+      "number": "3",
+      "power": "4",
+      "reverseRelated": [
+        "Hellion Eruption"
+      ],
+      "scryfallId": "acabc3ce-a3c1-4c6c-8022-9a96ffba59c6",
+      "scryfallIllustrationId": "2b2dc3c7-9f29-4cb5-aafc-0b46f6e5d832",
+      "scryfallOracleId": "4b7f673b-b7ce-4158-97c5-3fb3d3f24ba7",
+      "toughness": "4",
+      "type": "Token Creature — Hellion",
+      "uuid": "954545e2-b2b9-585f-b88d-443e4f6850e0"
+    },
+    {
+      "artist": "Daniel Ljunggren",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Ooze",
+      "number": "4",
+      "power": "*",
+      "reverseRelated": [
+        "Gelatinous Genesis"
+      ],
+      "scryfallId": "d49e91df-0647-4c9f-9c3e-fb8c77c4886c",
+      "scryfallIllustrationId": "289a1b1f-e3bb-4563-8062-fdf21d330190",
+      "scryfallOracleId": "bb3da6d2-aed7-4057-b94b-6882fb45cc89",
+      "toughness": "*",
+      "type": "Token Creature — Ooze",
+      "uuid": "9725bfc9-f192-58dd-9ddc-77ab27b32121"
+    },
+    {
+      "artist": "Franz Vohwinkel",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Tuktuk the Returned",
+      "number": "5",
+      "power": "5",
+      "reverseRelated": [
+        "Tuktuk the Explorer"
+      ],
+      "scryfallId": "11f55fa2-bb6f-4609-85ec-72703638fbd9",
+      "scryfallIllustrationId": "6bab4e39-9f54-4475-9756-7187a435eb34",
+      "scryfallOracleId": "9ccb2b2a-23a9-42c4-947f-47c7eafdb018",
+      "toughness": "5",
+      "type": "Token Legendary Artifact Creature — Goblin Golem",
+      "uuid": "473faa78-1a6e-560a-a2d9-825f8af51fe2"
+    }
+  ],
+  "totalSetSize": 248,
+  "translations": {
+    "Chinese Simplified": "奥札奇再起",
+    "Chinese Traditional": "奧札奇再起",
+    "French": "L'ascension des Eldrazi",
+    "German": "Aufstieg der Eldrazi",
+    "Italian": "Ascesa degli Eldrazi",
+    "Japanese": "エルドラージ覚醒",
+    "Korean": "엘드라지의 궐기",
+    "Portuguese (Brazil)": "Ascensão dos Eldrazi",
+    "Russian": "Возрождение Эльдрази",
+    "Spanish": "Levantamiento de los Eldrazi"
+  },
+  "type": "expansion"
 }

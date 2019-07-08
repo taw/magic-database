@@ -1,0 +1,25 @@
+{
+  "baseSetSize": 0,
+  "block": "Friday Night Magic",
+  "code": "FNM",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "mcmId": 72,
+  "mcmName": "Friday Night Magic Promos",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Friday Night Magic 2000",
+  "releaseDate": "2000-01-01",
+  "tcgplayerGroupId": 45,
+  "tokens": [
+
+  ],
+  "totalSetSize": 11,
+  "translations": {
+  },
+  "type": "promo"
+}

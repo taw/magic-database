@@ -1,10 +1,24 @@
 {
-  "name": "Collector's Edition",
+  "baseSetSize": 0,
   "code": "CED",
-  "magicCardsInfoCode": "ced",
-  "releaseDate": "1993-12-01",
-  "border": "black",
-  "type": "reprint",
-  "mkm_name": "Collectors' Edition",
-  "mkm_id": 61
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "CED",
+  "mcmId": 61,
+  "mcmName": "Collectors' Edition",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Collectors’ Edition",
+  "releaseDate": "1993-12-10",
+  "tcgplayerGroupId": 1526,
+  "tokens": [
+
+  ],
+  "totalSetSize": 302,
+  "translations": {
+  },
+  "type": "memorabilia"
 }

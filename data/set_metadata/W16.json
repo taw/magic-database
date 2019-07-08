@@ -1,9 +1,25 @@
 {
-  "name": "Welcome Deck 2016",
+  "baseSetSize": 0,
   "code": "W16",
-  "magicCardsInfoCode": "w16",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "W16",
+  "mcmId": 1710,
+  "mcmName": "Welcome Deck 2016",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "W16",
+  "name": "Welcome Deck 2016",
   "releaseDate": "2016-04-08",
-  "border": "black",
-  "type": "starter",
-  "block": "Shadows over Innistrad"
+  "tcgplayerGroupId": 1765,
+  "tokens": [
+
+  ],
+  "totalSetSize": 16,
+  "translations": {
+  },
+  "type": "starter"
 }

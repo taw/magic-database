@@ -1,13 +1,23 @@
 {
-  "name": "Multiverse Gift Box",
+  "baseSetSize": 0,
   "code": "MGB",
-  "magicCardsInfoCode": "mgbc",
-  "magicRaritiesCodes": [
-    "145-rarities-multiverse-gift-box-cards"
-  ],
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "mcmId": 1519,
+  "mcmName": "Multiverse Gift Box",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Multiverse Gift Box",
   "releaseDate": "1996-11-01",
-  "border": "black",
-  "type": "box",
-  "mkm_name": "Multiverse Gift Box",
-  "mkm_id": 1519
+  "tokens": [
+
+  ],
+  "totalSetSize": 10,
+  "translations": {
+  },
+  "type": "box"
 }

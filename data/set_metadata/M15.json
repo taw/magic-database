@@ -1,11 +1,7 @@
 {
-  "name": "Magic 2015 Core Set",
-  "code": "M15",
-  "magicCardsInfoCode": "m15",
-  "releaseDate": "2014-07-18",
-  "border": "black",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 269,
+  "block": "Core Set",
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -26,18 +22,366 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Magic 2015",
-    "fr": "Magic 2015",
-    "it": "Magic 2015",
-    "es": "Magic 2015",
-    "pt": "Magic 2015",
-    "jp": "Magic 2015",
-    "cn": "Magic 2015",
-    "ru": "Magic 2015",
-    "tw": "Magic 2015",
-    "ko": "Magic 2015"
+  "code": "M15",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "M15",
+  "mcmId": 1485,
+  "mcmName": "Magic 2015",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Magic 2015",
-  "mkm_id": 1485
+  "mtgoCode": "M15",
+  "name": "Magic 2015",
+  "releaseDate": "2014-07-18",
+  "tcgplayerGroupId": 1293,
+  "tokens": [
+    {
+      "artist": "Chris Rahn",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Ajani Steadfast Emblem",
+      "number": "13",
+      "reverseRelated": [
+        "Ajani Steadfast"
+      ],
+      "scryfallId": "e8ec39dd-8ba5-4a92-bfc8-4028a2c4691d",
+      "scryfallIllustrationId": "420ad88a-5bd0-4127-b210-52ffafb71937",
+      "scryfallOracleId": "28ca9176-6d8a-41fa-8be5-4b12fc73f1a2",
+      "text": "If a source would deal damage to you or a planeswalker you control, prevent all but 1 of that damage.",
+      "type": "Emblem — Ajani",
+      "uuid": "d5bfacc3-f7dd-57bd-b8a4-c51ba6556826"
+    },
+    {
+      "artist": "Dave Kendall",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "5",
+      "power": "3",
+      "reverseRelated": [
+        "Garruk, Apex Predator"
+      ],
+      "scryfallId": "fc48bf5f-5fe1-41ef-a63d-85daacd941f7",
+      "scryfallIllustrationId": "b05973d9-da42-4d1d-bbce-f89835836063",
+      "scryfallOracleId": "3c27a325-4490-44e6-aa9a-b591697486c8",
+      "text": "Deathtouch",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "ff7918e3-e5ab-5144-9a09-0ffd895d5d9a"
+    },
+    {
+      "artist": "John Donahue",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "9",
+      "power": "3",
+      "reverseRelated": [
+        "Feral Incarnation",
+        "Soul of Zendikar"
+      ],
+      "scryfallId": "dd81e49b-bd38-4c0c-b9fe-ce33c15621d6",
+      "scryfallIllustrationId": "b241883c-fe4f-42c9-be2c-2ed51bcc174b",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "0cec1da2-c701-5453-804c-7f9f40223775"
+    },
+    {
+      "artist": "Jack Wang",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "7",
+      "power": "2",
+      "reverseRelated": [
+        "Brood Keeper"
+      ],
+      "scryfallId": "9661e23a-8914-493b-a08a-e9cd29b4666e",
+      "scryfallIllustrationId": "f3a70737-ee42-49c2-b628-6eb2b17a50e7",
+      "scryfallOracleId": "ec6df381-5ea7-4c68-8416-093b107f0784",
+      "text": "Flying\n{R}: This creature gets +1/+0 until end of turn.",
+      "toughness": "2",
+      "type": "Token Creature — Dragon",
+      "uuid": "6d2bd76d-d47e-54c5-90a8-fc250b9c409f"
+    },
+    {
+      "artist": "Tyler Jacobson",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Garruk, Apex Predator Emblem",
+      "number": "14",
+      "reverseRelated": [
+        "Garruk, Apex Predator"
+      ],
+      "scryfallId": "5a6fa6ba-045a-43f8-8b04-579ffe24f927",
+      "scryfallIllustrationId": "7e3883ef-4c22-4e9f-a2c3-94e6edbd7b28",
+      "scryfallOracleId": "f1df1017-8d03-46c8-a47c-4a301f326550",
+      "text": "Whenever a creature attacks you, it gets +5/+5 and gains trample until end of turn.",
+      "type": "Emblem — Garruk",
+      "uuid": "56c89ef4-f299-5732-8b23-aab2fa6c4bd9"
+    },
+    {
+      "artist": "Karl Kopinski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "8",
+      "power": "1",
+      "reverseRelated": [
+        "Goblin Rabblemaster"
+      ],
+      "scryfallId": "98993a45-4aff-4f9b-a030-7d72fbb4ec6c",
+      "scryfallIllustrationId": "033b1753-2e94-45b6-a841-2be33bbfbc2d",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "ff5398de-dc29-5aa7-8a44-fbc6d445d579"
+    },
+    {
+      "artist": "Martina Pilcerova",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Insect",
+      "number": "10",
+      "power": "1",
+      "reverseRelated": [
+        "Hornet Nest",
+        "Hornet Queen"
+      ],
+      "scryfallId": "e101a5b1-614e-43a0-9e7e-de5a248e2e43",
+      "scryfallIllustrationId": "4c1e6af5-e667-4778-b72f-c5493a096b0d",
+      "scryfallOracleId": "b4f3e7ab-68fd-4613-ae6d-79ca43343d37",
+      "text": "Flying, deathtouch",
+      "toughness": "1",
+      "type": "Token Creature — Insect",
+      "uuid": "65195dbd-09e1-5af4-a88b-d3b905675d1b"
+    },
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Land Mine",
+      "number": "12",
+      "reverseRelated": [
+        "Goblin Kaboomist"
+      ],
+      "scryfallId": "30093c6e-505e-4902-b535-707e364059b4",
+      "scryfallIllustrationId": "35c83bca-a43c-4a27-b237-8f60d8fe253c",
+      "scryfallOracleId": "b143de5d-1be5-4f12-a367-9e1d33ac5e05",
+      "text": "{R}, Sacrifice this artifact: This artifact deals 2 damage to target attacking creature without flying.",
+      "type": "Token Artifact",
+      "uuid": "4393ba54-0293-5304-85b0-9bc0ade23d8e"
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Sliver",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Sliver Hive"
+      ],
+      "scryfallId": "dec96e95-5580-4110-86ec-561007ab0f1e",
+      "scryfallIllustrationId": "8ac3df78-76c9-4c2e-8e81-fa76af3be70f",
+      "scryfallOracleId": "9ac81d75-2bec-46ab-84e1-2fc893d45219",
+      "toughness": "1",
+      "type": "Token Creature — Sliver",
+      "uuid": "eee3f2f5-e2ab-5401-8785-2c8c92741c8a"
+    },
+    {
+      "artist": "Greg Staples",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "First Response",
+        "Raise the Alarm"
+      ],
+      "scryfallId": "faf83070-573c-4a06-9a2d-1263d7600b66",
+      "scryfallIllustrationId": "6df28827-075d-4e5e-ba2c-d26982ace45f",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "5c2da476-7aed-5f8e-9a91-a957d22c8018"
+    },
+    {
+      "artist": "Mike Sass",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Spirit Bonds",
+        "Triplicate Spirits"
+      ],
+      "scryfallId": "41dbf439-793a-4fe6-9d4e-0333f482e364",
+      "scryfallIllustrationId": "1dbe0618-dd47-442c-acf6-ac5e4b136e5a",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "ad3b0e22-c959-5a1d-90f0-5c6da00efceb"
+    },
+    {
+      "artist": "Jack Wang",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Squid",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Chasm Skulker",
+        "Coral Barrier"
+      ],
+      "scryfallId": "8c366546-6da9-4daa-b0c3-1401ace5568c",
+      "scryfallIllustrationId": "1a343b9b-2a32-4adb-b933-c6d1ffaa0f8f",
+      "scryfallOracleId": "dd85fcd6-9bfd-4deb-a56a-77c6bca8eb97",
+      "text": "Islandwalk",
+      "toughness": "1",
+      "type": "Token Creature — Squid",
+      "uuid": "70b62139-29ed-533e-b5c5-bcd39d6f860d"
+    },
+    {
+      "artist": "Todd Lockwood",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Treefolk Warrior",
+      "number": "11",
+      "power": "*",
+      "reverseRelated": [
+        "Kalonian Twingrove"
+      ],
+      "scryfallId": "2569593a-d2f2-414c-9e61-2c34e8a5832d",
+      "scryfallIllustrationId": "11a7ef13-205d-4ad8-82b3-74836cb100ab",
+      "scryfallOracleId": "36436e2f-3998-4c12-9c48-b34c389bcbd2",
+      "text": "This creature's power and toughness are each equal to the number of Forests you control.",
+      "toughness": "*",
+      "type": "Token Creature — Treefolk Warrior",
+      "uuid": "323b3320-6f4a-5fbd-9729-0b2c5d651639"
+    },
+    {
+      "artist": "Lucas Graciano",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "6",
+      "power": "2",
+      "reverseRelated": [
+        "Necromancer's Stockpile",
+        "Waste Not"
+      ],
+      "scryfallId": "eb0a1ebd-a0ac-4a03-8ac2-4678d6fb03fa",
+      "scryfallIllustrationId": "6bb462b0-a2a7-4cdf-9fe4-c14d6aceeddc",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "bf74abed-48ec-51a0-9632-4b60a10c988e"
+    }
+  ],
+  "totalSetSize": 284,
+  "translations": {
+    "Chinese Simplified": "万智牌2015 核心系列",
+    "Chinese Traditional": "魔法風雲會2015 核心系列",
+    "French": "Édition de base Magic 2015",
+    "German": "Hauptset Magic 2015",
+    "Italian": "Set Base Magic 2015",
+    "Japanese": "『マジック基本セット2015』",
+    "Korean": "매직 2015 코어세트",
+    "Portuguese (Brazil)": "Coleção Básica de Magic 2015",
+    "Russian": "Базовый выпуск Magic 2015",
+    "Spanish": "Colección básica Magic 2015"
+  },
+  "type": "core"
 }

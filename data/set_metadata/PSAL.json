@@ -1,0 +1,21 @@
+{
+  "baseSetSize": 0,
+  "code": "PSAL",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "PHUK",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Salvat 2005",
+  "releaseDate": "2005-08-22",
+  "tokens": [
+
+  ],
+  "totalSetSize": 720,
+  "translations": {
+  },
+  "type": "box"
+}

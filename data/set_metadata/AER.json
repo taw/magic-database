@@ -1,12 +1,7 @@
 {
-  "name": "Aether Revolt",
-  "code": "AER",
-  "magicCardsInfoCode": "aer",
-  "releaseDate": "2017-01-20",
-  "border": "black",
+  "baseSetSize": 184,
   "block": "Kaladesh",
-  "type": "expansion",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -26,5 +21,127 @@
     "common",
     "land",
     "marketing"
-  ]
+  ],
+  "code": "AER",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "AER",
+  "mcmId": 1718,
+  "mcmName": "Aether Revolt",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "AER",
+  "name": "Aether Revolt",
+  "releaseDate": "2017-01-20",
+  "tcgplayerGroupId": 1857,
+  "tokens": [
+    {
+      "artist": "Craig J Spearing",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Etherium Cell",
+      "number": "3",
+      "reverseRelated": [
+        "Tezzeret the Schemer"
+      ],
+      "scryfallId": "9616ca53-ea6a-4fc1-8e01-94e0fb47e5ed",
+      "scryfallIllustrationId": "d900f270-da60-4600-8d64-1f3445b897f7",
+      "scryfallOracleId": "95020317-49d3-463a-a3c1-d492bd4fc86e",
+      "text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+      "type": "Token Artifact",
+      "uuid": "aec54cae-081e-5a50-a62e-ca50f38052ae"
+    },
+    {
+      "artist": "Jason Rainville",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Gremlin",
+      "number": "1",
+      "power": "2",
+      "reverseRelated": [
+        "Gremlin Infestation",
+        "Release the Gremlins"
+      ],
+      "scryfallId": "c6071fed-39c1-4f3b-a821-1611aedd8054",
+      "scryfallIllustrationId": "ac9a73b2-afbb-43e1-a989-00dd8e985afc",
+      "scryfallOracleId": "bb8ac1fb-fcab-464e-a9c3-3c1641da4e5e",
+      "toughness": "2",
+      "type": "Token Creature — Gremlin",
+      "uuid": "bd9b20db-f958-588b-aede-0306eff9566a"
+    },
+    {
+      "artist": "Daniel Ljunggren",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Ragavan",
+      "number": "2",
+      "power": "2",
+      "reverseRelated": [
+        "Kari Zev, Skyship Raider"
+      ],
+      "scryfallId": "1ebc91a9-23e0-4ca1-bc6d-e710ad2efb31",
+      "scryfallIllustrationId": "25cc7ea6-636f-4460-b724-9679d4a06e69",
+      "scryfallOracleId": "e2a98673-a9c2-4579-b962-080405bbb661",
+      "toughness": "1",
+      "type": "Token Legendary Creature — Monkey",
+      "uuid": "d32e4274-2377-5092-acbc-ad57d9fcaea0"
+    },
+    {
+      "artist": "Ryan Alexander Lee",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Tezzeret the Schemer Emblem",
+      "number": "4",
+      "reverseRelated": [
+        "Tezzeret the Schemer"
+      ],
+      "scryfallId": "5f136537-1ebe-4018-b406-44ef32ceef04",
+      "scryfallIllustrationId": "ce60a2fb-b00f-45fc-a317-c0bb69ba1768",
+      "scryfallOracleId": "3a54dd28-d52d-479b-b783-49a848302cd6",
+      "text": "At the beginning of combat on your turn, target artifact you control becomes an artifact creature with base power and toughness 5/5.",
+      "type": "Emblem — Tezzeret",
+      "uuid": "4fef6126-12f9-54ca-82a1-21048639a818"
+    }
+  ],
+  "totalSetSize": 197,
+  "translations": {
+    "Chinese Simplified": "乙太之乱",
+    "Chinese Traditional": "乙太之亂",
+    "French": "La révolte éthérique",
+    "German": "Äther-Rebellion",
+    "Italian": "Rivolta dell’Etere",
+    "Japanese": "『霊気紛争』",
+    "Korean": "에테르 봉기",
+    "Portuguese (Brazil)": "Revolta do Éter",
+    "Russian": "«Эфирный Бунт»",
+    "Spanish": "La revuelta del éter"
+  },
+  "type": "expansion"
 }

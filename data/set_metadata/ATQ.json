@@ -1,14 +1,14 @@
 {
-  "name": "Antiquities",
-  "code": "ATQ",
-  "gathererCode": "AQ",
-  "magicCardsInfoCode": "aq",
-  "releaseDate": "1994-03-04",
-  "border": "black",
-  "type": "expansion",
-  "booster": [
-    "uncommon",
-    "uncommon",
+  "baseSetSize": 100,
+  "boosterV3": [
+    [
+      "rare",
+      "uncommon"
+    ],
+    [
+      "rare",
+      "uncommon"
+    ],
     "common",
     "common",
     "common",
@@ -16,6 +16,35 @@
     "common",
     "common"
   ],
-  "mkm_name": "Antiquities",
-  "mkm_id": 5
+  "code": "ATQ",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ATQ",
+  "mcmId": 5,
+  "mcmName": "Antiquities",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Antiquities",
+  "releaseDate": "1994-03-04",
+  "tcgplayerGroupId": 8,
+  "tokens": [
+
+  ],
+  "totalSetSize": 101,
+  "translations": {
+    "Chinese Simplified": "Antiquities",
+    "Chinese Traditional": "Antiquities",
+    "French": "Antiquities",
+    "German": "Antiquities",
+    "Italian": "Antiquities",
+    "Japanese": "Antiquities",
+    "Korean": "Antiquities",
+    "Portuguese (Brazil)": "Antiquities",
+    "Russian": "Antiquities",
+    "Spanish": "Antiquities"
+  },
+  "type": "expansion"
 }

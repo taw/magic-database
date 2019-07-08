@@ -1,11 +1,7 @@
 {
-  "name": "Tenth Edition",
-  "code": "10E",
-  "magicCardsInfoCode": "10e",
-  "releaseDate": "2007-07-13",
-  "border": "black",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 383,
+  "block": "Core Set",
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,17 +19,175 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Zehnte Edition",
-    "fr": "Dixième édition",
-    "it": "Decima Edizione",
-    "es": "Décima Edición",
-    "pt": "Décima Edição",
-    "jp": "第10版",
-    "cn": "第十版",
-    "ru": "Десятое Издание",
-    "tw": "Tenth Edition"
+  "code": "10E",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "10E",
+  "mcmId": 74,
+  "mcmName": "Tenth Edition",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Tenth Edition",
-  "mkm_id": 74
+  "mtgoCode": "10E",
+  "name": "Tenth Edition",
+  "releaseDate": "2007-07-13",
+  "tcgplayerGroupId": 1,
+  "tokens": [
+    {
+      "artist": "Jim Pavelec",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "3",
+      "power": "5",
+      "reverseRelated": [
+        "Dragon Roost"
+      ],
+      "scryfallId": "993b3b90-74c3-479b-b3e6-3f1cd8f1da04",
+      "scryfallIllustrationId": "1462a26d-dd62-457d-96f2-07a4066426ed",
+      "scryfallOracleId": "60fe4897-6760-4c5a-8074-c92bd64df52b",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Dragon",
+      "uuid": "a3720e3f-37be-503c-a50d-d62e0d08bf66"
+    },
+    {
+      "artist": "Dave Kendall",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Siege-Gang Commander"
+      ],
+      "scryfallId": "e9577d3c-ee19-4b53-adac-b304287a066f",
+      "scryfallIllustrationId": "12f18aeb-2a92-431f-9d1d-9d3ae9c9dba5",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "bb1252f0-cf77-54f1-bea3-b00f027e5597"
+    },
+    {
+      "artist": "Cyril Van Der Haegen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Verdant Force"
+      ],
+      "scryfallId": "698d48fa-d6c1-44b9-8aa2-bb03e0e53788",
+      "scryfallIllustrationId": "5bd316ce-2a6b-436d-9b0d-efc131e838a8",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "39a5f829-db44-56e7-967d-90b10e749d55"
+    },
+    {
+      "artist": "Paolo Parente",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Mobilization"
+      ],
+      "scryfallId": "c8ae31d1-9a6e-43f3-9b04-bd15699f73d6",
+      "scryfallIllustrationId": "e501a169-849f-468d-953e-62a6044a868e",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "a4790d8f-c710-52b8-aa2d-994d2cbe7804"
+    },
+    {
+      "artist": "Ron Spencer",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Wasp",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "The Hive"
+      ],
+      "scryfallId": "c75b81b5-5c84-45d4-832a-20c038372bc6",
+      "scryfallIllustrationId": "9255cb62-bfaa-4af7-93af-7121348c1ecc",
+      "scryfallOracleId": "e0a4cf18-57ca-47e5-b7b0-c26975601660",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Insect",
+      "uuid": "0d49c073-705b-5852-9c4e-f319ea7584ae"
+    },
+    {
+      "artist": "Carl Critchlow",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "2",
+      "power": "2",
+      "reverseRelated": [
+        "Midnight Ritual"
+      ],
+      "scryfallId": "8a73e348-5bf1-4465-978b-3f31408bade9",
+      "scryfallIllustrationId": "26f5ec4c-1603-42ac-a467-2b32faa4b71c",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "743cc046-fb14-5c74-a8b1-50b507527238"
+    }
+  ],
+  "totalSetSize": 508,
+  "translations": {
+    "Chinese Simplified": "核心系列第十版",
+    "Chinese Traditional": "核心系列第十版",
+    "French": "Dixième édition",
+    "German": "Hauptset Zehnte Edition",
+    "Italian": "Set Base Decima Edizione",
+    "Japanese": "第10版基本セット",
+    "Korean": "코어세트 10판",
+    "Portuguese (Brazil)": "Coleção Básica Décima Edição",
+    "Russian": "Базовый выпуск Десятое Издание",
+    "Spanish": "Colección Básica - Décima Edición"
+  },
+  "type": "core"
 }

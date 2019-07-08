@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Ixalan",
+  "code": "PXTC",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "XLN",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "XLN Treasure Chest",
+  "parentCode": "XLN",
+  "releaseDate": "2017-11-24",
+  "tokens": [
+
+  ],
+  "totalSetSize": 10,
+  "translations": {
+  },
+  "type": "promo"
+}

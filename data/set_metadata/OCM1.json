@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Commander",
+  "code": "OCM1",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "CM1",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Commander's Arsenal Oversized",
+  "parentCode": "CM1",
+  "releaseDate": "2012-11-02",
+  "tokens": [
+
+  ],
+  "totalSetSize": 10,
+  "translations": {
+  },
+  "type": "memorabilia"
+}

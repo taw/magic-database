@@ -1,12 +1,7 @@
 {
-  "name": "Scourge",
-  "code": "SCG",
-  "magicCardsInfoCode": "sc",
-  "releaseDate": "2003-05-26",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 143,
   "block": "Onslaught",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,13 +18,29 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Plagen",
-    "fr": "Fléau",
-    "it": "Flagello",
-    "es": "Azote",
-    "pt": "Flagelo"
+  "code": "SCG",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "SCG",
+  "mcmId": 43,
+  "mcmName": "Scourge",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Scourge",
-  "mkm_id": 43
+  "mtgoCode": "SCG",
+  "name": "Scourge",
+  "releaseDate": "2003-05-26",
+  "tcgplayerGroupId": 101,
+  "tokens": [
+
+  ],
+  "totalSetSize": 143,
+  "translations": {
+    "French": "Fléau",
+    "German": "Scourge",
+    "Spanish": "Azote"
+  },
+  "type": "expansion"
 }

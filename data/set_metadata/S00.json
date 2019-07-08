@@ -1,18 +1,24 @@
 {
-  "name": "Starter 2000",
+  "baseSetSize": 0,
   "code": "S00",
-  "gathererCode": "P4",
-  "magicCardsInfoCode": "st2k",
-  "releaseDate": "2000-04-24",
-  "border": "white",
-  "type": "starter",
-  "translations": {
-    "de": "Starter 2000",
-    "fr": "Starter 2000",
-    "it": "Starter 2000",
-    "es": "Starter 2000",
-    "pt": "Starter 2000"
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "S00",
+  "mcmId": 65,
+  "mcmName": "Starter 2000",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Starter 2000",
-  "mkm_id": 65
+  "name": "Starter 2000",
+  "releaseDate": "2000-04-01",
+  "tcgplayerGroupId": 106,
+  "tokens": [
+
+  ],
+  "totalSetSize": 20,
+  "translations": {
+  },
+  "type": "starter"
 }

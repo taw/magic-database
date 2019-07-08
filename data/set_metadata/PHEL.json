@@ -1,0 +1,77 @@
+{
+  "baseSetSize": 0,
+  "code": "PHEL",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "AVR",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Open the Helvault",
+  "parentCode": "AVR",
+  "releaseDate": "2012-04-28",
+  "tokens": [
+    {
+      "artist": "Karl Kopinski",
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "double_faced_token",
+      "name": "Demon",
+      "names": [
+        "Angel",
+        "Demon"
+      ],
+      "number": "1★",
+      "power": "5",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "4ac2b852-92b2-4daf-9d1f-f71d3b27c241",
+      "scryfallOracleId": "01fbdd79-5c23-43d5-8e95-492f8e994956",
+      "side": "b",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Demon",
+      "uuid": "a690ac6b-b4dc-5d2e-8b98-3a46911c4281"
+    },
+    {
+      "artist": "James Ryman",
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "double_faced_token",
+      "name": "Angel",
+      "names": [
+        "Angel",
+        "Demon"
+      ],
+      "number": "1★",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "4ac2b852-92b2-4daf-9d1f-f71d3b27c241",
+      "scryfallOracleId": "01fbdd79-5c23-43d5-8e95-492f8e994956",
+      "side": "a",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "c5f44c1b-52e2-5caf-b3fb-d46330586da3"
+    }
+  ],
+  "totalSetSize": 6,
+  "translations": {
+  },
+  "type": "memorabilia"
+}

@@ -1,11 +1,6 @@
 {
-  "name": "Modern Masters 2015 Edition",
-  "code": "MM2",
-  "magicCardsInfoCode": "mm2",
-  "releaseDate": "2015-05-22",
-  "border": "black",
-  "type": "reprint",
-  "booster": [
+  "baseSetSize": 249,
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -30,10 +25,428 @@
       "foil common"
     ]
   ],
-  "translations": {
-    "jp": "Modern Masters 2015 Edition",
-    "cn": "Modern Masters 2015 Edition"
+  "code": "MM2",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "MM2",
+  "mcmId": 1641,
+  "mcmName": "Modern Masters 2015",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Modern Masters 2015",
-  "mkm_id": 1641
+  "mtgoCode": "MM2",
+  "name": "Modern Masters 2015",
+  "releaseDate": "2015-05-22",
+  "tcgplayerGroupId": 1503,
+  "tokens": [
+    {
+      "artist": "Aleksi Briclot",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Spawn",
+      "number": "1",
+      "power": "0",
+      "reverseRelated": [
+        "Dread Drone",
+        "Kozilek's Predator",
+        "Nest Invader"
+      ],
+      "scryfallId": "cd1ef4fc-9b03-4750-90c9-aaa0017579dc",
+      "scryfallIllustrationId": "c92785ab-6d39-468a-a99a-a1cc87a35ab8",
+      "scryfallOracleId": "3aaf906a-e749-4e86-ac79-97650b92f271",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Spawn",
+      "uuid": "dded527b-de47-5119-90cd-cf71390c459d"
+    },
+    {
+      "artist": "Mark Tedin",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Spawn",
+      "number": "2",
+      "power": "0",
+      "reverseRelated": [
+        "Dread Drone",
+        "Kozilek's Predator",
+        "Nest Invader"
+      ],
+      "scryfallId": "b94559ea-b4c8-42e5-81b5-df45b2d711fd",
+      "scryfallIllustrationId": "f3b52eb4-27b1-4f1d-a24b-882f7b884d1f",
+      "scryfallOracleId": "3aaf906a-e749-4e86-ac79-97650b92f271",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Spawn",
+      "uuid": "1e3331c6-53ae-5c84-bbf9-407778f435a8"
+    },
+    {
+      "artist": "Véronique Meignaud",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Spawn",
+      "number": "3",
+      "power": "0",
+      "reverseRelated": [
+        "Dread Drone",
+        "Kozilek's Predator",
+        "Nest Invader"
+      ],
+      "scryfallId": "eeaae110-ef18-44fa-b8a8-c68bd439581e",
+      "scryfallIllustrationId": "d0aff54f-78fc-49de-bfd5-d6fc483a60b6",
+      "scryfallOracleId": "3aaf906a-e749-4e86-ac79-97650b92f271",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Spawn",
+      "uuid": "3827b7ea-c2b5-585c-a052-b538b31a53e7"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elephant",
+      "number": "9",
+      "power": "3",
+      "reverseRelated": [
+        "Bestial Menace",
+        "Snake",
+        "Wolf"
+      ],
+      "scryfallId": "2dbccfc7-427b-41e6-b770-92d73994bf3b",
+      "scryfallIllustrationId": "0fe3c48b-f071-458f-9320-fa34b7e5d8cb",
+      "scryfallOracleId": "079c46cc-feb0-4998-8593-c8b739afdb82",
+      "toughness": "3",
+      "type": "Token Creature — Elephant",
+      "uuid": "8da96430-3a44-541e-89b0-301e23922785"
+    },
+    {
+      "artist": "Dave Allsop",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Faerie Rogue",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Bitterblossom"
+      ],
+      "scryfallId": "81b53311-d007-42e8-94c0-c18052b6ef09",
+      "scryfallIllustrationId": "dfbe3660-9ff1-4068-a3df-279a96d4ff1b",
+      "scryfallOracleId": "741b9f0d-8c0d-4865-b177-fb64b687ad11",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Faerie Rogue",
+      "uuid": "be7fdbdb-6df5-5bd1-a0e9-874fd44fa5c2"
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Germ",
+      "number": "7",
+      "power": "0",
+      "reverseRelated": [
+        "Flayer Husk",
+        "Mortarpod",
+        "Sickleslicer"
+      ],
+      "scryfallId": "4414f9fa-dfda-4714-9f87-cb5e8914b07a",
+      "scryfallIllustrationId": "285432ed-cd72-4c1b-aa86-fa6945f5a5c1",
+      "scryfallOracleId": "bb549594-35f6-4ac6-9f1f-cfb35784d99e",
+      "toughness": "0",
+      "type": "Token Creature — Germ",
+      "uuid": "acb24152-d2d4-53c2-b94c-4c0d52053d80"
+    },
+    {
+      "artist": "Nic Klein",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Golem",
+      "number": "15",
+      "power": "3",
+      "reverseRelated": [
+        "Precursor Golem"
+      ],
+      "scryfallId": "ae65394e-0c97-4cde-8591-13d081192e26",
+      "scryfallIllustrationId": "92c93685-2ae0-442a-8fb9-eafdb9eebae0",
+      "scryfallOracleId": "9859c54d-695b-4bb1-940e-cfd1c3301e89",
+      "toughness": "3",
+      "type": "Token Artifact Creature — Golem",
+      "uuid": "4cf661f2-0d4f-5ec3-9fd9-7db42dcb0d66"
+    },
+    {
+      "artist": "Ron Spencer",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Insect",
+      "number": "10",
+      "power": "1",
+      "reverseRelated": [
+        "Ant Queen"
+      ],
+      "scryfallId": "599b5074-86a5-4666-8cf4-3deb83c09ba0",
+      "scryfallIllustrationId": "93342c47-41f0-494c-a307-abcdaa2ee149",
+      "scryfallOracleId": "c39cd31f-c4a2-4ca8-b4f9-b2e6289743bc",
+      "toughness": "1",
+      "type": "Token Creature — Insect",
+      "uuid": "8d4e24f1-fb4c-5f6d-aa8d-72e87293a6b7"
+    },
+    {
+      "artist": "Ryan Pancoast",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Myr",
+      "number": "16",
+      "power": "1",
+      "reverseRelated": [
+        "Myrsmith"
+      ],
+      "scryfallId": "c1a8c1a6-a88a-4b23-bd80-95769ea4917c",
+      "scryfallIllustrationId": "38aaf042-2fed-4761-baa7-62a3002b71fd",
+      "scryfallOracleId": "bf690282-125f-431c-a363-39f6772324c8",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Myr",
+      "uuid": "427d9aaf-186a-5c65-b3ea-18fe173f724f"
+    },
+    {
+      "artist": "Warren Mahy",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "11",
+      "power": "1",
+      "reverseRelated": [
+        "Scatter the Seeds",
+        "Tukatongue Thallid",
+        "Necrogenesis",
+        "Selesnya Guildmage"
+      ],
+      "scryfallId": "3aa39099-1ce8-4d59-bc2e-6bb99d10e97c",
+      "scryfallIllustrationId": "77f6a380-50b1-4209-9d78-95434c947c0a",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "f9ead0b9-6470-51a6-ade8-643356c6bb8f"
+    },
+    {
+      "artist": "Austin Hsu",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Snake",
+      "number": "12",
+      "power": "1",
+      "reverseRelated": [
+        "Bestial Menace",
+        "Elephant",
+        "Wolf"
+      ],
+      "scryfallId": "2a452235-cebd-4e8f-b217-9b55fc1c3830",
+      "scryfallIllustrationId": "fc2707bb-a027-40de-a67d-1a2f7dec3422",
+      "scryfallOracleId": "9ecd83ce-f866-4cbe-9712-c44aabe979c6",
+      "toughness": "1",
+      "type": "Token Creature — Snake",
+      "uuid": "021d2a8e-a602-5cbb-8a84-8459b4ff056d"
+    },
+    {
+      "artist": "Greg Staples",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Raise the Alarm"
+      ],
+      "scryfallId": "d480a351-cb9d-4bcc-b5c4-cd197ae98d43",
+      "scryfallIllustrationId": "6df28827-075d-4e5e-ba2c-d26982ace45f",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "aff7aa77-6663-59e9-848d-1419f44f46a6"
+    },
+    {
+      "artist": "Mike Sass",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Spectral Procession"
+      ],
+      "scryfallId": "0000a54c-a511-4925-92dc-01b937f9afad",
+      "scryfallIllustrationId": "1dbe0618-dd47-442c-acf6-ac5e4b136e5a",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "35285905-4b5b-558e-8627-810f003ea7f3"
+    },
+    {
+      "artist": "Mark Tedin",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Thrull",
+      "number": "8",
+      "power": "1",
+      "reverseRelated": [
+        "Endrek Sahr, Master Breeder"
+      ],
+      "scryfallId": "5b9f471a-1822-4981-95a9-8923d83ddcbf",
+      "scryfallIllustrationId": "54f9e188-23a3-4e59-8468-09687f2ca28b",
+      "scryfallOracleId": "d31b98f6-dfc6-42d9-9cbc-4fad16f1879f",
+      "toughness": "1",
+      "type": "Token Creature — Thrull",
+      "uuid": "cf1a4154-f0c6-5340-9257-6df64f04d4cd"
+    },
+    {
+      "artist": "Daren Bader",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "13",
+      "power": "2",
+      "reverseRelated": [
+        "Bestial Menace",
+        "Wolfbriar Elemental",
+        "Elephant",
+        "Snake"
+      ],
+      "scryfallId": "7bdb3368-fee3-4795-a23f-c97555ee7475",
+      "scryfallIllustrationId": "5e290bd2-37d0-4eb0-a2fc-fafc7107c42e",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "2453b16d-6f40-524b-a13f-6789dd888af0"
+    },
+    {
+      "artist": "Chuck Lukacs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "colors": [
+        "B",
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Worm",
+      "number": "14",
+      "power": "1",
+      "reverseRelated": [
+        "Creakwood Liege"
+      ],
+      "scryfallId": "1fd82205-5d3e-4a8d-a31b-020efc6303d0",
+      "scryfallIllustrationId": "378a91e5-1f4c-4b4a-9a65-7757e2e7a34d",
+      "scryfallOracleId": "318d6000-b6e0-4ef0-ad58-d470f4a271e6",
+      "toughness": "1",
+      "type": "Token Creature — Worm",
+      "uuid": "4fd9b18a-7c15-5052-b2de-6bd18064a1aa"
+    }
+  ],
+  "totalSetSize": 249,
+  "translations": {
+    "Chinese Simplified": "Modern Masters 2015 Edition",
+    "Chinese Traditional": "Modern Masters 2015 Edition",
+    "French": "Modern Masters 2015 Edition",
+    "German": "Modern Masters 2015 Edition",
+    "Italian": "Modern Masters 2015 Edition",
+    "Japanese": "Modern Masters 2015 Edition",
+    "Korean": "Modern Masters 2015 Edition",
+    "Portuguese (Brazil)": "Modern Masters 2015 Edition",
+    "Russian": "Modern Masters 2015 Edition",
+    "Spanish": "Modern Masters 2015 Edition"
+  },
+  "type": "masters"
 }

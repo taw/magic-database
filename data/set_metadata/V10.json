@@ -1,10 +1,35 @@
 {
-  "name": "From the Vault: Relics",
+  "baseSetSize": 0,
   "code": "V10",
-  "magicCardsInfoCode": "fvr",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "V10",
+  "mcmId": 1202,
+  "mcmName": "From the Vault: Relics",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "V10",
+  "name": "From the Vault: Relics",
   "releaseDate": "2010-08-27",
-  "border": "black",
-  "type": "from the vault",
-  "mkm_name": "From the Vault: Relics",
-  "mkm_id": 1202
+  "tcgplayerGroupId": 50,
+  "tokens": [
+
+  ],
+  "totalSetSize": 15,
+  "translations": {
+    "Chinese Simplified": "From The Vault: Relics",
+    "Chinese Traditional": "From The Vault: Relics",
+    "French": "From The Vault: Relics",
+    "German": "From The Vault: Relics",
+    "Italian": "From The Vault: Relics",
+    "Japanese": "From The Vault: Relics",
+    "Korean": "From The Vault: Relics",
+    "Portuguese (Brazil)": "From The Vault: Relics",
+    "Russian": "From The Vault: Relics",
+    "Spanish": "From The Vault: Relics"
+  },
+  "type": "from_the_vault"
 }

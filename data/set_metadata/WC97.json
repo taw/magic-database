@@ -1,0 +1,196 @@
+{
+  "baseSetSize": 0,
+  "code": "WC97",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "World Championship Decks 1997",
+  "releaseDate": "1997-08-13",
+  "tcgplayerGroupId": 2198,
+  "tokens": [
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "1997 World Championships Ad",
+      "number": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "40b9dcb9-05c1-4a2e-b0cb-6554483ca5c9",
+      "scryfallOracleId": "ca3cc7c1-ca4f-4d49-9b1b-2942f289862d",
+      "type": "Card",
+      "uuid": "04cc44c7-9840-5fda-a2bc-b975db2b9db3"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Jakub Šlemr Bio",
+      "number": "js0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "fb38f4dd-b0ce-4613-a876-764897d29923",
+      "scryfallOracleId": "c362fa4b-7d02-4f49-85f6-60732812e081",
+      "text": "Šlemr, a twenty-year-old computer analyst from Prague in the Czech Republic, said that he wasn't happy with his deck's 3–4 performance in the Standard (Type II) portion of the tournament. However, it came through for him in the elimination rounds. A black weenie deck at heart, it dips into all five colors. It also features a number of creatures that have an effect on entering play, like Man-o'-War, Uktabi Orangutan, and Nekrataal.",
+      "type": "Card",
+      "uuid": "0325d608-3ba5-5887-a121-5b067f5cb5bf"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Jakub Šlemr Decklist",
+      "number": "js0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "fc79931b-36f7-4727-86d7-e92076c2fab9",
+      "scryfallOracleId": "362f16a5-564c-418a-b2e0-4c5ebf68fff4",
+      "type": "Card",
+      "uuid": "dd7d7f63-27f2-564c-b223-bb16f3081d97"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Janosch Kühn Bio 1997",
+      "number": "jk0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "c420f353-0d9f-44ad-a566-5ed0b58964c2",
+      "scryfallOracleId": "b5b3d9a5-aa43-460c-b25e-22869f878484",
+      "text": "Kühn, a fifteen-year-old high-school student from Hanover, Germany, played a red, white, and blue deck with a balanced mix of speed and control. It uses cards like Incinerate and Swords to Plowshares to deal with opponents' fast creatures, while increasing the mana base with Thawing Glaciers. For late in the game, Disintegrate and Hammer of Bogardan are excellent finishing cards.",
+      "type": "Card",
+      "uuid": "4277659e-1151-5196-970b-f3b02d070fb8"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Janosch Kühn Decklist 1997",
+      "number": "jk0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "2e8d223d-ede3-477b-8dd7-e4c58798b3f3",
+      "scryfallOracleId": "77a03689-004c-460a-b6e8-bf0cbe5d9566",
+      "type": "Card",
+      "uuid": "1f624149-d255-524b-987f-f4f6d4ae18e4"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Paul McCabe Bio",
+      "number": "pm0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "09901fef-3daf-4890-9d8f-466881326cbd",
+      "scryfallOracleId": "33d8d417-523c-4432-8b9d-81bb5d6a272e",
+      "text": "McCabe, a nineteen-year-old college student from Toronto, Canada, played a fast red-blue attacking deck. The deck's main strategy is to put the opponent on the defensive, using a large number of inexpensive, efficient creatures such as Suq'Ata Lancer, Cloud Elemental, Ophidian, and Man-o'-War. It also makes good use of several \"pitch\" spells like Force of Will and Pyrokinesis.",
+      "type": "Card",
+      "uuid": "a572bfd2-9ba1-546c-ac44-21d98167b4e1"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Paul McCabe Decklist",
+      "number": "pm0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "c2c46b99-4056-428a-ae35-8ba018bb034f",
+      "scryfallOracleId": "94635c8a-285a-4a2f-b295-88af3331ca45",
+      "type": "Card",
+      "uuid": "9d9928bd-4af7-532b-941e-bf4cd780e95c"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Svend Geertsen Bio",
+      "number": "sg0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "0760ec21-0efc-4585-8aca-778e3d9fae68",
+      "scryfallOracleId": "a7cab1f2-8792-417d-baa3-36f6bd09fe6b",
+      "text": "Geertsen, a sixteen-year-old high-school student from Copenhagen, Denmark, played a mono-green deck known affectionately as \"Señor Stompie.\" Of the eight finalists, Geertsen had the best record in the Standard (Type II) portion of the tournament, going 6–0–1. This deck is overloaded with fast green creatures, thirty-three in all. The only noncreature cards are Giant Growth, Bounty of the Hunt, and Winter Orb. The deck also exploits the interaction between Rogue Elephant, Harvest Worm, and Heart of Yavimaya.",
+      "type": "Card",
+      "uuid": "38adbd0d-3845-5604-9808-d1d6bb9d7bf8"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Svend Geertsen Decklist",
+      "number": "sg0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "486a8135-c367-49ee-8465-f8fc76906aed",
+      "scryfallOracleId": "da56b631-835d-43a5-ac7d-738a74fc1431",
+      "type": "Card",
+      "uuid": "dad91002-c4ff-5ce7-b74b-84c3d90dbc06"
+    }
+  ],
+  "totalSetSize": 130,
+  "translations": {
+  },
+  "type": "memorabilia"
+}

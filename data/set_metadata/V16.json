@@ -1,8 +1,58 @@
 {
-  "name": "From the Vault: Lore",
+  "baseSetSize": 0,
   "code": "V16",
-  "magicCardsInfoCode": "v16",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "V16",
+  "mcmId": 1703,
+  "mcmName": "From the Vault: Lore",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "V16",
+  "name": "From the Vault: Lore",
   "releaseDate": "2016-08-19",
-  "border": "black",
-  "type": "from the vault"
+  "tcgplayerGroupId": 1821,
+  "tokens": [
+    {
+      "artist": "Stephan Martiniere",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Marit Lage",
+      "number": "16",
+      "power": "20",
+      "reverseRelated": [
+        "Dark Depths"
+      ],
+      "scryfallId": "53085c6f-b6ef-4846-8d67-40bef9609418",
+      "scryfallIllustrationId": "75f2b602-76dd-448f-82d0-0f42c71830ec",
+      "scryfallOracleId": "48e9147e-59f7-4693-83d7-7f514be871bc",
+      "text": "Flying, indestructible",
+      "toughness": "20",
+      "type": "Token Legendary Creature — Avatar",
+      "uuid": "541cf5fb-2b2d-5beb-8d98-3ad9c021a218"
+    }
+  ],
+  "totalSetSize": 16,
+  "translations": {
+    "Chinese Simplified": "From The Vault: Lore",
+    "Chinese Traditional": "From The Vault: Lore",
+    "French": "From The Vault: Lore",
+    "German": "From The Vault: Lore",
+    "Italian": "From The Vault: Lore",
+    "Japanese": "From The Vault: Lore",
+    "Korean": "From The Vault: Lore",
+    "Portuguese (Brazil)": "From The Vault: Lore",
+    "Russian": "From The Vault: Lore",
+    "Spanish": "From The Vault: Lore"
+  },
+  "type": "from_the_vault"
 }

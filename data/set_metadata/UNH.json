@@ -1,11 +1,6 @@
 {
-  "name": "Unhinged",
-  "code": "UNH",
-  "magicCardsInfoCode": "uh",
-  "releaseDate": "2004-11-20",
-  "border": "silver",
-  "type": "un",
-  "booster": [
+  "baseSetSize": 141,
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -22,6 +17,35 @@
     "common",
     "land"
   ],
-  "mkm_name": "Unhinged",
-  "mkm_id": 59
+  "code": "UNH",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "UNH",
+  "mcmId": 59,
+  "mcmName": "Unhinged",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Unhinged",
+  "releaseDate": "2004-11-19",
+  "tcgplayerGroupId": 114,
+  "tokens": [
+
+  ],
+  "totalSetSize": 168,
+  "translations": {
+    "Chinese Simplified": "Unhinged",
+    "Chinese Traditional": "Unhinged",
+    "French": "Unhinged",
+    "German": "Unhinged",
+    "Italian": "Unhinged",
+    "Japanese": "Unhinged",
+    "Korean": "Unhinged",
+    "Portuguese (Brazil)": "Unhinged",
+    "Russian": "Unhinged",
+    "Spanish": "Unhinged"
+  },
+  "type": "funny"
 }

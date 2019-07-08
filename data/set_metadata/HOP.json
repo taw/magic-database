@@ -1,11 +1,25 @@
 {
-  "name": "Planechase",
+  "baseSetSize": 0,
   "code": "HOP",
-  "oldCode": "PCH",
-  "magicCardsInfoCode": "pch",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "HOP",
+  "mcmId": 113,
+  "mcmName": "Planechase",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "PC1",
+  "name": "Planechase",
   "releaseDate": "2009-09-04",
-  "border": "black",
-  "type": "planechase",
-  "mkm_name": "Planechase",
-  "mkm_id": 113
+  "tcgplayerGroupId": 84,
+  "tokens": [
+
+  ],
+  "totalSetSize": 169,
+  "translations": {
+  },
+  "type": "planechase"
 }

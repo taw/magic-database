@@ -1,0 +1,302 @@
+{
+  "baseSetSize": 280,
+  "block": "Core Set",
+  "code": "M20",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "M20",
+  "mcmId": 2447,
+  "mcmName": "Core 2020",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "M20",
+  "name": "Core Set 2020",
+  "releaseDate": "2019-07-12",
+  "tcgplayerGroupId": 2441,
+  "tokens": [
+    {
+      "artist": "Howard Lyon",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Ajani's Pridemate",
+      "number": "1",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "b0819e8e-fb7e-43c7-a7cf-d768f43193ac",
+      "scryfallIllustrationId": "638063d1-143d-4b01-ab12-0acb1151ab63",
+      "scryfallOracleId": "9fcff433-c6f7-44c6-8279-04625703cb3e",
+      "text": "Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate.",
+      "toughness": "2",
+      "type": "Token Creature — Cat Soldier",
+      "uuid": "386b4060-c397-53a6-8038-5a6be2b2e5a2"
+    },
+    {
+      "artist": "Chris Rahn",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Chandra, Awakened Inferno Emblem",
+      "number": "11",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "775f2b3e-4e3b-4037-b7bb-117ababf8e51",
+      "scryfallIllustrationId": "addf8081-e277-4026-b260-cff5ea05bef5",
+      "scryfallOracleId": "9b51a667-631b-4733-bfc1-0de2eab2b6ba",
+      "text": "At the beginning of your upkeep, this emblem deals 1 damage to you.",
+      "type": "Emblem",
+      "uuid": "3e70855b-bc92-5a5c-92b6-84c20436068f"
+    },
+    {
+      "artist": "Sidharth Chaturvedi",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Demon",
+      "number": "5",
+      "power": "5",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "dfb61889-9bc6-426d-8ce5-7b1c0e6e959b",
+      "scryfallIllustrationId": "43848e57-a62a-4bbf-ae56-f7edd1e26fc6",
+      "scryfallOracleId": "0045c5fa-3229-4050-b139-5712fa24b308",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Demon",
+      "uuid": "8239be1e-ebec-54ef-b839-2193ff4789bc"
+    },
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "0574973b-a0d1-4e17-9ed7-42a98d25bb8d",
+      "scryfallIllustrationId": "b72510b2-4740-465b-8b71-58cea9d54eff",
+      "scryfallOracleId": "1a6c2152-71ca-46be-ab83-c84633442257",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "65ac14a3-abc1-5f3b-a11b-bd08779fb072"
+    },
+    {
+      "artist": "Jana Schirmer",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Elemental Bird",
+      "number": "4",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "a5582cd9-97e7-426f-a084-c05e2113ad13",
+      "scryfallIllustrationId": "d38ffc61-3aed-4890-81c8-91f0eb1fc7ca",
+      "scryfallOracleId": "28cd830b-def6-4aa3-a0f6-6913bcdf931e",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Elemental Bird",
+      "uuid": "65ce8633-8101-5354-880e-7abb4b2ff659"
+    },
+    {
+      "artist": "Daarken",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Golem",
+      "number": "9",
+      "power": "3",
+      "reverseRelated": [
+        "Master Splicer"
+      ],
+      "scryfallId": "78ea4711-a951-4a1b-88cb-f628f97b6164",
+      "scryfallIllustrationId": "21ec4dfd-501d-4998-9ac0-76337be00c50",
+      "scryfallOracleId": "9859c54d-695b-4bb1-940e-cfd1c3301e89",
+      "toughness": "3",
+      "type": "Token Artifact Creature — Golem",
+      "uuid": "e84261dd-3cbf-5026-bc80-b8db92c50cf3"
+    },
+    {
+      "artist": "G-host Lee",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Mu Yanling, Sky Dancer Emblem",
+      "number": "12",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "cdc0849c-3a2b-4666-8fa9-755f3ea27706",
+      "scryfallIllustrationId": "4cbd9149-760f-4928-9a60-c1de68fd39b9",
+      "scryfallOracleId": "3083d01b-411b-4b43-8ee4-017c6754ad10",
+      "text": "Islands you control have \"{T}: Draw a card.\"",
+      "type": "Emblem",
+      "uuid": "5d1878b7-4371-5427-ace0-ff4a50cfbc7c"
+    },
+    {
+      "artist": "Jakub Kasper",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Raise the Alarm"
+      ],
+      "scryfallId": "a491d9da-a58d-4423-b565-c5a99ef63132",
+      "scryfallIllustrationId": "16f4d8b3-5096-46a0-8513-7431eb7c108e",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "710cf4b8-e651-57f1-be26-319f5315919a"
+    },
+    {
+      "artist": "Jason A. Engle",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "79b17be6-2ee7-4f3b-88df-f298bb058f46",
+      "scryfallIllustrationId": "0828f150-0794-496c-bab6-df789d5b94f2",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "c671361a-dd65-5a8e-a1f7-64b65abd3588"
+    },
+    {
+      "artist": "Alayna Danner",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Treasure",
+      "number": "10",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "42e54aad-ec80-4914-9ba8-91bd53924778",
+      "scryfallIllustrationId": "4e3ec01f-2a14-49b5-b5d1-f5ea41fa111f",
+      "scryfallOracleId": "3c549374-6c37-42e0-8d88-a8555d46732d",
+      "text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+      "type": "Token Artifact — Treasure",
+      "uuid": "843dc0dd-5834-5088-b1ea-f4d5a5201a9d"
+    },
+    {
+      "artist": "Aaron Miller",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "8",
+      "power": "2",
+      "reverseRelated": [
+        "Wolfkin Bond"
+      ],
+      "scryfallId": "bd05e304-1a16-436d-a05c-4a38a839759b",
+      "scryfallIllustrationId": "d32e2175-7b9d-4aea-a67e-52e70f174da5",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "5ad0276f-9c61-553a-be93-d465fd025c4e"
+    },
+    {
+      "artist": "Anna Steinbauer",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "6",
+      "power": "2",
+      "reverseRelated": [
+        "Undead Servant"
+      ],
+      "scryfallId": "18f0436e-9328-4266-9cf8-80b557a0c17c",
+      "scryfallIllustrationId": "2391d548-fc02-4021-a6c5-fa680b9f4fde",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "0cdcfb8d-bb4d-5546-a0eb-0a4715d3df08"
+    }
+  ],
+  "totalSetSize": 305,
+  "translations": {
+  },
+  "type": "core"
+}

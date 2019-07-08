@@ -1,12 +1,7 @@
 {
-  "name": "Fate Reforged",
-  "code": "FRF",
-  "magicCardsInfoCode": "frf",
-  "releaseDate": "2015-01-23",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 185,
   "block": "Khans of Tarkir",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,18 +22,131 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Schmiede des Schicksals",
-    "fr": "Destin reforgé",
-    "it": "Riforgiare il destino",
-    "es": "Destino reescrito",
-    "pt": "Destino Reescrito",
-    "jp": "運命再編",
-    "cn": "龙命殊途",
-    "ru": "Перекованная Судьба",
-    "tw": "龍命殊途",
-    "ko": "재창조된 운명"
+  "code": "FRF",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "FRF",
+  "mcmId": 1522,
+  "mcmName": "Fate Reforged",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Fate Reforged",
-  "mkm_id": 1522
+  "mtgoCode": "FRF",
+  "name": "Fate Reforged",
+  "releaseDate": "2015-01-23",
+  "tcgplayerGroupId": 1497,
+  "tokens": [
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Manifest",
+      "number": "4",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "e9f896d4-34b4-407d-be7e-bf7a69aaf811",
+      "scryfallIllustrationId": "f44446a8-4e3e-4a46-88c9-190c9e11e6d3",
+      "scryfallOracleId": "f4f184ef-f456-47d8-9012-095629a5ea4d",
+      "text": "(You can cover a face-down manifested creature with this reminder card.\nA manifested creature card can be turned face up any time for its mana cost. A face-down card can also be turned face up for its morph cost.)",
+      "toughness": "2",
+      "type": "Creature",
+      "uuid": "50545575-573b-5b89-a7c7-ba8dcbc7ade4"
+    },
+    {
+      "artist": "Steven Belledin",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Monk",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Monastery Mentor"
+      ],
+      "scryfallId": "3142cb28-23cc-405f-9db5-7c4d168aab19",
+      "scryfallIllustrationId": "4ab42929-571e-4143-92fa-fa939a26f1a9",
+      "scryfallOracleId": "bfa57f61-3811-43da-b73e-90e3e5b0b2c2",
+      "text": "Prowess",
+      "toughness": "1",
+      "type": "Token Creature — Monk",
+      "uuid": "8a4168a3-4670-53ff-a58b-3e625e882b66"
+    },
+    {
+      "artist": "Aaron Miller",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Sandsteppe Outcast",
+        "Abzan Ascendancy"
+      ],
+      "scryfallId": "52e32ad7-d59e-4cd8-ab88-3c7c0c083357",
+      "scryfallIllustrationId": "c25f4521-ac47-4e89-b9fb-5532a81ec89d",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "20c6004a-89ac-52dd-a3f1-36403f07bbd4"
+    },
+    {
+      "artist": "Zoltan Boros",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Warrior",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+        "Mardu Strike Leader"
+      ],
+      "scryfallId": "3b5eaba1-a7e1-4bbb-949c-e7f6a9592f50",
+      "scryfallIllustrationId": "5e2bbdab-f325-4e48-b5f5-b352984eaaa7",
+      "scryfallOracleId": "62c8ce28-4653-432a-9401-5066743f6d90",
+      "toughness": "1",
+      "type": "Token Creature — Warrior",
+      "uuid": "57bd1bfc-966c-5587-aa0d-fbfb875fdb1f"
+    }
+  ],
+  "totalSetSize": 185,
+  "translations": {
+    "Chinese Simplified": "龙命殊途",
+    "Chinese Traditional": "龍命殊途",
+    "French": "Destin Reforgé",
+    "German": "Schmiede des Schicksals",
+    "Italian": "Riforgiare il Destino",
+    "Japanese": "『運命再編』",
+    "Korean": "재창조된 운명",
+    "Portuguese (Brazil)": "Destino Reescrito",
+    "Russian": "Перекованная Судьба",
+    "Spanish": "Destino Reescrito"
+  },
+  "type": "expansion"
 }

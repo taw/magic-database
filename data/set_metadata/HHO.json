@@ -1,0 +1,21 @@
+{
+  "baseSetSize": 0,
+  "code": "HHO",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "STAR",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Happy Holidays",
+  "releaseDate": "2006-12-31",
+  "tokens": [
+
+  ],
+  "totalSetSize": 15,
+  "translations": {
+  },
+  "type": "funny"
+}

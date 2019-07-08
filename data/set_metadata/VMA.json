@@ -1,12 +1,6 @@
 {
-  "name": "Vintage Masters",
-  "code": "VMA",
-  "magicCardsInfoCode": "vma",
-  "releaseDate": "2014-06-16",
-  "border": "black",
-  "type": "masters",
-  "onlineOnly": true,
-  "booster": [
+  "baseSetSize": 325,
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -28,5 +22,34 @@
       "power nine",
       "foil"
     ]
-  ]
+  ],
+  "code": "VMA",
+  "isFoilOnly": false,
+  "isOnlineOnly": true,
+  "keyruneCode": "VMA",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "VMA",
+  "name": "Vintage Masters",
+  "releaseDate": "2014-06-16",
+  "tokens": [
+
+  ],
+  "totalSetSize": 325,
+  "translations": {
+    "Chinese Simplified": "Vintage Masters",
+    "Chinese Traditional": "Vintage Masters",
+    "French": "Vintage Masters",
+    "German": "Vintage Masters",
+    "Italian": "Vintage Masters",
+    "Japanese": "Vintage Masters",
+    "Korean": "Vintage Masters",
+    "Portuguese (Brazil)": "Vintage Masters",
+    "Russian": "Vintage Masters",
+    "Spanish": "Vintage Masters"
+  },
+  "type": "masters"
 }

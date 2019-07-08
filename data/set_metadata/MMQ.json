@@ -1,13 +1,7 @@
 {
-  "name": "Mercadian Masques",
-  "code": "MMQ",
-  "gathererCode": "MM",
-  "magicCardsInfoCode": "mm",
-  "releaseDate": "1999-10-04",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 350,
   "block": "Masques",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Merkadische Masken",
-    "fr": "Masques de Mercadia",
-    "it": "Maschere di Mercadia",
-    "es": "Máscaras de Mercadia",
-    "pt": "Máscara de Mercádia"
+  "code": "MMQ",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "MMQ",
+  "mcmId": 31,
+  "mcmName": "Mercadian Masques",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Mercadian Masques",
-  "mkm_id": 31
+  "mtgoCode": "MM",
+  "name": "Mercadian Masques",
+  "releaseDate": "1999-10-04",
+  "tcgplayerGroupId": 73,
+  "tokens": [
+
+  ],
+  "totalSetSize": 350,
+  "translations": {
+    "Chinese Simplified": "Mercadian Masques",
+    "Chinese Traditional": "Mercadian Masques",
+    "French": "Mercadian Masques",
+    "German": "Mercadian Masques",
+    "Italian": "Mercadian Masques",
+    "Japanese": "Mercadian Masques",
+    "Korean": "Mercadian Masques",
+    "Portuguese (Brazil)": "Mercadian Masques",
+    "Russian": "Mercadian Masques",
+    "Spanish": "Mercadian Masques"
+  },
+  "type": "expansion"
 }

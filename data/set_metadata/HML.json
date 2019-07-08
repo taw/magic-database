@@ -1,12 +1,6 @@
 {
-  "name": "Homelands",
-  "code": "HML",
-  "gathererCode": "HM",
-  "magicCardsInfoCode": "hl",
-  "releaseDate": "1995-10-14",
-  "border": "black",
-  "type": "expansion",
-  "booster": [
+  "baseSetSize": 140,
+  "boosterV3": [
     [
       "rare",
       "uncommon"
@@ -22,13 +16,35 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Heimatländer",
-    "fr": "Terres Natales",
-    "it": "Origini",
-    "es": "Tierras Natales",
-    "pt": "Terras Natais"
+  "code": "HML",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "HML",
+  "mcmId": 14,
+  "mcmName": "Homelands",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Homelands",
-  "mkm_id": 14
+  "name": "Homelands",
+  "releaseDate": "1995-10-01",
+  "tcgplayerGroupId": 57,
+  "tokens": [
+
+  ],
+  "totalSetSize": 140,
+  "translations": {
+    "Chinese Simplified": "Homelands",
+    "Chinese Traditional": "Homelands",
+    "French": "Homelands",
+    "German": "Homelands",
+    "Italian": "Homelands",
+    "Japanese": "Homelands",
+    "Korean": "Homelands",
+    "Portuguese (Brazil)": "Homelands",
+    "Russian": "Homelands",
+    "Spanish": "Homelands"
+  },
+  "type": "expansion"
 }

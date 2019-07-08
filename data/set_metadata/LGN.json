@@ -1,12 +1,7 @@
 {
-  "name": "Legions",
-  "code": "LGN",
-  "magicCardsInfoCode": "le",
-  "releaseDate": "2003-02-03",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 145,
   "block": "Onslaught",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,13 +18,29 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Legionen",
-    "fr": "Légions",
-    "it": "Legioni",
-    "es": "Legiones",
-    "pt": "Legiões"
+  "code": "LGN",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "LGN",
+  "mcmId": 42,
+  "mcmName": "Legions",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Legions",
-  "mkm_id": 42
+  "mtgoCode": "LGN",
+  "name": "Legions",
+  "releaseDate": "2003-02-03",
+  "tcgplayerGroupId": 66,
+  "tokens": [
+
+  ],
+  "totalSetSize": 145,
+  "translations": {
+    "French": "Légions",
+    "German": "Legions",
+    "Spanish": "Legiones"
+  },
+  "type": "expansion"
 }

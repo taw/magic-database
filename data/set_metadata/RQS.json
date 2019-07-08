@@ -1,7 +1,21 @@
 {
-  "name": "Rivals Quick Start Set",
+  "baseSetSize": 0,
   "code": "RQS",
-  "releaseDate": "1996-06-10",
-  "border": "white",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Rivals Quick Start Set",
+  "releaseDate": "1996-07-01",
+  "tokens": [
+
+  ],
+  "totalSetSize": 65,
+  "translations": {
+  },
   "type": "box"
 }

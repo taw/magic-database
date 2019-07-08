@@ -1,12 +1,7 @@
 {
-  "name": "Dragon's Maze",
-  "code": "DGM",
-  "magicCardsInfoCode": "dgm",
-  "releaseDate": "2013-05-03",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 156,
   "block": "Return to Ravnica",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,18 +22,62 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Labyrinth des Drachen",
-    "fr": "Le labyrinthe du dragon",
-    "it": "Labirinto del Drago",
-    "es": "Laberinto del Dragón",
-    "pt": "Labirinto do Dragão",
-    "jp": "ドラゴンの迷路",
-    "cn": "巨龙迷城",
-    "ru": "Лабиринт Дракона",
-    "tw": "巨龍迷城",
-    "ko": "용의 미로"
+  "code": "DGM",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DGM",
+  "mcmId": 1435,
+  "mcmName": "Dragon's Maze",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Dragon's Maze",
-  "mkm_id": 1435
+  "mtgoCode": "DGM",
+  "name": "Dragon's Maze",
+  "releaseDate": "2013-05-03",
+  "tcgplayerGroupId": 570,
+  "tokens": [
+    {
+      "artist": "Mark Winters",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "G",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "1",
+      "power": "*",
+      "reverseRelated": [
+        "Voice of Resurgence"
+      ],
+      "scryfallId": "5bfb1440-d4c1-42cf-a777-ee1644dbbac7",
+      "scryfallIllustrationId": "675991cd-81a7-493e-82d3-c908c1f7497c",
+      "scryfallOracleId": "9f790267-5be9-41aa-be69-f87a8ce5a29e",
+      "text": "This creature's power and toughness are each equal to the number of creatures you control.",
+      "toughness": "*",
+      "type": "Token Creature — Elemental",
+      "uuid": "7aff41ce-5a33-50df-b2d1-ab1508d591b2",
+      "watermark": "selesnya"
+    }
+  ],
+  "totalSetSize": 156,
+  "translations": {
+    "Chinese Simplified": "巨龙迷城",
+    "Chinese Traditional": "巨龍迷城",
+    "French": "Le labyrinthe du dragon",
+    "German": "Labyrinth des Drachen",
+    "Italian": "Labirinto del Drago",
+    "Japanese": "『ドラゴンの迷路』",
+    "Korean": "용의 미로",
+    "Portuguese (Brazil)": "Labirinto do Dragão",
+    "Russian": "Лабиринт Дракона",
+    "Spanish": "Laberinto del Dragón"
+  },
+  "type": "expansion"
 }

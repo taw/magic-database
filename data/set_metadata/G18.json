@@ -1,0 +1,22 @@
+{
+  "baseSetSize": 0,
+  "code": "G18",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "M19",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "M19 Gift Pack",
+  "parentCode": "M19",
+  "releaseDate": "2018-11-16",
+  "tokens": [
+
+  ],
+  "totalSetSize": 5,
+  "translations": {
+  },
+  "type": "box"
+}

@@ -1,12 +1,27 @@
 {
-  "name": "Masterpiece Series: Kaladesh Inventions",
-  "alternativeNames": [
-    "Kaladesh Inventions"
-  ],
+  "baseSetSize": 54,
+  "block": "Kaladesh",
   "code": "MPS",
-  "magicCardsInfoCode": "mpskld",
-  "gathererCode": "MPS_KLD",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "MPS",
+  "mcmId": 1733,
+  "mcmName": "Kaladesh Inventions",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "MS2",
+  "name": "Kaladesh Inventions",
+  "parentCode": "KLD",
   "releaseDate": "2016-09-30",
-  "border": "black",
+  "tcgplayerGroupId": 1837,
+  "tokens": [
+
+  ],
+  "totalSetSize": 54,
+  "translations": {
+  },
   "type": "masterpiece"
 }

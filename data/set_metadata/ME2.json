@@ -1,12 +1,6 @@
 {
-  "name": "Masters Edition II",
-  "code": "ME2",
-  "magicCardsInfoCode": "me2",
-  "releaseDate": "2008-09-22",
-  "border": "black",
-  "type": "masters",
-  "onlineOnly": true,
-  "booster": [
+  "baseSetSize": 245,
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -22,5 +16,34 @@
     "common",
     "common",
     "land"
-  ]
+  ],
+  "code": "ME2",
+  "isFoilOnly": false,
+  "isOnlineOnly": true,
+  "keyruneCode": "ME2",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "ME2",
+  "name": "Masters Edition II",
+  "releaseDate": "2008-09-22",
+  "tokens": [
+
+  ],
+  "totalSetSize": 245,
+  "translations": {
+    "Chinese Simplified": "Masters Edition II",
+    "Chinese Traditional": "Masters Edition II",
+    "French": "Masters Edition II",
+    "German": "Masters Edition II",
+    "Italian": "Masters Edition II",
+    "Japanese": "Masters Edition II",
+    "Korean": "Masters Edition II",
+    "Portuguese (Brazil)": "Masters Edition II",
+    "Russian": "Masters Edition II",
+    "Spanish": "Masters Edition II"
+  },
+  "type": "masters"
 }

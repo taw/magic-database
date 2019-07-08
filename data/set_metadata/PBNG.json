@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Theros",
+  "code": "PBNG",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "BNG",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Born of the Gods Promos",
+  "parentCode": "BNG",
+  "releaseDate": "2014-02-01",
+  "tokens": [
+
+  ],
+  "totalSetSize": 9,
+  "translations": {
+  },
+  "type": "promo"
+}

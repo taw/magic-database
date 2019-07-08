@@ -1,12 +1,7 @@
 {
-  "name": "Fifth Edition",
-  "code": "5ED",
-  "gathererCode": "5E",
-  "magicCardsInfoCode": "5e",
-  "releaseDate": "1997-03-24",
-  "border": "white",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 449,
+  "block": "Core Set",
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,13 +18,35 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Fünfte Edition",
-    "fr": "Cinquième Edition",
-    "it": "Quinta Edizione",
-    "es": "Quinta Edición",
-    "pt": "Quinta Edição"
+  "code": "5ED",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "5ED",
+  "mcmId": 23,
+  "mcmName": "Fifth Edition",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Fifth Edition",
-  "mkm_id": 23
+  "name": "Fifth Edition",
+  "releaseDate": "1997-03-24",
+  "tcgplayerGroupId": 44,
+  "tokens": [
+
+  ],
+  "totalSetSize": 454,
+  "translations": {
+    "Chinese Simplified": "Core Set Fifth Edition",
+    "Chinese Traditional": "Core Set Fifth Edition",
+    "French": "Core Set Fifth Edition",
+    "German": "Core Set Fifth Edition",
+    "Italian": "Core Set Fifth Edition",
+    "Japanese": "Core Set Fifth Edition",
+    "Korean": "Core Set Fifth Edition",
+    "Portuguese (Brazil)": "Core Set Fifth Edition",
+    "Russian": "Core Set Fifth Edition",
+    "Spanish": "Core Set Fifth Edition"
+  },
+  "type": "core"
 }

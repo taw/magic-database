@@ -1,0 +1,195 @@
+{
+  "baseSetSize": 0,
+  "code": "WC98",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "World Championship Decks 1998",
+  "releaseDate": "1998-08-12",
+  "tokens": [
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "1998 World Championships Ad",
+      "number": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "25e228f1-8619-4a9a-a01f-727c50abf733",
+      "scryfallOracleId": "870a4942-eb0b-4dde-8eeb-f9e095dcd09d",
+      "type": "Card",
+      "uuid": "422444b3-10b8-507f-a163-840f57bfb252"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Ben Rubin Bio",
+      "number": "br0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "06e4ce71-a557-4a05-a163-9f28b8f6479b",
+      "scryfallOracleId": "5f03c43b-292f-42b5-915c-43bb4429ed6f",
+      "text": "Though only fifteen years old, Ben Rubin has amassed quite an impressive tournament record. He placed second at Pro Tour™—Los Angeles and finished in the Top 16 at Grand Prix—San Francisco, his hometown. Ben played the archetypal mono-red weenie or Sligh deck at the 1998 Worlds. Although he prefers to play a more balanced deck, Rubin thought the aggressive Sligh would work well at this tournament. His deck consists of roughly one-third land, one-third direct damage, and one-third small aggressive creatures.",
+      "type": "Card",
+      "uuid": "5f546271-11e9-5416-a5bc-ae0f19271ba2"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Ben Rubin Decklist",
+      "number": "br0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "e869f999-0f28-4ad8-ac3d-1e2d5f410d18",
+      "scryfallOracleId": "04b1abe8-06f2-43d2-afdc-ebc745b40ac7",
+      "type": "Card",
+      "uuid": "c458accd-f061-56b0-a2ee-db1bded7109e"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Brian Hacker Bio",
+      "number": "bh0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "a8d38af0-a960-4a49-9896-1e11f53eab5b",
+      "scryfallOracleId": "ba589dd4-eccd-42b2-badf-f9f30a0c399d",
+      "text": "Twenty-three-year-old professional Magic® player Brian Hacker of San Diego, California, thought he had a good chance of winning the finals with his white weenie deck. Hacker said his deck was well set up to defeat his opponents with its twenty-something aggressive creatures—including a number of shadow and en-Kor creatures. Unlike traditional white weenie decks, which rely on Armageddon as a major threat card, Hacker's deck uses Cataclysm, which he feels better complements the use of Empyrial Armor.",
+      "type": "Card",
+      "uuid": "47d6672f-d7e5-587a-9038-8235e5e24a3a"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Brian Hacker Decklist",
+      "number": "bh0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "0c85b8a5-cf76-4952-9fe0-cb7d2f86fead",
+      "scryfallOracleId": "ff61f649-d192-4172-8ad6-93e351b9fe30",
+      "type": "Card",
+      "uuid": "4e305e48-6b8f-5901-aac7-5e90cb9525b7"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Brian Selden Bio",
+      "number": "bs0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "cdbe9dfc-3c91-40ac-9740-167e17746e94",
+      "scryfallOracleId": "63979b7e-cfe2-4feb-a767-764269fc0d90",
+      "text": "Brian Selden, a seventeen-year-old high school student from San Diego, California, says his deck revolves around the interaction between Survival of the Fittest and Recurring Nightmare. The former is used to put creatures into the graveyard and the latter can then bring them into play. With this combo, Selden is able to use his creatures to react to an opponent's threats. The deck also contains over twenty creatures, many of which have an effect when they enter play or perform some other useful function, such as the Spike Weaver. Unlike many similar decks, Selden's dips into blue, primarily for Lobotomy. He said this was the key to many of his victories.",
+      "type": "Card",
+      "uuid": "a14f45bc-b075-507d-9227-d3a95da514df"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Brian Selden Decklist",
+      "number": "bs0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "b172a9c5-802d-46af-a97b-86b0bce4596a",
+      "scryfallOracleId": "f0fe8504-f7a5-4371-9e0e-d46f7c99a9c8",
+      "type": "Card",
+      "uuid": "455a6c48-4ac0-5d5f-ab03-61219020bc4e"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Randy Buehler Bio",
+      "number": "rb0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "23239786-8ac6-460c-9c19-c439b8fa9734",
+      "scryfallOracleId": "5e1632d7-7e68-4589-8655-bd1d19497903",
+      "text": "Although twenty-six-year-old professional Magic® player Randy Buehler of Pittsburgh, Pennsylvania, didn't make the Top 8, he did finish with an impressive 6–1 record during the Standard portion of the World Championships. Buehler's Draw, Go deck is built for pure control with over twenty counters. He uses eight card-drawing spells to get to his counters more quickly and only four Stalking Stones and one Rainbow Efreet for offensive power. Buehler said he won some games without ever having to tap a land for mana on his own turn.",
+      "type": "Card",
+      "uuid": "4ce8e43e-b4d1-5913-b422-254d2f99ba04"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Randy Buehler Decklist",
+      "number": "rb0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "7db7d019-aabb-4436-a570-e2280dc2d368",
+      "scryfallOracleId": "803fbd6a-5d88-412b-8d51-01461656ec9b",
+      "type": "Card",
+      "uuid": "f47cdbe7-0ee5-5f99-9ca3-674ebff42716"
+    }
+  ],
+  "totalSetSize": 116,
+  "translations": {
+  },
+  "type": "memorabilia"
+}

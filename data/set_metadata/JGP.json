@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Judge Gift Cards",
+  "code": "JGP",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Judge Gift Cards 1998",
+  "releaseDate": "1998-01-01",
+  "tcgplayerGroupId": 62,
+  "tokens": [
+
+  ],
+  "totalSetSize": 3,
+  "translations": {
+  },
+  "type": "promo"
+}

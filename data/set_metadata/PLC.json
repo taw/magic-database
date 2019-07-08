@@ -1,12 +1,7 @@
 {
-  "name": "Planar Chaos",
-  "code": "PLC",
-  "magicCardsInfoCode": "pc",
-  "releaseDate": "2007-02-02",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 165,
   "block": "Time Spiral",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -26,16 +21,36 @@
       "timeshifted uncommon"
     ]
   ],
-  "translations": {
-    "de": "Weltenchaos",
-    "fr": "Chaos planaire",
-    "it": "Caos Dimensionale",
-    "es": "Caos planar",
-    "pt": "Caos Planar",
-    "jp": "次元の混乱",
-    "cn": "时空混沌",
-    "ru": "Вселенский Хаос"
+  "code": "PLC",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "PLC",
+  "mcmId": 58,
+  "mcmName": "Planar Chaos",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Planar Chaos",
-  "mkm_id": 58
+  "mtgoCode": "PLC",
+  "name": "Planar Chaos",
+  "releaseDate": "2007-02-02",
+  "tcgplayerGroupId": 83,
+  "tokens": [
+
+  ],
+  "totalSetSize": 165,
+  "translations": {
+    "Chinese Simplified": "时空混沌",
+    "Chinese Traditional": "Planar Chaos",
+    "French": "Chaos planaire",
+    "German": "Weltenchaos",
+    "Italian": "Caos Planar",
+    "Japanese": "次元の混乱",
+    "Korean": "차원의 혼돈",
+    "Portuguese (Brazil)": "Caos Planar",
+    "Russian": "Вселенский Хаос",
+    "Spanish": "Caos Planar"
+  },
+  "type": "expansion"
 }

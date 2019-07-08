@@ -1,14 +1,14 @@
 {
-  "name": "Arabian Nights",
-  "code": "ARN",
-  "gathererCode": "AN",
-  "magicCardsInfoCode": "an",
-  "releaseDate": "1993-12-17",
-  "border": "black",
-  "type": "expansion",
-  "booster": [
-    "uncommon",
-    "uncommon",
+  "baseSetSize": 78,
+  "boosterV3": [
+    [
+      "rare",
+      "uncommon"
+    ],
+    [
+      "rare",
+      "uncommon"
+    ],
     "common",
     "common",
     "common",
@@ -16,6 +16,35 @@
     "common",
     "common"
   ],
-  "mkm_name": "Arabian Nights",
-  "mkm_id": 4
+  "code": "ARN",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ARN",
+  "mcmId": 4,
+  "mcmName": "Arabian Nights",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Arabian Nights",
+  "releaseDate": "1993-12-17",
+  "tcgplayerGroupId": 11,
+  "tokens": [
+
+  ],
+  "totalSetSize": 92,
+  "translations": {
+    "Chinese Simplified": "Arabian Nights",
+    "Chinese Traditional": "Arabian Nights",
+    "French": "Arabian Nights",
+    "German": "Arabian Nights",
+    "Italian": "Arabian Nights",
+    "Japanese": "Arabian Nights",
+    "Korean": "Arabian Nights",
+    "Portuguese (Brazil)": "Arabian Nights",
+    "Russian": "Arabian Nights",
+    "Spanish": "Arabian Nights"
+  },
+  "type": "expansion"
 }

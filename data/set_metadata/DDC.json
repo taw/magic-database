@@ -1,10 +1,105 @@
 {
-  "name": "Duel Decks: Divine vs. Demonic",
+  "baseSetSize": 0,
   "code": "DDC",
-  "magicCardsInfoCode": "dvd",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DDC",
+  "mcmId": 107,
+  "mcmName": "Duel Decks: Divine vs. Demonic",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "DDC",
+  "name": "Duel Decks: Divine vs. Demonic",
   "releaseDate": "2009-04-10",
-  "border": "black",
-  "type": "duel deck",
-  "mkm_name": "Duel Decks: Divine vs. Demonic",
-  "mkm_id": 107
+  "tcgplayerGroupId": 31,
+  "tokens": [
+    {
+      "artist": "Pete Venters",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Demon",
+      "number": "2",
+      "power": "*",
+      "reverseRelated": [
+        "Promise of Power"
+      ],
+      "scryfallId": "367c872c-d019-42aa-b75a-1c66ec81e766",
+      "scryfallIllustrationId": "19b6883b-45f8-43a2-90e9-8285a1c5eafd",
+      "scryfallOracleId": "0f6d78a4-f330-47b5-9c30-51324a1e7fb9",
+      "text": "Flying",
+      "toughness": "*",
+      "type": "Token Creature — Demon",
+      "uuid": "14837551-e899-5dec-82e1-984793ba10c4"
+    },
+    {
+      "artist": "Luca Zontini",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Luminous Angel"
+      ],
+      "scryfallId": "4b9a934b-dbd2-4691-8c96-a2f25ca18db0",
+      "scryfallIllustrationId": "369923b2-18b1-47b1-ad02-f15b52f28e52",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "7ea7f9be-9fdd-5662-9906-733ed7e02d43"
+    },
+    {
+      "artist": "Véronique Meignaud",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Thrull",
+      "number": "3",
+      "power": "0",
+      "reverseRelated": [
+        "Breeding Pit"
+      ],
+      "scryfallId": "2795320c-57fc-4140-b306-a92237390353",
+      "scryfallIllustrationId": "4aa1d56a-dcc5-4bd0-8a7a-7bd02b632772",
+      "scryfallOracleId": "3c8dd2e4-a808-4313-8463-f5cef7bb077e",
+      "toughness": "1",
+      "type": "Token Creature — Thrull",
+      "uuid": "a76ce88d-eb56-5a1f-a74a-623508738676"
+    }
+  ],
+  "totalSetSize": 62,
+  "translations": {
+    "Chinese Simplified": "Divine vs. Demonic",
+    "Chinese Traditional": "Divine vs. Demonic",
+    "French": "Divine vs. Demonic",
+    "German": "Divine vs. Demonic",
+    "Italian": "Divine vs. Demonic",
+    "Japanese": "Divine vs. Demonic",
+    "Korean": "Divine vs. Demonic",
+    "Portuguese (Brazil)": "Divine vs. Demonic",
+    "Russian": "Divine vs. Demonic",
+    "Spanish": "Divine vs. Demonic"
+  },
+  "type": "duel_deck"
 }

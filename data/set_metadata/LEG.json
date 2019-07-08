@@ -1,12 +1,6 @@
 {
-  "name": "Legends",
-  "code": "LEG",
-  "gathererCode": "LE",
-  "magicCardsInfoCode": "lg",
-  "releaseDate": "1994-06-10",
-  "border": "black",
-  "type": "expansion",
-  "booster": [
+  "baseSetSize": 310,
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,9 +17,35 @@
     "common",
     "common"
   ],
-  "translations": {
-    "it": "Leggende"
+  "code": "LEG",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "LEG",
+  "mcmId": 7,
+  "mcmName": "Legends",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Legends",
-  "mkm_id": 7
+  "name": "Legends",
+  "releaseDate": "1994-06-01",
+  "tcgplayerGroupId": 65,
+  "tokens": [
+
+  ],
+  "totalSetSize": 310,
+  "translations": {
+    "Chinese Simplified": "Legends",
+    "Chinese Traditional": "Legends",
+    "French": "Legends",
+    "German": "Legends",
+    "Italian": "Legends",
+    "Japanese": "Legends",
+    "Korean": "Legends",
+    "Portuguese (Brazil)": "Legends",
+    "Russian": "Legends",
+    "Spanish": "Legends"
+  },
+  "type": "expansion"
 }

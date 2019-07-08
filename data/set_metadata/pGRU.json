@@ -1,13 +1,22 @@
 {
+  "baseSetSize": 0,
+  "code": "PGRU",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "PGRU",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
   "name": "Guru",
-  "code": "pGRU",
-  "magicCardsInfoCode": "guru",
-  "magicRaritiesCodes": [
-    "50-rarities-guru-lands"
-  ],
   "releaseDate": "1999-07-12",
-  "border": "black",
-  "type": "promo",
-  "mkm_name": "Guru Lands",
-  "mkm_id": 88
+  "tcgplayerGroupId": 56,
+  "tokens": [
+
+  ],
+  "totalSetSize": 5,
+  "translations": {
+  },
+  "type": "promo"
 }

@@ -1,0 +1,25 @@
+{
+  "baseSetSize": 0,
+  "block": "Amonkhet",
+  "code": "PHOU",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "HOU",
+  "mcmId": 1825,
+  "mcmName": "Hour of Devastation: Promos",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Hour of Devastation Promos",
+  "parentCode": "HOU",
+  "releaseDate": "2017-07-14",
+  "tokens": [
+
+  ],
+  "totalSetSize": 58,
+  "translations": {
+  },
+  "type": "promo"
+}

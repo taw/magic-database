@@ -1,13 +1,7 @@
 {
-  "name": "Mirage",
-  "code": "MIR",
-  "gathererCode": "MI",
-  "magicCardsInfoCode": "mr",
-  "releaseDate": "1996-10-08",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 350,
   "block": "Mirage",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Trugbilder",
-    "fr": "Mirage",
-    "it": "Mirage",
-    "es": "Espejismo",
-    "pt": "Miragem"
+  "code": "MIR",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "MIR",
+  "mcmId": 16,
+  "mcmName": "Mirage",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Mirage",
-  "mkm_id": 16
+  "mtgoCode": "MI",
+  "name": "Mirage",
+  "releaseDate": "1996-10-08",
+  "tcgplayerGroupId": 74,
+  "tokens": [
+
+  ],
+  "totalSetSize": 351,
+  "translations": {
+    "Chinese Simplified": "Mirage",
+    "Chinese Traditional": "Mirage",
+    "French": "Mirage",
+    "German": "Mirage",
+    "Italian": "Mirage",
+    "Japanese": "Mirage",
+    "Korean": "Mirage",
+    "Portuguese (Brazil)": "Mirage",
+    "Russian": "Mirage",
+    "Spanish": "Mirage"
+  },
+  "type": "expansion"
 }

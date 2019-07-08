@@ -1,12 +1,7 @@
 {
-  "name": "Ravnica: City of Guilds",
-  "code": "RAV",
-  "magicCardsInfoCode": "rav",
-  "releaseDate": "2005-10-07",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 306,
   "block": "Ravnica",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,16 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Ravnica: Stadt der Gilden",
-    "fr": "Ravnica: La Cité des Guildes",
-    "it": "Ravnica: Città delle Gilde",
-    "es": "Rávnica: Ciudad de Gremios",
-    "pt": "Ravnica: A Cidade das Guildas",
-    "jp": "ラブニカ：ギルドの都",
-    "cn": "拉尼卡公会城",
-    "ru": "Равника: Город Гильдий"
+  "code": "RAV",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "RAV",
+  "mcmId": 55,
+  "mcmName": "Ravnica: City of Guilds",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Ravnica: City of Guilds",
-  "mkm_id": 55
+  "mtgoCode": "RAV",
+  "name": "Ravnica: City of Guilds",
+  "releaseDate": "2005-10-07",
+  "tcgplayerGroupId": 95,
+  "tokens": [
+
+  ],
+  "totalSetSize": 306,
+  "translations": {
+    "Chinese Simplified": "拉尼卡公会城",
+    "Chinese Traditional": "拉尼卡公會城",
+    "French": "Ravnica: la Cité des Guildes",
+    "German": "Ravnica: Stadt der Gilden",
+    "Italian": "Ravnica: Città delle Gilde",
+    "Japanese": "ラヴニカ：ギルドの都",
+    "Korean": "라브니카: 길드들의 도시",
+    "Portuguese (Brazil)": "Ravnica: A Cidade das Guildas",
+    "Russian": "Равника: Город Гильдий",
+    "Spanish": "Rávnica: Ciudad de gremios"
+  },
+  "type": "expansion"
 }

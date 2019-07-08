@@ -1,12 +1,7 @@
 {
-  "name": "Revised Edition",
-  "code": "3ED",
-  "gathererCode": "3E",
-  "magicCardsInfoCode": "rv",
-  "releaseDate": "1994-04-01",
-  "border": "white",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 306,
+  "block": "Core Set",
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,11 +18,35 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Unlimitierte Auflage",
-    "fr": "Tirage Non Limité",
-    "it": "Seconda Edizione"
+  "code": "3ED",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "3ED",
+  "mcmId": 6,
+  "mcmName": "Revised",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Revised",
-  "mkm_id": 6
+  "name": "Revised Edition",
+  "releaseDate": "1994-04-01",
+  "tcgplayerGroupId": 97,
+  "tokens": [
+
+  ],
+  "totalSetSize": 306,
+  "translations": {
+    "Chinese Simplified": "Revised Edition",
+    "Chinese Traditional": "Revised Edition",
+    "French": "Revised Edition",
+    "German": "Revised Edition",
+    "Italian": "Revised Edition",
+    "Japanese": "Revised Edition",
+    "Korean": "Revised Edition",
+    "Portuguese (Brazil)": "Revised Edition",
+    "Russian": "Revised Edition",
+    "Spanish": "Revised Edition"
+  },
+  "type": "core"
 }

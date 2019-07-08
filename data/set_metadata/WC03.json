@@ -1,0 +1,195 @@
+{
+  "baseSetSize": 0,
+  "code": "WC03",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "World Championship Decks 2003",
+  "releaseDate": "2003-08-06",
+  "tokens": [
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "2003 World Championships Ad",
+      "number": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "a7040e1c-cbea-4597-89f2-7830714cfcae",
+      "scryfallOracleId": "b9647b52-12de-41af-8fa7-7e405068cde3",
+      "type": "Card",
+      "uuid": "62b3994f-9a2a-5320-aaf6-11664d5fe347"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Daniel Zink Bio",
+      "number": "dz0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "a1352676-9a0e-44bc-972a-b2c26b99e529",
+      "scryfallOracleId": "e5fe22bf-28bf-43f6-9eca-badd0a7ba129",
+      "text": "Daniel Zink, a student from Bochum, Germany, players the control deck that defined this year's World Championships. The white-blue-green \"Wake\" deck is named after the powerful enchantment that's the heart of the deck. Once Mirari's Wake is in play, the deck produces more mana, draws more cards, counters more spells, and makes more Soldiers than opponents can possibly handle. Zink had help from fellow German and 2002-2003 Player of the Year Kai Budde in adapting the \"Wake\" deck to the post–Eigth Edition environment.",
+      "type": "Card",
+      "uuid": "fd8f229f-6f50-5c9f-bb50-7a4bba966e97"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Daniel Zink Decklist",
+      "number": "dz0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "93380a7d-8df1-4cce-bf88-67e3b73eb70c",
+      "scryfallOracleId": "8a23e534-465c-426f-97e5-dc2d8bee75d0",
+      "type": "Card",
+      "uuid": "28a7c785-57cd-5761-a13b-1fb85bbfa63f"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Dave Humpherys Bio",
+      "number": "dh0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "2b490cfc-3a5a-4045-a53f-3395f61bb7a1",
+      "scryfallOracleId": "ee318996-f403-431a-862e-47329d25e027",
+      "text": "The Top 8 is familiar territory for professional Magic player Dave Humpherys. With over $130,000 in career winnings and a Pro Tour championship on his resume, \"The Hump\" advanced to the Worlds semifinals for the second year in a row where he lost to eventual champion Daniel Zink. The blue-green madness deck he played has been a Standard mainstay for more than a year. It revolves around Torment madness cards like Basking Rootwalla and Circular Logic, together with discard-enablers like Aquamoeba and Wild Mongrel. Humpherys, who recently earned his Ph.D. from MIT, credits this version of the deck to Norway's Sigurd Eskeland.",
+      "type": "Card",
+      "uuid": "bb2569c9-121c-5167-8a77-f8d92b5f9a71"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Dave Humpherys Decklist",
+      "number": "dh0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "4a4158c7-5f24-4b56-bb9e-ddc3e459b555",
+      "scryfallOracleId": "b41a64ff-84b1-4ed8-9d87-b0b5a3589666",
+      "type": "Card",
+      "uuid": "eca605e4-a3c8-5407-ab44-f06e3227b5db"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Peer Kröger Bio",
+      "number": "pk0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "6a45947b-7832-4a0b-836b-63693bf550f8",
+      "scryfallOracleId": "d3654ade-36d7-43f4-88c2-b4e0725acdaa",
+      "text": "Hometown hero Peer Kröger played his own version of the classic \"Reanimator\" deck to an impressive record during this year's World Championships. The twenty-eight-year-old communications and computer science student nicknamed his deck \"Herbert Wise\" after the famous H. P. Lovecraft work \"Herbert Wise—Reanimator.\" Winning with this deck is a two-step process: Step 1. Use Entomb or Buried Alive to quickly get daunting creatures into the graveyard. Step 2. Bring the creature back to life with Zombify or Doomed Necromancer. The mostly black deck also uses Burning Wish to find just the right answers to deal with opponents' plans.",
+      "type": "Card",
+      "uuid": "2d878d63-7d83-514a-9eb6-a979368b8add"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Peer Kröger Decklist",
+      "number": "pk0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "d77ca534-43c2-4624-9146-43be9f692c19",
+      "scryfallOracleId": "814e48f1-fa84-417c-943b-bb46b0b4d176",
+      "type": "Card",
+      "uuid": "45c429d6-a6b2-550b-b0d2-89c8c122f8e4"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Wolfgang Eder Bio",
+      "number": "we0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "53b08fa1-f76a-407a-ba07-43cadc13453c",
+      "scryfallOracleId": "fb3f0d13-f879-4d42-8093-b9c265e7852b",
+      "text": "Wolfgang Eder introduced this black-red \"Goblin Bidding\" deck to the world at this year's European Championships. The twenty-two-year-old student from Weinheim, Germany, says the inspiration for the deck came from trying to give the typical Goblin tribe something to do in the midgame. He achieved this by adding black to the deck for Patriarch's Bidding, which brings every Goblin in the graveyard back to play. And with cards like Goblin Warchief and Siege-Gang Commander, those Goblins have haste and bring friends with them! A resolved Patriarch's Bidding is usually game over.",
+      "type": "Card",
+      "uuid": "0ee60b3b-bcc9-5624-aa5c-dd53eda157aa"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Wolfgang Eder Decklist",
+      "number": "we0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "35417b4b-db3d-425c-909e-6803d27307e5",
+      "scryfallOracleId": "8a073956-1d9a-4c1f-80b4-001fce5b6f29",
+      "type": "Card",
+      "uuid": "81f8601a-fc93-5080-946b-21b204213a43"
+    }
+  ],
+  "totalSetSize": 141,
+  "translations": {
+  },
+  "type": "memorabilia"
+}

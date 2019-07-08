@@ -1,11 +1,6 @@
 {
-  "name": "Conspiracy: Take the Crown",
-  "code": "CN2",
-  "magicCardsInfoCode": "cn2",
-  "releaseDate": "2016-08-26",
-  "border": "black",
-  "type": "conspiracy",
-  "booster": [
+  "baseSetSize": 221,
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -26,8 +21,316 @@
     "draft-matters",
     "marketing"
   ],
+  "code": "CN2",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "CN2",
+  "mcmId": 1702,
+  "mcmName": "Conspiracy: Take the Crown",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Conspiracy: Take the Crown",
+  "releaseDate": "2016-08-26",
+  "tcgplayerGroupId": 1794,
+  "tokens": [
+    {
+      "artist": "Josu Hernaiz",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Assassin",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Queen Marchesa"
+      ],
+      "scryfallId": "f577d422-59d7-43ab-a822-2d73d47e61dd",
+      "scryfallIllustrationId": "b2c02caf-33a0-4aad-8002-297bcbf9727b",
+      "scryfallOracleId": "6fb42b86-70bf-4c3e-af02-f861434ca424",
+      "text": "Deathtouch, haste",
+      "toughness": "1",
+      "type": "Token Creature — Assassin",
+      "uuid": "f937bd43-03cc-5a39-a8d7-5831e66ba76b"
+    },
+    {
+      "artist": "Jesper Ejsing",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "10",
+      "power": "3",
+      "reverseRelated": [
+        "Beast Within"
+      ],
+      "scryfallId": "ac453b05-4eb3-42f2-99e7-40e29558c50a",
+      "scryfallIllustrationId": "82ea2f33-efce-46cc-9920-3d657b7913ef",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "a5b9519e-e6c4-538e-9af7-5f1343f93cea"
+    },
+    {
+      "artist": "Victor Adame Minguez",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Construct",
+      "number": "12",
+      "power": "1",
+      "reverseRelated": [
+        "Daretti, Ingenious Iconoclast"
+      ],
+      "scryfallId": "7c82af53-2de8-4cd6-84bf-fb39d2693de2",
+      "scryfallIllustrationId": "3d2a6a1e-f61a-4b21-abe6-bcfe678103c9",
+      "scryfallOracleId": "ebddf9b8-fd1a-4a6b-bec8-3a63485e36c0",
+      "text": "Defender",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Construct",
+      "uuid": "e78edec0-ec67-58a1-9b91-80964d7f1668"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "7",
+      "power": "5",
+      "reverseRelated": [
+        "Skyline Despot"
+      ],
+      "scryfallId": "8e3b2942-d1a4-4d27-9d64-65712497ab2e",
+      "scryfallIllustrationId": "dbd658d1-1eda-4145-b9a7-df2393a5eb49",
+      "scryfallOracleId": "60fe4897-6760-4c5a-8074-c92bd64df52b",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Dragon",
+      "uuid": "bc143cbf-35bb-51b8-8d78-89eec71acb44"
+    },
+    {
+      "artist": "Jason A. Engle",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "8",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "c63967fe-62da-4c27-9aa7-67adc77b2baf",
+      "scryfallIllustrationId": "45b52a39-9d9a-4e60-bdbe-c1bd30e70606",
+      "scryfallOracleId": "0de5cdb7-b534-4ba5-b10b-b70fd247b5d8",
+      "text": "This creature can't block.",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "e9595037-bd4f-564f-a0d7-6d314d97f276"
+    },
+    {
+      "artist": "Carl Critchlow",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Insect",
+      "number": "11",
+      "power": "1",
+      "reverseRelated": [
+        "Dragonlair Spider"
+      ],
+      "scryfallId": "36fcdda7-8fe7-4cf0-9025-89ff88398994",
+      "scryfallIllustrationId": "3c492a0b-c2ef-4227-9da4-f77ff8d9d4c8",
+      "scryfallOracleId": "c39cd31f-c4a2-4ca8-b4f9-b2e6289743bc",
+      "toughness": "1",
+      "type": "Token Creature — Insect",
+      "uuid": "fb31f97d-90a5-5678-97a7-4ed4f53bf0a2"
+    },
+    {
+      "artist": "Filip Burburan",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Lizard",
+      "number": "9",
+      "power": "8",
+      "reverseRelated": [
+        "Subterranean Tremors"
+      ],
+      "scryfallId": "70345006-5cde-44f8-ab66-9d8163d4c4f6",
+      "scryfallIllustrationId": "f1e6e5ac-70d4-4e73-9cff-a54ca44d3f2e",
+      "scryfallOracleId": "49db8af8-de3b-4503-acc6-04cac2f87a2e",
+      "toughness": "8",
+      "type": "Token Creature — Lizard",
+      "uuid": "8321320d-1b58-5067-8435-4eb3b7d75da0"
+    },
+    {
+      "artist": "Greg Staples",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Lieutenants of the Guard",
+        "Raise the Alarm"
+      ],
+      "scryfallId": "36d229e4-2a21-4d56-be82-5f812659f8e6",
+      "scryfallIllustrationId": "6df28827-075d-4e5e-ba2c-d26982ace45f",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "7aadc595-17fd-5dd1-97db-df3d30bbeb52"
+    },
+    {
+      "artist": "Jason A. Engle",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Hold the Perimeter"
+      ],
+      "scryfallId": "3d5c2f87-f0c9-4188-9b20-1c2a1d3c4f45",
+      "scryfallIllustrationId": "0b7e297c-67e6-464c-b44b-8a66b90c52da",
+      "scryfallOracleId": "0911902a-82f0-4887-994a-5158f5467a26",
+      "text": "Defender",
+      "toughness": "2",
+      "type": "Token Creature — Soldier",
+      "uuid": "c53cab16-febe-5800-b9ae-1c7f356bf70a"
+    },
+    {
+      "artist": "Jeff Simpson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Doomed Traveler"
+      ],
+      "scryfallId": "f89b99b9-9720-4177-b664-aac310fc1bea",
+      "scryfallIllustrationId": "c7c7cdea-3fd2-47ba-a4ae-772e50a7527a",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "7be02eb5-b874-5032-8df6-ef4556c2aa6d"
+    },
+    {
+      "artist": "Mike Bierek",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "The Monarch",
+      "number": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "40b79918-22a7-4fff-82a6-8ebfe6e87185",
+      "scryfallIllustrationId": "0881c5b8-95ca-4939-bf9c-56b81d2f2158",
+      "scryfallOracleId": "7c934091-1bc7-4458-acef-fdac62ec3df1",
+      "text": "At the beginning of your end step, draw a card.\nWhenever a creature deals combat damage to you, its controller becomes the monarch.",
+      "type": "Card",
+      "uuid": "623cd9a5-63a4-5dbb-909c-74b14be07992"
+    },
+    {
+      "artist": "Seb McKinnon",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "6",
+      "power": "2",
+      "reverseRelated": [
+        "Assemble the Rank and Vile"
+      ],
+      "scryfallId": "4ccc931f-4586-4d7e-a984-dc7142359a85",
+      "scryfallIllustrationId": "a9ae038c-ac1d-4862-9778-f53cbc0fd845",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "758c25b5-a680-5c77-af7d-a5637f0ae5d9"
+    }
+  ],
+  "totalSetSize": 222,
   "translations": {
-    "jp": "Conspiracy: Take the Crown",
-    "cn": "Conspiracy: Take the Crown"
-  }
+    "Chinese Simplified": "诡局：王权争霸",
+    "Chinese Traditional": "詭局：王權爭霸",
+    "French": "Conspiracy: Take the Crown",
+    "German": "Conspiracy: Take the Crown",
+    "Italian": "Conspiracy: Take the Crown",
+    "Japanese": "『コンスピラシー：王位争奪』",
+    "Korean": "음모: 왕관을 차지하라",
+    "Portuguese (Brazil)": "Conspiracy: Take the Crown",
+    "Russian": "Conspiracy: Take the Crown",
+    "Spanish": "Conspiracy: Take the Crown"
+  },
+  "type": "draft_innovation"
 }

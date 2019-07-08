@@ -1,12 +1,7 @@
 {
-  "name": "Journey into Nyx",
-  "code": "JOU",
-  "magicCardsInfoCode": "jou",
-  "releaseDate": "2014-05-02",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 165,
   "block": "Theros",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,18 +22,178 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Reise nach Nyx",
-    "fr": "Incursion dans Nyx",
-    "it": "Viaggio verso Nyx",
-    "es": "Travesía hacia Nyx",
-    "pt": "Viagem para Nyx",
-    "jp": "ニクスへの旅",
-    "cn": "尼兹之旅",
-    "ru": "Путешествие в Никс",
-    "tw": "尼茲之旅",
-    "ko": "닉스로 가는 길"
+  "code": "JOU",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "JOU",
+  "mcmId": 1481,
+  "mcmName": "Journey into Nyx",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Journey into Nyx",
-  "mkm_id": 1481
+  "mtgoCode": "JOU",
+  "name": "Journey into Nyx",
+  "releaseDate": "2014-05-02",
+  "tcgplayerGroupId": 1277,
+  "tokens": [
+    {
+      "artist": "Steve Prescott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Hydra",
+      "number": "4",
+      "power": "*",
+      "reverseRelated": [
+        "Hydra Broodmaster"
+      ],
+      "scryfallId": "9d1af553-ec9f-46fd-9c6d-49436e93e682",
+      "scryfallIllustrationId": "b8bde4d5-a5ce-4b6d-a44d-8c3160c064c2",
+      "scryfallOracleId": "e2a15d48-9fbe-43b4-bd32-eea56391d99f",
+      "toughness": "*",
+      "type": "Token Creature — Hydra",
+      "uuid": "5be62898-6508-585d-8799-4c8670cdf904"
+    },
+    {
+      "artist": "Craig J Spearing",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Minotaur",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+        "Flurry of Horns"
+      ],
+      "scryfallId": "5d2a3833-ab5b-4f84-b39c-d0eeb7b474d3",
+      "scryfallIllustrationId": "c702ef12-d8b4-42e2-a287-77a99eff7a7a",
+      "scryfallOracleId": "6b8117bf-384f-4f5e-9e52-e01412ce24a9",
+      "toughness": "3",
+      "type": "Token Creature — Minotaur",
+      "uuid": "7db365c8-7bf1-50ef-a8bd-351e083a4a41"
+    },
+    {
+      "artist": "Greg Staples",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "colors": [
+        "B",
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Snake",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Pharika, God of Affliction"
+      ],
+      "scryfallId": "5910a7f2-71a7-4e85-8feb-4a0da228eb15",
+      "scryfallIllustrationId": "8affe81e-b869-4a59-afda-51c57f0bf9e4",
+      "scryfallOracleId": "8929b481-c5c4-4233-884f-abbbcb54b0b7",
+      "text": "Deathtouch",
+      "toughness": "1",
+      "type": "Token Enchantment Creature — Snake",
+      "uuid": "f5a51a93-948d-5afb-87b2-cbdce871fae7"
+    },
+    {
+      "artist": "Jesper Ejsing",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Sphinx",
+      "number": "1",
+      "power": "4",
+      "reverseRelated": [
+        "Hour of Need"
+      ],
+      "scryfallId": "b74f1983-e9ac-47f0-836d-843a53c054cc",
+      "scryfallIllustrationId": "2c07e557-5c57-43c7-94e7-8e3ca543fedb",
+      "scryfallOracleId": "7929067e-440b-453b-98b3-b6eb322201ec",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Sphinx",
+      "uuid": "76e67b81-24ed-53f3-adc0-df1b00e97e8a"
+    },
+    {
+      "artist": "Yohann Schepacz",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Spider",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Renowned Weaver"
+      ],
+      "scryfallId": "7a0275af-708d-4c43-b226-c88cb9a8054c",
+      "scryfallIllustrationId": "2fdff097-4b27-45b6-8053-a4690d4df7b2",
+      "scryfallOracleId": "10f7232b-3b49-4d4c-adea-8bdeb118d08a",
+      "text": "Reach",
+      "toughness": "3",
+      "type": "Token Enchantment Creature — Spider",
+      "uuid": "22124fb0-c4cf-529d-a212-19626f815461"
+    },
+    {
+      "artist": "Zack Stella",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "2",
+      "power": "*",
+      "reverseRelated": [
+        "Ritual of the Returned"
+      ],
+      "scryfallId": "95c59642-575f-4356-ae1a-20b90895545b",
+      "scryfallIllustrationId": "4a42258a-77a3-4345-9179-9c16dd019854",
+      "scryfallOracleId": "ec6e76e8-e80e-4534-990a-03c3bbeda53a",
+      "toughness": "*",
+      "type": "Token Creature — Zombie",
+      "uuid": "1136c4a8-fbff-5709-b17c-41bbc889acfa"
+    }
+  ],
+  "totalSetSize": 165,
+  "translations": {
+    "Chinese Simplified": "尼兹之旅",
+    "Chinese Traditional": "尼茲之旅",
+    "French": "Incursion dans Nyx",
+    "German": "Reise nach Nyx",
+    "Italian": "Viaggio verso Nyx",
+    "Japanese": "『ニクスへの旅』",
+    "Korean": "닉스로 가는 길",
+    "Portuguese (Brazil)": "Viagem para Nyx",
+    "Russian": "Путешествие в Никс",
+    "Spanish": "Travesía hacia Nyx"
+  },
+  "type": "expansion"
 }

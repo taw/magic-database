@@ -1,13 +1,7 @@
 {
-  "name": "Conflux",
-  "code": "CON",
-  "oldCode": "CFX",
-  "magicCardsInfoCode": "cfx",
-  "releaseDate": "2009-02-06",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 145,
   "block": "Alara",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -28,16 +22,82 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Conflux",
-    "fr": "Conflux",
-    "it": "Conflux",
-    "es": "Conflux",
-    "pt": "Conflux",
-    "jp": "コンフラックス",
-    "cn": "聚流",
-    "ru": "Conflux"
+  "code": "CON",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "CON",
+  "mcmId": 106,
+  "mcmName": "Conflux",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Conflux",
-  "mkm_id": 106
+  "mtgoCode": "CON",
+  "name": "Conflux",
+  "releaseDate": "2009-02-06",
+  "tcgplayerGroupId": 26,
+  "tokens": [
+    {
+      "artist": "Cyril Van Der Haegen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "1",
+      "power": "4",
+      "reverseRelated": [
+        "Sigil of the Empty Throne"
+      ],
+      "scryfallId": "d902520e-b4ed-4805-9f64-096acf7c5f31",
+      "scryfallIllustrationId": "b9d5cf13-232e-492f-9542-bb7d8b150bad",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "6747e401-b45a-581b-a143-47ce68d3726d"
+    },
+    {
+      "artist": "Vance Kovacs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "2",
+      "power": "3",
+      "reverseRelated": [
+        "Rakka Mar"
+      ],
+      "scryfallId": "daf56553-2ecc-4fe8-8730-917d891f6882",
+      "scryfallIllustrationId": "67093863-ac07-44ed-9d73-7cbb92cc1f03",
+      "scryfallOracleId": "f082b222-faf3-4616-b246-e3ef5e0dd121",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "67b6c22b-a694-5d94-aa89-e45d928d0bcb"
+    }
+  ],
+  "totalSetSize": 145,
+  "translations": {
+    "Chinese Simplified": "聚流",
+    "Chinese Traditional": "聚流",
+    "French": "Conflux",
+    "German": "Conflux",
+    "Italian": "Conflux",
+    "Japanese": "コンフラックス",
+    "Korean": "합일",
+    "Portuguese (Brazil)": "Conflux",
+    "Russian": "Conflux",
+    "Spanish": "Conflux"
+  },
+  "type": "expansion"
 }

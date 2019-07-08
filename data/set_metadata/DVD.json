@@ -1,0 +1,92 @@
+{
+  "baseSetSize": 0,
+  "code": "DVD",
+  "codeV3": "DD3_DVD",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DDC",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Duel Decks Anthology: Divine vs. Demonic",
+  "releaseDate": "2014-12-05",
+  "tokens": [
+    {
+      "artist": "Pete Venters",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Demon",
+      "number": "6",
+      "power": "*",
+      "reverseRelated": [
+        "Promise of Power"
+      ],
+      "scryfallId": "9ce65279-fc41-40f8-86a0-fdec72a0d91f",
+      "scryfallIllustrationId": "19b6883b-45f8-43a2-90e9-8285a1c5eafd",
+      "scryfallOracleId": "0f6d78a4-f330-47b5-9c30-51324a1e7fb9",
+      "text": "Flying",
+      "toughness": "*",
+      "type": "Token Creature — Demon",
+      "uuid": "867e2174-5db4-5f78-b2f0-1e93747940c4"
+    },
+    {
+      "artist": "Luca Zontini",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Luminous Angel"
+      ],
+      "scryfallId": "4558e517-bf00-4bc6-b3a1-7a2d7ab9a3fd",
+      "scryfallIllustrationId": "369923b2-18b1-47b1-ad02-f15b52f28e52",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "b4528b10-b7e7-5e98-a7e1-51881a7ad372"
+    },
+    {
+      "artist": "Véronique Meignaud",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Thrull",
+      "number": "7",
+      "power": "0",
+      "reverseRelated": [
+        "Breeding Pit"
+      ],
+      "scryfallId": "919327c4-70ac-4606-b5b4-f1cb6c230cee",
+      "scryfallIllustrationId": "4aa1d56a-dcc5-4bd0-8a7a-7bd02b632772",
+      "scryfallOracleId": "3c8dd2e4-a808-4313-8463-f5cef7bb077e",
+      "toughness": "1",
+      "type": "Token Creature — Thrull",
+      "uuid": "3abda98a-811f-566b-8d1a-c23c89a52c86"
+    }
+  ],
+  "totalSetSize": 62,
+  "translations": {
+  },
+  "type": "duel_deck"
+}

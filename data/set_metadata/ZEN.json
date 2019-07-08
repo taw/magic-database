@@ -1,12 +1,7 @@
 {
-  "name": "Zendikar",
-  "code": "ZEN",
-  "magicCardsInfoCode": "zen",
-  "releaseDate": "2009-10-02",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 249,
   "block": "Zendikar",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,16 +22,301 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Zendikar",
-    "fr": "Zendikar",
-    "it": "Zendikar",
-    "es": "Zendikar",
-    "pt": "Zendikar",
-    "jp": "ゼンディカー",
-    "cn": "赞迪卡",
-    "ru": "Zendikar"
+  "code": "ZEN",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ZEN",
+  "mcmId": 114,
+  "mcmName": "Zendikar",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Zendikar",
-  "mkm_id": 114
+  "mtgoCode": "ZEN",
+  "name": "Zendikar",
+  "releaseDate": "2009-10-02",
+  "tcgplayerGroupId": 124,
+  "tokens": [
+    {
+      "artist": "Adi Granov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "1",
+      "power": "4",
+      "reverseRelated": [
+        "Luminarch Ascension"
+      ],
+      "scryfallId": "1fc37484-b58b-4a42-9281-b4272dc7c872",
+      "scryfallIllustrationId": "2fa17199-ae24-43d8-8cf9-b10abd143db2",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "97be07f2-d9fb-522b-935f-ee7107446456"
+    },
+    {
+      "artist": "Steve Prescott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "9",
+      "power": "4",
+      "reverseRelated": [
+        "Baloth Cage Trap",
+        "Rampaging Baloths"
+      ],
+      "scryfallId": "76b5e455-053d-4a86-93b2-2436b554b638",
+      "scryfallIllustrationId": "b37e5fc3-c689-4bfe-90ba-098f7ec55b5b",
+      "scryfallOracleId": "695b14a0-920a-47bd-bd4a-7989862cdd0a",
+      "toughness": "4",
+      "type": "Token Creature — Beast",
+      "uuid": "ad17debe-10ce-5ba4-ab8a-54b49796961b"
+    },
+    {
+      "artist": "Howard Lyon",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Emeria Angel"
+      ],
+      "scryfallId": "abbb3c16-a7ef-4b83-b1a9-637a905229d7",
+      "scryfallIllustrationId": "d7ac5c05-5906-47b4-9772-0cdf98cddb41",
+      "scryfallOracleId": "b1a2b096-a440-4ef9-ab2a-059c79999297",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bird",
+      "uuid": "7472a7e4-5103-50ee-bd6e-a7b3f722c9e5"
+    },
+    {
+      "artist": "Anthony Francisco",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "8",
+      "power": "7",
+      "reverseRelated": [
+        "Elemental Appeal",
+        "Zektar Shrine Expedition"
+      ],
+      "scryfallId": "f9e12780-9c25-4cb0-b1ff-a36ca50b19d8",
+      "scryfallIllustrationId": "dda725c9-7a52-4b45-bb14-ccf141c62327",
+      "scryfallOracleId": "ecc72bfd-151f-4fa7-92bf-914732c19eb2",
+      "text": "Trample, haste",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "46677721-f79c-505c-bcba-99a0527a228c"
+    },
+    {
+      "artist": "Cyril Van Der Haegen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Illusion",
+      "number": "4",
+      "power": "2",
+      "reverseRelated": [
+        "Summoner's Bane"
+      ],
+      "scryfallId": "5dcbf662-7263-414a-b64b-ccf9aab20faa",
+      "scryfallIllustrationId": "05200ecc-a5cb-4e72-abb5-0a34a54ce00a",
+      "scryfallOracleId": "eafd610d-a32e-4d92-b1f4-134f80720d16",
+      "toughness": "2",
+      "type": "Token Creature — Illusion",
+      "uuid": "af4e34f6-3848-559d-90d0-6c8f6c909c1c"
+    },
+    {
+      "artist": "Daren Bader",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Kor Soldier",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Conqueror's Pledge",
+        "Nomads' Assembly"
+      ],
+      "scryfallId": "d9623e74-3b94-4842-903f-ed52931bdf6a",
+      "scryfallIllustrationId": "7997e8ad-9619-4098-b340-86c761917f3e",
+      "scryfallOracleId": "8d8945e4-efa0-4656-8b3c-ddcf86df5190",
+      "toughness": "1",
+      "type": "Token Creature — Kor Soldier",
+      "uuid": "213512f1-3fcc-5ff2-a7b0-e30866b68b18"
+    },
+    {
+      "artist": "Warren Mahy",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Merfolk",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Lullmage Mentor"
+      ],
+      "scryfallId": "fb1b292b-2da6-4601-9f93-5eb273ce3a50",
+      "scryfallIllustrationId": "1d6a88df-03a6-4b0c-9d85-f00c47be5e87",
+      "scryfallOracleId": "4998e2fe-1537-40bb-a4d7-f668a5b8975f",
+      "toughness": "1",
+      "type": "Token Creature — Merfolk",
+      "uuid": "394cec5b-7c50-5a3e-b07b-f98c512c9ea5"
+    },
+    {
+      "artist": "Austin Hsu",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Snake",
+      "number": "10",
+      "power": "1",
+      "reverseRelated": [
+        "Bestial Menace",
+        "Cobra Trap",
+        "Elephant",
+        "Wolf"
+      ],
+      "scryfallId": "83a6a142-f065-4a74-9a73-8105be29bc94",
+      "scryfallIllustrationId": "fc2707bb-a027-40de-a67d-1a2f7dec3422",
+      "scryfallOracleId": "9ecd83ce-f866-4cbe-9712-c44aabe979c6",
+      "toughness": "1",
+      "type": "Token Creature — Snake",
+      "uuid": "4d57c501-accc-5cdf-9c05-e1df06e2801a"
+    },
+    {
+      "artist": "Kekai Kotaki",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Vampire",
+      "number": "6",
+      "power": "*",
+      "reverseRelated": [
+        "Kalitas, Bloodchief of Ghet"
+      ],
+      "scryfallId": "969eff58-d91e-49e2-a1e1-8f32b4598810",
+      "scryfallIllustrationId": "bef2429d-30c3-4284-8754-9ae0742e54d3",
+      "scryfallOracleId": "12ba15fd-2534-4c1b-8a6b-d44609e5dbe0",
+      "toughness": "*",
+      "type": "Token Creature — Vampire",
+      "uuid": "f1f3b3e5-cefa-5c36-830d-99620888d469"
+    },
+    {
+      "artist": "Daren Bader",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "11",
+      "power": "2",
+      "reverseRelated": [
+        "Bestial Menace",
+        "Wolfbriar Elemental",
+        "Turntimber Ranger",
+        "Elephant",
+        "Snake"
+      ],
+      "scryfallId": "dcc9e4b4-c0fb-4627-92cf-69544e0c875d",
+      "scryfallIllustrationId": "5e290bd2-37d0-4eb0-a2fc-fafc7107c42e",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "d72bbe1d-d6f6-50c2-84e6-9aa9c36e739a"
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie Giant",
+      "number": "7",
+      "power": "5",
+      "reverseRelated": [
+        "Quest for the Gravelord"
+      ],
+      "scryfallId": "1999ff2f-5797-496e-9917-ad19507ecec9",
+      "scryfallIllustrationId": "41bafe66-8f6f-4e89-a65b-a448a60159fd",
+      "scryfallOracleId": "e7bba04b-be75-4857-a724-c9e2150d56ad",
+      "toughness": "5",
+      "type": "Token Creature — Zombie Giant",
+      "uuid": "7760de6c-2288-51b1-880a-e4db79502dc5"
+    }
+  ],
+  "totalSetSize": 269,
+  "translations": {
+    "Chinese Simplified": "赞迪卡",
+    "Chinese Traditional": "贊迪卡",
+    "French": "Zendikar",
+    "German": "Zendikar",
+    "Italian": "Zendikar",
+    "Japanese": "ゼンディカー",
+    "Korean": "젠디카르",
+    "Portuguese (Brazil)": "Zendikar",
+    "Russian": "Zendikar",
+    "Spanish": "Zendikar"
+  },
+  "type": "expansion"
 }

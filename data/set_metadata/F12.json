@@ -1,0 +1,75 @@
+{
+  "baseSetSize": 0,
+  "block": "Friday Night Magic",
+  "code": "F12",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "STAR",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Friday Night Magic 2012",
+  "releaseDate": "2012-01-01",
+  "tokens": [
+    {
+      "artist": "Lars Grant-West",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "double_faced_token",
+      "name": "Wolf",
+      "names": [
+        "Human",
+        "Wolf"
+      ],
+      "number": "1a",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "3a98c51f-c55c-4bd9-853b-65b8bad5a29f",
+      "scryfallOracleId": "38cbe58a-c740-4d24-b09f-28922aa767c2",
+      "side": "b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "4e023d7c-79d5-574a-b3dc-78582e7a125d"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "double_faced_token",
+      "name": "Human",
+      "names": [
+        "Human",
+        "Wolf"
+      ],
+      "number": "1a",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "3a98c51f-c55c-4bd9-853b-65b8bad5a29f",
+      "scryfallOracleId": "38cbe58a-c740-4d24-b09f-28922aa767c2",
+      "side": "a",
+      "toughness": "1",
+      "type": "Token Creature — Human",
+      "uuid": "5df33b04-ca4f-5276-81e8-3563d0753fae"
+    }
+  ],
+  "totalSetSize": 13,
+  "translations": {
+  },
+  "type": "promo"
+}

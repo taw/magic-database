@@ -1,0 +1,195 @@
+{
+  "baseSetSize": 0,
+  "code": "WC99",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "World Championship Decks 1999",
+  "releaseDate": "1999-08-04",
+  "tokens": [
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "1999 World Championships Ad",
+      "number": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "8635dea0-985a-4c02-a02b-8b08d96fb2dd",
+      "scryfallOracleId": "635477ae-4a70-4ac5-8e93-1695ffc5e246",
+      "type": "Card",
+      "uuid": "9b42d786-6a0a-5668-b169-b842073542f7"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Jakub Šlemr Bio (1999)",
+      "number": "js0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "966b93ba-f671-4244-b879-aa20b355775a",
+      "scryfallOracleId": "111ef691-15cc-4297-808a-9cf12afb0dcd",
+      "text": "1997 World Champion Jakub Šlemr came within two matches of becoming the first person to repeat as World Champion. The 22-year-old Prague native earned a flawless 6–0 resord during the Standard portion of the Swiss rounds. Šlemr, along with fellow teammate and quarterfinalist Gary Wise, played a mono-black deck coined \"Black Control.\" He used discard effects early with cards like Ravenous Rats, Duress, and Stupor. However, the majority of his deck was dedicated to board control with Cursed Scrolls, Powder Kegs, and Phyrexian Plaguelords.",
+      "type": "Card",
+      "uuid": "4acb4cde-eba8-5ec8-8287-78860cb4fa3f"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Jakub Šlemr Decklist (1999)",
+      "number": "js0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "071cda12-a2d4-447f-8382-22870b6dc5cf",
+      "scryfallOracleId": "25b19bc3-7ca2-41d3-ae93-45905b607087",
+      "type": "Card",
+      "uuid": "d612def4-8810-53a0-b2e3-960631610ac7"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Kai Budde Bio",
+      "number": "kb0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "9ed2329f-d055-4a60-955b-384722504278",
+      "scryfallOracleId": "8c893453-cba9-4191-814d-3bf5e45fb93b",
+      "text": "Known as the \"King of the Grand Prix,\" Kai Budde earned an unprecedented three Grand Prix titles in 1999. Though he went only 4–2 during the Swiss portion of the World Championships, he cruised through the Final 8 to become the 1999 World Champion. The 19-year-old Köln, Germany native played a red-artifact deck that contained more than 30 artifacts. He used those artifacts to quickly generate huge amounts of mana, with which he could play a big creature like Masticore or Covetous Dragon. He would then finish off his opponent with a well-timed Wildfire.",
+      "type": "Card",
+      "uuid": "4ad06a47-b8b4-550b-8cd1-17b7c21895e1"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Kai Budde Decklist",
+      "number": "kb0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "b62b648e-f572-4b3b-8315-983d27704b8c",
+      "scryfallOracleId": "344a58ab-b2b7-402e-a382-737675609f1b",
+      "type": "Card",
+      "uuid": "98b4163e-c3a4-50a1-bd3e-a4fd9364177d"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Mark Le Pine Bio",
+      "number": "mlp0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "3a959416-27be-4c92-ac4b-0404529ca978",
+      "scryfallOracleId": "6f0d897b-88ea-4119-909a-8a9564d04c15",
+      "text": "Though only 17 years old, New Hampshire—native Mark Le Pine is a Pro Tour veteran. He has been with the Pro Tour since Atlanta '96 and has made the Top 8 three times (Mainz '97, Rome '98, and Worlds '99). Le Pine played an aggressive red deck called \"Sped Red.\" With his deck he applied pressure early with 11 fast creatures, then he'd shift into land-destruction mode with Wasteland, Stone Rain, Pillage, and Avalanche Riders. For the late game Le Pine used Cursed Scroll and Hammer of Bogardan to finish off his mana-crippled opponent.",
+      "type": "Card",
+      "uuid": "247b3918-8653-5dc5-8d0e-4f2147ecf868"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Mark Le Pine Decklist",
+      "number": "mlp0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "3ed7790c-72db-490d-a427-f3202d730aab",
+      "scryfallOracleId": "3758e5bd-78e5-456b-bbe0-65fe0dec1623",
+      "type": "Card",
+      "uuid": "dcad69a0-7cdd-5e74-a741-43b8ff222f35"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Matt Linde Bio",
+      "number": "ml0a",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "24af7223-40ba-4bc3-93f7-12cafa8090b2",
+      "scryfallOracleId": "d3b86164-63a4-4def-85e5-268c68796c38",
+      "text": "Semifinalist Matt Linde is no stranger to high-level Magic® competition. The 18-year-old Maryland native was the 1998 U.S. National Champion. Linde played a very fast mono-green \"Stompy\" deck with 26 creatures—24 of which cost two mana or less to play. Supplementing this furious creature assault were four Rancors and four Giant Growths. Though the deck was designed to win by turn five, it did feature four Cursed Scrolls in case the game dragged on.",
+      "type": "Card",
+      "uuid": "87fb546e-eb21-5863-b8d7-c5ebcf713952"
+    },
+    {
+      "borderColor": "gold",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Matt Linde Decklist",
+      "number": "ml0b",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "72dd6b5f-f95b-48f8-a126-0ade77f0f638",
+      "scryfallOracleId": "c3b349dd-9e9c-4af7-ae1f-c9e924dcfa1a",
+      "type": "Card",
+      "uuid": "2d44c355-4c61-502b-8221-d4b009a073f9"
+    }
+  ],
+  "totalSetSize": 109,
+  "translations": {
+  },
+  "type": "memorabilia"
+}

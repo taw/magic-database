@@ -1,0 +1,25 @@
+{
+  "baseSetSize": 0,
+  "block": "Battle for Zendikar",
+  "code": "PBFZ",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "BFZ",
+  "mcmId": 1670,
+  "mcmName": "Battle for Zendikar: Promos",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Battle for Zendikar Promos",
+  "parentCode": "BFZ",
+  "releaseDate": "2015-10-02",
+  "tokens": [
+
+  ],
+  "totalSetSize": 78,
+  "translations": {
+  },
+  "type": "promo"
+}

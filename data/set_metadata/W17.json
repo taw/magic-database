@@ -1,9 +1,25 @@
 {
-  "name": "Welcome Deck 2017",
+  "baseSetSize": 0,
   "code": "W17",
-  "magicCardsInfoCode": "w17",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "W17",
+  "mcmId": 1802,
+  "mcmName": "Welcome Deck 2017",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "W17",
+  "name": "Welcome Deck 2017",
   "releaseDate": "2017-04-15",
-  "border": "black",
-  "type": "starter",
-  "block": "Amonkhet"
+  "tcgplayerGroupId": 1930,
+  "tokens": [
+
+  ],
+  "totalSetSize": 30,
+  "translations": {
+  },
+  "type": "starter"
 }

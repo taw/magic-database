@@ -1,7 +1,71 @@
 {
-  "name": "Global Series: Jiang Yanggu and Mu Yanling",
+  "baseSetSize": 0,
   "code": "GS1",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "GS1",
+  "mcmId": 2108,
+  "mcmName": "Global Series Jiang Yanggu & Mu Yanling",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Global Series Jiang Yanggu & Mu Yanling",
   "releaseDate": "2018-06-22",
-  "border": "black",
-  "type": "global series"
+  "tcgplayerGroupId": 2247,
+  "tokens": [
+    {
+      "artist": "XiaoDi Jin",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "duelDeck": "c",
+      "layout": "double_faced_token",
+      "name": "Mowu",
+      "number": "T1",
+      "power": "3",
+      "reverseRelated": [
+        "Jiang Yanggu",
+        "Mowu // Mowu"
+      ],
+      "scryfallId": "b10441dd-9029-4f95-9566-d3771ebd36bd",
+      "scryfallOracleId": "f425d9db-08e9-4f06-9b08-2a5804d4f0fd",
+      "side": "b",
+      "toughness": "3",
+      "type": "Token Legendary Creature — Hound",
+      "uuid": "23cc8354-bfdc-5ef3-b2b6-44cd82781d8c"
+    },
+    {
+      "artist": "XiaoDi Jin",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "duelDeck": "c",
+      "layout": "double_faced_token",
+      "name": "Mowu",
+      "number": "T1",
+      "power": "3",
+      "reverseRelated": [
+        "Jiang Yanggu",
+        "Mowu // Mowu"
+      ],
+      "scryfallId": "b10441dd-9029-4f95-9566-d3771ebd36bd",
+      "scryfallOracleId": "f425d9db-08e9-4f06-9b08-2a5804d4f0fd",
+      "side": "a",
+      "toughness": "3",
+      "type": "Token Legendary Creature — Hound",
+      "uuid": "2d66e8e4-4959-5989-829a-705e6c2a8f67"
+    }
+  ],
+  "totalSetSize": 41,
+  "translations": {
+  },
+  "type": "duel_deck"
 }

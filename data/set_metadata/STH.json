@@ -1,13 +1,7 @@
 {
-  "name": "Stronghold",
-  "code": "STH",
-  "gathererCode": "ST",
-  "magicCardsInfoCode": "sh",
-  "releaseDate": "1998-03-02",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 143,
   "block": "Tempest",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Felsenburg",
-    "fr": "Forteresse",
-    "it": "Fortezza",
-    "es": "Fortaleza",
-    "pt": "Fortaleza"
+  "code": "STH",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "STH",
+  "mcmId": 20,
+  "mcmName": "Stronghold",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Stronghold",
-  "mkm_id": 20
+  "mtgoCode": "ST",
+  "name": "Stronghold",
+  "releaseDate": "1998-03-02",
+  "tcgplayerGroupId": 107,
+  "tokens": [
+
+  ],
+  "totalSetSize": 143,
+  "translations": {
+    "Chinese Simplified": "Stronghold",
+    "Chinese Traditional": "Stronghold",
+    "French": "Stronghold",
+    "German": "Stronghold",
+    "Italian": "Stronghold",
+    "Japanese": "Stronghold",
+    "Korean": "Stronghold",
+    "Portuguese (Brazil)": "Stronghold",
+    "Russian": "Stronghold",
+    "Spanish": "Stronghold"
+  },
+  "type": "expansion"
 }

@@ -1,0 +1,177 @@
+{
+  "baseSetSize": 0,
+  "block": "Friday Night Magic",
+  "code": "F17",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "STAR",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Friday Night Magic 2017",
+  "releaseDate": "2017-01-01",
+  "tokens": [
+    {
+      "artist": "Florian de Gesincourt",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "double_faced_token",
+      "name": "Treasure",
+      "names": [
+        "Dinosaur",
+        "Treasure"
+      ],
+      "number": "11",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "21f5880d-6272-4ba8-bdf8-f9a7e54a3336",
+      "scryfallOracleId": "fd2617fe-1bf3-40c3-9da5-841e63f4d62d",
+      "side": "b",
+      "text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+      "type": "Token Artifact — Treasure",
+      "uuid": "dca51b39-931e-5c20-99a1-57d2fa01ab21"
+    },
+    {
+      "artist": "Filip Burburan",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "double_faced_token",
+      "name": "Dinosaur",
+      "names": [
+        "Dinosaur",
+        "Treasure"
+      ],
+      "number": "11",
+      "power": "3",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "21f5880d-6272-4ba8-bdf8-f9a7e54a3336",
+      "scryfallOracleId": "fd2617fe-1bf3-40c3-9da5-841e63f4d62d",
+      "side": "a",
+      "text": "Trample",
+      "toughness": "3",
+      "type": "Token Creature — Dinosaur",
+      "uuid": "04913366-8f2a-5cfe-b837-04bc04eca024"
+    },
+    {
+      "artist": "Milivoj Ćeran",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "double_faced_token",
+      "name": "Treasure",
+      "names": [
+        "Pirate",
+        "Treasure"
+      ],
+      "number": "12",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "46bf5e2b-869f-480e-ac37-1bdb40a92f8c",
+      "scryfallOracleId": "f0859071-53bc-4bb1-985c-64976dd5cb04",
+      "side": "b",
+      "text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+      "type": "Token Artifact — Treasure",
+      "uuid": "c5da960e-0334-50b9-8d3d-fa9406db0c3a"
+    },
+    {
+      "artist": "Matt Stewart",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "double_faced_token",
+      "name": "Pirate",
+      "names": [
+        "Pirate",
+        "Treasure"
+      ],
+      "number": "12",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "46bf5e2b-869f-480e-ac37-1bdb40a92f8c",
+      "scryfallOracleId": "f0859071-53bc-4bb1-985c-64976dd5cb04",
+      "side": "a",
+      "text": "Menace",
+      "toughness": "2",
+      "type": "Token Creature — Pirate",
+      "uuid": "b77c7248-3977-524c-8815-dc14243bad2b"
+    },
+    {
+      "artist": "Zoltan Boros",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "double_faced_token",
+      "name": "Treasure",
+      "names": [
+        "Vampire",
+        "Treasure"
+      ],
+      "number": "10",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "05934d59-7e98-4fff-8ccb-70cd1a61c6fd",
+      "scryfallOracleId": "226d997d-5363-40ea-83e1-90a3a180d4cb",
+      "side": "b",
+      "text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+      "type": "Token Artifact — Treasure",
+      "uuid": "2372d3ab-bffa-5bd7-bb62-0db8c7f23e5f"
+    },
+    {
+      "artist": "John Severin Brassell",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "double_faced_token",
+      "name": "Vampire",
+      "names": [
+        "Vampire",
+        "Treasure"
+      ],
+      "number": "10",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "05934d59-7e98-4fff-8ccb-70cd1a61c6fd",
+      "scryfallOracleId": "226d997d-5363-40ea-83e1-90a3a180d4cb",
+      "side": "a",
+      "text": "Lifelink",
+      "toughness": "1",
+      "type": "Token Creature — Vampire",
+      "uuid": "7ffef3b1-17e1-5797-9321-204a5182986f"
+    }
+  ],
+  "totalSetSize": 12,
+  "translations": {
+  },
+  "type": "promo"
+}

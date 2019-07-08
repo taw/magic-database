@@ -1,18 +1,36 @@
 {
-  "name": "Magic: The Gathering-Commander",
+  "baseSetSize": 0,
+  "block": "Commander",
   "code": "CMD",
-  "oldCode": "COM",
-  "magicCardsInfoCode": "cmd",
-  "releaseDate": "2011-06-17",
-  "border": "black",
-  "type": "commander",
-  "translations": {
-    "de": "Commander",
-    "fr": "Commander",
-    "it": "Commander",
-    "es": "Commander",
-    "jp": "統率者"
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "CMD",
+  "mcmId": 1273,
+  "mcmName": "Commander",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Commander",
-  "mkm_id": 1273
+  "mtgoCode": "CMD",
+  "name": "Commander 2011",
+  "releaseDate": "2011-06-17",
+  "tcgplayerGroupId": 25,
+  "tokens": [
+
+  ],
+  "totalSetSize": 318,
+  "translations": {
+    "Chinese Simplified": "Magic: the Gathering Commander",
+    "Chinese Traditional": "Magic: the Gathering Commander",
+    "French": "Magic: the Gathering Commander",
+    "German": "Magic: the Gathering Commander",
+    "Italian": "Magic: the Gathering Commander",
+    "Japanese": "Magic: the Gathering Commander",
+    "Korean": "Magic: the Gathering Commander",
+    "Portuguese (Brazil)": "Magic: the Gathering Commander",
+    "Russian": "Magic: the Gathering Commander",
+    "Spanish": "Magic: the Gathering Commander"
+  },
+  "type": "commander"
 }

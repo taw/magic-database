@@ -1,12 +1,7 @@
 {
-  "name": "Worldwake",
-  "code": "WWK",
-  "magicCardsInfoCode": "wwk",
-  "releaseDate": "2010-02-05",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 145,
   "block": "Zendikar",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,17 +22,181 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Weltenerwachen",
-    "fr": "Worldwake",
-    "it": "Worldwake",
-    "es": "Despertar del mundo",
-    "pt": "Despertar do Mundo",
-    "jp": "ワールドウェイク",
-    "cn": "天地醒转",
-    "ru": "Пробуждение Мира",
-    "ko": "Worldwake"
+  "code": "WWK",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "WWK",
+  "mcmId": 118,
+  "mcmName": "Worldwake",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Worldwake",
-  "mkm_id": 118
+  "mtgoCode": "WWK",
+  "name": "Worldwake",
+  "releaseDate": "2010-02-05",
+  "tcgplayerGroupId": 122,
+  "tokens": [
+    {
+      "artist": "Jung Park",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Construct",
+      "number": "6",
+      "power": "6",
+      "reverseRelated": [
+        "Stone Idol Trap"
+      ],
+      "scryfallId": "04d6b47f-5c2a-4771-90ee-4aa8c1eda0be",
+      "scryfallIllustrationId": "e470f582-a644-4c7e-9992-b9b325f8506b",
+      "scryfallOracleId": "780b9ad2-e96c-468e-9721-dde3e1afe618",
+      "text": "Trample",
+      "toughness": "12",
+      "type": "Token Artifact Creature — Construct",
+      "uuid": "b84d4603-4e84-5ec7-b4c9-4dbac9d8d2ba"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "2",
+      "power": "5",
+      "reverseRelated": [
+        "Dragonmaster Outcast",
+        "Sarkhan the Mad"
+      ],
+      "scryfallId": "b87835c7-4739-45c9-a15a-889aa6b6b7ab",
+      "scryfallIllustrationId": "dbd658d1-1eda-4145-b9a7-df2393a5eb49",
+      "scryfallOracleId": "60fe4897-6760-4c5a-8074-c92bd64df52b",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Dragon",
+      "uuid": "eb158082-80e3-50a5-a3b4-33676facd552"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elephant",
+      "number": "4",
+      "power": "3",
+      "reverseRelated": [
+        "Bestial Menace",
+        "Terastodon",
+        "Kazandu Tuskcaller",
+        "Snake",
+        "Wolf"
+      ],
+      "scryfallId": "1c5a05d3-7824-4570-b32d-91fe2dced952",
+      "scryfallIllustrationId": "0fe3c48b-f071-458f-9320-fa34b7e5d8cb",
+      "scryfallOracleId": "079c46cc-feb0-4998-8593-c8b739afdb82",
+      "toughness": "3",
+      "type": "Token Creature — Elephant",
+      "uuid": "0036c298-4048-5794-b31d-4b9c2eeab46e"
+    },
+    {
+      "artist": "Paul Bonner",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Ogre",
+      "number": "3",
+      "power": "3",
+      "reverseRelated": [
+        "Kazuul, Tyrant of the Cliffs"
+      ],
+      "scryfallId": "a99c10f3-9f11-42f1-9007-c0320a1929e0",
+      "scryfallIllustrationId": "46f41fcc-574a-4fe6-bc81-f21d2c88045b",
+      "scryfallOracleId": "e42753ba-6c59-40d1-9fb5-4282dcc4b14f",
+      "toughness": "3",
+      "type": "Token Creature — Ogre",
+      "uuid": "805e555d-8f48-5ffb-a303-e7b8e6b483e2"
+    },
+    {
+      "artist": "Daren Bader",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Plant",
+      "number": "5",
+      "power": "0",
+      "reverseRelated": [
+        "Avenger of Zendikar",
+        "Khalni Garden"
+      ],
+      "scryfallId": "c1424e8d-1f96-44af-9382-c337b6695ddf",
+      "scryfallIllustrationId": "db072403-4f85-47a1-ab8d-02d3d8e18213",
+      "scryfallOracleId": "bcd346a7-4d96-4a0c-9725-fb740e32b730",
+      "toughness": "1",
+      "type": "Token Creature — Plant",
+      "uuid": "2fb9baf1-3795-5d66-b7d0-8e349c7946ee"
+    },
+    {
+      "artist": "Kekai Kotaki",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier Ally",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Join the Ranks"
+      ],
+      "scryfallId": "05abf2df-833f-4172-af74-6533b022dfa9",
+      "scryfallIllustrationId": "e3985a70-8126-4b57-a531-750b32627070",
+      "scryfallOracleId": "f7078b7e-cc06-4f1e-b16c-e65a4018a424",
+      "toughness": "1",
+      "type": "Token Creature — Soldier Ally",
+      "uuid": "7e887f72-f96a-58dd-a6e7-33d0c517408b"
+    }
+  ],
+  "totalSetSize": 145,
+  "translations": {
+    "Chinese Simplified": "天地醒转",
+    "Chinese Traditional": "天地醒轉",
+    "French": "Worldwake",
+    "German": "Weltenerwachen",
+    "Italian": "Worldwake",
+    "Japanese": "ワールドウェイク",
+    "Korean": "월드웨이크",
+    "Portuguese (Brazil)": "Despertar do Mundo",
+    "Russian": "Пробуждение мира",
+    "Spanish": "Despertar del mundo"
+  },
+  "type": "expansion"
 }

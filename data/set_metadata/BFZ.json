@@ -1,12 +1,7 @@
 {
-  "name": "Battle for Zendikar",
-  "code": "BFZ",
-  "magicCardsInfoCode": "bfz",
-  "releaseDate": "2015-10-02",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 274,
   "block": "Battle for Zendikar",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,18 +22,429 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Kampf um Zendikar",
-    "fr": "La bataille de Zendikar",
-    "it": "Battaglia per Zendikar",
-    "es": "La batalla por Zendikar",
-    "pt": "Batalha por Zendikar",
-    "jp": "戦乱のゼンディカー",
-    "cn": "再战赞迪卡",
-    "ru": "Битва за Зендикар",
-    "tw": "再戰贊迪卡",
-    "ko": "젠디카르 전투"
+  "code": "BFZ",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "BFZ",
+  "mcmId": 1668,
+  "mcmName": "Battle for Zendikar",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Battle for Zendikar",
-  "mkm_id": 1668
+  "mtgoCode": "BFZ",
+  "name": "Battle for Zendikar",
+  "releaseDate": "2015-10-02",
+  "tcgplayerGroupId": 1645,
+  "tokens": [
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "8",
+      "power": "5",
+      "reverseRelated": [
+        "Dragonmaster Outcast"
+      ],
+      "scryfallId": "e8e4b631-7374-4503-aa66-2a45a41972d3",
+      "scryfallIllustrationId": "dbd658d1-1eda-4145-b9a7-df2393a5eb49",
+      "scryfallOracleId": "60fe4897-6760-4c5a-8074-c92bd64df52b",
+      "text": "Flying",
+      "toughness": "5",
+      "type": "Token Creature — Dragon",
+      "uuid": "4b121085-8e6a-51ba-87c6-49d93a2551ff"
+    },
+    {
+      "artist": "Jack Wang",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi",
+      "number": "1",
+      "power": "10",
+      "reverseRelated": [
+        "Desolation Twin"
+      ],
+      "scryfallId": "30ff04d5-ecaf-4be2-94f4-d5409f1c1e4e",
+      "scryfallIllustrationId": "c70f104a-398f-475a-874c-369a76c5ec87",
+      "scryfallOracleId": "41014a6a-0f5b-48ae-8cb8-9a89f0f0180f",
+      "toughness": "10",
+      "type": "Token Creature — Eldrazi",
+      "uuid": "d1caa761-700a-5e39-9b24-e4d5fa112b3e"
+    },
+    {
+      "artist": "Izzy",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Scion",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Blight Herder",
+        "Warping Wail",
+        "Abstruse Interference",
+        "Adverse Conditions",
+        "Drowner of Hope",
+        "Eldrazi Skyspawner",
+        "Incubator Drone",
+        "Sifter of Skulls",
+        "Grave Birthing",
+        "Carrier Thrall",
+        "Birthing Hulk",
+        "Scion Summoner",
+        "Vile Redeemer",
+        "Blisterpod",
+        "Brood Monitor",
+        "Call the Scions",
+        "Eyeless Watcher",
+        "From Beyond",
+        "Void Attendant",
+        "Brood Butcher",
+        "Catacomb Sifter",
+        "Spawning Bed"
+      ],
+      "scryfallId": "b999a0fe-d2d0-4367-9abb-6ce5f3764f19",
+      "scryfallIllustrationId": "ddcd64a9-54f1-4338-89d8-1722f57d6237",
+      "scryfallOracleId": "0eb3cd4b-c34e-448c-a9ab-e7b0b4524833",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Scion",
+      "uuid": "35430992-91d4-578e-8c85-bd4ae5651137"
+    },
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Scion",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Blight Herder",
+        "Warping Wail",
+        "Abstruse Interference",
+        "Adverse Conditions",
+        "Drowner of Hope",
+        "Eldrazi Skyspawner",
+        "Incubator Drone",
+        "Sifter of Skulls",
+        "Grave Birthing",
+        "Carrier Thrall",
+        "Birthing Hulk",
+        "Scion Summoner",
+        "Vile Redeemer",
+        "Blisterpod",
+        "Brood Monitor",
+        "Call the Scions",
+        "Eyeless Watcher",
+        "From Beyond",
+        "Void Attendant",
+        "Brood Butcher",
+        "Catacomb Sifter",
+        "Spawning Bed"
+      ],
+      "scryfallId": "abcdf03d-d237-4ceb-91fa-8f95341af369",
+      "scryfallIllustrationId": "057984d7-30bd-4483-af72-efdce5be20d7",
+      "scryfallOracleId": "0eb3cd4b-c34e-448c-a9ab-e7b0b4524833",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Scion",
+      "uuid": "ee957126-d22c-541c-a71c-b43430b351a6"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Scion",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Blight Herder",
+        "Warping Wail",
+        "Abstruse Interference",
+        "Adverse Conditions",
+        "Drowner of Hope",
+        "Eldrazi Skyspawner",
+        "Incubator Drone",
+        "Sifter of Skulls",
+        "Grave Birthing",
+        "Carrier Thrall",
+        "Birthing Hulk",
+        "Scion Summoner",
+        "Vile Redeemer",
+        "Blisterpod",
+        "Brood Monitor",
+        "Call the Scions",
+        "Eyeless Watcher",
+        "From Beyond",
+        "Void Attendant",
+        "Brood Butcher",
+        "Catacomb Sifter",
+        "Spawning Bed"
+      ],
+      "scryfallId": "5a5c74d5-b219-4514-8fd6-62705459422c",
+      "scryfallIllustrationId": "c823c432-09f9-405a-8781-5bcd66a67553",
+      "scryfallOracleId": "0eb3cd4b-c34e-448c-a9ab-e7b0b4524833",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Scion",
+      "uuid": "ef3c3665-a1ae-5a04-bf3c-112aaa061846"
+    },
+    {
+      "artist": "Brad Rigney",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "colors": [
+        "G",
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "11",
+      "power": "5",
+      "reverseRelated": [
+        "Omnath, Locus of Rage"
+      ],
+      "scryfallId": "ed666385-a2e7-4e1f-ad2c-babbfc0c50b3",
+      "scryfallIllustrationId": "4a0d27a7-ad39-4ca2-8be5-152bfb33cf1f",
+      "scryfallOracleId": "a9ea980e-4734-45e5-b5b7-4ec092db3299",
+      "toughness": "5",
+      "type": "Token Creature — Elemental",
+      "uuid": "d33cac03-10ef-5586-97a3-68c86b3ca6ff"
+    },
+    {
+      "artist": "Victor Adame Minguez",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "9",
+      "power": "3",
+      "reverseRelated": [
+        "Akoum Stonewaker"
+      ],
+      "scryfallId": "10cb10f5-e22a-4ccd-a1b0-c6f245b15f64",
+      "scryfallIllustrationId": "c2b17be9-62a9-4d50-98b2-0dcb801bc6f4",
+      "scryfallOracleId": "e2931f20-e58a-480d-bc07-4a18030a4f67",
+      "text": "Trample, haste",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "a5f71d37-5cb1-5180-af89-a0f38c12e613"
+    },
+    {
+      "artist": "Eric Deschamps",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Gideon, Ally of Zendikar Emblem",
+      "number": "12",
+      "reverseRelated": [
+        "Gideon, Ally of Zendikar"
+      ],
+      "scryfallId": "cd8be597-f402-4fb0-9135-897c4a0946f6",
+      "scryfallIllustrationId": "0a37c103-e9b7-4d7d-acb0-303a280ac540",
+      "scryfallOracleId": "a9b9c74d-551b-4939-bdd6-21afa2cf0931",
+      "text": "Creatures you control get +1/+1.",
+      "type": "Emblem — Gideon",
+      "uuid": "e5702f1d-74c7-5eba-a1ea-b86783ce53e6"
+    },
+    {
+      "artist": "Jason Chan",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Kiora, Master of the Depths Emblem",
+      "number": "14",
+      "reverseRelated": [
+        "Kiora, Master of the Depths"
+      ],
+      "scryfallId": "55952cc8-09d8-4260-8387-284df7223d74",
+      "scryfallIllustrationId": "03db7426-fb38-4cf8-8eed-2658894dbe51",
+      "scryfallOracleId": "925cea53-b478-43a2-badd-28d4e620c1f5",
+      "text": "Whenever a creature enters the battlefield under your control, you may have it fight target creature.",
+      "type": "Emblem — Kiora",
+      "uuid": "3980ef80-e74a-5c5e-9bc7-6839331c2c0c"
+    },
+    {
+      "artist": "Josu Hernaiz",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Knight Ally",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Allied Reinforcements",
+        "Gideon, Ally of Zendikar"
+      ],
+      "scryfallId": "0419a202-6e32-4f0a-a032-72f6c00cae5e",
+      "scryfallIllustrationId": "323f22e9-b05a-471e-af3a-09429e4e779d",
+      "scryfallOracleId": "289f88eb-87a2-4927-b6d1-0ff1fc4b2b2f",
+      "toughness": "2",
+      "type": "Token Creature — Knight Ally",
+      "uuid": "fc951001-448c-5453-97d8-54d91edde70f"
+    },
+    {
+      "artist": "Jeremy Wilson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Kor Ally",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Oath of Gideon",
+        "Retreat to Emeria",
+        "Unified Front",
+        "Captain's Claws"
+      ],
+      "scryfallId": "be224180-a482-4b94-8a9d-3a92ee0eb34b",
+      "scryfallIllustrationId": "dc9ca45e-de46-461b-b2eb-d90deda96718",
+      "scryfallOracleId": "df5630cc-9b85-4761-af90-4f5c9d902127",
+      "toughness": "1",
+      "type": "Token Creature — Kor Ally",
+      "uuid": "7a58fdab-6e1f-55af-bf7c-7df21afa1ff5"
+    },
+    {
+      "artist": "Chris Rahn",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Ob Nixilis Reignited Emblem",
+      "number": "13",
+      "reverseRelated": [
+        "Ob Nixilis Reignited"
+      ],
+      "scryfallId": "18a77885-c0de-4487-a920-6fb9ea9bc408",
+      "scryfallIllustrationId": "51206afa-c5b9-46c1-aefb-1c4a11c5bbab",
+      "scryfallOracleId": "ec502426-efc4-406d-a080-0debea880f55",
+      "text": "Whenever a player draws a card, you lose 2 life.",
+      "type": "Emblem — Nixilis",
+      "uuid": "c86509ea-7d65-58cc-8be4-e7b6827df2b8"
+    },
+    {
+      "artist": "Craig J Spearing",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Octopus",
+      "number": "7",
+      "power": "8",
+      "reverseRelated": [
+        "Crush of Tentacles",
+        "Kiora, Master of the Depths"
+      ],
+      "scryfallId": "19ac0a35-fae7-49f9-ae96-4406df992dc9",
+      "scryfallIllustrationId": "a6eeb245-f444-48b5-a22e-7468f80df645",
+      "scryfallOracleId": "0ca71a08-8a2d-4b0a-a174-85cd7d2f36b6",
+      "toughness": "8",
+      "type": "Token Creature — Octopus",
+      "uuid": "2cc1f8b3-32ee-5ed6-bbe2-1f074d04011c"
+    },
+    {
+      "artist": "Sam Burley",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Plant",
+      "number": "10",
+      "power": "1",
+      "reverseRelated": [
+        "Grovetender Druids"
+      ],
+      "scryfallId": "10a63c10-9bf9-4e0f-831c-830d7994a62a",
+      "scryfallIllustrationId": "5f118ffa-8c48-4877-9b98-51ce045629e1",
+      "scryfallOracleId": "8d9b5713-e02c-4b75-96b2-9cf8d5fbd9a7",
+      "toughness": "1",
+      "type": "Token Creature — Plant",
+      "uuid": "8b16d5c2-6296-51d6-8f45-d7af98d7333a"
+    }
+  ],
+  "totalSetSize": 299,
+  "translations": {
+    "Chinese Simplified": "再战赞迪卡",
+    "Chinese Traditional": "再戰贊迪卡​",
+    "French": "La bataille de Zendikar",
+    "German": "Kampf um Zendikar​",
+    "Italian": "Battaglia per Zendikar​",
+    "Japanese": "『戦乱のゼンディカー』",
+    "Korean": "젠디카르 전투",
+    "Portuguese (Brazil)": "Batalha por Zendikar​",
+    "Russian": "Битва за Зендикар​",
+    "Spanish": "La batalla por Zendikar​"
+  },
+  "type": "expansion"
 }

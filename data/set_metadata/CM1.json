@@ -1,11 +1,35 @@
 {
-  "name": "Commander's Arsenal",
+  "baseSetSize": 0,
+  "block": "Commander",
   "code": "CM1",
-  "oldCode": "CMA",
-  "magicCardsInfoCode": "cma",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "CM1",
+  "mcmId": 1418,
+  "mcmName": "Commander's Arsenal",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Commander's Arsenal",
   "releaseDate": "2012-11-02",
-  "border": "black",
-  "type": "commander",
-  "mkm_name": "Commander's Arsenal",
-  "mkm_id": 1418
+  "tcgplayerGroupId": 568,
+  "tokens": [
+
+  ],
+  "totalSetSize": 18,
+  "translations": {
+    "Chinese Simplified": "Commander's Arsenal",
+    "Chinese Traditional": "Commander's Arsenal",
+    "French": "Commander's Arsenal",
+    "German": "Commander's Arsenal",
+    "Italian": "Commander's Arsenal",
+    "Japanese": "Commander's Arsenal",
+    "Korean": "Commander's Arsenal",
+    "Portuguese (Brazil)": "Commander's Arsenal",
+    "Russian": "Commander's Arsenal",
+    "Spanish": "Commander's Arsenal"
+  },
+  "type": "commander"
 }

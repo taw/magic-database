@@ -1,0 +1,142 @@
+{
+  "baseSetSize": 0,
+  "block": "Theros",
+  "code": "TBTH",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "BNG",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Battle the Horde",
+  "parentCode": "BNG",
+  "releaseDate": "2014-03-01",
+  "tokens": [
+    {
+      "artist": "Wayne Reynolds",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Minotaur Goreseeker",
+      "number": "1",
+      "power": "3",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "3d2f2bcc-0db9-4aa1-b63d-587c62468015",
+      "scryfallIllustrationId": "c6c97071-b909-4b28-b63f-141ef441fc40",
+      "scryfallOracleId": "284bf910-6cf2-4fcc-b2fd-07a1ef086e88",
+      "text": "Haste\nMinotaur Goreseeker attacks each turn if able.",
+      "toughness": "2",
+      "type": "Token Creature — Minotaur",
+      "uuid": "ee178a21-c258-5808-9998-7ee73302a96b"
+    },
+    {
+      "artist": "Scott Murphy",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Minotaur Younghorn",
+      "number": "2",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "2c8e22f9-6b70-425c-a0a8-09b6101a286e",
+      "scryfallIllustrationId": "87d9a73a-59f3-428b-9ec4-496b14296391",
+      "scryfallOracleId": "90ec6e07-11ea-4fe8-a595-6aa01e599891",
+      "text": "Haste\nMinotaur Younghorn attacks each turn if able.",
+      "toughness": "2",
+      "type": "Token Creature — Minotaur",
+      "uuid": "642d379d-5df7-595b-8e35-aa6cb9aabe72"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Mogis's Chosen",
+      "number": "3",
+      "power": "5",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "553ae9d2-3807-4ca8-a575-7fa6667ee212",
+      "scryfallIllustrationId": "5cb0ef18-25b6-4864-afa1-cf2c1654ebad",
+      "scryfallOracleId": "20ef6f1e-7fb0-4555-98d1-cc6a19b0fab9",
+      "text": "Mogis's Chosen enters the battlefield tapped.\nMogis's Chosen attacks each turn if able.",
+      "toughness": "4",
+      "type": "Token Creature — Minotaur",
+      "uuid": "64e70f5b-6002-5514-948a-dfc7cf7c24ef"
+    },
+    {
+      "artist": "Michael Komarck",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Phoberos Reaver",
+      "number": "4",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "1eda2434-523d-4e9c-a8f1-acbee5c87aac",
+      "scryfallIllustrationId": "5a9d8114-47ac-4df8-b142-46b1503d69bf",
+      "scryfallOracleId": "c9e82cbe-bc36-4d96-8f15-58154c6ab354",
+      "text": "Haste\nPhoberos Reaver attacks each turn if able.",
+      "toughness": "3",
+      "type": "Token Creature — Minotaur",
+      "uuid": "322e6682-d3db-5ed8-ad9f-b68b8066476f"
+    },
+    {
+      "artist": "Carl Critchlow",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Reckless Minotaur",
+      "number": "5",
+      "power": "4",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "938272b2-8e1c-4196-8557-c597735dd96e",
+      "scryfallIllustrationId": "e469912f-0868-4239-acf5-6d267a4eb8aa",
+      "scryfallOracleId": "c200addc-b28f-4a76-bc4d-c448e6180ef2",
+      "text": "Haste\nReckless Minotaur attacks each turn if able.\nAt the beginning of the end step, destroy Reckless Minotaur.",
+      "toughness": "1",
+      "type": "Token Creature — Minotaur",
+      "uuid": "9fa7ee9a-1382-528d-b311-2ce129a66a21"
+    }
+  ],
+  "totalSetSize": 15,
+  "translations": {
+  },
+  "type": "token"
+}

@@ -1,10 +1,35 @@
 {
-  "name": "Premium Deck Series: Fire and Lightning",
+  "baseSetSize": 0,
   "code": "PD2",
-  "magicCardsInfoCode": "pd2",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "PD2",
+  "mcmId": 1218,
+  "mcmName": "Premium Deck Series: Fire & Lightning",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "PD2",
+  "name": "Premium Deck Series: Fire and Lightning",
   "releaseDate": "2010-11-19",
-  "border": "black",
-  "type": "premium deck",
-  "mkm_name": "Premium Deck Series: Fire & Lightning",
-  "mkm_id": 1218
+  "tcgplayerGroupId": 89,
+  "tokens": [
+
+  ],
+  "totalSetSize": 34,
+  "translations": {
+    "Chinese Simplified": "Premium Deck Series: Fire & Lightning",
+    "Chinese Traditional": "Premium Deck Series: Fire & Lightning",
+    "French": "Premium Deck Series: Fire & Lightning",
+    "German": "Premium Deck Series: Fire & Lightning",
+    "Italian": "Premium Deck Series: Fire & Lightning",
+    "Japanese": "Premium Deck Series: Fire & Lightning",
+    "Korean": "Premium Deck Series: Fire & Lightning",
+    "Portuguese (Brazil)": "Premium Deck Series: Fire & Lightning",
+    "Russian": "Premium Deck Series: Fire & Lightning",
+    "Spanish": "Premium Deck Series: Fire & Lightning"
+  },
+  "type": "premium_deck"
 }

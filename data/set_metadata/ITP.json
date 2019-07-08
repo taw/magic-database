@@ -1,16 +1,23 @@
 {
-  "name": "Introductory Two-Player Set",
+  "baseSetSize": 0,
   "code": "ITP",
-  "oldCode": "I2P",
-  "magicCardsInfoCode": "itp",
-  "releaseDate": "1996-12-31",
-  "border": "white",
-  "type": "starter",
-  "translations": {
-    "de": "Introductory Two-Player Set",
-    "fr": "Introductory Two-Player Set",
-    "es": "Introductory Two-Player Set"
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "mcmId": 85,
+  "mcmName": "Introductory Two-Player Set",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Introductory Two-Player Set",
-  "mkm_id": 85
+  "name": "Introductory Two-Player Set",
+  "releaseDate": "1996-12-31",
+  "tokens": [
+
+  ],
+  "totalSetSize": 67,
+  "translations": {
+  },
+  "type": "starter"
 }

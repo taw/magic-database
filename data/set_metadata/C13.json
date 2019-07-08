@@ -1,17 +1,36 @@
 {
-  "name": "Commander 2013 Edition",
+  "baseSetSize": 0,
+  "block": "Commander",
   "code": "C13",
-  "magicCardsInfoCode": "c13",
-  "releaseDate": "2013-11-01",
-  "border": "black",
-  "type": "commander",
-  "translations": {
-    "de": "Commander 2013 Edition",
-    "fr": "Commander 2013 Edition",
-    "it": "Commander 2013 Edition",
-    "es": "Commander 2013 Edition",
-    "jp": "統率者(2013年版)"
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "C13",
+  "mcmId": 1464,
+  "mcmName": "Commander 2013",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Commander 2013",
-  "mkm_id": 1464
+  "mtgoCode": "C13",
+  "name": "Commander 2013",
+  "releaseDate": "2013-11-01",
+  "tcgplayerGroupId": 1164,
+  "tokens": [
+
+  ],
+  "totalSetSize": 356,
+  "translations": {
+    "Chinese Simplified": "Commander (2013 Edition)",
+    "Chinese Traditional": "Commander (2013 Edition)",
+    "French": "Commander (2013 Edition)",
+    "German": "Commander (2013 Edition)",
+    "Italian": "Commander (2013 Edition)",
+    "Japanese": "Commander (2013 Edition)",
+    "Korean": "Commander (2013 Edition)",
+    "Portuguese (Brazil)": "Commander (2013 Edition)",
+    "Russian": "Commander (2013 Edition)",
+    "Spanish": "Commander (2013 Edition)"
+  },
+  "type": "commander"
 }

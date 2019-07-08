@@ -1,0 +1,22 @@
+{
+  "baseSetSize": 0,
+  "block": "Friday Night Magic",
+  "code": "F08",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "DCI",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Friday Night Magic 2008",
+  "releaseDate": "2008-01-01",
+  "tokens": [
+
+  ],
+  "totalSetSize": 12,
+  "translations": {
+  },
+  "type": "promo"
+}

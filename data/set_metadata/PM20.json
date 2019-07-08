@@ -1,0 +1,22 @@
+{
+  "baseSetSize": 0,
+  "code": "PM20",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "M20",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Core Set 2020 Promos",
+  "parentCode": "M20",
+  "releaseDate": "2019-07-12",
+  "tokens": [
+
+  ],
+  "totalSetSize": 6,
+  "translations": {
+  },
+  "type": "promo"
+}

@@ -1,12 +1,7 @@
 {
-  "name": "Unlimited Edition",
-  "code": "2ED",
-  "gathererCode": "2U",
-  "magicCardsInfoCode": "un",
-  "releaseDate": "1993-12-01",
-  "border": "white",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 302,
+  "block": "Core Set",
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,6 +18,25 @@
     "common",
     "common"
   ],
-  "mkm_name": "Unlimited",
-  "mkm_id": 3
+  "code": "2ED",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "2ED",
+  "mcmId": 3,
+  "mcmName": "Unlimited",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Unlimited Edition",
+  "releaseDate": "1993-12-01",
+  "tcgplayerGroupId": 115,
+  "tokens": [
+
+  ],
+  "totalSetSize": 302,
+  "translations": {
+  },
+  "type": "core"
 }

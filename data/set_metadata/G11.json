@@ -1,0 +1,45 @@
+{
+  "baseSetSize": 0,
+  "block": "Judge Gift Cards",
+  "code": "G11",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "DEFAULT",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Judge Gift Cards 2011",
+  "releaseDate": "2011-01-01",
+  "tcgplayerGroupId": 62,
+  "tokens": [
+    {
+      "artist": "David Palumbo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "9",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "ba563df6-08d8-465c-a89e-858e26f6b49b",
+      "scryfallIllustrationId": "cc035855-ebc1-4443-976c-661e22b89991",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "ec20941f-5818-55f0-ad11-c9a4623f5327"
+    }
+  ],
+  "totalSetSize": 9,
+  "translations": {
+  },
+  "type": "promo"
+}

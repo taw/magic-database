@@ -1,13 +1,7 @@
 {
-  "name": "Urza's Legacy",
-  "code": "ULG",
-  "gathererCode": "GU",
-  "magicCardsInfoCode": "ul",
-  "releaseDate": "1999-02-15",
-  "border": "black",
-  "type": "expansion",
-  "block": "Urza's",
-  "booster": [
+  "baseSetSize": 143,
+  "block": "Urza",
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Urzas Vermächtnis",
-    "fr": "Héritage d'Urza",
-    "it": "Eredità di Urza",
-    "es": "El Legado de Urza",
-    "pt": "O Legado de Urza"
+  "code": "ULG",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ULG",
+  "mcmId": 27,
+  "mcmName": "Urza's Legacy",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Urza's Legacy",
-  "mkm_id": 27
+  "mtgoCode": "UL",
+  "name": "Urza's Legacy",
+  "releaseDate": "1999-02-15",
+  "tcgplayerGroupId": 117,
+  "tokens": [
+
+  ],
+  "totalSetSize": 143,
+  "translations": {
+    "Chinese Simplified": "Urza’s Legacy",
+    "Chinese Traditional": "Urza’s Legacy",
+    "French": "Urza’s Legacy",
+    "German": "Urza’s Legacy",
+    "Italian": "Urza’s Legacy",
+    "Japanese": "Urza’s Legacy",
+    "Korean": "Urza’s Legacy",
+    "Portuguese (Brazil)": "Urza’s Legacy",
+    "Russian": "Urza’s Legacy",
+    "Spanish": "Urza’s Legacy"
+  },
+  "type": "expansion"
 }

@@ -1,12 +1,7 @@
 {
-  "name": "Alara Reborn",
-  "code": "ARB",
-  "magicCardsInfoCode": "arb",
-  "releaseDate": "2009-04-30",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 145,
   "block": "Alara",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,16 +22,133 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Alara Reborn",
-    "fr": "Alara Reborn",
-    "it": "Rinascita di Alara",
-    "es": "Alara Reborn",
-    "pt": "Alara Reborn",
-    "jp": "アラーラ再誕",
-    "cn": "Alara Reborn",
-    "ru": "Alara Reborn"
+  "code": "ARB",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ARB",
+  "mcmId": 108,
+  "mcmName": "Alara Reborn",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Alara Reborn",
-  "mkm_id": 108
+  "mtgoCode": "ARB",
+  "name": "Alara Reborn",
+  "releaseDate": "2009-04-30",
+  "tcgplayerGroupId": 5,
+  "tokens": [
+    {
+      "artist": "Matt Cavotta",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Bird Soldier",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Flurry of Wings"
+      ],
+      "scryfallId": "b7b55dcf-ae63-4b84-8d39-80b5a6de3c1a",
+      "scryfallIllustrationId": "8738b501-7f66-4f5f-b0ad-5c04b2e9834e",
+      "scryfallOracleId": "f1df6a8f-251e-4fcc-92ce-42eafdbae40b",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bird Soldier",
+      "uuid": "4d16d3e0-1d32-5192-8af6-adf7e7cce0d5"
+    },
+    {
+      "artist": "Jaime Jones",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "colors": [
+        "G",
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Dragon Broodmother"
+      ],
+      "scryfallId": "0bb628da-a02f-4d3e-b919-0c03821dd5f2",
+      "scryfallIllustrationId": "f320026a-afd7-461d-94d0-ce5423f1b168",
+      "scryfallOracleId": "d13ec5e2-7c3a-4ace-b470-e5e0e07550c1",
+      "text": "Flying, devour 2",
+      "toughness": "1",
+      "type": "Token Creature — Dragon",
+      "uuid": "d9a36380-eeba-5668-9da1-55d75f753b0e"
+    },
+    {
+      "artist": "Anthony S. Waters",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Lizard",
+      "number": "2",
+      "power": "2",
+      "reverseRelated": [
+        "Predatory Advantage"
+      ],
+      "scryfallId": "83790fd3-f371-494c-97a2-3aa469a399f1",
+      "scryfallIllustrationId": "327730a4-f3a4-44dd-8be0-73d8965d782f",
+      "scryfallOracleId": "150fe7d9-a31d-4947-91a2-70ddebefa95d",
+      "toughness": "2",
+      "type": "Token Creature — Lizard",
+      "uuid": "d955040f-af59-58ac-83ee-4ecc9eb4fa06"
+    },
+    {
+      "artist": "Dave Allsop",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "colors": [
+        "B",
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Zombie Wizard",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Lich Lord of Unx"
+      ],
+      "scryfallId": "bde17901-35fb-4045-8ba5-deab046cd44f",
+      "scryfallIllustrationId": "9c026377-832e-42aa-89d9-efe8a237b061",
+      "scryfallOracleId": "cf3528fe-320c-433a-9a61-298198d7eced",
+      "toughness": "1",
+      "type": "Token Creature — Zombie Wizard",
+      "uuid": "1e15ee12-546f-5d0d-92f5-322c82fd77af"
+    }
+  ],
+  "totalSetSize": 145,
+  "translations": {
+    "Chinese Simplified": "阿拉若新生",
+    "Chinese Traditional": "阿拉若新生",
+    "French": "La renaissance d'Alara",
+    "German": "Alara: Die Erneuerung",
+    "Italian": "Rinascita di Alara",
+    "Japanese": "アラーラ再誕",
+    "Korean": "신생 알라라",
+    "Portuguese (Brazil)": "Alara Reunida",
+    "Russian": "Перерожденная Алара",
+    "Spanish": "Alara renacida"
+  },
+  "type": "expansion"
 }

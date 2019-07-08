@@ -1,13 +1,78 @@
 {
-  "name": "Duel Decks: Venser vs. Koth",
+  "baseSetSize": 0,
   "code": "DDI",
-  "magicCardsInfoCode": "ddi",
-  "releaseDate": "2012-03-30",
-  "border": "black",
-  "type": "duel deck",
-  "translations": {
-    "jp": "デュエルデッキ：ヴェンセール vs. コス"
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DDI",
+  "mcmId": 1350,
+  "mcmName": "Duel Decks: Venser vs. Koth",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Duel Decks: Venser vs. Koth",
-  "mkm_id": 1350
+  "mtgoCode": "DDI",
+  "name": "Duel Decks: Venser vs. Koth",
+  "releaseDate": "2012-03-30",
+  "tcgplayerGroupId": 367,
+  "tokens": [
+    {
+      "artist": "Eric Deschamps",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Koth of the Hammer Emblem",
+      "number": "2",
+      "reverseRelated": [
+        "Koth of the Hammer"
+      ],
+      "scryfallId": "89afdaa4-3555-4adf-b3c4-63f905710c76",
+      "scryfallIllustrationId": "c96b185c-94b0-4aa0-b746-368e9b0326cf",
+      "scryfallOracleId": "02b86af4-c899-4310-98fa-c6479470b716",
+      "text": "Mountains you control have '{T}: This land deals 1 damage to any target.'",
+      "type": "Emblem — Koth",
+      "uuid": "cc12c6a8-84b9-56b4-a937-44371f550025"
+    },
+    {
+      "artist": "Eric Deschamps",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Venser, the Sojourner Emblem",
+      "number": "1",
+      "reverseRelated": [
+        "Venser, the Sojourner"
+      ],
+      "scryfallId": "c9ad6e7a-8ad8-4a35-b6c9-151720d88af9",
+      "scryfallIllustrationId": "d424ac3b-1cac-4389-b21a-5847d6d09105",
+      "scryfallOracleId": "8808b6bf-8fca-494d-9dd3-6f95c9c6605a",
+      "text": "Whenever you cast a spell, exile target permanent.",
+      "type": "Emblem — Venser",
+      "uuid": "76811708-38e3-5a58-85c5-33c0a9e5e5d4"
+    }
+  ],
+  "totalSetSize": 77,
+  "translations": {
+    "Chinese Simplified": "Venser vs. Koth",
+    "Chinese Traditional": "Venser vs. Koth",
+    "French": "Venser vs. Koth",
+    "German": "Venser vs. Koth",
+    "Italian": "Venser vs. Koth",
+    "Japanese": "Venser vs. Koth",
+    "Korean": "Venser vs. Koth",
+    "Portuguese (Brazil)": "Venser vs. Koth",
+    "Russian": "Venser vs. Koth",
+    "Spanish": "Venser vs. Koth"
+  },
+  "type": "duel_deck"
 }

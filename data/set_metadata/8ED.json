@@ -1,12 +1,7 @@
 {
-  "name": "Eighth Edition",
-  "code": "8ED",
-  "oldCode": "8E",
-  "magicCardsInfoCode": "8e",
-  "releaseDate": "2003-07-28",
-  "border": "white",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 350,
+  "block": "Core Set",
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,13 +18,36 @@
     "common",
     "land"
   ],
-  "translations": {
-    "de": "Haupt-Set - Achte Edition",
-    "fr": "Édition de base - Huitième Edition",
-    "it": "Set base - Ottava Edizione",
-    "es": "Colección Básica - Octava Edición",
-    "pt": "Kit Básico - Oitava Edição"
+  "code": "8ED",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "8ED",
+  "mcmId": 44,
+  "mcmName": "Eighth Edition",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Eighth Edition",
-  "mkm_id": 44
+  "mtgoCode": "8ED",
+  "name": "Eighth Edition",
+  "releaseDate": "2003-07-28",
+  "tcgplayerGroupId": 3,
+  "tokens": [
+
+  ],
+  "totalSetSize": 357,
+  "translations": {
+    "Chinese Simplified": "核心系列第八版",
+    "Chinese Traditional": "核心系列第八版",
+    "French": "Huitième édition",
+    "German": "Hauptset Achte Edition",
+    "Italian": "Set Base Ottava Edizione",
+    "Japanese": "第８版 基本セット",
+    "Korean": "코어세트 8판",
+    "Portuguese (Brazil)": "Oitava Edição",
+    "Russian": "Базовый выпуск Eighth Edition",
+    "Spanish": "Colección Básica - Octava edición"
+  },
+  "type": "core"
 }

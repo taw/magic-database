@@ -1,10 +1,35 @@
 {
-  "name": "From the Vault: Angels",
+  "baseSetSize": 0,
   "code": "V15",
-  "magicCardsInfoCode": "v15",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "V15",
+  "mcmId": 1661,
+  "mcmName": "From the Vault: Angels",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "V15",
+  "name": "From the Vault: Angels",
   "releaseDate": "2015-08-21",
-  "border": "black",
-  "type": "from the vault",
-  "mkm_name": "From the Vault: Angels",
-  "mkm_id": 1661
+  "tcgplayerGroupId": 1577,
+  "tokens": [
+
+  ],
+  "totalSetSize": 15,
+  "translations": {
+    "Chinese Simplified": "From the Vault: Angels",
+    "Chinese Traditional": "From the Vault: Angels",
+    "French": "From the Vault: Angels",
+    "German": "From the Vault: Angels",
+    "Italian": "From the Vault: Angels",
+    "Japanese": "From the Vault: Angels",
+    "Korean": "From the Vault: Angels",
+    "Portuguese (Brazil)": "From the Vault: Angels",
+    "Russian": "From the Vault: Angels",
+    "Spanish": "From the Vault: Angels"
+  },
+  "type": "from_the_vault"
 }

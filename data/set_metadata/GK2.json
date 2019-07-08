@@ -1,0 +1,244 @@
+{
+  "baseSetSize": 0,
+  "code": "GK2",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "RNA",
+  "mcmId": 2423,
+  "mcmName": "Ravnica Allegiance: Guild Kits",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "RNA Guild Kit",
+  "releaseDate": "2019-02-15",
+  "tcgplayerGroupId": 2388,
+  "tokens": [
+    {
+      "artist": "Wayne Reynolds",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Bat",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Skeletal Vampire"
+      ],
+      "scryfallId": "9e2b5361-ff9a-485c-8ae2-52bf376fd9ad",
+      "scryfallIllustrationId": "23fa4c20-35ff-4b4f-8fcd-a14eaf4551c5",
+      "scryfallOracleId": "ff86d8fc-5242-405e-b5e3-f9ff73296794",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bat",
+      "uuid": "21bcd765-e5e8-5fa3-8edc-befa12a0b42f",
+      "watermark": "orzhov"
+    },
+    {
+      "artist": "Shishizaru",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U",
+        "W"
+      ],
+      "colors": [
+        "U",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "a813c741-d0d4-48cd-9bbf-8a04a544ce8e",
+      "scryfallIllustrationId": "314cad2d-2af4-4820-aecc-42c289c3a802",
+      "scryfallOracleId": "5c462040-1ae1-4c9d-bb20-69429ee66e27",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bird",
+      "uuid": "cb6fcb82-dd73-5a48-8551-f1a72dd00dc0",
+      "watermark": "azorius"
+    },
+    {
+      "artist": "Jason Chan",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "colors": [
+        "B",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Cleric",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Deathpact Angel"
+      ],
+      "scryfallId": "88bb40e8-3057-4707-82e8-4b3d19d51e91",
+      "scryfallIllustrationId": "3fa3f062-182c-4ee4-aaf9-b28b476a7e97",
+      "scryfallOracleId": "e12d9459-1520-423f-aa33-231df05e61bb",
+      "text": "{3}{W}{B}{B}, {T}, Sacrifice this creature: Return a card named Deathpact Angel from your graveyard to the battlefield.",
+      "toughness": "1",
+      "type": "Token Creature — Cleric",
+      "uuid": "979e914f-c85d-5ed5-8b50-2e297a0ec9ff",
+      "watermark": "orzhov"
+    },
+    {
+      "artist": "Mark Zug",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "5",
+      "power": "6",
+      "reverseRelated": [
+        "Utvara Hellkite"
+      ],
+      "scryfallId": "d5013fdc-fae8-4170-8320-1ed13902f319",
+      "scryfallIllustrationId": "425de6aa-d8d8-46a2-94a0-2a286b4b26fe",
+      "scryfallOracleId": "606c46d7-18a5-4cce-9975-029899b82b34",
+      "text": "Flying",
+      "toughness": "6",
+      "type": "Token Creature — Dragon",
+      "uuid": "a170c7b2-dc84-5a5e-b873-56f4c39e46b3",
+      "watermark": "rakdos"
+    },
+    {
+      "artist": "Carl Critchlow",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "6",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "72230a1b-90ba-4564-9164-90cffdf34b93",
+      "scryfallIllustrationId": "3531d5d7-b998-4450-bfa9-070e47320f8c",
+      "scryfallOracleId": "0cd035f0-bb53-40b7-b320-5d921268295a",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "d49e6e15-5289-5f15-88df-cc543e1f2cb9"
+    },
+    {
+      "artist": "Marco Nelor",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Ooze",
+      "number": "9",
+      "power": "*",
+      "reverseRelated": [
+        "Miming Slime"
+      ],
+      "scryfallId": "9c918e38-7151-407f-bf3b-44a11f92fb15",
+      "scryfallIllustrationId": "5eef263f-0607-4842-9278-976a55946fef",
+      "scryfallOracleId": "bb3da6d2-aed7-4057-b94b-6882fb45cc89",
+      "toughness": "*",
+      "type": "Token Creature — Ooze",
+      "uuid": "6075be2d-664c-5f12-81db-e0fbea63b7b2"
+    },
+    {
+      "artist": "Warren Mahy",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "3543a88a-ed81-4dec-a616-43f9367516de",
+      "scryfallIllustrationId": "77f6a380-50b1-4209-9d78-95434c947c0a",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "62afa219-2dbe-544f-b48e-00d9252cc8b7"
+    },
+    {
+      "artist": "Dave Allsop",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "e11d6572-0398-490d-8790-7d2b7e9fbca5",
+      "scryfallIllustrationId": "e21499ee-4720-4a75-b2d1-d002b9358976",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "dbe0d6f3-16ab-5852-aadb-64b2137bd6fd",
+      "watermark": "orzhov"
+    },
+    {
+      "artist": "Mitch Cotie",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wurm",
+      "number": "8",
+      "power": "6",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "1f5a1c01-a461-495e-87cc-f2202c3f349a",
+      "scryfallIllustrationId": "390b7e62-14ce-41c0-8f29-52dec4e9cf30",
+      "scryfallOracleId": "46a55586-cc9a-443c-b458-e628afc3c587",
+      "toughness": "6",
+      "type": "Token Creature — Wurm",
+      "uuid": "f536c4c4-0a59-5a10-862b-11865cc84202"
+    }
+  ],
+  "totalSetSize": 133,
+  "translations": {
+  },
+  "type": "box"
+}

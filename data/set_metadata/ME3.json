@@ -1,12 +1,6 @@
 {
-  "name": "Masters Edition III",
-  "code": "ME3",
-  "magicCardsInfoCode": "me3",
-  "releaseDate": "2009-09-07",
-  "border": "black",
-  "type": "masters",
-  "onlineOnly": true,
-  "booster": [
+  "baseSetSize": 230,
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -22,5 +16,34 @@
     "common",
     "common",
     "land"
-  ]
+  ],
+  "code": "ME3",
+  "isFoilOnly": false,
+  "isOnlineOnly": true,
+  "keyruneCode": "ME3",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "ME3",
+  "name": "Masters Edition III",
+  "releaseDate": "2009-09-07",
+  "tokens": [
+
+  ],
+  "totalSetSize": 230,
+  "translations": {
+    "Chinese Simplified": "Masters Edition III",
+    "Chinese Traditional": "Masters Edition III",
+    "French": "Masters Edition III",
+    "German": "Masters Edition III",
+    "Italian": "Masters Edition III",
+    "Japanese": "Masters Edition III",
+    "Korean": "Masters Edition III",
+    "Portuguese (Brazil)": "Masters Edition III",
+    "Russian": "Masters Edition III",
+    "Spanish": "Masters Edition III"
+  },
+  "type": "masters"
 }

@@ -1,12 +1,7 @@
 {
-  "name": "Onslaught",
-  "code": "ONS",
-  "magicCardsInfoCode": "on",
-  "releaseDate": "2002-10-07",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 350,
   "block": "Onslaught",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,13 +18,29 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Aufmarsch",
-    "fr": "Carnage",
-    "it": "Assalto",
-    "es": "Embestida",
-    "pt": "Investida"
+  "code": "ONS",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ONS",
+  "mcmId": 41,
+  "mcmName": "Onslaught",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Onslaught",
-  "mkm_id": 41
+  "mtgoCode": "ONS",
+  "name": "Onslaught",
+  "releaseDate": "2002-10-07",
+  "tcgplayerGroupId": 81,
+  "tokens": [
+
+  ],
+  "totalSetSize": 350,
+  "translations": {
+    "French": "Carnage",
+    "German": "Onslaught",
+    "Spanish": "Embestida"
+  },
+  "type": "expansion"
 }

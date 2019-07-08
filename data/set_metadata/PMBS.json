@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Scars of Mirrodin",
+  "code": "PMBS",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "MBS",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Mirrodin Besieged Promos",
+  "parentCode": "MBS",
+  "releaseDate": "2011-02-03",
+  "tokens": [
+
+  ],
+  "totalSetSize": 6,
+  "translations": {
+  },
+  "type": "promo"
+}

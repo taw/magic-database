@@ -1,13 +1,7 @@
 {
-  "name": "Odyssey",
-  "code": "ODY",
-  "gathererCode": "OD",
-  "magicCardsInfoCode": "od",
-  "releaseDate": "2001-10-01",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 350,
   "block": "Odyssey",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Odyssee",
-    "fr": "Odyssée",
-    "it": "Odissea",
-    "es": "Odisea",
-    "pt": "Odisséia"
+  "code": "ODY",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ODY",
+  "mcmId": 38,
+  "mcmName": "Odyssey",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Odyssey",
-  "mkm_id": 38
+  "mtgoCode": "OD",
+  "name": "Odyssey",
+  "releaseDate": "2001-10-01",
+  "tcgplayerGroupId": 80,
+  "tokens": [
+
+  ],
+  "totalSetSize": 351,
+  "translations": {
+    "Chinese Simplified": "奥德赛",
+    "Chinese Traditional": "奧德賽",
+    "French": "Odyssée",
+    "German": "Odyssee",
+    "Italian": "Odissea",
+    "Japanese": "オデッセイ",
+    "Korean": "오디세이",
+    "Portuguese (Brazil)": "Odyssey",
+    "Russian": "Odyssey",
+    "Spanish": "Odisea"
+  },
+  "type": "expansion"
 }

@@ -1,11 +1,7 @@
 {
-  "name": "Magic 2010",
-  "code": "M10",
-  "magicCardsInfoCode": "m10",
-  "releaseDate": "2009-07-17",
-  "border": "black",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 249,
+  "block": "Core Set",
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -26,16 +22,222 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Magic 2010",
-    "fr": "Magic 2010",
-    "it": "Magic 2010",
-    "es": "Magic 2010",
-    "pt": "Magic 2010",
-    "jp": "基本セット2010",
-    "cn": "Magic 2010",
-    "ru": "Magic 2010"
+  "code": "M10",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "M10",
+  "mcmId": 109,
+  "mcmName": "Magic 2010",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Magic 2010",
-  "mkm_id": 109
+  "mtgoCode": "M10",
+  "name": "Magic 2010",
+  "releaseDate": "2009-07-17",
+  "tcgplayerGroupId": 68,
+  "tokens": [
+    {
+      "artist": "Vance Kovacs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Avatar",
+      "number": "1",
+      "power": "*",
+      "reverseRelated": [
+        "Ajani Goldmane"
+      ],
+      "scryfallId": "160c268c-db2f-4105-8f40-0237b59ed333",
+      "scryfallIllustrationId": "08a69ed9-7c06-402c-8462-cc01614555e2",
+      "scryfallOracleId": "6a20eb3c-4ebb-4560-9b77-da35a4c2f207",
+      "text": "This creature's power and toughness are each equal to your life total.",
+      "toughness": "*",
+      "type": "Token Creature — Avatar",
+      "uuid": "ddbd0d98-1fdf-56ef-a2e9-185525c32873"
+    },
+    {
+      "artist": "John Donahue",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "5",
+      "power": "3",
+      "reverseRelated": [
+        "Garruk Wildspeaker"
+      ],
+      "scryfallId": "4b935437-e097-466b-a9d5-6dc0dc6a10f3",
+      "scryfallIllustrationId": "b241883c-fe4f-42c9-be2c-2ed51bcc174b",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "ea7b4075-8f9a-503d-9235-6821e4794d7d"
+    },
+    {
+      "artist": "Paul Bonner",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Gargoyle",
+      "number": "8",
+      "power": "3",
+      "reverseRelated": [
+        "Gargoyle Castle"
+      ],
+      "scryfallId": "af3aa149-00fa-4932-b004-f64c8b5d3ca7",
+      "scryfallIllustrationId": "7cee3d9e-a239-4a36-af92-e68fe4fd8072",
+      "scryfallOracleId": "75573242-fb61-442e-8f01-ffc4f7487122",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Artifact Creature — Gargoyle",
+      "uuid": "e566b7e1-9a3d-5c86-9bdb-51733eb5d593"
+    },
+    {
+      "artist": "Dave Kendall",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Siege-Gang Commander"
+      ],
+      "scryfallId": "3f8cdaea-32da-4c18-bcd0-18bbbda54afb",
+      "scryfallIllustrationId": "12f18aeb-2a92-431f-9d1d-9d3ae9c9dba5",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "311079cf-0548-5eea-bfef-781f7e065839"
+    },
+    {
+      "artist": "Ron Spencer",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Insect",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Ant Queen"
+      ],
+      "scryfallId": "67563770-a392-4f69-b93b-6029da639993",
+      "scryfallIllustrationId": "93342c47-41f0-494c-a307-abcdaa2ee149",
+      "scryfallOracleId": "c39cd31f-c4a2-4ca8-b4f9-b2e6289743bc",
+      "toughness": "1",
+      "type": "Token Creature — Insect",
+      "uuid": "d2b053dc-b646-54a8-b30b-d8e2dd89fc33"
+    },
+    {
+      "artist": "Paolo Parente",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Captain of the Watch"
+      ],
+      "scryfallId": "6dccd622-264e-4867-b34b-324c94861241",
+      "scryfallIllustrationId": "e501a169-849f-468d-953e-62a6044a868e",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "3ceb3aba-4616-5c10-a3c6-e0b09c28871f"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "7",
+      "power": "2",
+      "reverseRelated": [
+        "Howl of the Night Pack",
+        "Master of the Wild Hunt"
+      ],
+      "scryfallId": "0f63920d-18a0-4267-bb4e-a972ba86067d",
+      "scryfallIllustrationId": "8de43024-f594-4ea8-bddc-291d084d9e4e",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "1db6effb-8933-5f7e-bf96-f5e952084718"
+    },
+    {
+      "artist": "Bud Cook",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+        "Cemetery Reaper"
+      ],
+      "scryfallId": "cd51a6b5-1165-4df6-a30d-d46c729633f7",
+      "scryfallIllustrationId": "46e08797-daf4-45a0-a950-cdcc29bfbf61",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "185a66f1-b647-546d-9cbd-b3ca761d53fd"
+    }
+  ],
+  "totalSetSize": 249,
+  "translations": {
+    "Chinese Simplified": "核心系列2010",
+    "Chinese Traditional": "核心系列2010",
+    "French": "Édition de base 2010",
+    "German": "2010 Hauptset",
+    "Italian": "Set Base 2010",
+    "Japanese": "基本セット2010",
+    "Korean": "2010 코어세트",
+    "Portuguese (Brazil)": "Coleção Básica 2010",
+    "Russian": "Базовый выпуск 2010",
+    "Spanish": "Colección básica 2010"
+  },
+  "type": "core"
 }

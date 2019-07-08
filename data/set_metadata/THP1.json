@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Theros",
+  "code": "THP1",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "THS",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Theros Hero's Path",
+  "parentCode": "THS",
+  "releaseDate": "2013-09-27",
+  "tokens": [
+
+  ],
+  "totalSetSize": 7,
+  "translations": {
+  },
+  "type": "token"
+}

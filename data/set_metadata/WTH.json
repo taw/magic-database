@@ -1,13 +1,7 @@
 {
-  "name": "Weatherlight",
-  "code": "WTH",
-  "gathererCode": "WL",
-  "magicCardsInfoCode": "wl",
-  "releaseDate": "1997-06-09",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 167,
   "block": "Mirage",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Wetterlicht",
-    "fr": "Aquilon",
-    "it": "Cavalcavento",
-    "es": "El Vientoligero",
-    "pt": "Alisios"
+  "code": "WTH",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "WTH",
+  "mcmId": 18,
+  "mcmName": "Weatherlight",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Weatherlight",
-  "mkm_id": 18
+  "mtgoCode": "WL",
+  "name": "Weatherlight",
+  "releaseDate": "1997-06-09",
+  "tcgplayerGroupId": 121,
+  "tokens": [
+
+  ],
+  "totalSetSize": 167,
+  "translations": {
+    "Chinese Simplified": "Weatherlight",
+    "Chinese Traditional": "Weatherlight",
+    "French": "Weatherlight",
+    "German": "Weatherlight",
+    "Italian": "Weatherlight",
+    "Japanese": "Weatherlight",
+    "Korean": "Weatherlight",
+    "Portuguese (Brazil)": "Weatherlight",
+    "Russian": "Weatherlight",
+    "Spanish": "Weatherlight"
+  },
+  "type": "expansion"
 }

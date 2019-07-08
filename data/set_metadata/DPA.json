@@ -1,10 +1,24 @@
 {
-  "name": "Duels of the Planeswalkers",
+  "baseSetSize": 0,
   "code": "DPA",
-  "magicCardsInfoCode": "dpa",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DPA",
+  "mcmId": 1193,
+  "mcmName": "Duels of the Planeswalkers Decks",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Duels of the Planeswalkers",
   "releaseDate": "2010-06-04",
-  "border": "black",
-  "type": "box",
-  "mkm_name": "Duels of the Planeswalkers Decks",
-  "mkm_id": 1193
+  "tcgplayerGroupId": 1274,
+  "tokens": [
+
+  ],
+  "totalSetSize": 113,
+  "translations": {
+  },
+  "type": "box"
 }

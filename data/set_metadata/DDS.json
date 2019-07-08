@@ -1,8 +1,185 @@
 {
-  "name": "Duel Decks: Mind vs. Might",
+  "baseSetSize": 0,
   "code": "DDS",
-  "magicCardsInfoCode": "dds",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DDS",
+  "mcmId": 1728,
+  "mcmName": "Duel Decks: Mind vs. Might",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Duel Decks: Mind vs. Might",
   "releaseDate": "2017-03-31",
-  "type": "duel deck",
-  "border": "black"
+  "tcgplayerGroupId": 1905,
+  "tokens": [
+    {
+      "artist": "Steve Prescott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "4",
+      "power": "4",
+      "reverseRelated": [
+        "Beast Attack"
+      ],
+      "scryfallId": "fd69689a-dfeb-4390-ae82-78193697fb18",
+      "scryfallIllustrationId": "b37e5fc3-c689-4bfe-90ba-098f7ec55b5b",
+      "scryfallOracleId": "695b14a0-920a-47bd-bd4a-7989862cdd0a",
+      "toughness": "4",
+      "type": "Token Creature — Beast",
+      "uuid": "816ef084-5dc5-5b91-ab3a-13b860a6501e"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Drake",
+      "number": "1",
+      "power": "2",
+      "reverseRelated": [
+        "Talrand, Sky Summoner"
+      ],
+      "scryfallId": "b02c1fc4-0a90-4861-88ca-1f18c4517f8e",
+      "scryfallIllustrationId": "bd27a16e-6ba3-4966-8d70-9ed6e7f52d62",
+      "scryfallOracleId": "9e266374-80f1-458a-9417-16220d2a013a",
+      "text": "Flying",
+      "toughness": "2",
+      "type": "Token Creature — Drake",
+      "uuid": "70f88e84-8a8c-587f-8a9d-2dae927bf5ab"
+    },
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Young Pyromancer"
+      ],
+      "scryfallId": "cf9a289f-cd3f-42a0-9296-8c7cc7d01a91",
+      "scryfallIllustrationId": "b72510b2-4740-465b-8b71-58cea9d54eff",
+      "scryfallOracleId": "1a6c2152-71ca-46be-ab83-c84633442257",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "9d6585b9-0e17-5b88-b030-9d22ade8ff7d"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elephant",
+      "number": "5",
+      "power": "3",
+      "reverseRelated": [
+        "Call of the Herd"
+      ],
+      "scryfallId": "c22421d2-fb62-436b-bc2c-9d99e5fb684b",
+      "scryfallIllustrationId": "0fe3c48b-f071-458f-9320-fa34b7e5d8cb",
+      "scryfallOracleId": "079c46cc-feb0-4998-8593-c8b739afdb82",
+      "toughness": "3",
+      "type": "Token Creature — Elephant",
+      "uuid": "f5022835-8c56-511c-9675-52626f7ac47c"
+    },
+    {
+      "artist": "William O'Connor",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elf Warrior",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Ambassador Oak"
+      ],
+      "scryfallId": "f11416ec-ab70-45ef-98e0-9b51506606c5",
+      "scryfallIllustrationId": "a573739e-fe8e-4ddf-9c96-03a34bd0e3b0",
+      "scryfallOracleId": "dac8a765-6845-4b57-bb79-4ec463436f92",
+      "toughness": "1",
+      "type": "Token Creature — Elf Warrior",
+      "uuid": "e95f0067-6a2a-5c1b-b8ff-47994ad08753"
+    },
+    {
+      "artist": "Dave Kendall",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Empty the Warrens"
+      ],
+      "scryfallId": "66d0f626-eff9-4e2f-ac62-5bf190ea0aeb",
+      "scryfallIllustrationId": "12f18aeb-2a92-431f-9d1d-9d3ae9c9dba5",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "737d53ec-252a-5739-8b53-bf605f55d0f2"
+    },
+    {
+      "artist": "Anthony Francisco",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wurm",
+      "number": "7",
+      "power": "6",
+      "reverseRelated": [
+        "Roar of the Wurm"
+      ],
+      "scryfallId": "844b811d-dfe1-4f93-89ad-800df97ac1b5",
+      "scryfallIllustrationId": "b5073061-ca8d-4ca8-988e-9a44dcbc2e23",
+      "scryfallOracleId": "46a55586-cc9a-443c-b458-e628afc3c587",
+      "toughness": "6",
+      "type": "Token Creature — Wurm",
+      "uuid": "0989c6a1-e3f1-528d-a724-a94d29772ee8"
+    }
+  ],
+  "totalSetSize": 65,
+  "translations": {
+  },
+  "type": "duel_deck"
 }

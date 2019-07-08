@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Return to Ravnica",
+  "code": "PGTC",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "GTC",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Gatecrash Promos",
+  "parentCode": "GTC",
+  "releaseDate": "2013-01-26",
+  "tokens": [
+
+  ],
+  "totalSetSize": 9,
+  "translations": {
+  },
+  "type": "promo"
+}

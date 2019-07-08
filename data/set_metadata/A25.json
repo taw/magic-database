@@ -1,0 +1,475 @@
+{
+  "baseSetSize": 249,
+  "boosterV3": [
+    [
+      "rare",
+      "mythic rare"
+    ],
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    [
+      "foil mythic rare",
+      "foil rare",
+      "foil uncommon",
+      "foil common"
+    ]
+  ],
+  "code": "A25",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "A25",
+  "mcmId": 1820,
+  "mcmName": "Masters 25",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "A25",
+  "name": "Masters 25",
+  "releaseDate": "2018-03-16",
+  "tcgplayerGroupId": 2189,
+  "tokens": [
+    {
+      "artist": "Anthony Palumbo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "2",
+      "power": "4",
+      "reverseRelated": [
+        "Decree of Justice",
+        "Luminarch Ascension",
+        "Urbis Protector"
+      ],
+      "scryfallId": "1671013a-2c15-44f0-b4bc-057eb5f727db",
+      "scryfallIllustrationId": "816d372f-1733-4c07-9cf2-1d7c3969ca70",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "15e1aae2-8d72-53fb-8758-a9c1085b5760"
+    },
+    {
+      "artist": "William O'Connor",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elf Warrior",
+      "number": "11",
+      "power": "1",
+      "reverseRelated": [
+        "Ambassador Oak",
+        "Presence of Gond"
+      ],
+      "scryfallId": "959ed4bf-b276-45ed-b44d-c757e9c25846",
+      "scryfallIllustrationId": "a573739e-fe8e-4ddf-9c96-03a34bd0e3b0",
+      "scryfallOracleId": "dac8a765-6845-4b57-bb79-4ec463436f92",
+      "toughness": "1",
+      "type": "Token Creature — Elf Warrior",
+      "uuid": "8e0327d6-35ec-5972-9715-2ec548de89f0"
+    },
+    {
+      "artist": "Dan Scott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Fish",
+      "number": "5",
+      "power": "3",
+      "reverseRelated": [
+        "Reef Worm",
+        "Kraken",
+        "Whale"
+      ],
+      "scryfallId": "9badcaa0-8abb-4654-b947-b5ff254a8d19",
+      "scryfallIllustrationId": "c2007ef9-ea34-4eb7-956a-dfdd1bf9e980",
+      "scryfallOracleId": "9c035738-c8a9-4418-9aaa-7d7d494226e1",
+      "text": "When this creature dies, create a 6/6 blue Whale creature token with 'When this creature dies, create a 9/9 blue Kraken creature token.'",
+      "toughness": "3",
+      "type": "Token Creature — Fish",
+      "uuid": "016e6fc9-8cab-579f-8abe-ea70c80afdbc"
+    },
+    {
+      "artist": "Dan Scott",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "double_faced_token",
+      "name": "Kraken",
+      "names": [
+        "Fish",
+        "Kraken"
+      ],
+      "number": "5★",
+      "power": "9",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "8ce300b8-ab50-4c96-ba05-30701a249230",
+      "scryfallOracleId": "86429128-235d-4c27-9529-7921d4315eba",
+      "side": "b",
+      "toughness": "9",
+      "type": "Token Creature — Kraken",
+      "uuid": "875916a5-7312-5d75-8a6a-9084869b3b8c"
+    },
+    {
+      "artist": "Dan Scott",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "double_faced_token",
+      "name": "Fish",
+      "names": [
+        "Fish",
+        "Kraken"
+      ],
+      "number": "5★",
+      "power": "3",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "8ce300b8-ab50-4c96-ba05-30701a249230",
+      "scryfallOracleId": "86429128-235d-4c27-9529-7921d4315eba",
+      "side": "a",
+      "text": "When this creature dies, create a 6/6 blue Whale creature token with \"When this creature dies, create a 9/9 blue Kraken creature token.\"",
+      "toughness": "3",
+      "type": "Token Creature — Fish",
+      "uuid": "060959dc-09e5-565b-a330-aa361fc577b2"
+    },
+    {
+      "artist": "Mike Bierek",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "9",
+      "power": "1",
+      "reverseRelated": [
+        "Hordeling Outburst"
+      ],
+      "scryfallId": "7913ab41-f5d1-43d3-85e3-451befc97753",
+      "scryfallIllustrationId": "26df1b02-7fbf-43d8-a22d-38ed6b6d4526",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "bc3cdb09-46ed-5c63-ada3-8bcb4aa3c6c5"
+    },
+    {
+      "artist": "Ron Spencer",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Insect",
+      "number": "12",
+      "power": "1",
+      "reverseRelated": [
+        "Broodhatch Nantuko"
+      ],
+      "scryfallId": "43d7c6dc-4d0b-4a05-8b79-5dd728a74bb3",
+      "scryfallIllustrationId": "93342c47-41f0-494c-a307-abcdaa2ee149",
+      "scryfallOracleId": "c39cd31f-c4a2-4ca8-b4f9-b2e6289743bc",
+      "toughness": "1",
+      "type": "Token Creature — Insect",
+      "uuid": "f0c9ce1b-71e1-507d-881f-cb016018d897"
+    },
+    {
+      "artist": "Paolo Parente",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Kobolds of Kher Keep",
+      "number": "10",
+      "power": "0",
+      "reverseRelated": [
+        "Prossh, Skyraider of Kher"
+      ],
+      "scryfallId": "dfc03591-1114-4e36-a397-0bb3db8a153c",
+      "scryfallIllustrationId": "d2b5c2f4-c926-493d-a485-79862e631e00",
+      "scryfallOracleId": "6790eb4e-f6ed-44f5-85f1-bd7e167b828c",
+      "toughness": "1",
+      "type": "Token Creature — Kobold",
+      "uuid": "87cfc20e-b8b9-50c9-bff6-b65cf09ae5f6"
+    },
+    {
+      "artist": "Dan Scott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Kraken",
+      "number": "6",
+      "power": "9",
+      "reverseRelated": [
+        "Reef Worm",
+        "Fish",
+        "Whale"
+      ],
+      "scryfallId": "622397a1-6513-44b9-928a-388be06d4022",
+      "scryfallIllustrationId": "e07a8271-9fdd-4d2b-9b7a-1b309bccc36a",
+      "scryfallOracleId": "cd0f813b-1f9f-484d-adab-bc8d16d2b867",
+      "toughness": "9",
+      "type": "Token Creature — Kraken",
+      "uuid": "9e2823bc-a79e-5fa9-896e-2fc81c5bb499"
+    },
+    {
+      "artist": "Seb McKinnon",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Morph",
+      "number": "15",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "cd0b42a0-5e08-406d-82b0-be5f72870c47",
+      "scryfallIllustrationId": "3d1493a9-f21a-43f8-a984-b9f54bbcb984",
+      "scryfallOracleId": "8f92f8d7-ec89-426f-86dc-fbc259eb5559",
+      "text": "(You can cover a face-down creature with this reminder card.\nA card with morph can be turned face up any time for its morph cost.)",
+      "toughness": "2",
+      "type": "Creature",
+      "uuid": "7eb0312a-51ce-573b-bb74-0983ebe4e704"
+    },
+    {
+      "artist": "Thomas M. Baxa",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Skeleton",
+      "number": "8",
+      "power": "1",
+      "reverseRelated": [
+        "Skeletonize"
+      ],
+      "scryfallId": "1abb1ab0-f8f4-44e8-b8a7-df37a8782e76",
+      "scryfallIllustrationId": "6cffd63a-d51d-4017-ab79-fe63c61d15f2",
+      "scryfallOracleId": "9174887a-5990-49c8-ae95-83d830f9d4f3",
+      "text": "{B}: Regenerate this creature.",
+      "toughness": "1",
+      "type": "Token Creature — Skeleton",
+      "uuid": "f11c8c8d-e6f1-5ba9-8d71-b275f2b2435d"
+    },
+    {
+      "artist": "Greg Staples",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Darien, King of Kjeldor",
+        "Decree of Justice"
+      ],
+      "scryfallId": "227a4e23-ff87-486b-aba1-32f1d8c33592",
+      "scryfallIllustrationId": "6df28827-075d-4e5e-ba2c-d26982ace45f",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "f6f5cdf0-a65f-57a2-a65b-fdf922864503"
+    },
+    {
+      "artist": "Daniel Ljunggren",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Promise of Bunrei"
+      ],
+      "scryfallId": "ef264a95-afe4-4b8c-9648-e8f95bfaed2a",
+      "scryfallIllustrationId": "c8476bc5-b6cf-48b4-be06-8b805d146282",
+      "scryfallOracleId": "6a7a9dff-ff9e-4005-a17f-6ea0c11c1d5a",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "157fb559-4406-5329-92ba-f222e8f1f08c"
+    },
+    {
+      "artist": "Ryan Yee",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Dauntless Cathar"
+      ],
+      "scryfallId": "070b2ce3-33a7-42a5-b4c2-6b0ed2bf926a",
+      "scryfallIllustrationId": "50ddbe3c-fb6c-4a9f-87c9-fd200719576f",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "ccec2cec-4f8e-5f9b-aaec-2108fc29ad4e"
+    },
+    {
+      "artist": "Izzy",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "colors": [
+        "G",
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Stangg Twin",
+      "number": "14",
+      "power": "3",
+      "reverseRelated": [
+        "Stangg"
+      ],
+      "scryfallId": "eba90d37-d7ac-4097-a04d-1f27e4c9e5de",
+      "scryfallIllustrationId": "538cb26e-ec8f-4ae2-b2d5-85cfff9c82bc",
+      "scryfallOracleId": "48419100-a3d7-44c1-95cc-486a4ef066af",
+      "toughness": "4",
+      "type": "Token Legendary Creature — Human Warrior",
+      "uuid": "c644b92c-7583-5c65-b9be-e6aad62d9eb9"
+    },
+    {
+      "artist": "Dan Scott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Whale",
+      "number": "7",
+      "power": "6",
+      "reverseRelated": [
+        "Reef Worm",
+        "Fish",
+        "Kraken"
+      ],
+      "scryfallId": "ab3331a0-5840-439d-9553-d4489c343f21",
+      "scryfallIllustrationId": "7da734fd-fbfc-4a1f-80f7-934b440ed5ea",
+      "scryfallOracleId": "55ba83ae-9158-4c92-8bca-6dd96b517836",
+      "text": "When this creature dies, create a 9/9 blue Kraken creature token.",
+      "toughness": "6",
+      "type": "Token Creature — Whale",
+      "uuid": "074ab9bd-c128-5c5c-a9e7-cc6e059e8bb0"
+    },
+    {
+      "artist": "Daren Bader",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "13",
+      "power": "2",
+      "reverseRelated": [
+        "Master of the Wild Hunt"
+      ],
+      "scryfallId": "4ff5727c-7001-45db-9e0c-771824e849b0",
+      "scryfallIllustrationId": "5e290bd2-37d0-4eb0-a2fc-fafc7107c42e",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "7f9d4342-d1cc-505e-be1c-f0e57e43587a"
+    }
+  ],
+  "totalSetSize": 249,
+  "translations": {
+    "Chinese Simplified": "Masters 25",
+    "Chinese Traditional": "Masters 25",
+    "French": "Masters 25",
+    "German": "Masters 25",
+    "Italian": "Masters 25",
+    "Japanese": "Masters 25",
+    "Korean": "Masters 25",
+    "Portuguese (Brazil)": "Masters 25",
+    "Russian": "Masters 25",
+    "Spanish": "Masters 25"
+  },
+  "type": "masters"
+}

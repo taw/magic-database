@@ -1,13 +1,7 @@
 {
-  "name": "Visions",
-  "code": "VIS",
-  "gathererCode": "VI",
-  "magicCardsInfoCode": "vi",
-  "releaseDate": "1997-02-03",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 167,
   "block": "Mirage",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Visionen",
-    "fr": "Visions",
-    "it": "Visioni",
-    "es": "Visiones",
-    "pt": "Visões"
+  "code": "VIS",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "VIS",
+  "mcmId": 17,
+  "mcmName": "Visions",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Visions",
-  "mkm_id": 17
+  "mtgoCode": "VI",
+  "name": "Visions",
+  "releaseDate": "1997-02-03",
+  "tcgplayerGroupId": 120,
+  "tokens": [
+
+  ],
+  "totalSetSize": 167,
+  "translations": {
+    "Chinese Simplified": "Visions",
+    "Chinese Traditional": "Visions",
+    "French": "Visions",
+    "German": "Visions",
+    "Italian": "Visions",
+    "Japanese": "Visions",
+    "Korean": "Visions",
+    "Portuguese (Brazil)": "Visions",
+    "Russian": "Visions",
+    "Spanish": "Visions"
+  },
+  "type": "expansion"
 }

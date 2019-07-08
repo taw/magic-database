@@ -1,7 +1,313 @@
 {
-  "name": "Commander 2017",
+  "baseSetSize": 0,
+  "block": "Commander",
   "code": "C17",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "C17",
+  "mcmId": 1813,
+  "mcmName": "Commander 2017",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Commander 2017",
   "releaseDate": "2017-08-25",
-  "border": "black",
+  "tcgplayerGroupId": 2009,
+  "tokens": [
+    {
+      "artist": "Wayne Reynolds",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Bat",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Skeletal Vampire"
+      ],
+      "scryfallId": "020c88d9-d058-4290-b0d7-b91754f91a22",
+      "scryfallIllustrationId": "23fa4c20-35ff-4b4f-8fcd-a14eaf4551c5",
+      "scryfallOracleId": "ff86d8fc-5242-405e-b5e3-f9ff73296794",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bat",
+      "uuid": "8f09acec-d140-55aa-b135-919cefc6bdd4"
+    },
+    {
+      "artist": "Scott Chou",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Cat",
+      "number": "1",
+      "power": "2",
+      "reverseRelated": [
+        "Ajani's Chosen",
+        "Kemba, Kha Regent",
+        "White Sun's Zenith"
+      ],
+      "scryfallId": "d3f2fd62-5430-449b-ac1b-14867d2bb326",
+      "scryfallIllustrationId": "389f44e7-a8b3-4509-90b7-1441bc9df7e4",
+      "scryfallOracleId": "6788478d-e157-4483-be09-9edb3f841431",
+      "toughness": "2",
+      "type": "Token Creature — Cat",
+      "uuid": "6776b492-4a94-50f5-928d-d25bf885dff3"
+    },
+    {
+      "artist": "Cynthia Sheppard",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "G",
+        "R"
+      ],
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Cat Dragon",
+      "number": "9",
+      "power": "3",
+      "reverseRelated": [
+        "Wasitora, Nekoru Queen"
+      ],
+      "scryfallId": "748d267d-9c81-4dc0-92b7-eafb7691c6cc",
+      "scryfallIllustrationId": "6fc2b4bb-aff7-4c46-8ee5-661a71df0dea",
+      "scryfallOracleId": "afdf7400-0723-4f0d-b3d8-46ad3a698908",
+      "text": "Flying",
+      "toughness": "3",
+      "type": "Token Creature — Cat Dragon",
+      "uuid": "88115f68-5022-5758-a6a4-38b13cc124a5"
+    },
+    {
+      "artist": "Michael Sutfin",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Cat Warrior",
+      "number": "8",
+      "power": "2",
+      "reverseRelated": [
+        "Lord Windgrace",
+        "Jedit Ojanen of Efrava"
+      ],
+      "scryfallId": "29c4e4f2-0040-4490-b357-660d729ad9cc",
+      "scryfallIllustrationId": "d6fb2df8-56cb-47da-be8b-3cf4133ba850",
+      "scryfallOracleId": "e2b387e7-8b4c-41cd-95ca-df5dd1680425",
+      "text": "Forestwalk",
+      "toughness": "2",
+      "type": "Token Creature — Cat Warrior",
+      "uuid": "18993171-c917-5f4e-83f0-7a6e5734fe78"
+    },
+    {
+      "artist": "Vance Kovacs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "6",
+      "power": "4",
+      "reverseRelated": [
+        "Broodmate Dragon"
+      ],
+      "scryfallId": "cb928e3f-b15e-4f76-8909-0ceebe45a8ea",
+      "scryfallIllustrationId": "708ca047-b8c3-49d2-bc31-973de95572a3",
+      "scryfallOracleId": "c8790543-9399-4312-9b15-aa8a45c8fec7",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Dragon",
+      "uuid": "f084afb5-3ab6-59aa-8b25-f10d2f75be0b"
+    },
+    {
+      "artist": "Mark Zug",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "7",
+      "power": "6",
+      "reverseRelated": [
+        "Utvara Hellkite"
+      ],
+      "scryfallId": "7c66280f-287b-4294-9984-32484de2568a",
+      "scryfallIllustrationId": "425de6aa-d8d8-46a2-94a0-2a286b4b26fe",
+      "scryfallOracleId": "606c46d7-18a5-4cce-9975-029899b82b34",
+      "text": "Flying",
+      "toughness": "6",
+      "type": "Token Creature — Dragon",
+      "uuid": "fa796d94-6279-508c-a1f1-63365acdb2fd"
+    },
+    {
+      "artist": "Aleksi Briclot",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Eldrazi Spawn",
+      "number": "11",
+      "power": "0",
+      "reverseRelated": [
+        "Pawn of Ulamog",
+        "Rapacious One",
+        "Awakening Zone"
+      ],
+      "scryfallId": "1feaa879-ceb3-4b20-8021-ae41d8be9005",
+      "scryfallIllustrationId": "c92785ab-6d39-468a-a99a-a1cc87a35ab8",
+      "scryfallOracleId": "3aaf906a-e749-4e86-ac79-97650b92f271",
+      "text": "Sacrifice this creature: Add {C}.",
+      "toughness": "1",
+      "type": "Token Creature — Eldrazi Spawn",
+      "uuid": "d6bd7a4a-6b70-5c10-b19e-6d376974e4ac"
+    },
+    {
+      "artist": "Richard Wright",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Gold",
+      "number": "10",
+      "reverseRelated": [
+        "Curse of Opulence",
+        "Gild"
+      ],
+      "scryfallId": "9b180a33-65ef-43b3-b969-f603b1fc23fb",
+      "scryfallIllustrationId": "5ea02106-4af0-4762-8740-a8007f91cda1",
+      "scryfallOracleId": "5aa757d8-db7a-4a60-b63e-c9777c141953",
+      "text": "Sacrifice this artifact: Add one mana of any color.",
+      "type": "Token Artifact",
+      "uuid": "2d7c74d8-7cae-5527-9315-782bfefd2973"
+    },
+    {
+      "artist": "Shreya Shetty",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Rat",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Hungry Lynx"
+      ],
+      "scryfallId": "c1788d4c-31b8-4f73-8275-5470316e7ad4",
+      "scryfallIllustrationId": "f64575f4-ff4f-4972-8fe9-ffaa60203dce",
+      "scryfallOracleId": "0d804fad-62db-4e3b-8d3c-ee62eba38569",
+      "text": "Deathtouch",
+      "toughness": "1",
+      "type": "Token Creature — Rat",
+      "uuid": "d43097a3-5849-5f7b-b322-ef18ae4d03e1"
+    },
+    {
+      "artist": "Volkan Baǵa",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Vampire",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Edgar Markov"
+      ],
+      "scryfallId": "5d328599-b5c8-4cf7-9d62-fe8492e02f48",
+      "scryfallIllustrationId": "6500740f-f2a9-4aaa-9ca6-d5431797a0f8",
+      "scryfallOracleId": "9b4f2e97-7845-4931-8ea3-824532525e92",
+      "toughness": "1",
+      "type": "Token Creature — Vampire",
+      "uuid": "2416a5fb-3c64-52dc-b04c-2c723ae2169a"
+    },
+    {
+      "artist": "Craig J Spearing",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Curse of Disturbance",
+        "Ghoulcaller Gisa",
+        "Overseer of the Damned",
+        "Varina, Lich Queen",
+        "Dread Summons",
+        "Syphon Flesh",
+        "Army of the Damned",
+        "Waste Not",
+        "Grave Titan",
+        "Liliana's Reaver",
+        "Necromancer's Covenant"
+      ],
+      "scryfallId": "d2bd70ba-91a6-4944-92a1-89d561355c25",
+      "scryfallIllustrationId": "2c6c9ac5-bb7b-4f9a-811d-4be9eb072914",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "518d9386-829e-53bc-b335-672235d6f89f"
+    }
+  ],
+  "totalSetSize": 309,
+  "translations": {
+    "Chinese Simplified": "Commander (2017 EDITION)",
+    "Chinese Traditional": "Commander (2017 EDITION)",
+    "French": "Commander (2017 EDITION)",
+    "German": "Commander (2017 EDITION)",
+    "Italian": "Commander (2017 EDITION)",
+    "Japanese": "Commander (2017 EDITION)",
+    "Korean": "Commander (2017 EDITION)",
+    "Portuguese (Brazil)": "Commander (2017 EDITION)",
+    "Russian": "Commander (2017 EDITION)",
+    "Spanish": "Commander (2017 EDITION)"
+  },
   "type": "commander"
 }

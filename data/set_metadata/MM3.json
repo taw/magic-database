@@ -1,11 +1,6 @@
 {
-  "name": "Modern Masters 2017 Edition",
-  "code": "MM3",
-  "magicCardsInfoCode": "mm3",
-  "releaseDate": "2017-03-17",
-  "border": "black",
-  "type": "reprint",
-  "booster": [
+  "baseSetSize": 249,
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -29,5 +24,534 @@
       "foil uncommon",
       "foil common"
     ]
-  ]
+  ],
+  "code": "MM3",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "MM3",
+  "mcmId": 1727,
+  "mcmName": "Modern Masters 2017",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "MM3",
+  "name": "Modern Masters 2017",
+  "releaseDate": "2017-03-17",
+  "tcgplayerGroupId": 1879,
+  "tokens": [
+    {
+      "artist": "Anthony Palumbo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "1",
+      "power": "4",
+      "reverseRelated": [
+        "Entreat the Angels",
+        "Urbis Protector"
+      ],
+      "scryfallId": "6277af10-b10b-450b-9d42-54c978337931",
+      "scryfallIllustrationId": "816d372f-1733-4c07-9cf2-1d7c3969ca70",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "9c6ce3a5-5d74-5417-8815-68b72fdfb80a"
+    },
+    {
+      "artist": "Steve Prescott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "10",
+      "power": "4",
+      "reverseRelated": [
+        "Baloth Cage Trap"
+      ],
+      "scryfallId": "5ff64dab-233b-42b0-88bb-d3e4f7eb4e93",
+      "scryfallIllustrationId": "b37e5fc3-c689-4bfe-90ba-098f7ec55b5b",
+      "scryfallOracleId": "695b14a0-920a-47bd-bd4a-7989862cdd0a",
+      "toughness": "4",
+      "type": "Token Creature — Beast",
+      "uuid": "e21cee6c-1ae0-5d9b-8b96-deb9b5193949"
+    },
+    {
+      "artist": "John Donahue",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "9",
+      "power": "3",
+      "reverseRelated": [
+        "Thragtusk"
+      ],
+      "scryfallId": "b4333372-80ea-42df-bf8a-d1f12bcb348e",
+      "scryfallIllustrationId": "b241883c-fe4f-42c9-be2c-2ed51bcc174b",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "0734249e-5657-5cc8-b3b6-5ffcca4dbdbd"
+    },
+    {
+      "artist": "James Ryman",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Bird",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Eyes in the Skies"
+      ],
+      "scryfallId": "2fd5abfa-ec18-49a4-9531-826d47c6301b",
+      "scryfallIllustrationId": "72545e61-6af0-44d7-a880-e7fd676136e4",
+      "scryfallOracleId": "b1a2b096-a440-4ef9-ab2a-059c79999297",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bird",
+      "uuid": "31042f27-e84d-58b3-985d-3c87a2664150"
+    },
+    {
+      "artist": "Slawomir Maniak",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Centaur",
+      "number": "11",
+      "power": "3",
+      "reverseRelated": [
+        "Call of the Conclave"
+      ],
+      "scryfallId": "d83648ae-b9a5-40c1-825d-287b2d4ec838",
+      "scryfallIllustrationId": "0ebb8410-46dc-4dc8-acc3-a6082e765b13",
+      "scryfallOracleId": "c41ea1cd-d87a-4e4c-b814-4c24c5bef511",
+      "toughness": "3",
+      "type": "Token Creature — Centaur",
+      "uuid": "6f90d734-d530-5d81-b861-328300d32692"
+    },
+    {
+      "artist": "Tyler Jacobson",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Domri Rade Emblem",
+      "number": "21",
+      "reverseRelated": [
+        "Domri Rade"
+      ],
+      "scryfallId": "7cf98006-cc53-4a6c-b372-97b0970ffe4d",
+      "scryfallIllustrationId": "2f452655-963c-42aa-bcf3-40a82cd572c7",
+      "scryfallOracleId": "b7dc9439-d9bb-435a-8d3b-9e92bfae16ef",
+      "text": "Creatures you control have double strike, trample, hexproof, and haste.",
+      "type": "Emblem — Domri",
+      "uuid": "5bc62e36-9209-5f95-899e-2441ab9c64e0"
+    },
+    {
+      "artist": "Vance Kovacs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "7",
+      "power": "4",
+      "reverseRelated": [
+        "Broodmate Dragon"
+      ],
+      "scryfallId": "0413b3da-fec3-4221-bcec-2b964b45dd00",
+      "scryfallIllustrationId": "708ca047-b8c3-49d2-bc31-973de95572a3",
+      "scryfallOracleId": "c8790543-9399-4312-9b15-aa8a45c8fec7",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Dragon",
+      "uuid": "c22adbe2-90cf-51bd-9f7c-e086c7c02319"
+    },
+    {
+      "artist": "Mark Winters",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "G",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "16",
+      "power": "*",
+      "reverseRelated": [
+        "Voice of Resurgence"
+      ],
+      "scryfallId": "04b980ff-02ad-447e-8815-16cd0112ce60",
+      "scryfallIllustrationId": "675991cd-81a7-493e-82d3-c908c1f7497c",
+      "scryfallOracleId": "9f790267-5be9-41aa-be69-f87a8ce5a29e",
+      "text": "This creature's power and toughness are each equal to the number of creatures you control.",
+      "toughness": "*",
+      "type": "Token Creature — Elemental",
+      "uuid": "a56092c6-46e1-51cf-a201-d76a47e2df61"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elephant",
+      "number": "12",
+      "power": "3",
+      "reverseRelated": [
+        "Call of the Herd"
+      ],
+      "scryfallId": "fe0ea880-0158-4faa-8018-f6626f25dd02",
+      "scryfallIllustrationId": "0fe3c48b-f071-458f-9320-fa34b7e5d8cb",
+      "scryfallOracleId": "079c46cc-feb0-4998-8593-c8b739afdb82",
+      "toughness": "3",
+      "type": "Token Creature — Elephant",
+      "uuid": "9df0d618-07a7-5a07-b5cc-0f071a928b67"
+    },
+    {
+      "artist": "Trevor Hairsine",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "colors": [
+        "G",
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Giant Warrior",
+      "number": "17",
+      "power": "4",
+      "reverseRelated": [
+        "Giantbaiting"
+      ],
+      "scryfallId": "a06eea30-810b-4623-9862-ec71c4bed11a",
+      "scryfallIllustrationId": "2698e279-26de-4c8a-b3ae-c51a58006088",
+      "scryfallOracleId": "e067754e-ddd6-44fc-8783-07e98db21c57",
+      "text": "Haste",
+      "toughness": "4",
+      "type": "Token Creature — Giant Warrior",
+      "uuid": "a7ea0a45-1269-56cb-bbaa-c4477339c07f"
+    },
+    {
+      "artist": "Brandon Kitkouski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "8",
+      "power": "1",
+      "reverseRelated": [
+        "Dragon Fodder",
+        "Goblin Assault",
+        "Kathari Bomber"
+      ],
+      "scryfallId": "8fbf199b-2c3f-441d-950e-c4a3d3086e4b",
+      "scryfallIllustrationId": "026eab38-a320-4e17-922e-2525808a3aab",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "0d3caf9e-156c-5a5b-a3db-66e00c4f1bbb"
+    },
+    {
+      "artist": "Dave Allsop",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "colors": [
+        "G",
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin Warrior",
+      "number": "18",
+      "power": "1",
+      "reverseRelated": [
+        "Wort, the Raidmother"
+      ],
+      "scryfallId": "0f827ad1-4931-404d-a0ff-bff8b98eae42",
+      "scryfallIllustrationId": "332169c5-fabb-436b-8145-12f0036ac920",
+      "scryfallOracleId": "b96b076f-9815-457e-bbe2-4abf4c8f85cf",
+      "toughness": "1",
+      "type": "Token Creature — Goblin Warrior",
+      "uuid": "20fae979-c4fb-5115-875c-f1386d59b02a"
+    },
+    {
+      "artist": "Volkan Baǵa",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Golem",
+      "number": "20",
+      "power": "3",
+      "reverseRelated": [
+        "Blade Splicer",
+        "Master Splicer",
+        "Sensor Splicer",
+        "Wing Splicer",
+        "Vital Splicer"
+      ],
+      "scryfallId": "509be7b3-490d-4229-ba10-999921a6b977",
+      "scryfallIllustrationId": "a30ff6a4-8458-4923-9c6b-aea1b2092990",
+      "scryfallOracleId": "9859c54d-695b-4bb1-940e-cfd1c3301e89",
+      "toughness": "3",
+      "type": "Token Artifact Creature — Golem",
+      "uuid": "54d8d6aa-aec5-5490-98e5-deb845c59d00"
+    },
+    {
+      "artist": "Marco Nelor",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Ooze",
+      "number": "13",
+      "power": "*",
+      "reverseRelated": [
+        "Slime Molding",
+        "Mystic Genesis"
+      ],
+      "scryfallId": "2a9cea73-9421-4f91-b8f9-1a8081b3811a",
+      "scryfallIllustrationId": "5eef263f-0607-4842-9278-976a55946fef",
+      "scryfallOracleId": "bb3da6d2-aed7-4057-b94b-6882fb45cc89",
+      "toughness": "*",
+      "type": "Token Creature — Ooze",
+      "uuid": "23a83776-4544-5db5-a21b-ef797418ff9e"
+    },
+    {
+      "artist": "Brad Rigney",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Saproling",
+      "number": "14",
+      "power": "1",
+      "reverseRelated": [
+        "Fists of Ironwood",
+        "Golgari Germination",
+        "Sprouting Thrinax"
+      ],
+      "scryfallId": "0e78d072-183d-4272-9d9f-6801dced729d",
+      "scryfallIllustrationId": "54430daa-acec-42fc-9330-ef8c4c015569",
+      "scryfallOracleId": "2b7dba01-b08c-4218-9fc1-da55559d9155",
+      "toughness": "1",
+      "type": "Token Creature — Saproling",
+      "uuid": "a774f61d-1bc7-5922-8985-428f2deb4395"
+    },
+    {
+      "artist": "David Palumbo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "colors": [
+        "R",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "19",
+      "power": "1",
+      "reverseRelated": [
+        "Sunhome Guildmage"
+      ],
+      "scryfallId": "6d49a56f-2a5e-4d42-b75c-f3f3735829d3",
+      "scryfallIllustrationId": "437e7a42-4c1c-4777-bf91-a2b376df38a4",
+      "scryfallOracleId": "04ba3865-3e4b-4583-b49b-f5433926c29a",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "f33a98ed-94ec-57f4-afa0-e3a81258c8cb"
+    },
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Attended Knight"
+      ],
+      "scryfallId": "be2c0e6f-44a9-410f-a501-b95c1def9d88",
+      "scryfallIllustrationId": "b4e06409-cc4b-4e0e-b6c5-0b03c86c5a21",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "658998c4-d572-5eb4-b03f-0f96a1da8dbe"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Spider",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Penumbra Spider"
+      ],
+      "scryfallId": "4cbd8800-affa-4e64-825f-2a3b4516ed0f",
+      "scryfallIllustrationId": "c5ebe8cb-edf8-47db-a57d-56486c52d0a0",
+      "scryfallOracleId": "c16b3a1e-0e60-41f2-899e-d22bcf1144ae",
+      "text": "Reach",
+      "toughness": "4",
+      "type": "Token Creature — Spider",
+      "uuid": "4d879661-8a98-59e7-93ba-51a71969e49a"
+    },
+    {
+      "artist": "Ryan Yee",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Lingering Souls"
+      ],
+      "scryfallId": "2933a376-399c-4071-b44b-95605edd8fdb",
+      "scryfallIllustrationId": "50ddbe3c-fb6c-4a9f-87c9-fd200719576f",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "2cf45350-f171-5294-b773-b8cddb6bab5c"
+    },
+    {
+      "artist": "Anthony Palumbo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wurm",
+      "number": "15",
+      "power": "5",
+      "reverseRelated": [
+        "Advent of the Wurm"
+      ],
+      "scryfallId": "3fd53493-ac85-4dd0-b1db-0ae0130ea2d4",
+      "scryfallIllustrationId": "e0ca20ae-a710-4579-9f8f-401538cc2f4a",
+      "scryfallOracleId": "25be869c-ea45-4fdc-9cff-bde028d5cb66",
+      "text": "Trample",
+      "toughness": "5",
+      "type": "Token Creature — Wurm",
+      "uuid": "e86b6307-af0e-5851-b017-34dbb712a7d1"
+    },
+    {
+      "artist": "Lucas Graciano",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "6",
+      "power": "2",
+      "reverseRelated": [
+        "Grixis Slavedriver"
+      ],
+      "scryfallId": "22110a53-493d-4af5-aea5-f6a8b4958a84",
+      "scryfallIllustrationId": "6bb462b0-a2a7-4cdf-9fe4-c14d6aceeddc",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "d59b817d-94c8-5401-9275-4761b6926e25"
+    }
+  ],
+  "totalSetSize": 249,
+  "translations": {
+  },
+  "type": "masters"
 }

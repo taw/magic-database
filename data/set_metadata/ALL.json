@@ -1,13 +1,7 @@
 {
-  "name": "Alliances",
-  "code": "ALL",
-  "gathererCode": "AL",
-  "magicCardsInfoCode": "ai",
-  "releaseDate": "1996-06-10",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 199,
   "block": "Ice Age",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -21,13 +15,35 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Allianzen",
-    "fr": "Alliances",
-    "it": "Alleanze",
-    "es": "Alianzas",
-    "pt": "Alianças"
+  "code": "ALL",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ALL",
+  "mcmId": 15,
+  "mcmName": "Alliances",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Alliances",
-  "mkm_id": 15
+  "name": "Alliances",
+  "releaseDate": "1996-06-10",
+  "tcgplayerGroupId": 6,
+  "tokens": [
+
+  ],
+  "totalSetSize": 199,
+  "translations": {
+    "Chinese Simplified": "Alliances",
+    "Chinese Traditional": "Alliances",
+    "French": "Alliances",
+    "German": "Alliances",
+    "Italian": "Alliances",
+    "Japanese": "Alliances",
+    "Korean": "Alliances",
+    "Portuguese (Brazil)": "Alliances",
+    "Russian": "Alliances",
+    "Spanish": "Alliances"
+  },
+  "type": "expansion"
 }

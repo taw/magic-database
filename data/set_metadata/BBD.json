@@ -1,0 +1,231 @@
+{
+  "baseSetSize": 256,
+  "boosterV3": [
+    [
+      "rare",
+      "mythic rare"
+    ],
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "land",
+    "marketing"
+  ],
+  "code": "BBD",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "BBD",
+  "mcmId": 2111,
+  "mcmName": "Battlebond",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Battlebond",
+  "releaseDate": "2018-06-08",
+  "tcgplayerGroupId": 2245,
+  "tokens": [
+    {
+      "artist": "Jesper Ejsing",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "5",
+      "power": "3",
+      "reverseRelated": [
+        "Beast Within"
+      ],
+      "scryfallId": "d51a6408-0311-4daa-bfb2-b2f6f8fcbc3e",
+      "scryfallIllustrationId": "82ea2f33-efce-46cc-9920-3d657b7913ef",
+      "scryfallOracleId": "6bb61f34-5d57-4eaa-a02c-f5d08c1ee920",
+      "toughness": "3",
+      "type": "Token Creature — Beast",
+      "uuid": "f2d165b2-b073-5e25-9068-28112dd44e25"
+    },
+    {
+      "artist": "Ryan Pancoast",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Myr",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Genesis Chamber"
+      ],
+      "scryfallId": "f32ad93f-3fd5-465c-ac6a-6f8fb57c19bd",
+      "scryfallIllustrationId": "38aaf042-2fed-4761-baa7-62a3002b71fd",
+      "scryfallOracleId": "bf690282-125f-431c-a363-39f6772324c8",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Myr",
+      "uuid": "86f91cbc-4c7b-576f-b640-523b34cf704d"
+    },
+    {
+      "artist": "Anna Steinbauer",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Rowan Kenrith Emblem",
+      "number": "8",
+      "reverseRelated": [
+        "Rowan Kenrith"
+      ],
+      "scryfallId": "a603338e-8ea4-4952-b88f-97d439594ad9",
+      "scryfallIllustrationId": "e16dfeb4-4df4-424a-b237-3326b0481a67",
+      "scryfallOracleId": "8a8a1494-f81f-483d-a071-b92ad72d87e4",
+      "text": "Whenever you activate an ability that isn't a mana ability, copy it. You may choose new targets for the copy.",
+      "type": "Emblem — Rowan",
+      "uuid": "3300c1ef-29da-5652-a72f-2eaa4934075c"
+    },
+    {
+      "artist": "Ryan Yee",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Doomed Traveler"
+      ],
+      "scryfallId": "b3c9a097-219b-4aaf-831f-cc0cddbcfaae",
+      "scryfallIllustrationId": "50ddbe3c-fb6c-4a9f-87c9-fd200719576f",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "c8304051-339c-58dd-a256-1c00e7f54eb7"
+    },
+    {
+      "artist": "Ryan Barger",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Warrior",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Regna, the Redeemer",
+        "Blaring Recruiter",
+        "Najeela, the Blade-Blossom",
+        "Take Up Arms"
+      ],
+      "scryfallId": "d36e3c0e-a759-4adc-aa2f-61b13c0f786d",
+      "scryfallIllustrationId": "23448f74-a331-4f2f-9220-46411b13d929",
+      "scryfallOracleId": "6a880a0f-0a98-4505-9c27-9821be3e4818",
+      "toughness": "1",
+      "type": "Token Creature — Warrior",
+      "uuid": "b747f669-67fa-546c-8154-4f76879cd264"
+    },
+    {
+      "artist": "Anna Steinbauer",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Will Kenrith Emblem",
+      "number": "7",
+      "reverseRelated": [
+        "Will Kenrith"
+      ],
+      "scryfallId": "606d6a38-e564-45d8-9be1-c83c15647711",
+      "scryfallIllustrationId": "66675482-8628-4e7b-8f48-d31a153c7ed7",
+      "scryfallOracleId": "fa81c208-4add-4fb6-8fb8-abf9915397d1",
+      "text": "Whenever you cast an instant or sorcery spell, copy it. You may choose new targets for the copy.",
+      "type": "Emblem — Will",
+      "uuid": "7bbe1ebb-77a8-5624-928c-5d63d69e27b6"
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+        "Doomed Dissenter",
+        "Noosegraf Mob"
+      ],
+      "scryfallId": "f08609b4-f5e0-4e3b-aee3-8ed3e3232074",
+      "scryfallIllustrationId": "d9281c7f-c149-42fc-ace9-4656cbaa76d8",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "2054f708-4c59-5b41-b5f6-529eda6c21ba"
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie Giant",
+      "number": "4",
+      "power": "5",
+      "reverseRelated": [
+        "Quest for the Gravelord"
+      ],
+      "scryfallId": "be7e26e1-5db6-49ba-a88e-c79d889cd364",
+      "scryfallIllustrationId": "41bafe66-8f6f-4e89-a65b-a448a60159fd",
+      "scryfallOracleId": "e7bba04b-be75-4857-a724-c9e2150d56ad",
+      "toughness": "5",
+      "type": "Token Creature — Zombie Giant",
+      "uuid": "2ecf8e91-ecb3-57c2-8343-9b2b3c6a5caf"
+    }
+  ],
+  "totalSetSize": 256,
+  "translations": {
+  },
+  "type": "draft_innovation"
+}

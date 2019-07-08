@@ -1,0 +1,260 @@
+{
+  "baseSetSize": 259,
+  "block": "Guilds of Ravnica",
+  "boosterV3": [
+    [
+      "rare",
+      "mythic rare"
+    ],
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "land",
+    "marketing"
+  ],
+  "code": "GRN",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "GRN",
+  "mcmId": 2348,
+  "mcmName": "Guilds of Ravnica",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "GRN",
+  "name": "Guilds of Ravnica",
+  "releaseDate": "2018-10-05",
+  "tcgplayerGroupId": 2290,
+  "tokens": [
+    {
+      "artist": "Grzegorz Rutkowski",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "1",
+      "power": "4",
+      "reverseRelated": [
+        "Divine Visitation",
+        "Finale of Glory",
+        "Parhelion II"
+      ],
+      "scryfallId": "acb271a8-68bb-45e6-9f99-568479e92ea0",
+      "scryfallIllustrationId": "78dd2c5f-29b7-400a-bbf7-4f7cedddb603",
+      "scryfallOracleId": "29ff8699-53d8-413b-8a3c-0e3ea1e13ff0",
+      "text": "Flying, vigilance",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "0ba62885-fd51-5621-b922-eab39408ddf2"
+    },
+    {
+      "artist": "James Paick",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Bird Illusion",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Murmuring Mystic"
+      ],
+      "scryfallId": "03c3dc23-d6f2-4209-82e1-a0b936c94231",
+      "scryfallIllustrationId": "48e9c0d1-22b9-4d8e-8770-a260b9b96959",
+      "scryfallOracleId": "6c29dcc1-d7b6-4ef6-b663-0cc0e4be0529",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Bird Illusion",
+      "uuid": "0ba39d89-94b6-54e3-b54a-e516efe825b5"
+    },
+    {
+      "artist": "Tomasz Jedruszek",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "G",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Elf Knight",
+      "number": "6",
+      "power": "2",
+      "reverseRelated": [
+        "Sprouting Renewal",
+        "Conclave Cavalier",
+        "Conclave Guildmage",
+        "Assure // Assemble"
+      ],
+      "scryfallId": "74506297-41ad-40e5-bb05-175650ff4907",
+      "scryfallIllustrationId": "4fae8cfc-6988-40fc-8e16-46b43242a05b",
+      "scryfallOracleId": "93f6e39e-60e0-4ab8-8bfe-d84aea51d123",
+      "text": "Vigilance",
+      "toughness": "2",
+      "type": "Token Creature — Elf Knight",
+      "uuid": "6327f3ff-c6c3-52f3-965e-101bfa88c66f",
+      "watermark": "selesnya"
+    },
+    {
+      "artist": "Mark Zug",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Legion Warboss",
+        "Krenko, Tin Street Kingpin"
+      ],
+      "scryfallId": "b27dc0bd-ba46-4a5c-9559-7c11eb4ec37b",
+      "scryfallIllustrationId": "1472da50-4fce-4777-8983-ba5d0a0efdea",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "cce2c649-57c3-57d5-bc74-c2a482d6963e"
+    },
+    {
+      "artist": "Ben Wootten",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "colors": [
+        "B",
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Insect",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Izoni, Thousand-Eyed"
+      ],
+      "scryfallId": "0436e71b-c1f9-4ca8-a29c-775da858a0cd",
+      "scryfallIllustrationId": "cc4b50d2-0ec5-4f36-9669-e7c68fdbb672",
+      "scryfallOracleId": "ea029c48-d26e-40b1-acef-2ec47fb61101",
+      "toughness": "1",
+      "type": "Token Creature — Insect",
+      "uuid": "f143f4bb-228d-59a5-a845-81f690dd4eb0"
+    },
+    {
+      "artist": "Kieran Yanner",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Ral, Izzet Viceroy Emblem",
+      "number": "7",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "03580d3a-4c02-4f2e-b667-f82028ccde0b",
+      "scryfallIllustrationId": "bf55e044-4311-498b-adf8-462e566016a7",
+      "scryfallOracleId": "7306e176-a32f-4d6d-b2cf-483ad508ddc5",
+      "text": "Whenever you cast an instant or sorcery spell, this emblem deals 4 damage to any target and you draw two cards.",
+      "type": "Emblem — Ral",
+      "uuid": "c0f51f16-4441-50ac-98b2-6b9bf357b637"
+    },
+    {
+      "artist": "John Severin Brassell",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Dawn of Hope",
+        "Haazda Marshal",
+        "Hunted Witness",
+        "Sworn Companions",
+        "Emmara, Soul of the Accord",
+        "Ledev Champion",
+        "March of the Multitudes",
+        "Trostani Discordant"
+      ],
+      "scryfallId": "45907b16-af17-4237-ab38-9d7537fd30e8",
+      "scryfallIllustrationId": "cf32bb89-fdfa-4965-9bea-d32415aad557",
+      "scryfallOracleId": "a5ab7f2d-a434-4342-a178-754bdd0181b6",
+      "text": "Lifelink",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "800565cf-3d40-50aa-9688-cc106210bbe6"
+    },
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Vraska, Golgari Queen Emblem",
+      "number": "8",
+      "reverseRelated": [
+        "Vraska, Golgari Queen"
+      ],
+      "scryfallId": "d81478ee-1ddf-44f5-98a0-df6d4eecad7e",
+      "scryfallIllustrationId": "6143dd63-e8c7-4df4-9798-a969b06d2d16",
+      "scryfallOracleId": "c43c74a0-8e82-4349-9df9-ffaba2b2bed7",
+      "text": "Whenever a creature you control deals combat damage to a player, that player loses the game.",
+      "type": "Emblem — Vraska",
+      "uuid": "5d003d66-45f4-55f8-b8d7-08093f782f3c"
+    }
+  ],
+  "totalSetSize": 273,
+  "translations": {
+    "Chinese Simplified": "烽会拉尼卡",
+    "Chinese Traditional": "烽會拉尼卡",
+    "French": "Les guildes de Ravnica",
+    "German": "Gilden von Ravnica",
+    "Italian": "Gilde di Ravnica",
+    "Japanese": "『ラヴニカのギルド』",
+    "Korean": "라브니카의 길드",
+    "Portuguese (Brazil)": "Guildas de Ravnica",
+    "Russian": "«Гильдии Равники»",
+    "Spanish": "Gremios de Rávnica"
+  },
+  "type": "expansion"
+}

@@ -1,13 +1,85 @@
 {
-  "name": "Duel Decks: Elspeth vs. Kiora",
+  "baseSetSize": 0,
   "code": "DDO",
-  "magicCardsInfoCode": "ddo",
-  "releaseDate": "2015-02-27",
-  "border": "black",
-  "type": "duel deck",
-  "translations": {
-    "jp": "デュエルデッキ: エルズペスVSキオーラ"
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DDO",
+  "mcmId": 1593,
+  "mcmName": "Duel Decks: Elspeth vs. Kiora",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Duel Decks: Elspeth vs. Kiora",
-  "mkm_id": 1593
+  "name": "Duel Decks: Elspeth vs. Kiora",
+  "releaseDate": "2015-02-27",
+  "tcgplayerGroupId": 1511,
+  "tokens": [
+    {
+      "artist": "Dan Scott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "duelDeck": "c",
+      "layout": "normal",
+      "name": "Kraken",
+      "number": "67",
+      "power": "9",
+      "reverseRelated": [
+        "Kiora, the Crashing Wave"
+      ],
+      "scryfallId": "d0cd85cc-ad22-446b-8378-5eb69fee1959",
+      "scryfallIllustrationId": "e07a8271-9fdd-4d2b-9b7a-1b309bccc36a",
+      "scryfallOracleId": "cd0f813b-1f9f-484d-adab-bc8d16d2b867",
+      "toughness": "9",
+      "type": "Token Creature — Kraken",
+      "uuid": "c058f38b-ce7f-599a-aaef-3a8daf132955"
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "duelDeck": "c",
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "66",
+      "power": "1",
+      "reverseRelated": [
+        "Elspeth, Sun's Champion",
+        "Captain of the Watch",
+        "Decree of Justice",
+        "Precinct Captain",
+        "Raise the Alarm"
+      ],
+      "scryfallId": "44b4dbfa-2d32-4232-9518-b85df3df708b",
+      "scryfallIllustrationId": "1ba12de0-a18b-4b57-9c7b-73ae5ee5a8bd",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "c2bc30cf-1bde-5c31-aa1b-2626f0460b64"
+    }
+  ],
+  "totalSetSize": 67,
+  "translations": {
+    "Chinese Simplified": "Elspeth vs. Kiora",
+    "Chinese Traditional": "Elspeth vs. Kiora",
+    "French": "Elspeth vs. Kiora",
+    "German": "Elspeth vs. Kiora",
+    "Italian": "Elspeth vs. Kiora",
+    "Japanese": "『デュエルデッキ: エルズペスVSキオーラ』",
+    "Korean": "Elspeth vs. Kiora",
+    "Portuguese (Brazil)": "Elspeth vs. Kiora",
+    "Russian": "Elspeth vs. Kiora",
+    "Spanish": "Elspeth vs. Kiora"
+  },
+  "type": "duel_deck"
 }

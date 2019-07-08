@@ -1,14 +1,14 @@
 {
-  "name": "The Dark",
-  "code": "DRK",
-  "gathererCode": "DK",
-  "magicCardsInfoCode": "dk",
-  "releaseDate": "1994-08-08",
-  "border": "black",
-  "type": "expansion",
-  "booster": [
-    "uncommon",
-    "uncommon",
+  "baseSetSize": 119,
+  "boosterV3": [
+    [
+      "rare",
+      "uncommon"
+    ],
+    [
+      "rare",
+      "uncommon"
+    ],
     "common",
     "common",
     "common",
@@ -16,9 +16,35 @@
     "common",
     "common"
   ],
-  "translations": {
-    "it": "L'Oscurità"
+  "code": "DRK",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "DRK",
+  "mcmId": 8,
+  "mcmName": "The Dark",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "The Dark",
-  "mkm_id": 8
+  "name": "The Dark",
+  "releaseDate": "1994-08-01",
+  "tcgplayerGroupId": 109,
+  "tokens": [
+
+  ],
+  "totalSetSize": 122,
+  "translations": {
+    "Chinese Simplified": "The Dark",
+    "Chinese Traditional": "The Dark",
+    "French": "The Dark",
+    "German": "The Dark",
+    "Italian": "The Dark",
+    "Japanese": "The Dark",
+    "Korean": "The Dark",
+    "Portuguese (Brazil)": "The Dark",
+    "Russian": "The Dark",
+    "Spanish": "The Dark"
+  },
+  "type": "expansion"
 }

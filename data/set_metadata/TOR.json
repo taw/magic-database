@@ -1,12 +1,7 @@
 {
-  "name": "Torment",
-  "code": "TOR",
-  "magicCardsInfoCode": "tr",
-  "releaseDate": "2002-02-08",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 143,
   "block": "Odyssey",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,13 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Qualen",
-    "fr": "Tourment",
-    "it": "Tormento",
-    "es": "Tormento",
-    "pt": "Tormento"
+  "code": "TOR",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "TOR",
+  "mcmId": 39,
+  "mcmName": "Torment",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Torment",
-  "mkm_id": 39
+  "mtgoCode": "TOR",
+  "name": "Torment",
+  "releaseDate": "2002-02-04",
+  "tcgplayerGroupId": 112,
+  "tokens": [
+
+  ],
+  "totalSetSize": 143,
+  "translations": {
+    "Chinese Simplified": "绝境",
+    "Chinese Traditional": "絕境",
+    "French": "Tourment",
+    "German": "Qualen",
+    "Italian": "Tormento",
+    "Japanese": "トーメント",
+    "Korean": "고통",
+    "Portuguese (Brazil)": "Torment",
+    "Russian": "Torment",
+    "Spanish": "Tormento"
+  },
+  "type": "expansion"
 }

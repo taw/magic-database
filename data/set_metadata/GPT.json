@@ -1,12 +1,7 @@
 {
-  "name": "Guildpact",
-  "code": "GPT",
-  "magicCardsInfoCode": "gp",
-  "releaseDate": "2006-02-03",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 165,
   "block": "Ravnica",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,16 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Gildenbund",
-    "fr": "Le Pacte des Guildes",
-    "it": "Patto delle Gilde",
-    "es": "El Pacto entre Gremios",
-    "pt": "Pacto das Guildas",
-    "jp": "ギルドパクト",
-    "cn": "十會盟",
-    "ru": "Договор Гильдий"
+  "code": "GPT",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "GPT",
+  "mcmId": 54,
+  "mcmName": "Guildpact",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Guildpact",
-  "mkm_id": 54
+  "mtgoCode": "GPT",
+  "name": "Guildpact",
+  "releaseDate": "2006-02-03",
+  "tcgplayerGroupId": 55,
+  "tokens": [
+
+  ],
+  "totalSetSize": 165,
+  "translations": {
+    "Chinese Simplified": "十会盟",
+    "Chinese Traditional": "十會盟",
+    "French": "Le Pacte des Guildes",
+    "German": "Gildenbund",
+    "Italian": "Patto delle Gilde",
+    "Japanese": "ギルドパクト",
+    "Korean": "길드팩트",
+    "Portuguese (Brazil)": "Pacto das Guildas",
+    "Russian": "Договор Гильдий",
+    "Spanish": "El Pacto entre Gremios"
+  },
+  "type": "expansion"
 }

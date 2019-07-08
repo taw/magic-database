@@ -1,7 +1,686 @@
 {
-  "name": "Commander 2018",
+  "baseSetSize": 0,
+  "block": "Commander",
   "code": "C18",
-  "releaseDate": "2018-08-10",
-  "border": "black",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "C18",
+  "mcmId": 2110,
+  "mcmName": "Commander 2018",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Commander 2018",
+  "releaseDate": "2018-08-09",
+  "tcgplayerGroupId": 2251,
+  "tokens": [
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "3",
+      "power": "4",
+      "reverseRelated": [
+        "Empyrial Storm",
+        "Entreat the Angels",
+        "Decree of Justice",
+        "Sigil of the Empty Throne",
+        "Moonsilver Spear"
+      ],
+      "scryfallId": "6ac609aa-49d1-4330-b718-a90b0560da52",
+      "scryfallIllustrationId": "52433729-f5bc-46b1-a0b6-d03dc7412241",
+      "scryfallOracleId": "40c64f08-ab2f-4933-8e0e-d1a1c729008f",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "4453a75b-dc15-51c5-bfcf-78aaafc4b726"
+    },
+    {
+      "artist": "Steve Prescott",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "13",
+      "power": "4",
+      "reverseRelated": [
+        "Ezuri's Predation",
+        "Rampaging Baloths",
+        "Hunting Pack"
+      ],
+      "scryfallId": "381854e2-7369-473e-a604-4dd7c010fc89",
+      "scryfallIllustrationId": "b37e5fc3-c689-4bfe-90ba-098f7ec55b5b",
+      "scryfallOracleId": "695b14a0-920a-47bd-bd4a-7989862cdd0a",
+      "toughness": "4",
+      "type": "Token Creature — Beast",
+      "uuid": "3d08f41a-1f07-5516-9295-ebe3d3fb1a12"
+    },
+    {
+      "artist": "Vincent Proce",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Beast",
+      "number": "14",
+      "power": "5",
+      "reverseRelated": [
+        "Spawning Grounds"
+      ],
+      "scryfallId": "44675b6a-ea5a-44f1-9f2c-3725cdfcc814",
+      "scryfallIllustrationId": "da96b7db-3a87-4364-bd67-59ac1f539082",
+      "scryfallOracleId": "7ea2b82a-0ceb-4e9a-aaaa-eb1dde95ca35",
+      "text": "Trample",
+      "toughness": "5",
+      "type": "Token Creature — Beast",
+      "uuid": "dee2b840-9c92-5d5e-8c58-37a745efb4c0"
+    },
+    {
+      "artist": "Jesper Ejsing",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Cat",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Ajani's Chosen",
+        "Kemba, Kha Regent",
+        "White Sun's Zenith"
+      ],
+      "scryfallId": "58a18a05-4fa1-467e-9310-e5c6dc797fcf",
+      "scryfallIllustrationId": "101b0ebd-7d56-403b-96a8-cf2fcec6fcf4",
+      "scryfallOracleId": "6788478d-e157-4483-be09-9edb3f841431",
+      "toughness": "2",
+      "type": "Token Creature — Cat",
+      "uuid": "e41c516f-816d-5dc3-ba9f-53aee2cb4114"
+    },
+    {
+      "artist": "Michael Sutfin",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Cat Warrior",
+      "number": "15",
+      "power": "2",
+      "reverseRelated": [
+        "Lord Windgrace",
+        "Jedit Ojanen of Efrava"
+      ],
+      "scryfallId": "0742ca95-9455-4f56-b26c-2994d12af602",
+      "scryfallIllustrationId": "d6fb2df8-56cb-47da-be8b-3cf4133ba850",
+      "scryfallOracleId": "e2b387e7-8b4c-41cd-95ca-df5dd1680425",
+      "text": "Forestwalk",
+      "toughness": "2",
+      "type": "Token Creature — Cat Warrior",
+      "uuid": "1bde0ef9-7ad7-5810-8141-b6a8837c9b89"
+    },
+    {
+      "artist": "Zezhou Chen",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Clue",
+      "number": "19",
+      "reverseRelated": [
+        "Magnifying Glass"
+      ],
+      "scryfallId": "93acc8a5-c694-4ad8-b4c0-2e156424319d",
+      "scryfallIllustrationId": "fd565cd3-df64-4160-826e-0b73312bfb6d",
+      "scryfallOracleId": "496e1083-c792-40a4-adf4-fec1d559cd5e",
+      "text": "{2}, Sacrifice this artifact: Draw a card.",
+      "type": "Token Artifact — Clue",
+      "uuid": "3be285f7-9a49-5f79-8b02-7116c1f9a510"
+    },
+    {
+      "artist": "Craig J Spearing",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Construct",
+      "number": "20",
+      "power": "4",
+      "reverseRelated": [
+        "Retrofitter Foundry",
+        "Servo",
+        "Thopter"
+      ],
+      "scryfallId": "7fee6034-f0bb-49b9-ad75-67d3d6be1159",
+      "scryfallIllustrationId": "f093d7dc-d41d-40cc-8fb8-b9f95d7af2bc",
+      "scryfallOracleId": "e63e34da-db53-4444-89f5-d4144b6deffc",
+      "toughness": "4",
+      "type": "Token Artifact Creature — Construct",
+      "uuid": "b9f7f4b5-fea0-5a88-9b7b-d11b0f1a5d12"
+    },
+    {
+      "artist": "Jung Park",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Construct",
+      "number": "21",
+      "power": "6",
+      "reverseRelated": [
+        "Ancient Stone Idol"
+      ],
+      "scryfallId": "8936efa7-c4d0-426d-977b-38c957a9f025",
+      "scryfallIllustrationId": "e470f582-a644-4c7e-9992-b9b325f8506b",
+      "scryfallOracleId": "780b9ad2-e96c-468e-9721-dde3e1afe618",
+      "text": "Trample",
+      "toughness": "12",
+      "type": "Token Artifact Creature — Construct",
+      "uuid": "cb3e6dd4-06bd-5b60-b64d-5b24774cc194"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "11",
+      "power": "2",
+      "reverseRelated": [
+        "Nesting Dragon",
+        "Dragon Egg"
+      ],
+      "scryfallId": "5afb55d9-0852-4fe5-8e3b-330714d4c245",
+      "scryfallIllustrationId": "19a5611f-16e3-4a0c-9e26-fc666dab2b8d",
+      "scryfallOracleId": "ec6df381-5ea7-4c68-8416-093b107f0784",
+      "text": "Flying\n{R}: This creature gets +1/+0 until end of turn.",
+      "toughness": "2",
+      "type": "Token Creature — Dragon",
+      "uuid": "1f9ed78a-a246-573e-b7db-e723ca9b42fd"
+    },
+    {
+      "artist": "Jehan Choo",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon Egg",
+      "number": "10",
+      "power": "0",
+      "reverseRelated": [
+        "Nesting Dragon",
+        "Dragon"
+      ],
+      "scryfallId": "0e80f154-9409-40fa-a564-6fc296498d80",
+      "scryfallIllustrationId": "117fc0c6-8301-4e37-b711-2833103a3c3b",
+      "scryfallOracleId": "015b712b-3778-449d-9280-f848eef0fd8a",
+      "text": "Defender\nWhen this creature dies, create a 2/2 red Dragon creature token with flying and \"{R}: This creature gets +1/+0 until end of turn.\"",
+      "toughness": "2",
+      "type": "Token Creature — Dragon Egg",
+      "uuid": "8e391eec-76e1-5c36-a745-a72f00f331c0"
+    },
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "16",
+      "power": "*",
+      "reverseRelated": [
+        "Budoka Gardener // Dokai, Weaver of Life"
+      ],
+      "scryfallId": "c5ad13b4-bbf5-4c98-868f-4d105eaf8833",
+      "scryfallIllustrationId": "e8917bdc-5622-4c32-9fe8-47be0418960d",
+      "scryfallOracleId": "761b9ff0-1ba3-418c-a99f-2cf855bde9f8",
+      "toughness": "*",
+      "type": "Token Creature — Elemental",
+      "uuid": "49710faa-0ee4-57f6-8614-d241c8be33be"
+    },
+    {
+      "artist": "Scott Chou",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Horror",
+      "number": "22",
+      "power": "*",
+      "reverseRelated": [
+        "Phyrexian Rebirth"
+      ],
+      "scryfallId": "ae98a532-2e83-46bc-b391-cc0ab20ea0da",
+      "scryfallIllustrationId": "8b673941-a37d-416f-ad87-30800ef8b620",
+      "scryfallOracleId": "7f03946b-e602-4624-bf1e-ed240b883fca",
+      "toughness": "*",
+      "type": "Token Artifact Creature — Horror",
+      "uuid": "ed8c10fd-7328-5f5d-8d4e-a78cccc35953"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Manifest",
+      "number": "1",
+      "power": "2",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "d6fb189b-20a3-4ba4-86ec-f84513e0281a",
+      "scryfallIllustrationId": "f44446a8-4e3e-4a46-88c9-190c9e11e6d3",
+      "scryfallOracleId": "f4f184ef-f456-47d8-9012-095629a5ea4d",
+      "text": "(You can cover a face-down manifested creature with this reminder card.\nA manifested creature card can be turned face up any time for its mana cost. A face-down card can also be turned face up for its morph cost.)",
+      "toughness": "2",
+      "type": "Creature",
+      "uuid": "cb45ef92-81aa-5377-8d6f-21acca961283"
+    },
+    {
+      "artist": "Johannes Voss",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Mask",
+      "number": "4",
+      "reverseRelated": [
+        "Estrid, the Masked"
+      ],
+      "scryfallId": "b21b5504-c5ef-4dfc-8219-8db90aca7694",
+      "scryfallIllustrationId": "fd98c50b-99a0-4e74-9a41-c7029da4b5dd",
+      "scryfallOracleId": "5f634a21-82ea-4f84-951f-e7a9f5ef1379",
+      "text": "Enchant permanent\nTotem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)",
+      "type": "Token Enchantment — Aura",
+      "uuid": "ed6cdbbc-1dec-520c-b2a7-4fa804fb78af"
+    },
+    {
+      "artist": "Ryan Pancoast",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Myr",
+      "number": "23",
+      "power": "1",
+      "reverseRelated": [
+        "Myr Battlesphere",
+        "Myr Sire"
+      ],
+      "scryfallId": "e9c49fa9-6f8b-4d3a-9b11-edbf4c8b8baa",
+      "scryfallIllustrationId": "38aaf042-2fed-4761-baa7-62a3002b71fd",
+      "scryfallOracleId": "bf690282-125f-431c-a363-39f6772324c8",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Myr",
+      "uuid": "d2d62904-fc39-5cb0-b46a-0c195e746bd3"
+    },
+    {
+      "artist": "Daarken",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Myr",
+      "number": "7",
+      "power": "2",
+      "reverseRelated": [
+        "Brudiclad, Telchor Engineer"
+      ],
+      "scryfallId": "656af066-f9b3-4c23-b6c4-3ff55776858f",
+      "scryfallIllustrationId": "163110db-ee19-4832-8dab-b365ed354c65",
+      "scryfallOracleId": "21711b3c-2f1e-47b6-9d9b-979be78df2eb",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Myr",
+      "uuid": "a7795b58-dc68-52fe-afbe-6c7627851be2"
+    },
+    {
+      "artist": "Daren Bader",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Plant",
+      "number": "17",
+      "power": "0",
+      "reverseRelated": [
+        "Turntimber Sower",
+        "Avenger of Zendikar",
+        "Khalni Garden"
+      ],
+      "scryfallId": "84fcc620-a467-47ce-bbbe-387bad7619ab",
+      "scryfallIllustrationId": "db072403-4f85-47a1-ab8d-02d3d8e18213",
+      "scryfallOracleId": "bcd346a7-4d96-4a0c-9725-fb740e32b730",
+      "toughness": "1",
+      "type": "Token Creature — Plant",
+      "uuid": "12a959a3-d4d7-51e9-9f15-559189b07235"
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Servo",
+      "number": "24",
+      "power": "1",
+      "reverseRelated": [
+        "Retrofitter Foundry",
+        "Construct",
+        "Thopter"
+      ],
+      "scryfallId": "6ec42fab-86b8-4479-90f2-a1690318d6d4",
+      "scryfallIllustrationId": "ece2de1a-9a37-4f90-b3ed-8f0374722960",
+      "scryfallOracleId": "b6ca7bd1-d72e-4260-8b52-997ee1377279",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Servo",
+      "uuid": "dd5a60f1-75d0-53d9-990e-5510c8032f1b"
+    },
+    {
+      "artist": "Franz Vohwinkel",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Shapeshifter",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Crib Swap"
+      ],
+      "scryfallId": "d01a5225-4a61-4fa3-b38b-452606140781",
+      "scryfallIllustrationId": "31004897-2994-49d6-9668-98941c5458fa",
+      "scryfallOracleId": "fe8478ec-2af9-472b-b104-a71521a3559f",
+      "text": "Changeling",
+      "toughness": "1",
+      "type": "Token Creature — Shapeshifter",
+      "uuid": "3b5b5866-f740-53ca-9d9c-9d985329e4b3"
+    },
+    {
+      "artist": "Alan Pollack",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Entrapment Maneuver",
+        "Deploy to the Front",
+        "Decree of Justice",
+        "Martial Coup",
+        "Mobilization",
+        "Akroan Horse"
+      ],
+      "scryfallId": "a3ef007f-d90f-4835-a5c0-35fb33c63719",
+      "scryfallIllustrationId": "cb255fcf-05ca-471c-b65d-2577aa754168",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "568b5d2c-6417-5a18-959a-f8d9c53289ef"
+    },
+    {
+      "artist": "Johannes Voss",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Survivor",
+      "number": "12",
+      "power": "1",
+      "reverseRelated": [
+        "Varchild, Betrayer of Kjeldor"
+      ],
+      "scryfallId": "f4478979-19b6-4524-bbbd-519594c38f5a",
+      "scryfallIllustrationId": "6f0334ab-a53d-4d63-a8ea-1a84a36d4459",
+      "scryfallOracleId": "a4c1272a-ca44-4150-84c7-7eea48a89604",
+      "toughness": "1",
+      "type": "Token Creature — Survivor",
+      "uuid": "23f246f1-b4ec-5ccb-94d1-db6217b5fb47"
+    },
+    {
+      "artist": "Richard Wright",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Thopter",
+      "number": "25",
+      "power": "1",
+      "reverseRelated": [
+        "Loyal Apprentice",
+        "Retrofitter Foundry",
+        "Thopter Spy Network",
+        "Whirler Rogue",
+        "Thopter Engineer",
+        "Maverick Thopterist",
+        "Thopter Assembly",
+        "Foundry of the Consuls",
+        "Construct",
+        "Servo"
+      ],
+      "scryfallId": "62cafc0a-cd02-4265-aa1f-b8a6cb7cc8db",
+      "scryfallIllustrationId": "c263f60c-e1ef-480b-8e93-d5c399697e4a",
+      "scryfallOracleId": "7c0b6b53-4ddb-4bb5-8a26-0041b2006d3f",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Thopter",
+      "uuid": "c0e49d72-8bbf-51e2-9212-469f4cc39a37"
+    },
+    {
+      "artist": "Adam Paquette",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Thopter",
+      "number": "26",
+      "power": "1",
+      "reverseRelated": [
+        "Loyal Apprentice",
+        "Retrofitter Foundry",
+        "Thopter Spy Network",
+        "Whirler Rogue",
+        "Thopter Engineer",
+        "Maverick Thopterist",
+        "Thopter Assembly",
+        "Foundry of the Consuls",
+        "Construct",
+        "Servo"
+      ],
+      "scryfallId": "8d502061-ca95-4067-a61f-bc5294c274dd",
+      "scryfallIllustrationId": "458f96c5-d6b7-4d15-b38f-09f75f3e2733",
+      "scryfallOracleId": "7c0b6b53-4ddb-4bb5-8a26-0041b2006d3f",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Thopter",
+      "uuid": "a4f2c51a-9ec6-5b9b-b86f-6e7c19f3fed8"
+    },
+    {
+      "artist": "Andrew Murray",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Thopter",
+      "number": "8",
+      "power": "1",
+      "reverseRelated": [
+        "Breya, Etherium Shaper",
+        "Sharding Sphinx",
+        "Thopter Foundry"
+      ],
+      "scryfallId": "a3506ee6-a168-49a4-9814-2858194be60e",
+      "scryfallIllustrationId": "8f3ab49a-8831-46b8-a74e-5b985ec34c3c",
+      "scryfallOracleId": "e3c8482e-ce21-43f8-ac07-c26c01941a4d",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Thopter",
+      "uuid": "1237c54d-076e-5466-b485-ed10d87f454b"
+    },
+    {
+      "artist": "Chuck Lukacs",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "colors": [
+        "B",
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Worm",
+      "number": "18",
+      "power": "1",
+      "reverseRelated": [
+        "Worm Harvest"
+      ],
+      "scryfallId": "74b0276f-004e-458a-b941-e217216141f6",
+      "scryfallIllustrationId": "378a91e5-1f4c-4b4a-9a65-7757e2e7a34d",
+      "scryfallOracleId": "318d6000-b6e0-4ef0-ad58-d470f4a271e6",
+      "toughness": "1",
+      "type": "Token Creature — Worm",
+      "uuid": "653cfa2a-2f64-5081-a979-a7117a9c2bf7"
+    },
+    {
+      "artist": "Anna Steinbauer",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "9",
+      "power": "2",
+      "reverseRelated": [
+        "Curse of Disturbance",
+        "Ghoulcaller Gisa",
+        "Overseer of the Damned",
+        "Varina, Lich Queen",
+        "Dread Summons",
+        "Syphon Flesh",
+        "Army of the Damned",
+        "Waste Not",
+        "Grave Titan",
+        "Liliana's Reaver",
+        "Necromancer's Covenant"
+      ],
+      "scryfallId": "faa2e829-fa71-426b-b71f-dfa021786531",
+      "scryfallIllustrationId": "2391d548-fc02-4021-a6c5-fa680b9f4fde",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "280e72d1-a390-51da-88e4-435f59cf7632"
+    }
+  ],
+  "totalSetSize": 307,
+  "translations": {
+  },
   "type": "commander"
 }

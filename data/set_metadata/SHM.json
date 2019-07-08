@@ -1,12 +1,7 @@
 {
-  "name": "Shadowmoor",
-  "code": "SHM",
-  "magicCardsInfoCode": "shm",
-  "releaseDate": "2008-05-02",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 301,
   "block": "Shadowmoor",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -24,16 +19,333 @@
     "common",
     "marketing"
   ],
-  "translations": {
-    "de": "Schattenmoor",
-    "fr": "Sombrelande",
-    "it": "Landa Tenebrosa",
-    "es": "Páramo Sombrío",
-    "pt": "Pântano Sombrio",
-    "jp": "シャドウムーア",
-    "cn": "暗影荒原",
-    "ru": "Шэдоумур"
+  "code": "SHM",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "SHM",
+  "mcmId": 95,
+  "mcmName": "Shadowmoor",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Shadowmoor",
-  "mkm_id": 95
+  "mtgoCode": "SHM",
+  "name": "Shadowmoor",
+  "releaseDate": "2008-05-02",
+  "tcgplayerGroupId": 102,
+  "tokens": [
+    {
+      "artist": "Cyril Van Der Haegen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Elemental Mastery"
+      ],
+      "scryfallId": "94c14f3d-1578-426b-b64b-07c7e88ab572",
+      "scryfallIllustrationId": "20b6afff-c352-49db-a2fa-4f8489bdfd27",
+      "scryfallOracleId": "c1210422-355f-4923-ab04-817d57f9d13d",
+      "text": "Haste",
+      "toughness": "1",
+      "type": "Token Creature — Elemental",
+      "uuid": "cbe22fda-c7f6-5321-b17d-0b923d522fd5"
+    },
+    {
+      "artist": "Dave Dorman",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "colors": [
+        "B",
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Elemental",
+      "number": "9",
+      "power": "5",
+      "reverseRelated": [
+        "Din of the Fireherd"
+      ],
+      "scryfallId": "0c5afb0a-a158-4995-881e-eae0f20805a6",
+      "scryfallIllustrationId": "9d855711-e5bc-49e5-8c0f-8c77c809c551",
+      "scryfallOracleId": "bfde681b-27f5-4d1d-9907-593364745d10",
+      "toughness": "5",
+      "type": "Token Creature — Elemental",
+      "uuid": "09776f36-04aa-53d6-a6f8-b8cf926d71e7"
+    },
+    {
+      "artist": "Carl Frank",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "G",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Elf Warrior",
+      "number": "12",
+      "power": "1",
+      "reverseRelated": [
+        "Mercy Killing",
+        "Rhys the Redeemed"
+      ],
+      "scryfallId": "49180301-f72f-48ca-8be1-df295e89cdd7",
+      "scryfallIllustrationId": "95a462da-ec95-4424-b939-a78184b53d9f",
+      "scryfallOracleId": "86f88b6a-762c-4cbd-8ea2-d30ee16c7f99",
+      "toughness": "1",
+      "type": "Token Creature — Elf Warrior",
+      "uuid": "5dc20831-4533-5db5-aec1-f4acc14b2be3"
+    },
+    {
+      "artist": "William O'Connor",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Elf Warrior",
+      "number": "5",
+      "power": "1",
+      "reverseRelated": [
+        "Flourishing Defenses",
+        "Presence of Gond"
+      ],
+      "scryfallId": "b7663358-c85c-4ba4-ac9b-6be6105363a9",
+      "scryfallIllustrationId": "a573739e-fe8e-4ddf-9c96-03a34bd0e3b0",
+      "scryfallOracleId": "dac8a765-6845-4b57-bb79-4ec463436f92",
+      "toughness": "1",
+      "type": "Token Creature — Elf Warrior",
+      "uuid": "7af16ad6-2179-5d63-8cbb-de3ebdbe7b3c"
+    },
+    {
+      "artist": "E. M. Gist",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "colors": [
+        "B",
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Faerie Rogue",
+      "number": "8",
+      "power": "1",
+      "reverseRelated": [
+        "Oona, Queen of the Fae"
+      ],
+      "scryfallId": "a07b4786-1592-42c7-9d3e-d0d66abaed99",
+      "scryfallIllustrationId": "cd880bd0-cdf6-414e-be18-7216595d826c",
+      "scryfallOracleId": "759b1cd0-a2d9-46d3-8433-33892abd184c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Faerie Rogue",
+      "uuid": "020607f7-0520-5534-b5e9-5495c7852a08"
+    },
+    {
+      "artist": "Trevor Hairsine",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "colors": [
+        "G",
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Giant Warrior",
+      "number": "10",
+      "power": "4",
+      "reverseRelated": [
+        "Giantbaiting"
+      ],
+      "scryfallId": "6f84b406-112d-4b01-8500-60391692a17e",
+      "scryfallIllustrationId": "2698e279-26de-4c8a-b3ae-c51a58006088",
+      "scryfallOracleId": "e067754e-ddd6-44fc-8783-07e98db21c57",
+      "text": "Haste",
+      "toughness": "4",
+      "type": "Token Creature — Giant Warrior",
+      "uuid": "318096f4-0dc9-5875-bf02-8d75d637ac23"
+    },
+    {
+      "artist": "Dave Allsop",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "colors": [
+        "G",
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin Warrior",
+      "number": "11",
+      "power": "1",
+      "reverseRelated": [
+        "Wort, the Raidmother"
+      ],
+      "scryfallId": "e36334f1-afe3-497c-82d9-aaf149934b54",
+      "scryfallIllustrationId": "332169c5-fabb-436b-8145-12f0036ac920",
+      "scryfallOracleId": "b96b076f-9815-457e-bbe2-4abf4c8f85cf",
+      "toughness": "1",
+      "type": "Token Creature — Goblin Warrior",
+      "uuid": "3c1f8f6b-ce7e-5e7e-8ed3-981f21d791c5"
+    },
+    {
+      "artist": "Randy Gallegos",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Kithkin Soldier",
+      "number": "1",
+      "power": "1",
+      "reverseRelated": [
+        "Cenn's Enlistment",
+        "Patrol Signaler",
+        "Gwyllion Hedge-Mage",
+        "Repel Intruders"
+      ],
+      "scryfallId": "061cb705-695a-4f65-adbf-869ebb4eb946",
+      "scryfallIllustrationId": "00825dcd-eb99-43e9-bf0d-efdba80b2bac",
+      "scryfallOracleId": "caf4a0d2-64de-42df-a88e-bb0d3f34e207",
+      "toughness": "1",
+      "type": "Token Creature — Kithkin Soldier",
+      "uuid": "164ecc17-7052-5602-8615-457e94293ec5"
+    },
+    {
+      "artist": "Carl Critchlow",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Rat",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Plague of Vermin"
+      ],
+      "scryfallId": "1a85fe9d-ef18-46c4-88b0-cf2e222e30e4",
+      "scryfallIllustrationId": "5cdbdbd0-810c-4b97-93b6-149790df68e0",
+      "scryfallOracleId": "7c753b68-b519-43ba-9c58-4902f4850626",
+      "toughness": "1",
+      "type": "Token Creature — Rat",
+      "uuid": "f92ad177-9317-5749-ae86-12eef33c86b2"
+    },
+    {
+      "artist": "Thomas M. Baxa",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Spider",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Gloomwidow's Feast"
+      ],
+      "scryfallId": "7df0de51-8d05-475a-832e-de8a0f60849e",
+      "scryfallIllustrationId": "04e2cde0-e303-4f24-824a-5b03e74c65cd",
+      "scryfallOracleId": "bd386399-69f0-4653-96a1-fd05b8fd148c",
+      "text": "Reach",
+      "toughness": "2",
+      "type": "Token Creature — Spider",
+      "uuid": "a10f00c7-7c11-595d-8367-3f70cecf45da"
+    },
+    {
+      "artist": "Jeremy Enecio",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Spectral Procession"
+      ],
+      "scryfallId": "cba50f25-ad8c-4244-8dc1-f8656f4c8c0b",
+      "scryfallIllustrationId": "b326901a-a5d8-4a3e-af7e-20f72338b57e",
+      "scryfallOracleId": "dc4e2134-f0c2-49aa-9ea3-ebf83af1445c",
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Token Creature — Spirit",
+      "uuid": "d60986cb-dd5b-58c4-bd9c-d12f03b5be18"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "7",
+      "power": "2",
+      "reverseRelated": [
+        "Howl of the Night Pack",
+        "Fable of Wolf and Owl",
+        "Bird"
+      ],
+      "scryfallId": "9c138bf9-8be6-4f1a-a82c-a84938ab84f5",
+      "scryfallIllustrationId": "8de43024-f594-4ea8-bddc-291d084d9e4e",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "0624b00f-87ff-579e-9e4a-c3269df60c34"
+    }
+  ],
+  "totalSetSize": 302,
+  "translations": {
+    "Chinese Simplified": "暗影荒原",
+    "Chinese Traditional": "闇影荒原",
+    "French": "Sombrelande",
+    "German": "Schattenmoor",
+    "Italian": "Landa Tenebrosa",
+    "Japanese": "シャドウムーア",
+    "Korean": "샤도우무어",
+    "Portuguese (Brazil)": "Pântano Sombrio",
+    "Russian": "Шэдоумур",
+    "Spanish": "Páramo Sombrío"
+  },
+  "type": "expansion"
 }

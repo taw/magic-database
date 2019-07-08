@@ -1,0 +1,511 @@
+{
+  "baseSetSize": 264,
+  "block": "Guilds of Ravnica",
+  "boosterV3": [
+    [
+      "rare",
+      "mythic rare"
+    ],
+    "uncommon",
+    "uncommon",
+    "uncommon",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "common",
+    "land",
+    "marketing"
+  ],
+  "code": "WAR",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "WAR",
+  "mcmId": 2439,
+  "mcmName": "War of the Spark",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "WAR",
+  "name": "War of the Spark",
+  "releaseDate": "2019-05-03",
+  "tcgplayerGroupId": 2418,
+  "tokens": [
+    {
+      "artist": "Volkan Baǵa",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Angel",
+      "number": "2",
+      "power": "4",
+      "reverseRelated": [
+        "Finale of Glory",
+        "Parhelion II"
+      ],
+      "scryfallId": "b16b81e0-5525-4be3-96db-807146fdc5b3",
+      "scryfallIllustrationId": "287c4dae-77de-4182-8588-4e9ca55d3770",
+      "scryfallOracleId": "29ff8699-53d8-413b-8a3c-0e3ea1e13ff0",
+      "text": "Flying, vigilance",
+      "toughness": "4",
+      "type": "Token Creature — Angel",
+      "uuid": "c0aad500-b243-5b0c-bfa9-42184982913c"
+    },
+    {
+      "artist": "Zezhou Chen",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Assassin",
+      "number": "6",
+      "power": "1",
+      "reverseRelated": [
+        "Vraska, Swarm's Eminence"
+      ],
+      "scryfallId": "b7e997ac-5a4a-4555-9b37-06c25a5db356",
+      "scryfallIllustrationId": "b355ec58-1bdd-456d-9c4e-37773d2cc060",
+      "scryfallOracleId": "3d16f64b-db92-4468-81f9-409d16304b96",
+      "text": "Deathtouch\nWhenever this creature deals damage to a planeswalker, destroy that planeswalker.",
+      "toughness": "1",
+      "type": "Token Creature — Assassin",
+      "uuid": "2ee5b595-a11c-5566-83db-53cab7d6b144"
+    },
+    {
+      "artist": "Winona Nelson",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Citizen",
+      "number": "16",
+      "power": "2",
+      "reverseRelated": [
+        "Planewide Celebration"
+      ],
+      "scryfallId": "de7ba875-f77b-404f-8b75-4ba6f81da410",
+      "scryfallIllustrationId": "4d034743-69de-40ef-b365-93abf3fdfb15",
+      "scryfallOracleId": "40eb1ffc-edab-4500-936a-2eac96a18172",
+      "text": "This creature is all colors.",
+      "toughness": "2",
+      "type": "Token Creature — Citizen",
+      "uuid": "24a02ae4-4baa-5be7-9b96-97b6a6040a20"
+    },
+    {
+      "artist": "Kev Walker",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Devil",
+      "number": "12",
+      "power": "1",
+      "reverseRelated": [
+        "Tibalt, Rakish Instigator"
+      ],
+      "scryfallId": "72dc3d65-1729-4541-9dc3-bd673e9bdc5d",
+      "scryfallIllustrationId": "d8167f40-5f1e-4bae-8371-c4e6a906dee8",
+      "scryfallOracleId": "02d1dc2f-625e-4be3-9daf-e48c44bc9bf7",
+      "text": "When this creature dies, it deals 1 damage to any target.",
+      "toughness": "1",
+      "type": "Token Creature — Devil",
+      "uuid": "9bd554f8-bc12-59ec-a25a-ecb3c5f04e79"
+    },
+    {
+      "artist": "Kieran Yanner",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Dragon",
+      "number": "13",
+      "power": "4",
+      "reverseRelated": [
+        "Sarkhan the Masterless"
+      ],
+      "scryfallId": "a195b254-bc3c-4259-9219-5a9e085d7947",
+      "scryfallIllustrationId": "00de1484-8510-4d32-ada8-4472fe2e0414",
+      "scryfallOracleId": "c8790543-9399-4312-9b15-aa8a45c8fec7",
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Token Creature — Dragon",
+      "uuid": "7487935c-ba10-5170-be2d-7b9df697cc51"
+    },
+    {
+      "artist": "Mark Behm",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "14",
+      "power": "1",
+      "reverseRelated": [
+        "Krenko, Tin Street Kingpin"
+      ],
+      "scryfallId": "c0861b13-6cf8-4078-9178-e223a4041a8b",
+      "scryfallIllustrationId": "8de53a02-945f-4d6a-93ca-9f3fcf06856b",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "e08f4e5b-9bcd-5299-bd95-328b627c93e4"
+    },
+    {
+      "artist": "Chris Rallis",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "emblem",
+      "name": "Nissa, Who Shakes the World Emblem",
+      "number": "19",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "56b191fe-7a92-4d08-91a4-036699d08bc4",
+      "scryfallIllustrationId": "73f49036-4e61-49d4-b8c8-049e5e9a3b9f",
+      "scryfallOracleId": "accd547d-b603-4a5f-8a7e-0e5d1a2ef5f8",
+      "text": "Lands you control have indestructible.",
+      "type": "Emblem — Nissa",
+      "uuid": "2cc52837-9a6e-579c-9425-259f2090defa"
+    },
+    {
+      "artist": "Victor Adame Minguez",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Servo",
+      "number": "18",
+      "power": "1",
+      "reverseRelated": [
+        "Saheeli, Sublime Artificer"
+      ],
+      "scryfallId": "761507d5-d36a-4123-a074-95d7f6ffb4c5",
+      "scryfallIllustrationId": "05a04f7f-9880-4af4-9eb8-7277fcce2a0f",
+      "scryfallOracleId": "b6ca7bd1-d72e-4260-8b52-997ee1377279",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Servo",
+      "uuid": "22c9d431-2f5d-5649-974f-67e2cdf751e4"
+    },
+    {
+      "artist": "Johan Grenier",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "3",
+      "power": "2",
+      "reverseRelated": [
+        "Finale of Glory"
+      ],
+      "scryfallId": "ca11c711-93fe-45ca-b393-3851148defc4",
+      "scryfallIllustrationId": "f6e8bc44-4f12-40bb-8692-7b91583c9e70",
+      "scryfallOracleId": "01e023e5-38bc-4203-aecb-6b2de54b03ea",
+      "text": "Vigilance",
+      "toughness": "2",
+      "type": "Token Creature — Soldier",
+      "uuid": "3bfc3bd1-e49d-5199-ac6f-6b3639bee3e0"
+    },
+    {
+      "artist": "Johann Bodin",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Spirit",
+      "number": "1",
+      "power": "2",
+      "reverseRelated": [
+        "Ugin, the Ineffable"
+      ],
+      "scryfallId": "243d7514-35a9-446b-be0d-a5b6b4001291",
+      "scryfallIllustrationId": "cbc0580b-3a7c-446e-b1f0-3a9528e00572",
+      "scryfallOracleId": "399bc553-11f7-413c-83c5-4b022fc6b3de",
+      "toughness": "2",
+      "type": "Token Creature — Spirit",
+      "uuid": "bec19f4f-2b4c-554a-89b5-4b2ce4651213"
+    },
+    {
+      "artist": "Chris Seaman",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": [
+        "G",
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Voja, Friend to Elves",
+      "number": "17",
+      "power": "3",
+      "reverseRelated": [
+        "Tolsimir, Friend to Wolves"
+      ],
+      "scryfallId": "39475e91-1e71-4546-ae4a-47ea66e47536",
+      "scryfallIllustrationId": "c4d28f81-36b5-4e83-82a4-dd376429d863",
+      "scryfallOracleId": "fe640667-a015-4b42-83a0-6522dad5f898",
+      "toughness": "3",
+      "type": "Token Legendary Creature — Wolf",
+      "uuid": "3f96ad75-0d6e-55d6-b0e3-655d236ed3ac"
+    },
+    {
+      "artist": "Jason Rainville",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Wall",
+      "number": "4",
+      "power": "0",
+      "reverseRelated": [
+        "Teyo, the Shieldmage"
+      ],
+      "scryfallId": "e8ae8c31-70cb-44e1-a105-f4d29f1f9356",
+      "scryfallIllustrationId": "4c0d4baa-fc62-41f5-bda7-72e877600280",
+      "scryfallOracleId": "445f23a7-2a2a-4fa5-9810-560501e08748",
+      "text": "Defender",
+      "toughness": "3",
+      "type": "Token Creature — Wall",
+      "uuid": "d6b4d421-cfb0-5e80-acc7-23df1e564bc9"
+    },
+    {
+      "artist": "Sara Winters",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "layout": "normal",
+      "name": "Wizard",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Kasmina, Enigmatic Mentor"
+      ],
+      "scryfallId": "7b0b95ce-4821-4955-a27c-93471240f54b",
+      "scryfallIllustrationId": "4a7d628a-23cd-474a-aacb-c41cfc2ea760",
+      "scryfallOracleId": "3e211a1b-7115-422b-bcb5-3d6c005afd7f",
+      "toughness": "2",
+      "type": "Token Creature — Wizard",
+      "uuid": "afeb010f-4f7c-5f7d-a87d-57f33b128f3b"
+    },
+    {
+      "artist": "Lars Grant-West",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "15",
+      "power": "2",
+      "reverseRelated": [
+        "Arlinn, Voice of the Pack"
+      ],
+      "scryfallId": "551f3219-3e98-4354-abcd-db22c3253105",
+      "scryfallIllustrationId": "dd356576-b3d5-44fd-a2c7-4d1b75ae8eda",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "915b21f2-982d-57ba-ac1a-610e8757d50f"
+    },
+    {
+      "artist": "Simon Dominic",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie",
+      "number": "7",
+      "power": "2",
+      "reverseRelated": [
+        "Liliana, Dreadhorde General"
+      ],
+      "scryfallId": "935d1421-0d26-468f-aa86-488b0ba25e77",
+      "scryfallIllustrationId": "e3843c33-c108-4597-b5d4-1fe25ec342f9",
+      "scryfallOracleId": "ddc8c973-c31e-463f-be45-f3fa7d632362",
+      "toughness": "2",
+      "type": "Token Creature — Zombie",
+      "uuid": "ffafb605-acb9-5611-bde8-5e9c351ff06d"
+    },
+    {
+      "artist": "Tomasz Jedruszek",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie Army",
+      "number": "10",
+      "power": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "12742d1f-eb2e-4262-88e2-403c9ae6c431",
+      "scryfallIllustrationId": "11d76769-424a-48ff-9d46-d3b0efc6f159",
+      "scryfallOracleId": "8bf1137a-163c-446f-8d34-168a7705df4e",
+      "toughness": "0",
+      "type": "Token Creature — Zombie Army",
+      "uuid": "5f61373b-3913-5e28-a65c-6a5ed96ec38c"
+    },
+    {
+      "artist": "Tomasz Jedruszek",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie Army",
+      "number": "8",
+      "power": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "2f4b7c63-8430-4ca4-baee-dc958d5bd22f",
+      "scryfallIllustrationId": "97cfab56-1107-4a5c-90d9-fe188f669500",
+      "scryfallOracleId": "8bf1137a-163c-446f-8d34-168a7705df4e",
+      "toughness": "0",
+      "type": "Token Creature — Zombie Army",
+      "uuid": "cb23e7c3-ef87-5cdf-9caf-bdb8d8286329"
+    },
+    {
+      "artist": "Tomasz Jedruszek",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie Army",
+      "number": "9",
+      "power": "0",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "3f3f2ad9-d362-4602-8e49-b44c0659c112",
+      "scryfallIllustrationId": "d152ea3e-c9e5-44ee-b159-dc8b672346ff",
+      "scryfallOracleId": "8bf1137a-163c-446f-8d34-168a7705df4e",
+      "toughness": "0",
+      "type": "Token Creature — Zombie Army",
+      "uuid": "02e46d06-f778-5844-ad00-291218fdbdcf"
+    },
+    {
+      "artist": "Mike Bierek",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "layout": "normal",
+      "name": "Zombie Warrior",
+      "number": "11",
+      "power": "4",
+      "reverseRelated": [
+        "God-Eternal Oketra"
+      ],
+      "scryfallId": "2e06aa97-1611-4af6-8bad-32051927fcfd",
+      "scryfallIllustrationId": "81b5c822-90c0-4dc6-8d46-9138db0ef76a",
+      "scryfallOracleId": "77eeeb35-2f73-4956-8f5c-e50554758a72",
+      "text": "Vigilance",
+      "toughness": "4",
+      "type": "Token Creature — Zombie Warrior",
+      "uuid": "98544cff-11e2-5923-8fa0-d37647f395ec"
+    }
+  ],
+  "totalSetSize": 311,
+  "translations": {
+    "Chinese Simplified": "火花之战",
+    "Chinese Traditional": "火花之戰",
+    "French": "La Guerre des Planeswalkers",
+    "German": "Krieg der Funken",
+    "Italian": "La Guerra della Scintilla",
+    "Japanese": "『灯争大戦』",
+    "Korean": "플레인즈워커 전쟁",
+    "Portuguese (Brazil)": "Guerra da Centelha",
+    "Russian": "«Война Искры»",
+    "Spanish": "La Guerra de la Chispa"
+  },
+  "type": "expansion"
+}

@@ -1,12 +1,7 @@
 {
-  "name": "Scars of Mirrodin",
-  "code": "SOM",
-  "magicCardsInfoCode": "som",
-  "releaseDate": "2010-10-01",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 249,
   "block": "Scars of Mirrodin",
-  "booster": [
+  "boosterV3": [
     [
       "rare",
       "mythic rare"
@@ -27,17 +22,288 @@
     "land",
     "marketing"
   ],
-  "translations": {
-    "de": "Die Narben von Mirrodin",
-    "fr": "Les cicatrices de Mirrodin",
-    "it": "Cicatrici di Mirrodin",
-    "es": "Cicatrices de Mirrodin",
-    "pt": "Cicatrizes de Mirrodin",
-    "jp": "ミラディンの傷跡",
-    "cn": "秘罗地创痕",
-    "ru": "Шрамы Мирродина",
-    "tw": "秘罗地创痕"
+  "code": "SOM",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "SOM",
+  "mcmId": 1206,
+  "mcmName": "Scars of Mirrodin",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Scars of Mirrodin",
-  "mkm_id": 1206
+  "mtgoCode": "SOM",
+  "name": "Scars of Mirrodin",
+  "releaseDate": "2010-10-01",
+  "tcgplayerGroupId": 100,
+  "tokens": [
+    {
+      "artist": "Scott Chou",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Cat",
+      "number": "1",
+      "power": "2",
+      "reverseRelated": [
+        "Kemba, Kha Regent",
+        "White Sun's Zenith"
+      ],
+      "scryfallId": "5252ab51-43e8-4b24-9830-de0ad9b9d3dc",
+      "scryfallIllustrationId": "389f44e7-a8b3-4509-90b7-1441bc9df7e4",
+      "scryfallOracleId": "6788478d-e157-4483-be09-9edb3f841431",
+      "toughness": "2",
+      "type": "Token Creature — Cat",
+      "uuid": "eb0cc824-0297-55aa-93fa-218c5009166a"
+    },
+    {
+      "artist": "Goran Josic",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "layout": "normal",
+      "name": "Goblin",
+      "number": "3",
+      "power": "1",
+      "reverseRelated": [
+        "Chancellor of the Forge",
+        "Kuldotha Rebirth"
+      ],
+      "scryfallId": "b37f4fdb-1533-4c38-a654-f715fbef6abf",
+      "scryfallIllustrationId": "ffe85771-dd7b-480b-9e04-5cd0041d6475",
+      "scryfallOracleId": "4465eff4-5851-4721-a248-866c686c2ab8",
+      "toughness": "1",
+      "type": "Token Creature — Goblin",
+      "uuid": "86b6ca14-ff12-593e-b8d4-087f792a7fd3"
+    },
+    {
+      "artist": "Nic Klein",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Golem",
+      "number": "6",
+      "power": "3",
+      "reverseRelated": [
+        "Blade Splicer",
+        "Master Splicer",
+        "Sensor Splicer",
+        "Wing Splicer",
+        "Maul Splicer",
+        "Vital Splicer",
+        "Conversion Chamber",
+        "Golem Foundry",
+        "Precursor Golem"
+      ],
+      "scryfallId": "c705b843-ca62-47bb-95dd-f303c60088bb",
+      "scryfallIllustrationId": "92c93685-2ae0-442a-8fb9-eafdb9eebae0",
+      "scryfallOracleId": "9859c54d-695b-4bb1-940e-cfd1c3301e89",
+      "toughness": "3",
+      "type": "Token Artifact Creature — Golem",
+      "uuid": "dd3e62a8-67aa-5ced-9091-d5ea1a77cacd"
+    },
+    {
+      "artist": "Adrian Smith",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Insect",
+      "number": "4",
+      "power": "1",
+      "reverseRelated": [
+        "Carrion Call",
+        "Phyrexian Swarmlord",
+        "Trigon of Infestation"
+      ],
+      "scryfallId": "85f9e977-f718-41b2-b30b-77a9a17e9733",
+      "scryfallIllustrationId": "e4f122c6-4769-40d8-b867-61b1bf897a28",
+      "scryfallOracleId": "5769718d-6781-4919-bc9b-245e9e0cb507",
+      "text": "Infect",
+      "toughness": "1",
+      "type": "Token Creature — Insect",
+      "uuid": "38e9f87c-fe63-50f6-b18c-05b3ff26ed9f",
+      "watermark": "phyrexian"
+    },
+    {
+      "artist": "Ryan Pancoast",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Myr",
+      "number": "7",
+      "power": "1",
+      "reverseRelated": [
+        "Master's Call",
+        "Myrsmith",
+        "Parasitic Implant",
+        "Myr Sire",
+        "Myr Turbine",
+        "Shrine of Loyal Legions",
+        "Myr Battlesphere",
+        "Origin Spellbomb"
+      ],
+      "scryfallId": "182308b3-86e0-46d8-9104-95576a3d3921",
+      "scryfallIllustrationId": "38aaf042-2fed-4761-baa7-62a3002b71fd",
+      "scryfallOracleId": "bf690282-125f-431c-a363-39f6772324c8",
+      "toughness": "1",
+      "type": "Token Artifact Creature — Myr",
+      "uuid": "a58ee40d-23ac-595a-82a3-bb6b08e9a7e7"
+    },
+    {
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Poison Counter",
+      "number": "10",
+      "reverseRelated": [
+
+      ],
+      "scryfallId": "856e308d-6268-4311-9667-c2f761db8f99",
+      "scryfallOracleId": "60acebe2-e1e5-478a-ab88-6a9c1409bca5",
+      "text": "(A player with ten or more poison counters loses the game.)",
+      "type": "Card",
+      "uuid": "243ea9ab-5a3a-5cff-ace3-64e9a618bb03"
+    },
+    {
+      "artist": "Goran Josic",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "layout": "normal",
+      "name": "Soldier",
+      "number": "2",
+      "power": "1",
+      "reverseRelated": [
+        "Elspeth Tirel",
+        "Hero of Bladehold"
+      ],
+      "scryfallId": "7a563df7-7b9d-4692-ab1b-578be1887b62",
+      "scryfallIllustrationId": "8435b0da-d791-4a49-ad91-d12eec86dd53",
+      "scryfallOracleId": "eac25f12-6459-438c-a09e-93e23d2cf80d",
+      "toughness": "1",
+      "type": "Token Creature — Soldier",
+      "uuid": "0bd797da-9cc4-5a9a-af4d-41cffa5188bf"
+    },
+    {
+      "artist": "Chris Rahn",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "layout": "normal",
+      "name": "Wolf",
+      "number": "5",
+      "power": "2",
+      "reverseRelated": [
+        "Sword of Body and Mind"
+      ],
+      "scryfallId": "5cde8b3e-c006-41fd-a926-8746c794e149",
+      "scryfallIllustrationId": "101a142f-0f5e-427a-afdc-71b31ee14a31",
+      "scryfallOracleId": "b2224843-8274-4872-a7ca-2adf69cc066b",
+      "toughness": "2",
+      "type": "Token Creature — Wolf",
+      "uuid": "7ea02cf4-6985-5d07-8908-41f1595a450c"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Wurm",
+      "number": "8",
+      "power": "3",
+      "reverseRelated": [
+        "Wurmcoil Engine"
+      ],
+      "scryfallId": "3e46e703-2157-41e5-9c21-c17af43e0d3f",
+      "scryfallIllustrationId": "b99f46a0-659f-4e0c-aad1-091e5fed64a2",
+      "scryfallOracleId": "5e3f41f7-9b42-437a-a9f9-f09250b083db",
+      "text": "Deathtouch",
+      "toughness": "3",
+      "type": "Token Artifact Creature — Wurm",
+      "uuid": "85e9bdc3-b101-5c98-adee-823754922a6f",
+      "watermark": "phyrexian"
+    },
+    {
+      "artist": "Raymond Swanland",
+      "borderColor": "black",
+      "colorIdentity": [
+
+      ],
+      "colors": [
+
+      ],
+      "layout": "normal",
+      "name": "Wurm",
+      "number": "9",
+      "power": "3",
+      "reverseRelated": [
+        "Wurmcoil Engine"
+      ],
+      "scryfallId": "ee53b9a0-8e07-404d-87ae-ff8397a0ba29",
+      "scryfallIllustrationId": "066e78a3-b6cf-44c6-bf5d-d2533d11731d",
+      "scryfallOracleId": "1b9ccdd7-4935-45e2-bb16-b09870dd965d",
+      "text": "Lifelink",
+      "toughness": "3",
+      "type": "Token Artifact Creature — Wurm",
+      "uuid": "9653374d-1f98-5234-84f5-74742e6e1c0b",
+      "watermark": "phyrexian"
+    }
+  ],
+  "totalSetSize": 249,
+  "translations": {
+    "Chinese Simplified": "秘罗地创痕",
+    "Chinese Traditional": "秘羅地創痕",
+    "French": "Scars of Mirrodin",
+    "German": "Die Narben von Mirrodin",
+    "Italian": "Cicatrici di Mirrodin",
+    "Japanese": "ミラディンの傷跡",
+    "Korean": "미로딘의 상처",
+    "Portuguese (Brazil)": "Cicatrizes de Mirrodin",
+    "Russian": "Шрамы Мирродина",
+    "Spanish": "Cicatrices de Mirrodin"
+  },
+  "type": "expansion"
 }

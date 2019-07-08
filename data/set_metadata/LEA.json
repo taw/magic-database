@@ -1,12 +1,7 @@
 {
-  "name": "Limited Edition Alpha",
-  "code": "LEA",
-  "gathererCode": "1E",
-  "magicCardsInfoCode": "al",
-  "releaseDate": "1993-08-05",
-  "border": "black",
-  "type": "core",
-  "booster": [
+  "baseSetSize": 295,
+  "block": "Core Set",
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,6 +18,25 @@
     "common",
     "common"
   ],
-  "mkm_name": "Alpha",
-  "mkm_id": 1
+  "code": "LEA",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "LEA",
+  "mcmId": 1,
+  "mcmName": "Alpha",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Limited Edition Alpha",
+  "releaseDate": "1993-08-05",
+  "tcgplayerGroupId": 7,
+  "tokens": [
+
+  ],
+  "totalSetSize": 295,
+  "translations": {
+  },
+  "type": "core"
 }

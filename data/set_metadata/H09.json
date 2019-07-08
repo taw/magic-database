@@ -1,10 +1,35 @@
 {
-  "name": "Premium Deck Series: Slivers",
+  "baseSetSize": 0,
   "code": "H09",
-  "magicCardsInfoCode": "pds",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "H09",
+  "mcmId": 116,
+  "mcmName": "Premium Deck Series: Slivers",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "mtgoCode": "H09",
+  "name": "Premium Deck Series: Slivers",
   "releaseDate": "2009-11-20",
-  "border": "black",
-  "type": "premium deck",
-  "mkm_name": "Premium Deck Series: Slivers",
-  "mkm_id": 116
+  "tcgplayerGroupId": 91,
+  "tokens": [
+
+  ],
+  "totalSetSize": 41,
+  "translations": {
+    "Chinese Simplified": "Premium Deck Series: Slivers",
+    "Chinese Traditional": "Premium Deck Series: Slivers",
+    "French": "Premium Deck Series: Slivers",
+    "German": "Premium Deck Series: Slivers",
+    "Italian": "Premium Deck Series: Slivers",
+    "Japanese": "Premium Deck Series: Slivers",
+    "Korean": "Premium Deck Series: Slivers",
+    "Portuguese (Brazil)": "Premium Deck Series: Slivers",
+    "Russian": "Premium Deck Series: Slivers",
+    "Spanish": "Premium Deck Series: Slivers"
+  },
+  "type": "premium_deck"
 }

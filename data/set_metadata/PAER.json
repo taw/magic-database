@@ -1,0 +1,25 @@
+{
+  "baseSetSize": 0,
+  "block": "Kaladesh",
+  "code": "PAER",
+  "isFoilOnly": true,
+  "isOnlineOnly": false,
+  "keyruneCode": "AER",
+  "mcmId": 1750,
+  "mcmName": "Aether Revolt: Promos",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Aether Revolt Promos",
+  "parentCode": "AER",
+  "releaseDate": "2017-01-19",
+  "tokens": [
+
+  ],
+  "totalSetSize": 58,
+  "translations": {
+  },
+  "type": "promo"
+}

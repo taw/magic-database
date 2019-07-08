@@ -1,12 +1,7 @@
 {
-  "name": "Saviors of Kamigawa",
-  "code": "SOK",
-  "magicCardsInfoCode": "sok",
-  "releaseDate": "2005-06-03",
-  "border": "black",
-  "type": "expansion",
+  "baseSetSize": 165,
   "block": "Kamigawa",
-  "booster": [
+  "boosterV3": [
     "rare",
     "uncommon",
     "uncommon",
@@ -23,15 +18,36 @@
     "common",
     "common"
   ],
-  "translations": {
-    "de": "Retter von Kamigawa",
-    "fr": "Libérateurs de Kamigawa",
-    "it": "Liberatori di Kamigawa",
-    "es": "Salvadores de Kamigawa",
-    "pt": "Salvadores Kamigawa",
-    "jp": "神河救済",
-    "cn": "Saviors of Kamigawa"
+  "code": "SOK",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "SOK",
+  "mcmId": 50,
+  "mcmName": "Saviors of Kamigawa",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
   },
-  "mkm_name": "Saviors of Kamigawa",
-  "mkm_id": 50
+  "mtgoCode": "SOK",
+  "name": "Saviors of Kamigawa",
+  "releaseDate": "2005-06-03",
+  "tcgplayerGroupId": 99,
+  "tokens": [
+
+  ],
+  "totalSetSize": 165,
+  "translations": {
+    "Chinese Simplified": "神河任侠传",
+    "Chinese Traditional": "神河任俠傳",
+    "French": "神河救済",
+    "German": "Retter von Kamigawa",
+    "Italian": "Liberatori di Kamigawa",
+    "Japanese": "神河救済",
+    "Korean": "카미가와의 구원자",
+    "Portuguese (Brazil)": "Salvadores de Kamigawa",
+    "Russian": "Saviors of Kamigawa",
+    "Spanish": "Salvadores de Kamigawa"
+  },
+  "type": "expansion"
 }

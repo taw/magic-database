@@ -1,0 +1,23 @@
+{
+  "baseSetSize": 0,
+  "block": "Theros",
+  "code": "THP2",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "BNG",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Born of the Gods Hero's Path",
+  "parentCode": "BNG",
+  "releaseDate": "2014-02-07",
+  "tokens": [
+
+  ],
+  "totalSetSize": 7,
+  "translations": {
+  },
+  "type": "token"
+}

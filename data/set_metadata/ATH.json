@@ -1,10 +1,24 @@
 {
-  "name": "Anthologies",
+  "baseSetSize": 0,
   "code": "ATH",
-  "magicCardsInfoCode": "at",
+  "isFoilOnly": false,
+  "isOnlineOnly": false,
+  "keyruneCode": "ATH",
+  "mcmId": 75,
+  "mcmName": "Anthologies",
+  "meta": {
+    "date": "2019-06-26",
+    "pricesDate": "2019-06-26",
+    "version": "4.4.2"
+  },
+  "name": "Anthologies",
   "releaseDate": "1998-11-01",
-  "border": "white",
-  "type": "box",
-  "mkm_name": "Anthologies",
-  "mkm_id": 75
+  "tcgplayerGroupId": 1275,
+  "tokens": [
+
+  ],
+  "totalSetSize": 85,
+  "translations": {
+  },
+  "type": "box"
 }
