@@ -1,0 +1,38 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/magic_database"
+
+class QueryGatherer
+  def initialize(url)
+    @query = GathererQueryPage.parse_url(url)
+  end
+
+  def cards
+    unless @cards
+      @cards = []
+      checklist_page = GathererQueryPage.new(@query, 0)
+      while checklist_page
+        checklist_page.cards.each do |card_row|
+          cards << card_row
+        end
+        checklist_page = checklist_page.next_page
+      end
+    end
+    @cards
+  end
+
+  def call
+    cards.each do |row|
+      puts row.join("\t")
+    end
+  end
+end
+
+unless ARGV.size == 1
+  STDERR.puts "Usage: #{$0} 'url to first page of Gatherer search results'"
+  STDERR.puts "For example:"
+  STDERR.puts "       #{$0} 'https://gatherer.wizards.com/Pages/Search/Default.aspx?action=advanced&format=+[%22Pauper%22]'"
+  exit 1
+end
+
+QueryGatherer.new(ARGV[0]).call

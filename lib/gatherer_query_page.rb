@@ -20,14 +20,14 @@ class GathererQueryPage < CachedPage
 
   def cards
     unless @cards
-      @cards = {}
+      @cards = []
       doc.css(".cardItem").each do |row|
         id = row.at("a")["href"][/multiverseid=\K\d+\z/].to_i
         name = row.css("td")[1].text
-        @cards[name] ||= [id, 0]
-        @cards[name][1] += 1
+        set = row.css(".set").text
+        number = row.css(".number").text
+        @cards << [name, id, set, number]
       end
-      @cards = @cards.map{|name, (first_id, count)| [name, first_id, count]}.sort
     end
     @cards
   end

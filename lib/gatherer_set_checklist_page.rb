@@ -1,4 +1,4 @@
-# Mostly same as GathererQueryPage
+# Similar to GathererQueryPage
 class GathererSetChecklistPage < CachedPage
   def initialize(set_name, page=0)
     @set_name = set_name
