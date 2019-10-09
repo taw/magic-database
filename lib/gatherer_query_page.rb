@@ -1,23 +1,21 @@
-# Mostly same as GathererQueryPage
-class GathererSetChecklistPage < CachedPage
-  def initialize(set_name, page=0)
-    @set_name = set_name
+class GathererQueryPage < CachedPage
+  def initialize(params, page=0)
+    @params = params
     @page = page
   end
 
   def page_url
     Addressable::URI.parse("http://gatherer.wizards.com/Pages/Search/Default.aspx").tap{|u|
-      u.query_values = {
-        page: @page,
-        output: "checklist",
+      u.query_values = @params.merge(
         action: "advanced",
-        set: %Q[["#{@set_name}"]]
-      }
+        output: "checklist",
+        page: @page,
+      )
     }
   end
 
   def cache_key
-    ["gatherer", "set-checklist", @set_name.scan(/\w+/).join("-"), @page]
+    ["gatherer", "query", Digest::SHA1.hexdigest(@params.inspect), @page]
   end
 
   def cards
@@ -46,6 +44,21 @@ class GathererSetChecklistPage < CachedPage
 
   def next_page
     return if last_page?
-    GathererSetChecklistPage.new(@set_name, @page+1)
+    GathererQueryPage.new(@params, @page+1)
+  end
+
+  # Not the most amazing API ever
+  def self.parse_url(url)
+    base_url = "https://gatherer.wizards.com/Pages/Search/Default.aspx"
+    bu = Addressable::URI.parse(base_url)
+    u = Addressable::URI.parse(url)
+    unless u.scheme == bu.scheme and u.host == bu.host and u.path == bu.path
+      warn "Expect the URL to differ from #{base_url} only in query part, ignoring everything except query"
+    end
+    qv = u.query_values
+    qv.delete "action"
+    qv.delete "output"
+    qv.delete "page"
+    qv
   end
 end
