@@ -1,7 +1,10 @@
 require "addressable/uri"
+require "digest/sha1"
 require "httparty"
+require "json"
 require "nokogiri"
 require "pathname"
+require "pry"
 require "set"
 require "zlib"
 

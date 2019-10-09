@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 
 require_relative "../lib/magic_database"
-require "json"
-require "digest/sha1"
 
 class ExportSetLikeMtgjson
   attr_reader :set_name, :set_code
