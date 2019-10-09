@@ -1,11 +1,24 @@
 class CachedPage
+  def get_with_retries(url, max_retries=10)
+    ex = nil
+    max_retries.times do |i|
+      begin
+        return HTTParty.get(page_url)
+      rescue Net::ReadTimeout => e
+        ex = e
+        warn "Timeout on attempt #{i+1}, retrying #{url}"
+      end
+    end
+    raise ex
+  end
+
   def doc
     @doc ||= begin
       cache_path = Pathname("cache/#{cache_key.join("/")}.gz")
       cache_path.parent.mkpath
 
       unless cache_path.exist?
-        response = HTTParty.get(page_url)
+        response = get_with_retries(page_url)
         # FFS, 200 code but Server Error
         raise if response.body.include?("Server Error - Gatherer")
         raise unless response.ok?
